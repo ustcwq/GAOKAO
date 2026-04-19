@@ -1,0 +1,608 @@
+{
+    "keyword": "2024_Math_MCQs",
+    "model_name": "Qwen2.5-7B-Instruct",
+    "prompt": "请你做一道数学选择题\n请你一步一步思考并将思考过程写在【解析】和<eoe>之间。你将从A，B，C，D中选出所有符合题意的答案，并写在【答案】和<eoa>之间。\n例如：【答案】 AB <eoa>\n完整的题目回答的格式如下：\n【解析】 ... <eoe>\n【答案】... <eoa>\n请你严格按照上述格式作答。\n题目如下：",
+    "example": [
+        {
+            "index": 0,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "1. 若 $z=5+\\mathrm{i}$, 则 $\\mathrm{i}(\\bar{z}+z)=(\\quad)$\nA. 10 i\nB. 2 i\nC. 10\nD. 2\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【详解】由 $z=5+\\mathrm{i} \\Rightarrow \\bar{z}=5-\\mathrm{i}, z+\\bar{z}=10$, 则 $\\mathrm{i}(\\bar{z}+z)=10 \\mathrm{i}$.\n故选：A",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n首先，我们需要知道复数的基本概念。给定复数 $z = 5 + \\mathrm{i}$，它的共轭复数 $\\bar{z}$ 是 $5 - \\mathrm{i}$。题目要求我们计算 $\\mathrm{i}(\\bar{z} + z)$。\n\n1. 计算 $\\bar{z} + z$:\n   \\[\n   \\bar{z} + z = (5 - \\mathrm{i}) + (5 + \\mathrm{i}) = 10\n   \\]\n\n2. 接下来，将上述结果乘以 $\\mathrm{i}$:\n   \\[\n   \\mathrm{i}(\\bar{z} + z) = \\mathrm{i} \\cdot 10 = 10\\mathrm{i}\n   \\]\n\n因此，选项中符合这个计算结果的是 A. 10 i。\n\n【答案】 A <eoa>"
+        },
+        {
+            "index": 1,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "2. 已知集合 $A=\\{1,2,3,4,5,9\\}, B=\\{x \\mid \\sqrt{x} \\in A\\}$, 则 $C_{A}(A \\cap B)=(\\quad)$\nA. $\\{1,4,9\\}$\nB. $\\{3,4,9\\}$\nC. $\\{1,2,3\\}$\nD. $\\{2,3,5\\}$\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【详解】因为 $A=\\{1,2,3,4,5,9\\}, B=\\{x \\mid \\sqrt{x} \\in A\\}$, 所以 $B=\\{1,4,9,16,25,81\\}$,\n则 $A \\cap B=\\{1,4,9\\},{ }_{A}(A \\cap B)=\\{2,3,5\\}$\n故选：D",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n首先，我们需要明确题目中的集合 $A$ 和 $B$ 的定义。\n- 集合 $A = \\{1, 2, 3, 4, 5, 9\\}$\n- 集合 $B$ 是由所有满足 $\\sqrt{x} \\in A$ 的 $x$ 组成的集合。因此，我们需要找出所有 $\\sqrt{x}$ 的值在集合 $A$ 中的 $x$ 的值。\n  - $\\sqrt{1} = 1 \\in A$\n  - $\\sqrt{4} = 2 \\in A$\n  - $\\sqrt{9} = 3 \\in A$\n  - $\\sqrt{16} = 4 \\in A$ (但16不在集合A中)\n  - $\\sqrt{25} = 5 \\in A$ (但25不在集合A中)\n  - $\\sqrt{81} = 9 \\in A$ (但81不在集合A中)\n因此，集合 $B = \\{1, 4, 9\\}$。\n\n接下来，我们需要找出 $A \\cap B$，即集合 $A$ 和集合 $B$ 的交集。\n- $A \\cap B = \\{1, 4, 9\\}$\n\n最后，我们需要找出 $C_{A}(A \\cap B)$，即集合 $A$ 中不在 $A \\cap B$ 中的元素组成的集合。\n- $C_{A}(A \\cap B) = \\{2, 3, 5\\}$\n\n综上所述，正确答案是 D. $\\{2,3,5\\}$。\n\n【答案】 D <eoa>"
+        },
+        {
+            "index": 2,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "3. 若 $x, y_{\\text {满足约束条件 }\\left\\{\\begin{array}{l}4 x-3 y-3 \\geq 0 \\\\ x-2 y-2 \\leq 0 \\\\ 2 x+6 y-9 \\leq 0\\end{array} \\text {, 则 } z=x-5 y \\text { 的最小值为 }(\\quad), \\$ ~\\right.}$\nA. $\\frac{1}{2}$\nB. 0\nC. $-\\frac{5}{2}$\nD. $-\\frac{7}{2}$\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【详解】实数 $x, y$ 满足 $\\left\\{\\begin{array}{l}4 x-3 y-3 \\geq 0 \\\\ x-2 y-2 \\leq 0 \\\\ 2 x+6 y-9 \\leq 0\\end{array}\\right.$, 作出可行域\n由 $z=x-5 y$ 可得 $y=\\frac{1}{5} x-\\frac{1}{5} z$,\n即 $z$ 的几何意义为 $y=\\frac{1}{5} x-\\frac{1}{5} z$ 的截距的 $-\\frac{1}{5}$,\n则该直线截距取最大值时, $z$ 有最小值,\n此时直线 $y=\\frac{1}{5} x-\\frac{1}{5} z$ 过点 A ,\n联立 $\\left\\{\\begin{array}{l}4 x-3 y-3=0 \\\\ 2 x+6 y-9=0\\end{array}\\right.$, 解得 $\\left\\{\\begin{array}{l}x=\\frac{3}{2} \\\\ y=1\\end{array}\\right.$, 即 $A\\left(\\frac{3}{2}, 1\\right)$,\n则 $z_{\\text {min }}=\\frac{3}{2}-5 \\times 1=-\\frac{7}{2}$.\n故选: D.",
+            "model_answer": [],
+            "model_output": "【解析】\n首先，我们画出约束条件所表示的区域。约束条件为：\n1. $4x - 3y - 3 \\geq 0$\n2. $x - 2y - 2 \\leq 0$\n3. $2x + 6y - 9 \\leq 0$\n\n我们先将这些不等式转换为等式，找到它们的边界线：\n1. $4x - 3y = 3$\n2. $x - 2y = 2$\n3. $2x + 6y = 9$\n\n接下来，我们找到这些直线的交点，这些交点将定义可行域的边界。\n\n1. 交点1：由 $4x - 3y = 3$ 和 $x - 2y = 2$ 联立求解：\n   - 从 $x - 2y = 2$ 得 $x = 2 + 2y$，代入 $4x - 3y = 3$ 得 $4(2 + 2y) - 3y = 3$，解得 $y = -1$，代入 $x = 2 + 2y$ 得 $x = 0$。所以交点为 $(0, -1)$。\n\n2. 交点2：由 $x - 2y = 2$ 和 $2x + 6y = 9$ 联立求解：\n   - 从 $x - 2y = 2$ 得 $x = 2 + 2y$，代入 $2x + 6y = 9$ 得 $2(2 + 2y) + 6y = 9$，解得 $y = \\frac{1}{2}$，代入 $x = 2 + 2y$ 得 $x = 3$。所以交点为 $(3, \\frac{1}{2})$。\n\n3. 交点3：由 $4x - 3y = 3$ 和 $2x + 6y = 9$ 联立求解：\n   - 从 $2x + 6y = 9$ 得 $x = \\frac{9 - 6y}{2}$，代入 $4x - 3"
+        },
+        {
+            "index": 3,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "4. 记 $S_{n}$ 为等差数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和, 已知 $S_{5}=S_{10}, a_{5}=1$, 则 $a_{1}=($ )\nA $\\frac{7}{2}$\nB. $\\frac{7}{3}$\nC. $-\\frac{1}{3}$\nD. $-\\frac{7}{11}$\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【详解】由 $S_{10}-S_{5}=a_{6}+a_{7}+a_{8}+a_{9}+a_{10}=5 a_{8}=0$, 则 $a_{8}=0$,则等差数列 $\\left\\{a_{n}\right\\}$ 的公差 $d=\\frac{a_{8}-a_{5}}{3}=-\\frac{1}{3}$, 故 $a_{1}=a_{5}-4 d=1-4 \times\\left(-\frac{1}{3}\right)=\frac{7}{3}$.故选: B.",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们知道等差数列的前n项和公式为 $S_n = \\frac{n}{2} [2a_1 + (n-1)d]$，其中 $a_1$ 是首项，$d$ 是公差。\n\n已知 $S_5 = S_{10}$，代入前n项和公式得：\n\\[S_5 = \\frac{5}{2} [2a_1 + 4d]\\]\n\\[S_{10} = \\frac{10}{2} [2a_1 + 9d]\\]\n\n因为 $S_5 = S_{10}$，所以：\n\\[\\frac{5}{2} [2a_1 + 4d] = 5 [2a_1 + 9d]\\]\n简化得：\n\\[2a_1 + 4d = 2 [2a_1 + 9d]\\]\n\\[2a_1 + 4d = 4a_1 + 18d\\]\n\\[0 = 2a_1 + 14d\\]\n\\[a_1 = -7d\\]\n\n又已知 $a_5 = 1$，等差数列的第n项公式为 $a_n = a_1 + (n-1)d$，所以：\n\\[a_5 = a_1 + 4d = 1\\]\n代入 $a_1 = -7d$ 得：\n\\[-7d + 4d = 1\\]\n\\[-3d = 1\\]\n\\[d = -\\frac{1}{3}\\]\n\n代入 $a_1 = -7d$ 得：\n\\[a_1 = -7 \\times -\\frac{1}{3} = \\frac{7}{3}\\]\n\n因此，正确答案是 B. $\\frac{7}{3}$。\n\n【答案】 B <eoa>"
+        },
+        {
+            "index": 4,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "5. 已知双曲线的两个焦点分别为 $(0,4),(0,-4)$, 点 $(-6,4)$ 在该双曲线上, 则该双曲线的离心率为 ( )\nA. 4\nB. 3\nC. 2\nD. $\\sqrt{2}$\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】由题意, 设 $F_{1}(0,-4) 、 F_{2}(0,4) 、 P(-6,4)$,\n则 $\\left|F_{1} F_{2}\\right|=2 c=8,\\left|P F_{1}\\right|=\\sqrt{6^{2}+(4+4)^{2}}=10,\\left|P F_{2}\\right|=\\sqrt{6^{2}+(4-4)^{2}}=6$,\n则 $2 a=\\left|P F_{1}\\right|-\\left|P F_{2}\\right|=10-6=4$, 则 $e=\\frac{2 c}{2 a}=\\frac{8}{4}=2$.\n故选: C.",
+            "model_answer": [],
+            "model_output": "【解析】\n首先，我们知道双曲线的标准方程形式为 \\(\\frac{y^2}{a^2} - \\frac{x^2}{b^2} = 1\\)，其中焦点位于 \\(y\\) 轴上，焦点坐标为 \\((0, \\pm c)\\)。根据题目，双曲线的焦点为 \\((0,4)\\) 和 \\((0,-4)\\)，因此 \\(c = 4\\)。\n\n对于双曲线，我们有 \\(c^2 = a^2 + b^2\\)。题目还告诉我们点 \\((-6,4)\\) 在该双曲线上，代入双曲线方程得到：\n\\[\n\\frac{4^2}{a^2} - \\frac{(-6)^2}{b^2} = 1\n\\]\n即\n\\[\n\\frac{16}{a^2} - \\frac{36}{b^2} = 1\n\\]\n\n由于 \\(c = 4\\)，我们有 \\(c^2 = 16 = a^2 + b^2\\)，即 \\(a^2 + b^2 = 16\\)。\n\n接下来，我们尝试解这个方程组。首先，从 \\(a^2 + b^2 = 16\\) 可以得到 \\(b^2 = 16 - a^2\\)。将 \\(b^2\\) 代入 \\(\\frac{16}{a^2} - \\frac{36}{b^2} = 1\\) 中，得到：\n\\[\n\\frac{16}{a^2} - \\frac{36}{16 - a^2} = 1\n\\]\n\n化简得：\n\\[\n\\frac{16(16 - a^2) - 36a^2}{a^2(16 - a^2)} = 1\n\\]\n\\[\n256 - 16a^2 - 36a^2 = a^2(16 - a^2)\n\\]\n\\[\n256 - 52a^2 = 16a^2 - a^4\n\\]\n\\[\na^4 - 68a^2 + 256 = 0\n\\]\n\n设 \\(u = a^2\\)，则方程变为：\n\\[\nu^2 - 68"
+        },
+        {
+            "index": 5,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "6. 设函数 $f(x)=\\frac{\\mathrm{e}^{x}+2 \\sin x}{1+x^{2}}$, 则曲线 $y=f(x)$ 在点 $(0,1)$ 处的切线与两坐标轴所围成的三角形的面积为\nA. $\\frac{1}{6}$\nB. $\\frac{1}{3}$\nC. $\\frac{1}{2}$\nD. $\\frac{2}{3}$\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【详解】 $f^{\\prime}(x)=\\frac{\\left(\\mathrm{e}^{x}+2 \\cos x\\right)\\left(1+x^{2}\\right)-\\left(\\mathrm{e}^{x}+2 \\sin x\\right) \\cdot 2 x}{\\left(1+x^{2}\\right)^{2}}$,\n则 $f^{\\prime}(0)=\\frac{\\left(\\mathrm{e}^{0}+2 \\cos 0\\right)(1+0)-\\left(\\mathrm{e}^{0}+2 \\sin 0\\right) \\times 0}{(1+0)^{2}}=3$,\n即该切线方程为 $y-1=3 x$, 即 $y=3 x+1$,\n令 $x=0$, 则 $y=1$, 令 $y=0$, 则 $x=-\\frac{1}{3}$,\n故该切线与两坐标轴所围成的三角形面积 $S=\\frac{1}{2} \\times 1 \\times\\left|-\\frac{1}{3}\\right|=\\frac{1}{6}$.故选: A.",
+            "model_answer": [],
+            "model_output": "【解析】\n首先，我们需要求出函数 $f(x)=\\frac{\\mathrm{e}^{x}+2 \\sin x}{1+x^{2}}$ 在点 $(0,1)$ 处的导数，即求 $f'(0)$。\n\n1. **求导数**：\n   \\[\n   f(x) = \\frac{\\mathrm{e}^{x}+2 \\sin x}{1+x^{2}}\n   \\]\n   使用商法则求导：\n   \\[\n   f'(x) = \\frac{(1+x^2)(\\mathrm{e}^{x}+2 \\cos x) - (\\mathrm{e}^{x}+2 \\sin x)(2x)}{(1+x^2)^2}\n   \\]\n   将 $x=0$ 代入：\n   \\[\n   f'(0) = \\frac{(1+0^2)(\\mathrm{e}^{0}+2 \\cos 0) - (\\mathrm{e}^{0}+2 \\sin 0)(2 \\cdot 0)}{(1+0^2)^2} = \\frac{1 \\cdot (1+2) - 1 \\cdot 0}{1} = 3\n   \\]\n\n2. **求切线方程**：\n   切线的斜率为 $f'(0) = 3$，切点为 $(0,1)$，所以切线方程为：\n   \\[\n   y - 1 = 3(x - 0) \\Rightarrow y = 3x + 1\n   \\]\n\n3. **求切线与坐标轴的交点**：\n   - 与 $x$ 轴交点：令 $y = 0$，则 $0 = 3x + 1 \\Rightarrow x = -\\frac{1}{3}$\n   - 与 $y$ 轴交点：令 $x = 0$，则 $y = 1$\n\n4. **求三角形面积**：\n   三角形的底为 $\\frac{1}{3}$，高为 $1$，所以面积为：\n   \\[\n   S = \\frac{1}{2} \\times \\text{底} \\times \\text{高} = \\frac{1}{2} \\times \\frac{1}{3} \\times 1 = \\"
+        },
+        {
+            "index": 6,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "8. 已知 $\\frac{\\cos \\alpha}{\\cos \\alpha-\\sin \\alpha}=\\sqrt{3}$, 则 $\\tan \\left(\\alpha+\\frac{\\pi}{4}\\right)=$ ( )\nA. $2 \\sqrt{3}+1$\nB. $2 \\sqrt{3}-1$\nC. $\\frac{\\sqrt{3}}{2}$\nD. $1-\\sqrt{3}$\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【详解】因为 $\\frac{\\cos \\alpha}{\\cos \\alpha-\\sin \\alpha}=\\sqrt{3}$,\n所以 $\\frac{1}{1-\\tan \\alpha}=\\sqrt{3}, \\Rightarrow \\tan \\alpha=1-\\frac{\\sqrt{3}}{3}$,\n所以 $\\tan \\left(\\alpha+\\frac{\\pi}{4}\\right)=\\frac{\\tan \\alpha+1}{1-\\tan \\alpha}=2 \\sqrt{3}-1$,\n故选: B.",
+            "model_answer": [],
+            "model_output": "【解析】\n首先，我们从给定的等式出发：\\(\\frac{\\cos \\alpha}{\\cos \\alpha-\\sin \\alpha}=\\sqrt{3}\\)。\n\n我们可以将等式两边同时乘以分母，得到：\n\\[\n\\cos \\alpha = \\sqrt{3}(\\cos \\alpha - \\sin \\alpha)\n\\]\n展开并整理得到：\n\\[\n\\cos \\alpha = \\sqrt{3}\\cos \\alpha - \\sqrt{3}\\sin \\alpha\n\\]\n移项得到：\n\\[\n\\sqrt{3}\\sin \\alpha = \\sqrt{3}\\cos \\alpha - \\cos \\alpha\n\\]\n提取公因式：\n\\[\n\\sqrt{3}\\sin \\alpha = (\\sqrt{3}-1)\\cos \\alpha\n\\]\n两边同时除以 \\(\\cos \\alpha\\)，得到：\n\\[\n\\sqrt{3}\\tan \\alpha = \\sqrt{3}-1\n\\]\n从而：\n\\[\n\\tan \\alpha = \\frac{\\sqrt{3}-1}{\\sqrt{3}} = 1 - \\frac{1}{\\sqrt{3}} = 1 - \\frac{\\sqrt{3}}{3}\n\\]\n\n接下来，我们需要求 \\(\\tan \\left(\\alpha+\\frac{\\pi}{4}\\right)\\)。利用正切的和角公式：\n\\[\n\\tan \\left(\\alpha+\\frac{\\pi}{4}\\right) = \\frac{\\tan \\alpha + \\tan \\frac{\\pi}{4}}{1 - \\tan \\alpha \\tan \\frac{\\pi}{4}}\n\\]\n由于 \\(\\tan \\frac{\\pi}{4} = 1\\)，代入 \\(\\tan \\alpha = 1 - \\frac{\\sqrt{3}}{3}\\) 得到：\n\\[\n\\tan \\left(\\alpha+\\frac{\\pi}{4}\\right) = \\frac{1 - \\frac{\\sqrt{3}}{3} + 1}{1 - (1 - \\frac{\\sqrt{3}}{3}) \\cdot 1} = \\frac{2 - \\frac{\\sqrt{3}}{3}}{\\frac{\\sqrt{3}}{3}} = \\frac{2 \\cdot \\frac{3}{3} - \\frac{\\sqrt{3}}{3}}{\\frac{\\sqrt{3}}{3}} = \\frac{6 - \\sqrt{3}}{\\sqrt{3}}"
+        },
+        {
+            "index": 7,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "9. 设向量 $\\vec{a}=(x+1, x), \\vec{b}=(x, 2)$, 则（ ）\nA. \" $x=-3$ \"是\" $\\vec{a} \\perp \\vec{b} \"$ 的必要条件\nB. \" $x=-3 \"$ 是\" $\\vec{a} / / \\vec{b} \"$ 的必要条件\nC. \" $x=0$ \"是\" $\\vec{a} \\perp \\vec{b}$ \"的充分条件\nD. \" $x=-1+\\sqrt{3}$ \"是\" $\\vec{a} / / \\vec{b}$ \"的充分条件\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】对 A , 当 $\\vec{a} \\perp \\vec{b}$ 时, 则 $\\vec{a} \\cdot \\vec{b}=0$,\n所以 $x \\cdot(x+1)+2 x=0$, 解得 $x=0$ 或 -3 , 即必要性不成立, 故 A错误;\n对 C, 当 $x=0$ 时, $\\vec{a}=(1,0), \\vec{b}=(0,2)$, 故 $\\vec{a} \\cdot \\vec{b}=0$,\n所以 $\\vec{a} \\perp \\vec{b}$, 即充分性成立, 故 C 正确;\n对 B, 当 $\\vec{a} / / \\vec{b}$ 时, 则 $2(x+1)=x^{2}$ ，解得 $x=1 \\pm \\sqrt{3}$ ，即必要性不成立，故 B 错误；\n对 D , 当 $x=-1+\\sqrt{3}$ 时, 不满足 $2(x+1)=x^{2}$, 所以 $\\vec{a} / / \\vec{b}$ 不成立, 即充分性不立, 故 D 错误\n故选: C.",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们来分析向量 $\\vec{a}$ 和 $\\vec{b}$ 的垂直和共线条件。\n\n1. **垂直条件**：两个向量垂直，即它们的点积为0。所以，我们有：\n   \\[\n   \\vec{a} \\cdot \\vec{b} = (x+1) \\cdot x + x \\cdot 2 = x^2 + 3x = 0\n   \\]\n   解这个方程，我们得到：\n   \\[\n   x(x + 3) = 0 \\Rightarrow x = 0 \\text{ 或 } x = -3\n   \\]\n   所以，$x = 0$ 和 $x = -3$ 都是 $\\vec{a} \\perp \\vec{b}$ 的解。\n\n2. **共线条件**：两个向量共线，即存在一个非零实数 $\\lambda$ 使得 $\\vec{a} = \\lambda \\vec{b}$。所以，我们有：\n   \\[\n   (x+1, x) = \\lambda (x, 2)\n   \\]\n   这意味着：\n   \\[\n   x + 1 = \\lambda x \\quad \\text{和} \\quad x = 2\\lambda\n   \\]\n   从 $x = 2\\lambda$ 可以得到 $\\lambda = \\frac{x}{2}$，代入第一个方程：\n   \\[\n   x + 1 = \\frac{x^2}{2} \\Rightarrow 2x + 2 = x^2 \\Rightarrow x^2 - 2x - 2 = 0\n   \\]\n   解这个方程，我们得到：\n   \\[\n   x = \\frac{2 \\pm \\sqrt{4 + 8}}{2} = 1 \\pm \\sqrt{3}\n   \\]\n   所以，$x = 1 + \\sqrt{3}$ 和 $x = 1 - \\sqrt{3}$ 是 $\\vec{a} / / \\vec{b}$ 的解。\n\n现在我们来分析选项：\n- A. \" $x=-3$ \"是\" $\\vec{a} \\perp \\vec{b} \"$ 的必要条件。根据垂直条件，$x = -3$ 是解之一，但不是唯一解，所以它是必要条件。\n- B"
+        },
+        {
+            "index": 8,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "10. 设 $\\alpha \\mathrm{X} \\beta$ 为两个平面， $m \\mathrm{X} n$ 为两条直线，且 $\\alpha \\cap \\beta=m$ 。下述四个命题:\n(1)若 $m / / n$, 则 $n / / \\alpha$ 或 $n / / \\beta$\n(2)若 $m \\perp n$, 则 $n \\perp \\alpha$ 或 $n \\perp \\beta$\n(3)若 $n / / \\alpha$ 且 $n / / \\beta$, 则 $m / / n$\n(4)若 $n$ 与 $\\alpha, \\beta$ 所成的角相等, 则 $m \\perp n$\n其中所有真命题的编号是（）\nA. (1)(3)\nB. (2)(4)\nC. (1)(2)(3)\nD. (1)(3)(4)\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【详解】对(1), 当 $n \\subset \\alpha$, 因为 $m / / n, m \\subset \\beta$, 则 $n / / \\beta$,\n当 $n \\subset \\beta$, 因为 $m / / n, m \\subset \\alpha$, 则 $n / / \\alpha$,\n当 $n$ 既不在 $\\alpha$ 也不在 $\\beta$ 内，因为 $m / / n, m \\subset \\alpha, m \\subset \\beta$ ，则 $n / / \\alpha$ 且 $n / / \\beta$ ，故(1)正确；\n对(2)，若 $m \\perp n$ ，则 $n$ 与 $\\alpha, \\beta$ 不一定垂直，故(2)错误；\n对(3)，过直线 $n$ 分别作两平面与 $\\alpha, \\beta$ 分别相交于直线 $s$ 和直线 $t$,\n因为 $n / / \\alpha$ ，过直线 $n$ 的平面与平面 $\\alpha$ 的交线为直线 $s$ ，则根据线面平行的性质定理知 $n / / s$ ，\n同理可得 $n / / t$, 则 $s / / t$, 因为 $s \\not \\subset$ 平面 $\\beta, t \\subset$ 平面 $\\beta$, 则 $s / /$ 平面 $\\beta$,\n因为 $S \\subset$ 平面 $\\alpha, \\alpha \\bigcap \\beta=m$, 则 $s / / m$, 又因为 $n / / s$, 则 $m / / n$, 故(3)正确;\n对(4), 若 $\\alpha \\cap \\beta=m, n$ 与 $\\alpha$ 和 $\\beta$ 所成的角相等，如果 $n / / \\alpha, n / / \\beta$ ，则 $m / / n$ ，故(4)错误;\n综上只有(1)(3)正确，\n故选: A.",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n我们逐一分析每个命题的真假性。\n\n(1) 若 $m / / n$，则 $n / / \\alpha$ 或 $n / / \\beta$。\n- 由于 $m$ 是 $\\alpha$ 和 $\\beta$ 的交线，若 $m / / n$，则 $n$ 必须平行于 $\\alpha$ 和 $\\beta$ 中至少一个平面。这是因为如果 $n$ 不平行于 $\\alpha$ 且不平行于 $\\beta$，那么 $n$ 必须与 $\\alpha$ 和 $\\beta$ 都相交，这与 $m / / n$ 矛盾。因此，这个命题是正确的。\n\n(2) 若 $m \\perp n$，则 $n \\perp \\alpha$ 或 $n \\perp \\beta$。\n- 这个命题并不总是正确的。即使 $m \\perp n$，$n$ 也不一定垂直于 $\\alpha$ 或 $\\beta$。$n$ 可以与 $\\alpha$ 和 $\\beta$ 形成不同的角度，只要它与 $m$ 垂直即可。因此，这个命题是错误的。\n\n(3) 若 $n / / \\alpha$ 且 $n / / \\beta$，则 $m / / n$。\n- 如果 $n$ 与 $\\alpha$ 和 $\\beta$ 都平行，那么 $n$ 必须平行于它们的交线 $m$。这是因为 $n$ 不能与 $\\alpha$ 和 $\\beta$ 都平行但不平行于 $m$。因此，这个命题是正确的。\n\n(4) 若 $n$ 与 $\\alpha, \\beta$ 所成的角相等, 则 $m \\perp n$。\n- 这个命题也是错误的。即使 $n$ 与 $\\alpha$ 和 $\\beta$ 所成的角相等，$n$ 也不一定垂直于 $m$。$n$ 可以与 $m$ 形成不同的角度，只要它与 $\\alpha$ 和 $\\beta$ 所成的角相等即可。因此，这个命题是错误的。\n\n综上所述，正确的命题编号是 (1) 和 (3)。\n\n【答案】 A. (1)(3) <eoa>"
+        },
+        {
+            "index": 9,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "11. 在 $\\triangle A B C$ 中, 内角 $A, B, C$ 所对边分别为 $a, b, c$, 若 $B=\\frac{\\pi}{3}, b^{2}=\\frac{9}{4} a c$, 则 $\\sin A+\\sin C=(\\quad)$\nA. $\\frac{2 \\sqrt{39}}{13}$\nB. $\\frac{\\sqrt{39}}{13}$\nC. $\\frac{\\sqrt{7}}{2}$\nD. $\\frac{3 \\sqrt{13}}{13}$\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】因为 $B=\\frac{\\pi}{3}, b^{2}=\\frac{9}{4} a c$, 则由正弦定理得 $\\sin A \\sin C=\\frac{4}{9} \\sin ^{2} B=\\frac{1}{3}$.\n由余弦定理可得: $b^{2}=a^{2}+c^{2}-a c=\\frac{9}{4} a c$,\n即: $a^{2}+c^{2}=\\frac{13}{4} a c$, 根据正弦定理得 $\\sin ^{2} A+\\sin ^{2} C=\\frac{13}{4} \\sin A \\sin C=\\frac{13}{12}$,\n所以 $(\\sin A+\\sin C)^{2}=\\sin ^{2} A+\\sin ^{2} C+2 \\sin A \\sin C=\\frac{7}{4}$,\n因为 $A, C$ 为三角形内角, 则 $\\sin A+\\sin C>0$, 则 $\\sin A+\\sin C=\\frac{\\sqrt{7}}{2}$.\n故选: C.",
+            "model_answer": [],
+            "model_output": "【解析】\n首先，根据题目条件，我们知道 $\\triangle ABC$ 中，$B = \\frac{\\pi}{3}$，即角 $B$ 是 $60^\\circ$。根据正弦定理，我们有 $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$。由于 $\\sin B = \\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$，我们可以得到 $\\frac{b}{\\frac{\\sqrt{3}}{2}} = \\frac{a}{\\sin A} = \\frac{c}{\\sin C}$。\n\n根据题目条件 $b^2 = \\frac{9}{4}ac$，我们可以利用余弦定理来进一步分析。余弦定理公式为 $b^2 = a^2 + c^2 - 2ac\\cos B$。由于 $\\cos B = \\cos 60^\\circ = \\frac{1}{2}$，代入得到 $b^2 = a^2 + c^2 - ac$。将 $b^2 = \\frac{9}{4}ac$ 代入，得到 $\\frac{9}{4}ac = a^2 + c^2 - ac$，即 $4ac = 4a^2 + 4c^2 - 4ac$，整理得到 $4a^2 + 4c^2 - 8ac = 0$，即 $a^2 + c^2 - 2ac = 0$，进一步得到 $(a - c)^2 = 0$，因此 $a = c$。\n\n既然 $a = c$，我们可以进一步利用正弦定理。由于 $a = c$，则 $\\sin A = \\sin C$。因此，$\\sin A + \\sin C = 2\\sin A$。接下来，我们需要求出 $\\sin A$ 的值。\n\n由于 $a = c$，我们可以利用余弦定理简化为 $b^2 = 2a^2 - a^2 = a^2$，即 $b = a$。因此，$\\triangle ABC$ 是一个等边三角形，每个角都是 $60^\\circ$。所以，$\\sin A = \\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$。因此，$\\"
+        },
+        {
+            "index": 10,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "12. 已知 $b$ 是 $a, c$ 的等差中项, 直线 $a x+b y+c=0$ 与圆 $x^{2}+y^{2}+4 y-1=0$ 交于 $A, B$ 两点, 则 $|A B|$ 的最小值为（）\nA. 1\nB. 2\nC. 4\nD. $2 \\sqrt{5}$\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】因为 $a, b, c$ 成等差数列, 所以 $2 b=a+c, c=2 b-a$, 代入直线方程 $a x+b y+c=0$ 得 $a x+b y+2 b-a=0$, 即 $a(x-1)+b(y+2)=0$, 令 $\\left\\{\\begin{array}{l}x-1=0 \\\\ y+2=0\\end{array}\\right.$ 得 $\\left\\{\\begin{array}{l}x=1 \\\\ y=-2\\end{array}\\right.$,故直线恒过 $(1,-2)$, 设 $P(1,-2)$, 圆化为标准方程得: $C: x^{2}+(y+2)^{2}=5$,设圆心为 $C$, 画出直线与圆的图形, 由图可知, 当 $P C \\perp A B$ 时, $|A B|$ 最小, $|P C|=1,|A C|=|r|=\\sqrt{5}$, 此时 $|A B|=2|A P|=2 \\sqrt{A C^{2}-P C^{2}}=2 \\sqrt{5-1}=4$.故选：C",
+            "model_answer": [],
+            "model_output": "【解析】首先，根据题意，$b$ 是 $a, c$ 的等差中项，所以有 $2b = a + c$。\n\n接下来，考虑直线 $ax + by + c = 0$ 与圆 $x^2 + y^2 + 4y - 1 = 0$ 的交点。首先将圆的方程化简为标准形式：\n\\[x^2 + (y^2 + 4y + 4) - 4 - 1 = 0 \\Rightarrow x^2 + (y + 2)^2 = 5\\]\n这是一个圆心在 $(0, -2)$，半径为 $\\sqrt{5}$ 的圆。\n\n直线与圆相交的弦长 $|AB|$ 可以通过圆的性质来计算。弦长的最小值发生在直线与圆心连线垂直时，此时弦长为直径的两倍乘以圆心到直线的距离的余弦值。但更简单的方法是直接计算圆心到直线的距离，然后利用勾股定理。\n\n圆心到直线 $ax + by + c = 0$ 的距离 $d$ 为：\n\\[d = \\frac{|a \\cdot 0 + b \\cdot (-2) + c|}{\\sqrt{a^2 + b^2}} = \\frac{|-2b + c|}{\\sqrt{a^2 + b^2}}\\]\n\n由于 $2b = a + c$，可以将 $c$ 表示为 $c = 2b - a$，代入上式得：\n\\[d = \\frac{|-2b + 2b - a|}{\\sqrt{a^2 + b^2}} = \\frac{|-a|}{\\sqrt{a^2 + b^2}} = \\frac{|a|}{\\sqrt{a^2 + b^2}}\\]\n\n弦长 $|AB|$ 为：\n\\[|AB| = 2\\sqrt{r^2 - d^2} = 2\\sqrt{5 - \\left(\\frac{|a|}{\\sqrt{a^2 + b^2}}\\right)^2}\\]\n\n为了使 $|AB|$ 最小，我们需要最大化 $d$，即最小化 $\\frac{|a|}{\\sqrt{a^2 + b^2}}$。当 $a ="
+        },
+        {
+            "index": 11,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "1. 设 $z=\\sqrt{2} \\mathrm{i}$, 则 $z \\cdot \\bar{z}=(\\quad)$\nA. -2\nB. $\\sqrt{2}$\nC. $-\\sqrt{2}$\nD. 2\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【详解】依题意得, $\\bar{z}=-\\sqrt{2} \\mathrm{i}$, 故 $z \\bar{z}=-2 \\mathrm{i}^{2}=2$.\n故选：D",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n首先，我们知道复数 $z$ 的形式为 $a + bi$，其中 $a$ 和 $b$ 是实数，$i$ 是虚数单位，满足 $i^2 = -1$。题目中给出的复数是 $z = \\sqrt{2}i$，即 $z = 0 + \\sqrt{2}i$。复数的共轭 $\\bar{z}$ 是将虚部的符号取反，因此 $\\bar{z} = 0 - \\sqrt{2}i = -\\sqrt{2}i$。\n\n接下来，我们需要计算 $z \\cdot \\bar{z}$。根据复数乘法的定义，我们有：\n\\[z \\cdot \\bar{z} = (0 + \\sqrt{2}i) \\cdot (0 - \\sqrt{2}i)\\]\n\n利用分配律，可以展开为：\n\\[= 0 \\cdot 0 + 0 \\cdot (-\\sqrt{2}i) + \\sqrt{2}i \\cdot 0 + \\sqrt{2}i \\cdot (-\\sqrt{2}i)\\]\n\\[= 0 + 0 + 0 - 2i^2\\]\n\\[= -2i^2\\]\n\n由于 $i^2 = -1$，代入上式得：\n\\[= -2(-1) = 2\\]\n\n因此，$z \\cdot \\bar{z} = 2$。\n\n综上所述，正确答案是 D. 2。\n\n【答案】 D <eoa>"
+        },
+        {
+            "index": 12,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "2. 若集合 $A=\\{1,2,3,4,5,9\\}, B=\\{x \\mid x+1 \\in A\\}$, 则 $A \\cap B=$\nA. $\\{1,3,4\\}$\nB. $\\{2,3,4\\}$\nC. $\\{1,2,3,4\\}$\nD. $\\{0,1,2,3,4,9\\}$\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】依题意得, 对于集合 $B$ 中的元素 $x$, 满足 $x+1=1,2,3,4,5,9$,\n则 $x$ 可能的取值为 $0,1,2,3,4,8$, 即 $B=\\{0,1,2,3,4,8\\}$,\n于是 $A \\cap B=\\{1,2,3,4\\}$.\n故选：C",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】首先，我们需要理解集合B的定义。集合B是由满足条件$x+1 \\in A$的所有x组成的集合。集合A中的元素是$\\{1,2,3,4,5,9\\}$，因此，集合B中的元素x应该是这些元素减去1的结果。\n\n逐一分析集合A中的每个元素：\n- 当$x+1=1$时，$x=0$；\n- 当$x+1=2$时，$x=1$；\n- 当$x+1=3$时，$x=2$；\n- 当$x+1=4$时，$x=3$；\n- 当$x+1=5$时，$x=4$；\n- 当$x+1=9$时，$x=8$；\n\n因此，集合B中的元素是$\\{0,1,2,3,4,8\\}$。\n\n接下来，我们需要找出集合A和集合B的交集$A \\cap B$，即同时属于集合A和集合B的元素。集合A是$\\{1,2,3,4,5,9\\}$，集合B是$\\{0,1,2,3,4,8\\}$，它们的交集是$\\{1,2,3,4\\}$。\n\n综上所述，$A \\cap B = \\{1,2,3,4\\}$。\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 13,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "3. 若 $x, y$ 满足约束条件 $\\left\\{\\begin{array}{l}4 x-3 y-3 \\geq 0 \\\\ x-2 y-2 \\leq 0 \\\\ 2 x+6 y-9 \\leq 0\\end{array}\\right.$, 则 $z=x-5 y$ 的最小值为 ( )\nA. $\\frac{1}{2}$\nB. 0\nC. $-\\frac{5}{2}$\nD. $-\\frac{7}{2}$\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【详解】实数 $x, y$ 满足 $\\left\\{\\begin{array}{l}4 x-3 y-3 \\geq 0 \\\\ x-2 y-2 \\leq 0 \\\\ 2 x+6 y-9 \\leq 0\\end{array}\\right.$, 作出可行域\n由 $z=x-5 y$ 可得 $y=\\frac{1}{5} x-\\frac{1}{5} z$ ，\n即 $z$ 的几何意义为 $y=\\frac{1}{5} x-\\frac{1}{5} z$ 的截距的 $-\\frac{1}{5}$,\n则该直线截距取最大值时, $z$ 有最小值,\n此时直线 $y=\\frac{1}{5} x-\\frac{1}{5} z$ 过点 A ,\n联立 $\\left\\{\\begin{array}{l}4 x-3 y-3=0 \\\\ 2 x+6 y-9=0\\end{array}\\right.$, 解得 $\\left\\{\\begin{array}{l}x=\\frac{3}{2} \\\\ y=1\\end{array}\\right.$, 即 $A\\left(\\frac{3}{2}, 1\\right)$,\n则 $z_{\\text {min }}=\\frac{3}{2}-5 \\times 1=-\\frac{7}{2}$.\n故选: D.",
+            "model_answer": [],
+            "model_output": "【解析】\n首先，我们来分析给定的约束条件：\n1. $4x - 3y - 3 \\geq 0$\n2. $x - 2y - 2 \\leq 0$\n3. $2x + 6y - 9 \\leq 0$\n\n我们需要找到满足这些条件的 $(x, y)$ 的可行域，并在该可行域内找到目标函数 $z = x - 5y$ 的最小值。\n\n### 步骤1：绘制约束条件\n1. 对于 $4x - 3y - 3 = 0$，可以得到 $y = \\frac{4x - 3}{3}$，这是一个斜率为 $\\frac{4}{3}$ 的直线。\n2. 对于 $x - 2y - 2 = 0$，可以得到 $y = \\frac{x - 2}{2}$，这是一个斜率为 $\\frac{1}{2}$ 的直线。\n3. 对于 $2x + 6y - 9 = 0$，可以得到 $y = \\frac{9 - 2x}{6}$，这是一个斜率为 $-\\frac{1}{3}$ 的直线。\n\n### 步骤2：确定可行域\n我们需要确定这三条直线围成的区域。通过解这些直线方程的交点，我们可以找到可行域的边界点。\n\n- 交点1：$4x - 3y - 3 = 0$ 和 $x - 2y - 2 = 0$ 的交点\n  - 通过解方程组得到 $x = 3, y = 1$。\n- 交点2：$4x - 3y - 3 = 0$ 和 $2x + 6y - 9 = 0$ 的交点\n  - 通过解方程组得到 $x = \\frac{3}{2}, y = \\frac{1}{2}$。\n- 交点3：$x - 2y - 2 = 0$ 和 $2x + 6y - 9 = 0$ 的交点\n  - 通过解方程组得到 $x = 3, y = \\frac{1}{2}$。\n\n### 步骤3：计算目标函数在边界点的值\n- 在 $(3, 1)$ 处"
+        },
+        {
+            "index": 14,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "4. 甲、乙、丙、丁四人排成一列，则丙不在排头，且甲或乙在排尾的概率是（）\nA $\\frac{1}{4}$\nB. $\\frac{1}{3}$\nC. $\\frac{1}{2}$\nD. $\\frac{2}{3}$\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【详解】解法一：画出树状图\n由树状图可得，甲、乙、丙、丁四人排成一列，共有 24 种排法，\n其中丙不在排头，且甲或乙在排尾的排法共有 8 种，\n故所求概率 $P=\\frac{8}{24}=\\frac{1}{3}$.\n解法二：当甲排在排尾，乙排第一位，丙有 2 种排法，丁就 1 种，共 2 种；\n当甲排在排尾，乙排第二位或第三位，丙有 1 种排法，丁就 1 种，共 2 种；\n于是甲排在排尾共 4 种方法，同理乙排在排尾共 4 种方法，于是共 8 种排法符合题意；\n基本事件总数显然是 $\\mathrm{A}_{4}^{4}=24$ ，\n根据古典概型的计算公式，丙不在排头，甲或乙在排尾的概率为 $\\frac{8}{24}=\\frac{1}{3}$.\n故选：B",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们计算总共有多少种排列方式。四个人排成一列，总排列数为$4! = 24$种。\n\n接下来，我们考虑丙不在排头，且甲或乙在排尾的情况。\n\n1. **丙不在排头的情况**：丙可以排在第二、三、四个位置，共有3种选择。\n2. **甲或乙在排尾的情况**：甲或乙在排尾，有2种选择。\n\n我们分两种情况考虑：\n\n- **情况1：丙在第二、三、四个位置，甲在排尾**：\n  - 丙在第二位置时，甲在排尾，剩下两人（乙和丁）可以自由排列，有$2! = 2$种方式。\n  - 丙在第三位置时，甲在排尾，剩下两人（乙和丁）可以自由排列，有$2! = 2$种方式。\n  - 丙在第四位置时，甲在排尾，剩下两人（乙和丁）可以自由排列，有$2! = 2$种方式。\n  - 总共有$3 \\times 2 = 6$种方式。\n\n- **情况2：丙在第二、三、四个位置，乙在排尾**：\n  - 丙在第二位置时，乙在排尾，剩下两人（甲和丁）可以自由排列，有$2! = 2$种方式。\n  - 丙在第三位置时，乙在排尾，剩下两人（甲和丁）可以自由排列，有$2! = 2$种方式。\n  - 丙在第四位置时，乙在排尾，剩下两人（甲和丁）可以自由排列，有$2! = 2$种方式。\n  - 总共有$3 \\times 2 = 6$种方式。\n\n因此，满足条件的排列方式共有$6 + 6 = 12$种。\n\n所以，所求概率为$\\frac{12}{24} = \\frac{1}{2}$。\n\n【答案】 C <eoa>"
+        },
+        {
+            "index": 15,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "5. 已知等差数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和为 $S_{n}$, 若 $S_{9}=1$ ，则 $a_{3}+a_{7}=(\\quad)$\nA. -2\nB. $\\frac{7}{3}$\nC. 1\nD. $\\frac{2}{9}$\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【详解】方法一：利用等差数列的基本量\n由 $S_{9}=1$, 根据等差数列的求和公式, $S_{9}=9 a_{1}+\\frac{9 \\times 8}{2} d=1 \\Leftrightarrow 9 a_{1}+36 d=1$,\n又 $a_{3}+a_{7}=a_{1}+2 d+a_{1}+6 d=2 a_{1}+8 d=\\frac{2}{9}\\left(9 a_{1}+36 d\\right)=\\frac{2}{9}$.\n故选：D\n方法二：利用等差数列的性质\n根据等差数列的性质, $a_{1}+a_{9}=a_{3}+a_{7}$, 由 $S_{9}=1$, 根据等差数列的求和公式,\n$S_{9}=\\frac{9\\left(a_{1}+a_{9}\\right)}{2}=\\frac{9\\left(a_{3}+a_{7}\\right)}{2}=1$, 故 $a_{3}+a_{7}=\\frac{2}{9}$.\n故选：D\n方法三：特殊值法\n不妨取等差数列公差 $d=0$, 则 $S_{9}=1=9 a_{1} \\Rightarrow a_{1}=\\frac{1}{9}$, 则 $a_{3}+a_{7}=2 a_{1}=\\frac{2}{9}$.\n故选：D",
+            "model_answer": [],
+            "model_output": "【解析】首先，我们知道等差数列的前n项和公式为：\n\\[S_n = \\frac{n}{2} [2a_1 + (n-1)d]\\]\n其中，$a_1$ 是首项，$d$ 是公差。\n\n题目给出 $S_9 = 1$，代入公式得：\n\\[S_9 = \\frac{9}{2} [2a_1 + 8d] = 1\\]\n化简得：\n\\[9a_1 + 36d = 2\\]\n\\[a_1 + 4d = \\frac{2}{9}\\]\n\n接下来，我们需要求 $a_3 + a_7$ 的值。根据等差数列的通项公式 $a_n = a_1 + (n-1)d$，我们有：\n\\[a_3 = a_1 + 2d\\]\n\\[a_7 = a_1 + 6d\\]\n所以：\n\\[a_3 + a_7 = (a_1 + 2d) + (a_1 + 6d) = 2a_1 + 8d\\]\n\n从上面的推导中，我们知道 $2a_1 + 8d = 2(a_1 + 4d) = 2 \\times \\frac{2}{9} = \\frac{4}{9}$。但是，这个结果并不在选项中，说明我们需要重新审视题目条件和选项。\n\n实际上，我们直接利用等差数列的性质，$a_3 + a_7$ 实际上等于 $a_1 + a_9$（等差数列中，等距离的两项之和相等）。根据前9项和的公式，我们知道：\n\\[S_9 = \\frac{9}{2} (a_1 + a_9) = 1\\]\n所以：\n\\[a_1 + a_9 = \\frac{2}{9}\\]\n由于 $a_9 = a_1 + 8d$，我们有：\n\\[a_1 + a_1 + 8d = \\frac{2}{9}\\]\n\\[2a_1 + 8d = \\frac{2}{9}\\]\n\\[a_3 + a_7 = \\frac{2}{9}\\]\n\n因此，正确答案是 D. $\\frac{2}{9}$。"
+        },
+        {
+            "index": 16,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "6. 已知双曲线的两个焦点分别为 $(0,4),(0,-4)$, 点 $(-6,4)$ 在该双曲线上, 则该双曲线的离心率为 ( )\nA. 4\nB. 3\nC. 2\nD. $\\sqrt{2}$\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】由题意, 设 $F_{1}(0,-4) 、 F_{2}(0,4) 、 P(-6,4)$,\n则 $\\left|F_{1} F_{2}\\right|=2 c=8,\\left|P F_{1}\\right|=\\sqrt{6^{2}+(4+4)^{2}}=10,\\left|P F_{2}\\right|=\\sqrt{6^{2}+(4-4)^{2}}=6$,\n则 $2 a=\\left|P F_{1}\\right|-\\left|P F_{2}\\right|=10-6=4$, 则 $e=\\frac{2 c}{2 a}=\\frac{8}{4}=2$.\n故选: C.",
+            "model_answer": [],
+            "model_output": "【解析】\n首先，我们知道双曲线的标准方程形式为 \\(\\frac{y^2}{a^2} - \\frac{x^2}{b^2} = 1\\)，其中焦点位于 \\(y\\) 轴上，焦点坐标为 \\((0, \\pm c)\\)。题目中给出的焦点为 \\((0,4)\\) 和 \\((0,-4)\\)，因此 \\(c = 4\\)。\n\n根据双曲线的性质，我们有 \\(c^2 = a^2 + b^2\\)。题目中还给出点 \\((-6,4)\\) 在双曲线上，我们可以将这个点代入双曲线方程中求解 \\(a\\) 和 \\(b\\) 的关系。\n\n代入点 \\((-6,4)\\) 到双曲线方程中，我们得到：\n\\[\n\\frac{4^2}{a^2} - \\frac{(-6)^2}{b^2} = 1\n\\]\n即：\n\\[\n\\frac{16}{a^2} - \\frac{36}{b^2} = 1\n\\]\n\n同时，我们知道 \\(c^2 = a^2 + b^2 = 16\\)，即 \\(b^2 = 16 - a^2\\)。将 \\(b^2\\) 代入上述方程中，我们得到：\n\\[\n\\frac{16}{a^2} - \\frac{36}{16 - a^2} = 1\n\\]\n\n接下来解这个方程。首先将方程两边通分，得到：\n\\[\n\\frac{16(16 - a^2) - 36a^2}{a^2(16 - a^2)} = 1\n\\]\n化简得：\n\\[\n256 - 16a^2 - 36a^2 = a^2(16 - a^2)\n\\]\n\\[\n256 - 52a^2 = 16a^2 - a^4\n\\]\n\\[\na^4 - 68a^2 + 256 = 0\n\\]\n\n设 \\(u = a^2\\)，则方程变为：\n\\[\nu^2 - 68u + 256 = 0\n\\]\n\n解这个一元二次方程，我们"
+        },
+        {
+            "index": 17,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "7. 设函数 $f(x)=\\frac{\\mathrm{e}^{x}+2 \\sin x}{1+x^{2}}$, 则曲线 $y=f(x)$ 在点 $(0,1)$ 处的切线与两坐标轴所围成的三角形的面积为\nA. $\\frac{1}{6}$\nB. $\\frac{1}{3}$\nC. $\\frac{1}{2}$\nD. $\\frac{2}{3}$\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【详解】 $f^{\\prime}(x)=\\frac{\\left(\\mathrm{e}^{x}+2 \\cos x\\right)\\left(1+x^{2}\\right)-\\left(\\mathrm{e}^{x}+2 \\sin x\\right) \\cdot 2 x}{\\left(1+x^{2}\\right)^{2}}$,\n则 $f^{\\prime}(0)=\\frac{\\left(\\mathrm{e}^{0}+2 \\cos 0\\right)(1+0)-\\left(\\mathrm{e}^{0}+2 \\sin 0\\right) \\times 0}{(1+0)^{2}}=3$,\n即该切线方程为 $y-1=3 x$, 即 $y=3 x+1$,\n令 $x=0$, 则 $y=1$, 令 $y=0$, 则 $x=-\\frac{1}{3}$,\n故该切线与两坐标轴所围成的三角形面积 $S=\\frac{1}{2} \\times 1 \\times\\left|-\\frac{1}{3}\\right|=\\frac{1}{6}$.\n故选: A.",
+            "model_answer": [],
+            "model_output": "【解析】\n首先，我们需要求出函数 $f(x)=\\frac{\\mathrm{e}^{x}+2 \\sin x}{1+x^{2}}$ 在点 $(0,1)$ 处的导数，即求 $f'(0)$。\n\n1. **求导数**：\n   \\[\n   f(x) = \\frac{\\mathrm{e}^{x}+2 \\sin x}{1+x^{2}}\n   \\]\n   使用商法则求导：\n   \\[\n   f'(x) = \\frac{(1+x^2)(\\mathrm{e}^{x}+2 \\cos x) - (\\mathrm{e}^{x}+2 \\sin x)(2x)}{(1+x^2)^2}\n   \\]\n   将 $x=0$ 代入：\n   \\[\n   f'(0) = \\frac{(1+0^2)(\\mathrm{e}^{0}+2 \\cos 0) - (\\mathrm{e}^{0}+2 \\sin 0)(2 \\cdot 0)}{(1+0^2)^2} = \\frac{1 \\cdot (1+2) - 1 \\cdot 0}{1} = 3\n   \\]\n\n2. **求切线方程**：\n   切线的斜率为 $f'(0) = 3$，切点为 $(0,1)$，所以切线方程为：\n   \\[\n   y - 1 = 3(x - 0) \\Rightarrow y = 3x + 1\n   \\]\n\n3. **求切线与坐标轴的交点**：\n   - 与 $x$ 轴交点：令 $y=0$，则 $0 = 3x + 1 \\Rightarrow x = -\\frac{1}{3}$\n   - 与 $y$ 轴交点：令 $x=0$，则 $y = 1$\n\n4. **求三角形面积**：\n   三角形的底为 $\\frac{1}{3}$，高为 $1$，所以面积为：\n   \\[\n   S = \\frac{1}{2} \\times \\text{底} \\times \\text{高} = \\frac{1}{2} \\times \\frac{1}{3} \\times 1 = \\frac{"
+        },
+        {
+            "index": 18,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "9. 已知 $\\frac{\\cos \\alpha}{\\cos \\alpha-\\sin \\alpha}=\\sqrt{3}$, 则 $\\tan \\left(\\alpha+\\frac{\\pi}{4}\\right)=$ ( )\nA. $2 \\sqrt{3}+1$\nB. $2 \\sqrt{3}-1$\nC. $\\frac{\\sqrt{3}}{2}$\nD. $1-\\sqrt{3}$\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【详解】因为 $\\frac{\\cos \\alpha}{\\cos \\alpha-\\sin \\alpha}=\\sqrt{3}$,\n所以 $\\frac{1}{1-\\tan \\alpha}=\\sqrt{3}, \\Rightarrow \\tan \\alpha=1-\\frac{\\sqrt{3}}{3}$,\n所以 $\\tan \\left(\\alpha+\\frac{\\pi}{4}\\right)=\\frac{\\tan \\alpha+1}{1-\\tan \\alpha}=2 \\sqrt{3}-1$,\n故选: B.",
+            "model_answer": [],
+            "model_output": "【解析】\n首先，我们从已知条件出发，即 $\\frac{\\cos \\alpha}{\\cos \\alpha-\\sin \\alpha}=\\sqrt{3}$。我们可以通过变形来求解 $\\tan \\alpha$。\n\n1. 从已知条件开始，我们有：\n   \\[\n   \\frac{\\cos \\alpha}{\\cos \\alpha-\\sin \\alpha} = \\sqrt{3}\n   \\]\n2. 两边同时乘以分母 $\\cos \\alpha - \\sin \\alpha$，得到：\n   \\[\n   \\cos \\alpha = \\sqrt{3}(\\cos \\alpha - \\sin \\alpha)\n   \\]\n3. 展开并整理得到：\n   \\[\n   \\cos \\alpha = \\sqrt{3}\\cos \\alpha - \\sqrt{3}\\sin \\alpha\n   \\]\n4. 移项得到：\n   \\[\n   \\cos \\alpha - \\sqrt{3}\\cos \\alpha = -\\sqrt{3}\\sin \\alpha\n   \\]\n5. 提取公因式 $\\cos \\alpha$：\n   \\[\n   \\cos \\alpha(1 - \\sqrt{3}) = -\\sqrt{3}\\sin \\alpha\n   \\]\n6. 两边同时除以 $\\cos \\alpha$（假设 $\\cos \\alpha \\neq 0$）：\n   \\[\n   1 - \\sqrt{3} = -\\sqrt{3}\\tan \\alpha\n   \\]\n7. 解得：\n   \\[\n   \\tan \\alpha = \\frac{1 - \\sqrt{3}}{-\\sqrt{3}} = \\frac{\\sqrt{3} - 1}{\\sqrt{3}} = 1 - \\frac{1}{\\sqrt{3}} = 1 - \\frac{\\sqrt{3}}{3}\n   \\]\n\n接下来，我们利用 $\\tan(\\alpha + \\frac{\\pi}{4})$ 的公式：\n\\[\n\\tan(\\alpha + \\frac{\\pi}{4}) = \\frac{\\tan \\alpha + 1}{1 - \\tan \\alpha}\n\\]\n将 $\\tan \\alpha = 1 - \\frac{\\sqrt{3}}{3}$ 代入：\n\\[\n\\tan(\\alpha + \\frac{\\pi}{4}) = \\frac{1 - \\frac{\\sqrt{3}}{3} + 1}{1 - (1 - \\frac{\\sqrt{3}}{"
+        },
+        {
+            "index": 19,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "10. 已知直线 $a x+y+2-a=0$ 与圆 $C \\sqsubseteq x^{2}+y^{2}+4 y-1=0$ 交于 $A, B$ 两点, 则 $|A B|$ 的最小值为（）\nA. 2\nB. 3\nC. 4\nD. 6\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】因为直线 $a x+y+2-a=0$, 即 $a(x-1)+y+2=0$, 令 $x-1=0$,\n则 $\\mathrm{x}=1, \\mathrm{y}=-2$, 所以直线过定点 $(1,-2)$, 设 $P(1,-2)$,\n将圆 $C \\sqsubseteq x^{2}+y^{2}+4 y-1=0$ 化为标准式为 $x^{2}+(y+2)^{2}=5$,\n所以圆心 $C(0,-2)$, 半径 $r=\\sqrt{5},|P C|=1$\n当 $P C \\perp A B$ 时, $|A B|$ 的最小,\n此时 $|A B|=2 \\sqrt{r^{2}-|P C|^{2}}=2 \\times \\sqrt{5-1}=4$ 。\n故选：C",
+            "model_answer": [],
+            "model_output": "【解析】首先，我们分析给定的直线方程和圆的方程。\n\n直线方程为：\\[ax + y + 2 - a = 0\\]\n\n圆的方程为：\\[x^2 + y^2 + 4y - 1 = 0\\]\n\n将圆的方程改写为标准形式，完成平方：\n\\[x^2 + (y^2 + 4y + 4) - 4 - 1 = 0\\]\n\\[x^2 + (y + 2)^2 = 5\\]\n\n这是一个圆心在 $(0, -2)$，半径为 $\\sqrt{5}$ 的圆。\n\n为了求直线与圆相交的弦长 $|AB|$ 的最小值，我们需要考虑直线与圆心的距离。弦长的最小值发生在直线与圆心距离最大时，即当直线与圆心连线垂直时，此时弦长为直径的两倍减去两倍的圆心到直线的距离。\n\n圆心到直线的距离 $d$ 可以通过点到直线的距离公式计算：\n\\[d = \\frac{|ax_0 + y_0 + 2 - a|}{\\sqrt{a^2 + 1}}\\]\n其中 $(x_0, y_0) = (0, -2)$，代入得：\n\\[d = \\frac{|a(0) - 2 + 2 - a|}{\\sqrt{a^2 + 1}} = \\frac{|-a|}{\\sqrt{a^2 + 1}} = \\frac{|a|}{\\sqrt{a^2 + 1}}\\]\n\n弦长 $|AB|$ 的最小值为：\n\\[|AB| = 2\\sqrt{r^2 - d^2} = 2\\sqrt{5 - \\left(\\frac{|a|}{\\sqrt{a^2 + 1}}\\right)^2} = 2\\sqrt{5 - \\frac{a^2}{a^2 + 1}}\\]\n\n为了使 $|AB|$ 最小，我们需要最大化 $d$，即最小化 $\\frac{a^2}{a^2 + 1}$。当 $a = 0$ 时，$d$ 最大，此时：\n\\[d = \\frac{0}{\\sqrt{0^2 + 1}} = 0\\]"
+        },
+        {
+            "index": 20,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "11. 设 $\\alpha \\mathrm{X} \\beta$ 为两个平面, $m \\mathrm{X} n$ 为两条直线, 且 $\\alpha \\cap \\beta=m$.下述四个命题:\n(1)若 $m / / n$, 则 $n / / \\alpha$ 或 $n / / \\beta$ (2)若 $m \\perp n$, 则 $n \\perp \\alpha$ 或 $n \\perp \\beta$\n(3)若 $n / / \\alpha$ 且 $n / / \\beta$, 则 $m / / n$ (4)若 $n$ 与 $\\alpha, \\beta$ 所成的角相等, 则 $m \\perp n$其中所有真命题的编号是（）\nA. (1)(3)\nB. (2)(4)\nC. (1)(2)(3)\nD. (1)(3)(4)\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【详解】对(1), 当 $n \\subset \\alpha$, 因为 $m / / n, m \\subset \\beta$, 则 $n / / \\beta$,\n当 $n \\subset \\beta$, 因 $m / / n, m \\subset \\alpha$, 则 $n / / \\alpha$,\n当 $n$ 既不在 $\\alpha$ 也不在 $\\beta$ 内, 因为 $m / / n, m \\subset \\alpha, m \\subset \\beta$, 则 $n / / \\alpha$ 且 $n / / \\beta$, 故(1)正确;\n对(2), 若 $m \\perp n$, 则 $n$ 与 $\\alpha, \\beta$ 不一定垂直, 故(2)错误;\n对(3), 过直线 $n$ 分别作两平面与 $\\alpha, \\beta$ 分别相交于直线 $s$ 和直线 $t$,\n因为 $n / / \\alpha$, 过直线 $n$ 的平面与平面 $\\alpha$ 的交线为直线 $s$, 则根据线面平行的性质定理知 $n / / s$,\n同理可得 $n / / t$, 则 $s / / t$, 因为 $s \\not \\subset$ 平面 $\\beta, t \\subset$ 平面 $\\beta$, 则 $s / /$ 平面 $\\beta$,\n因为 $s \\subset$ 平面 $\\alpha, \\alpha \\cap \\beta=m$, 则 $s / / m$, 又因为 $n / / s$, 则 $m / / n$, 故(3)正确;\n对(4), 若 $\\alpha \\cap \\beta=m, n$ 与 $\\alpha$ 和 $\\beta$ 所成的角相等, 如果 $n / / \\alpha, n / / \\beta$, 则 $m / / n$, 故(4)错误;\n综上只有(1)(3)正确，\n故选: A.",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n我们逐一分析每个命题的真假性。\n\n(1) 若 $m / / n$，则 $n / / \\alpha$ 或 $n / / \\beta$。\n- 由于 $m$ 是 $\\alpha$ 和 $\\beta$ 的交线，若 $m / / n$，则 $n$ 必须平行于 $\\alpha$ 和 $\\beta$ 的交线。根据平面几何的性质，如果一条直线平行于两个平面的交线，则这条直线平行于这两个平面中的至少一个。因此，这个命题是正确的。\n\n(2) 若 $m \\perp n$，则 $n \\perp \\alpha$ 或 $n \\perp \\beta$。\n- 这个命题并不总是正确的。即使 $m$ 垂直于 $n$，$n$ 也不一定垂直于 $\\alpha$ 或 $\\beta$。例如，$n$ 可以与 $\\alpha$ 和 $\\beta$ 形成一个斜交角，而不是垂直角。因此，这个命题是错误的。\n\n(3) 若 $n / / \\alpha$ 且 $n / / \\beta$，则 $m / / n$。\n- 根据平面几何的性质，如果一条直线平行于两个相交平面，则这条直线平行于这两个平面的交线。因此，这个命题是正确的。\n\n(4) 若 $n$ 与 $\\alpha, \\beta$ 所成的角相等，则 $m \\perp n$。\n- 这个命题并不总是正确的。即使 $n$ 与 $\\alpha$ 和 $\\beta$ 所成的角相等，$n$ 也不一定垂直于 $m$。例如，$n$ 可以与 $m$ 形成一个斜交角，而不是垂直角。因此，这个命题是错误的。\n\n综上所述，正确的命题编号是 (1) 和 (3)。\n\n【答案】 A. (1)(3) <eoa>"
+        },
+        {
+            "index": 21,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "12. 在 $\\triangle A B C$ 中, 内角 $A, B, C$ 所对边分别为 $a, b, c$, 若 $B=\\frac{\\pi}{3}, b^{2}=\\frac{9}{4} a c$, 则 $\\sin A+\\sin C=(\\quad)$\nA. $\\frac{2 \\sqrt{39}}{13}$\nB. $\\frac{\\sqrt{39}}{13}$\nC. $\\frac{\\sqrt{7}}{2}$\nD. $\\frac{3 \\sqrt{13}}{13}$\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】因为 $B=\\frac{\\pi}{3}, b^{2}=\\frac{9}{4} a c$, 则由正弦定理得 $\\sin A \\sin C=\\frac{4}{9} \\sin ^{2} B=\\frac{1}{3}$.\n由余弦定理可得: $b^{2}=a^{2}+c^{2}-a c=\\frac{9}{4} a c$,\n即: $a^{2}+c^{2}=\\frac{13}{4} a c$, 根据正弦定理得 $\\sin ^{2} A+\\sin ^{2} C=\\frac{13}{4} \\sin A \\sin C=\\frac{13}{12}$,\n所以 $(\\sin A+\\sin C)^{2}=\\sin ^{2} A+\\sin ^{2} C+2 \\sin A \\sin C=\\frac{7}{4}$,\n因为 $A, C$ 为三角形内角, 则 $\\sin A+\\sin C>0$, 则 $\\sin A+\\sin C=\\frac{\\sqrt{7}}{2}$.\n故选: C.",
+            "model_answer": [],
+            "model_output": "【解析】\n首先，根据题目条件，我们知道 $\\triangle ABC$ 中，$B = \\frac{\\pi}{3}$，即角 $B$ 是 $60^\\circ$。根据正弦定理，我们有 $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$。由于 $\\sin B = \\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$，我们可以得到 $\\frac{b}{\\frac{\\sqrt{3}}{2}} = \\frac{a}{\\sin A} = \\frac{c}{\\sin C}$。\n\n根据题目条件 $b^2 = \\frac{9}{4}ac$，我们可以利用余弦定理来进一步分析。余弦定理公式为 $b^2 = a^2 + c^2 - 2ac\\cos B$。由于 $\\cos B = \\cos 60^\\circ = \\frac{1}{2}$，代入得 $b^2 = a^2 + c^2 - ac$。将 $b^2 = \\frac{9}{4}ac$ 代入，得到 $\\frac{9}{4}ac = a^2 + c^2 - ac$，即 $4a^2 + 4c^2 - 7ac = 0$。\n\n接下来，我们利用正弦定理和已知条件来求解 $\\sin A + \\sin C$。由正弦定理，我们有 $\\sin A = \\frac{a \\sin B}{b} = \\frac{a \\cdot \\frac{\\sqrt{3}}{2}}{b}$，$\\sin C = \\frac{c \\sin B}{b} = \\frac{c \\cdot \\frac{\\sqrt{3}}{2}}{b}$。因此，$\\sin A + \\sin C = \\frac{\\sqrt{3}}{2} \\left( \\frac{a + c}{b} \\right)$。\n\n为了求解 $\\frac{a + c}{b}$，我们回到方程 $4a^2 + 4c^2 - 7ac = 0$。通过求解这个方程，我们可以找到 $a$ 和 $c$ 的关系。设 $a = kc$，代入方程得 $4k^2c^2 +"
+        },
+        {
+            "index": 22,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "1. 已知集合 $A=\\left\\{x \\overline{0}-5<x^{3}<5\\right\\}, B=\\{-3,-1,0,2,3\\}$, 则 $A \\cap B=$\nA. $\\{-1,0\\}$\nB. $\\{2,3\\}$\nC. $\\{-3,-1,0\\}$\nD. $\\{-1,0,2\\}$\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【详解】因为 $A=\\{x \\mid-\\sqrt[3]{5}<x<\\sqrt[3]{5}\\}, B=\\{-3,-1,0,2,3\\}$, 且注意到 $1<\\sqrt[3]{5}<2$,\n从而 $A \\cap B=\\{-1,0\\}$.\n故选: A.",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】首先，我们需要确定集合A的具体元素。集合A的定义是满足不等式 $0 - 5 < x^3 < 5$ 的所有x的值。简化不等式，我们得到 $-5 < x^3 < 5$。\n\n接下来，我们分别考虑x的可能取值范围：\n1. 当$x^3 < 5$时，$x < \\sqrt[3]{5}$。因为$\\sqrt[3]{5}$大约是1.71，所以$x$可以取小于1.71的值。\n2. 当$x^3 > -5$时，$x > -\\sqrt[3]{5}$。因为$-\\sqrt[3]{5}$大约是-1.71，所以$x$可以取大于-1.71的值。\n\n综合上述两个条件，集合A中的x应该满足 $-1.71 < x < 1.71$。\n\n接下来，我们检查集合B中的元素是否满足上述条件：\n- $-3$ 不满足，因为 $-3 < -1.71$。\n- $-1$ 满足，因为 $-1.71 < -1 < 1.71$。\n- $0$ 满足，因为 $-1.71 < 0 < 1.71$。\n- $2$ 不满足，因为 $2 > 1.71$。\n- $3$ 不满足，因为 $3 > 1.71$。\n\n因此，集合A与集合B的交集 $A \\cap B$ 包含的元素是 $\\{-1, 0\\}$。\n\n【答案】 A <eoa>"
+        },
+        {
+            "index": 23,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "2. 若 $\\frac{z}{z-1}=1+\\mathrm{i}$, 则 $z=(\\quad)$\nA. $-1-\\mathrm{i}$\nB. $-1+\\mathrm{i}$\nC. $1-\\mathrm{i}$\nD. $1+\\mathrm{i}$\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】因为 $\\frac{z}{z-1}=\\frac{z-1+1}{z-1}=1+\\frac{1}{z-1}=1+\\mathrm{i}$, 所以 $z=1+\\frac{1}{\\mathrm{i}}=1-\\mathrm{i}$.\n故选: C.",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们有等式 $\\frac{z}{z-1}=1+\\mathrm{i}$。我们的目标是解出 $z$ 的值。\n\n1. 首先，将等式两边同时乘以 $z-1$，得到 $z = (1+\\mathrm{i})(z-1)$。\n2. 展开右边的乘积，得到 $z = (1+\\mathrm{i})z - (1+\\mathrm{i})$。\n3. 将等式整理为 $z - (1+\\mathrm{i})z = - (1+\\mathrm{i})$。\n4. 提取公因子 $z$，得到 $z(1 - (1+\\mathrm{i})) = - (1+\\mathrm{i})$。\n5. 简化括号内的表达式，得到 $z(-\\mathrm{i}) = - (1+\\mathrm{i})$。\n6. 两边同时除以 $-\\mathrm{i}$，得到 $z = \\frac{- (1+\\mathrm{i})}{-\\mathrm{i}}$。\n7. 简化右边的表达式，得到 $z = \\frac{1+\\mathrm{i}}{\\mathrm{i}}$。\n8. 为了进一步简化，我们可以将分子和分母同时乘以 $\\mathrm{i}$ 的共轭复数 $-\\mathrm{i}$，得到 $z = \\frac{(1+\\mathrm{i})(-\\mathrm{i})}{\\mathrm{i}(-\\mathrm{i})}$。\n9. 展开分子和分母，得到 $z = \\frac{-\\mathrm{i} - \\mathrm{i}^2}{-1}$。\n10. 由于 $\\mathrm{i}^2 = -1$，进一步简化得到 $z = \\frac{-\\mathrm{i} + 1}{-1} = 1 - \\mathrm{i}$。\n\n因此，$z = 1 - \\mathrm{i}$。\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 24,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "3. 已知向量 $\\vec{a}=(0,1), \\vec{b}=(2, x)$, 若 $\\vec{b} \\perp(\\vec{b}-4 \\vec{a})$, 则 $x=(\\quad)$\nA. -2\nB. -1\nC. 1\nD. 2\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【详解】因为 $\\vec{b} \\perp(\\vec{b}-4 \\vec{a})$, 所以 $\\vec{b} \\cdot(\\vec{b}-4 \\vec{a})=0$,\n所以 $\\vec{b}^{2}-4 \\vec{a} \\cdot \\vec{b}=0$ 即 $4+x^{2}-4 x=0$, 故 $x=2$,\n故选: D.",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n首先，我们知道向量 $\\vec{b} \\perp (\\vec{b} - 4\\vec{a})$，意味着这两个向量的点积为0。即：\n\\[\n\\vec{b} \\cdot (\\vec{b} - 4\\vec{a}) = 0\n\\]\n\n给定 $\\vec{a} = (0, 1)$ 和 $\\vec{b} = (2, x)$，我们可以计算 $\\vec{b} - 4\\vec{a}$：\n\\[\n\\vec{b} - 4\\vec{a} = (2, x) - 4(0, 1) = (2, x - 4)\n\\]\n\n接下来，我们计算 $\\vec{b}$ 和 $\\vec{b} - 4\\vec{a}$ 的点积：\n\\[\n\\vec{b} \\cdot (\\vec{b} - 4\\vec{a}) = (2, x) \\cdot (2, x - 4) = 2 \\cdot 2 + x \\cdot (x - 4) = 4 + x^2 - 4x\n\\]\n\n根据题意，这个点积等于0，所以我们有：\n\\[\n4 + x^2 - 4x = 0\n\\]\n\n这是一个一元二次方程，我们可以通过求解这个方程来找到 $x$ 的值。首先，将方程重写为：\n\\[\nx^2 - 4x + 4 = 0\n\\]\n\n这是一个完全平方形式，可以进一步简化为：\n\\[\n(x - 2)^2 = 0\n\\]\n\n解这个方程，我们得到：\n\\[\nx - 2 = 0 \\Rightarrow x = 2\n\\]\n\n因此，只有选项 D 符合题意。\n\n【答案】 D <eoa>"
+        },
+        {
+            "index": 25,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "4 已知 $\\cos (\\alpha+\\beta)=m, \\tan \\alpha \\tan \\beta=2$ ，则 $\\cos (\\alpha-\\beta)=(\\quad)$\nA. $-3 m$\nB. $-\\frac{m}{3}$\nC. $\\frac{m}{3}$\nD. $3 m$\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【详解】因为 $\\cos (\\alpha+\\beta)=m$, 所以 $\\cos \\alpha \\cos \\beta-\\sin \\alpha \\sin \\beta=m$,\n而 $\\tan \\alpha \\tan \\beta=2$ ，所以 $\\sin \\alpha \\sin \\beta=2 \\cos \\alpha \\cos \\beta$ ，\n故 $\\cos \\alpha \\cos \\beta-2 \\cos \\alpha \\cos \\beta=m$ 即 $\\cos \\alpha \\cos \\beta=-m$ ，\n从而 $\\sin \\alpha \\sin \\beta=-2 m$, 故 $\\cos (\\alpha-\\beta)=-3 m$,\n故选: A.",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】首先，我们知道三角恒等变换公式中有一个关于 $\\cos(\\alpha \\pm \\beta)$ 的公式，即：\n\\[\n\\cos(\\alpha \\pm \\beta) = \\cos \\alpha \\cos \\beta \\mp \\sin \\alpha \\sin \\beta\n\\]\n给定 $\\cos(\\alpha + \\beta) = m$，我们可以利用 $\\cos(\\alpha + \\beta) = \\cos \\alpha \\cos \\beta - \\sin \\alpha \\sin \\beta$ 来表示 $m$。\n\n接下来，我们需要利用 $\\tan \\alpha \\tan \\beta = 2$ 来进一步分析。我们知道 $\\tan \\alpha = \\frac{\\sin \\alpha}{\\cos \\alpha}$ 和 $\\tan \\beta = \\frac{\\sin \\beta}{\\cos \\beta}$，所以：\n\\[\n\\tan \\alpha \\tan \\beta = \\frac{\\sin \\alpha \\sin \\beta}{\\cos \\alpha \\cos \\beta} = 2\n\\]\n设 $\\cos \\alpha \\cos \\beta = x$ 和 $\\sin \\alpha \\sin \\beta = y$，则有 $y = 2x$。\n\n回到 $\\cos(\\alpha + \\beta) = m$ 的表达式，我们有：\n\\[\nm = \\cos \\alpha \\cos \\beta - \\sin \\alpha \\sin \\beta = x - y = x - 2x = -x\n\\]\n因此，$x = -m$。\n\n现在，我们需要求 $\\cos(\\alpha - \\beta)$，利用公式 $\\cos(\\alpha - \\beta) = \\cos \\alpha \\cos \\beta + \\sin \\alpha \\sin \\beta$，代入 $x$ 和 $y$ 的值，我们得到：\n\\[\n\\cos(\\alpha - \\beta) = x + y = -m + 2x = -m + 2(-m) = -m - 2m = -3m\n\\]\n因此，$\\cos(\\alpha - \\beta) = -3m$。\n\n综上所述，正确答案是 A. $-3m$。\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 26,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "5. 已知圆柱和圆锥的底面半径相等, 侧面积相等, 且它们的高均为 $\\sqrt{3}$, 则圆雉的体积为 ( )\nA. $2 \\sqrt{3} \\pi$\nB. $3 \\sqrt{3} \\pi$\nC. $6 \\sqrt{3} \\pi$\nD. $9 \\sqrt{3} \\pi$\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【详解】设圆柱的底面半径为 $r$, 则圆雉的母线长为 $\\sqrt{r^{2}+3}$,\n而它们的侧面积相等, 所以 $2 \\pi r \\times \\sqrt{3}=\\pi r \\times \\sqrt{3+r^{2}}$ 即 $2 \\sqrt{3}=\\sqrt{3+r^{2}}$,\n故 $r=3$, 故圆锥的体积为 $\\frac{1}{3} \\pi \\times 9 \\times \\sqrt{3}=3 \\sqrt{3} \\pi$.\n故选: B.",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】首先，我们设圆柱和圆锥的底面半径为 \\(r\\)，高为 \\(h = \\sqrt{3}\\)。\n\n1. **圆柱的侧面积**：圆柱的侧面积公式为 \\(2\\pi rh\\)。将 \\(h = \\sqrt{3}\\) 代入，得到圆柱的侧面积为 \\(2\\pi r\\sqrt{3}\\)。\n\n2. **圆锥的侧面积**：圆锥的侧面积公式为 \\(\\pi r l\\)，其中 \\(l\\) 是圆锥的斜高。根据勾股定理，\\(l = \\sqrt{r^2 + h^2} = \\sqrt{r^2 + (\\sqrt{3})^2} = \\sqrt{r^2 + 3}\\)。因此，圆锥的侧面积为 \\(\\pi r \\sqrt{r^2 + 3}\\)。\n\n3. **侧面积相等**：根据题意，圆柱和圆锥的侧面积相等，即 \\(2\\pi r\\sqrt{3} = \\pi r \\sqrt{r^2 + 3}\\)。简化得到 \\(2\\sqrt{3} = \\sqrt{r^2 + 3}\\)。两边平方得到 \\(12 = r^2 + 3\\)，从而 \\(r^2 = 9\\)，所以 \\(r = 3\\)（取正值）。\n\n4. **圆锥的体积**：圆锥的体积公式为 \\(\\frac{1}{3}\\pi r^2 h\\)。将 \\(r = 3\\) 和 \\(h = \\sqrt{3}\\) 代入，得到圆锥的体积为 \\(\\frac{1}{3}\\pi (3)^2 \\sqrt{3} = \\frac{1}{3}\\pi \\cdot 9 \\cdot \\sqrt{3} = 3\\sqrt{3}\\pi\\)。\n\n综上所述，圆锥的体积为 \\(3\\sqrt{3}\\pi\\)。\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 27,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "6. 已知函数为 $f(x)=\\left\\{\\begin{array}{l}-x^{2}-2 a x-a, x<0 \\\\ \\mathrm{e}^{x}+\\ln (x+1), x \\geq 0\\end{array}\\right.$ ，在 $\\mathbf{R}$ 上单调递增，则 $a$ 取值的范围是 ( )\nA. $(-\\infty, 0]$\nB. $[-1,0]$\nC. $[-1,1]$\nD. $[0,+\\infty)$\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【详解】因为 $f(x)$ 在 R 上单调递增, 且 $x \\geq 0$ 时, $f(x)=\\mathrm{e}^{x}+\\ln (x+1)$ 单调递增,\n则需满足 $\\left\\{\\begin{array}{l}-\\frac{-2 a}{2 \\times(-1)} \\geq 0 \\\\ -a \\leq \\mathrm{e}^{0}+\\ln 1\\end{array}\\right.$ ，解得 $-1 \\leq a \\leq 0$ ，\n即 $a$ 的范围是 $[-1,0]$.\n故选: B.",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】为了使函数 $f(x)$ 在 $\\mathbf{R}$ 上单调递增，我们需要考虑两个部分：$x<0$ 和 $x \\geq 0$ 的情况，并且在 $x=0$ 处也要满足单调递增的条件。\n\n1. 当 $x<0$ 时，$f(x)=-x^2-2ax-a$。这是一个开口向下的抛物线，其导数为 $f'(x)=-2x-2a$。为了使 $f(x)$ 在 $x<0$ 时单调递增，$f'(x) \\geq 0$，即 $-2x-2a \\geq 0$。由于 $x<0$，我们可以得到 $-2a \\geq -2x$，即 $a \\leq x$。因为 $x$ 可以取任意负数，所以 $a$ 必须小于等于0。\n\n2. 当 $x \\geq 0$ 时，$f(x)=e^x+\\ln(x+1)$。这是一个增函数，因为其导数 $f'(x)=e^x+\\frac{1}{x+1} > 0$ 对所有 $x \\geq 0$ 都成立。\n\n3. 在 $x=0$ 处，我们需要保证 $f(x)$ 从左侧到右侧是单调递增的。即 $f(0^-) \\leq f(0^+)$。计算得到 $f(0^-)=-0^2-2a*0-a=-a$，$f(0^+)=e^0+\\ln(0+1)=1+0=1$。因此，$-a \\leq 1$，即 $a \\geq -1$。\n\n综合以上分析，$a$ 的取值范围是 $[-1,0]$。\n\n【答案】 B <eoa>"
+        },
+        {
+            "index": 28,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "7. 当 $x[0,2 \\pi]$ 时, 曲线 $y=\\sin x$ 与 $y=2 \\sin \\left(3 x-\\frac{\\pi}{6}\\right)$ 的交点个数为（）\nA. 3\nB. 4\nC. 6\nD. 8\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】因为函数 $y=\\sin x$ 的的最小正周期为 $T=2 \\pi$,\n函数 $y=2 \\sin \\left(3 x-\\frac{\\pi}{6}\\right)$ 的最小正周期为 $T=\\frac{2 \\pi}{3}$,所以在 $x \\in[0,2 \\pi]$ 上函数 $y=2 \\sin \\left(3 x-\frac{\\pi}{6}\right)$ 有三个周期的图象,在坐标系中结合五点法画出两函数图象, 如图所示:由图可知, 两函数图象有 6 个交点.故选：C",
+            "model_answer": [],
+            "model_output": "【解析】为了找出曲线 $y=\\sin x$ 与 $y=2 \\sin \\left(3 x-\\frac{\\pi}{6}\\right)$ 的交点个数，我们需要解方程 $\\sin x = 2 \\sin \\left(3 x-\\frac{\\pi}{6}\\right)$。\n\n首先，我们考虑函数的周期性和振幅。函数 $y=\\sin x$ 的周期是 $2\\pi$，而 $y=2 \\sin \\left(3 x-\\frac{\\pi}{6}\\right)$ 的周期是 $\\frac{2\\pi}{3}$，振幅是2。这意味着在 $x \\in [0, 2\\pi]$ 的区间内，$y=\\sin x$ 会完成一个完整的周期，而 $y=2 \\sin \\left(3 x-\\frac{\\pi}{6}\\right)$ 会完成三个完整的周期。\n\n接下来，我们分析方程 $\\sin x = 2 \\sin \\left(3 x-\\frac{\\pi}{6}\\right)$。由于 $\\sin x$ 的最大值是1，而 $2 \\sin \\left(3 x-\\frac{\\pi}{6}\\right)$ 的最大值是2，这意味着 $\\sin x$ 不能等于 $2 \\sin \\left(3 x-\\frac{\\pi}{6}\\right)$，除非 $\\sin x = 0$ 且 $2 \\sin \\left(3 x-\\frac{\\pi}{6}\\right) = 0$。但是，我们需要考虑它们在不同区间内的交点。\n\n我们可以通过图形分析来确定交点的个数。由于 $y=\\sin x$ 是一个单调递增到1，然后递减到-1，再递增到1的函数，而 $y=2 \\sin \\left(3 x-\\frac{\\pi}{6}\\right)$ 在每个周期内会有两个零点和两个最大值或最小值，我们可以推断出在 $x \\in [0, 2\\pi]$ 的区间内，两个函数会有多个交点。\n\n具体来说，$y=\\sin x$ 在 $[0, 2\\pi]$ 内有2个零点（$x=0, \\pi, 2\\pi$），而 $y=2 \\sin \\left(3 x-\\frac{\\pi}{6}\\right)$ 在每个周期内会有2个零点，因此在 $["
+        },
+        {
+            "index": 29,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "8. 已知函数为 $f(x)$ 的定义域为 $\\mathbf{R}, f(x)>f(x-1)+f(x-2)$, 且当 $x<3$ 时 $f(x)=x$, 则下列结论中一定正确的是（ ）\nA. $f(10)>100$\nB. $f(20)>1000$\nC. $f(10)<1000$\nD. $f(20)<10000$\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【详解】因为当 $x<3$ 时 $f(x)=x$, 所以 $f(1)=1, f(2)=2$,\n又因为 $f(x)>f(x-1)+f(x-2)$,\n则 $f(3)>f(2)+f(1)=3, f(4)>f(3)+f(2)>5$,\n$f(5)>f(4)+f(3)>8, f(6)>f(5)+f(4)>13, f(7)>f(6)+f(5)>21$,\n$f(8)>f(7)+f(6)>34, f(9)>f(8)+f(7)>55, f(10)>f(9)+f(8)>89$,\n$f(11)>f(10)+f(9)>144, f(12)>f(11)+f(10)>233, f(13)>f(12)+f(11)>377$\n$f(14)>f(13)+f(12)>610, f(15)>f(14)+f(13)>987$,\n$f(16)>f(15)+f(14)>1597>1000$, 则依次下去可知 $f(20)>1000$, 则 B 正确;\n且无证据表明 ACD一定正确。\n故选: B.",
+            "model_answer": [],
+            "model_output": "【解析】\n首先，我们分析给定的条件：函数 $f(x)$ 的定义域为 $\\mathbf{R}$，且满足 $f(x) > f(x-1) + f(x-2)$。当 $x < 3$ 时，$f(x) = x$。我们需要判断哪些选项是一定正确的。\n\n1. **分析初始条件**：\n   - 当 $x < 3$ 时，$f(x) = x$。因此，$f(1) = 1$，$f(2) = 2$。\n\n2. **利用递推关系**：\n   - 由 $f(x) > f(x-1) + f(x-2)$，我们可以计算出 $f(3)$ 的值。\n   - $f(3) > f(2) + f(1) = 2 + 1 = 3$。因此，$f(3) > 3$。\n   - 接下来，我们计算 $f(4)$：\n     - $f(4) > f(3) + f(2) > 3 + 2 = 5$。\n   - 计算 $f(5)$：\n     - $f(5) > f(4) + f(3) > 5 + 3 = 8$。\n   - 以此类推，我们可以看到 $f(x)$ 的值随着 $x$ 的增加而迅速增长。\n\n3. **估算 $f(10)$ 和 $f(20)$ 的值**：\n   - 由于 $f(x)$ 的增长速度非常快，我们可以推测 $f(10)$ 和 $f(20)$ 的值会非常大。\n   - 为了验证选项，我们不需要精确计算，只需要估计其增长趋势。\n\n4. **验证选项**：\n   - A. $f(10) > 100$：由于 $f(x)$ 的增长速度很快，$f(10)$ 很可能远大于 100。\n   - B. $f(20) > 1000$：同样，$f(20)$ 也会非常大，很可能远大于 1000。\n   - C. $f(10) < 1000$：这个选项不太可能正确，因为 $f(10)$ 的值会远大于"
+        },
+        {
+            "index": 30,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "9. 为了解推动出口后的亩收入（单位：万元）情况，从该种植区抽取样本，得到推动出口后亩收入的样本均值 $\\bar{x}=2.1$, 样本方差 $s^{2}=0.01$, 已知该种植区以往的亩收入 $X$ 服从正态分布 $N\\left(1.8,0.1^{2}\\right)$, 假设推动出口后的亩收入 $Y$ 服从正态分布 $N\\left(\\bar{x}, s^{2}\\right)$, 则（）（若随机变量 $Z$ 服从正态分布 $N\\left(u, \\sigma^{2}\\right)$ ， $P(Z<u+\\sigma) \\approx 0.8413)$\nA. $P(X>2)>0.2$\nB. $P(X>2)<0.5$\nC. $P(Y>2)>0.5$\nD. $P(Y>2)<0.8$\n",
+            "standard_answer": [
+                "BC"
+            ],
+            "analysis": "【详解】依题可知, $\\bar{x}=2.1, s^{2}=0.01$, 所以 $Y \\sim N(2.1,0.1)$,\n故 $P(Y>2)=P(Y>2.1-0.1)=P(Y<2.1+0.1) \\approx 0.8413>0.5, C$ 正确, D 错误;\n因为 $X \\sim N(1.8,0.1)$, 所以 $P(X>2)=P(X>1.8+2 \\times 0.1)$,\n因为 $P(X<1.8+0.1) \\approx 0.8413$, 所以 $P(X>1.8+0.1) \\approx 1-0.8413=0.1587<0.2$,\n而 $P(X>2)=P(X>1.8+2 \\times 0.1)<P(X>1.8+0.1)<0.2$, B 正确, A 错误,故选：BC.",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们分析给定的信息：\n- 以往的亩收入 $X$ 服从正态分布 $N(1.8, 0.1^2)$。\n- 推动出口后的亩收入 $Y$ 服从正态分布 $N(\\bar{x}, s^2)$，其中 $\\bar{x}=2.1$ 且 $s^2=0.01$。\n\n我们需要计算几个概率值来判断选项的正确性。\n\n**选项A: $P(X>2)>0.2$**\n- $X \\sim N(1.8, 0.1^2)$\n- 计算 $P(X>2)$\n- $Z = \\frac{X - \\mu}{\\sigma} = \\frac{2 - 1.8}{0.1} = 2$\n- 查表得 $P(Z>2) = 1 - P(Z \\leq 2) \\approx 1 - 0.9772 = 0.0228$\n- $0.0228 < 0.2$，所以选项A错误。\n\n**选项B: $P(X>2)<0.5$**\n- 由于 $X$ 的均值为 $1.8$，而 $2$ 超过了均值，所以 $P(X>2)$ 应该小于 $0.5$。\n- 从选项A的计算中，我们已经知道 $P(X>2) \\approx 0.0228$，显然小于 $0.5$。\n- 所以选项B正确。\n\n**选项C: $P(Y>2)>0.5$**\n- $Y \\sim N(2.1, 0.01)$\n- 计算 $P(Y>2)$\n- $Z = \\frac{Y - \\mu}{\\sigma} = \\frac{2 - 2.1}{0.1} = -1$\n- 查表得 $P(Z>-1) = 1 - P(Z \\leq -1) \\approx 1 - 0.1587 = 0.8413$\n- $0.8413 > 0.5$，所以选项C正确。\n\n**选项D: $P(Y>2)<0.8$**\n- 从选项C的计算中"
+        },
+        {
+            "index": 31,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "10. 设函数 $f(x)=(x-1)^{2}(x-4)$, 则 ( )\nA. $x=3$ 是 $f(x)$ 的极小值点\nB. 当 $0<x<1$ 时, $f(x)<f\\left(x^{2}\\right)$\nC. 当 $1<x<2$ 时, $-4<f(2 x-1)<0$\nD. 当 $-1<x<0$ 时, $f(2-x)>f(x)$\n",
+            "standard_answer": [
+                "ACD"
+            ],
+            "analysis": "【详解】对 A ，因为函数 $f(x)$ 的定义域为 $\\mathbf{R}$ ，而 $f^{\\prime}(x)=2(x-1)(x-4)+(x-1)^{2}=3(x-1)(x-3)$ ，易知当 $x \\in(1,3)$ 时, $f^{\\prime}(x)<0$, 当 $x \\in(-\\infty, 1)$ 或 $x \\in(3,+\\infty)$ 时, $f^{\\prime}(x)>0$\n函数 $f(x)$ 在 $(-\\infty, 1)$ 上单调递增, 在 $(1,3)$ 上单调递减, 在 $(3,+\\infty)$ 上单调递增, 故 $x=3$ 是函数 $f(x)$ 的极小值点，正确；\n对 B , 当 $0<x<1$ 时, $x-x^{2}=x(1-x)>0$, 所以 $1>x>x^{2}>0$,\n而由上可知, 函数 $f(x)$ 在 $(0,1)$ 上单调递增, 所以 $f(x)>f\\left(x^{2}\\right)$, 错误;\n对 C，当 $1<x<2$ 时， $1<2 x-1<3$ ，而由上可知，函数 $f(x)$ 在 $(1,3)$ 上单调递减，\n所以 $f(1)>f(2 x-1)>f(3)$, 即 $-4<f(2 x-1)<0$, 正确;\n对 D, 当 $-1<x<0$ 时, $f(2-x)-f(x)=(1-x)^{2}(-2-x)-(x-1)^{2}(x-4)=(x-1)^{2}(2-2 x)>0$,\n所以 $f(2-x)>f(x)$, 正确;\n故选: ACD.",
+            "model_answer": [],
+            "model_output": "【解析】我们首先需要分析函数 $f(x) = (x-1)^2(x-4)$ 的性质，包括它的极值点、单调性等。\n\n1. **求导分析**：首先计算 $f(x)$ 的一阶导数 $f'(x)$。\n   \\[\n   f(x) = (x-1)^2(x-4) = (x^2 - 2x + 1)(x-4) = x^3 - 6x^2 + 9x - 4\n   \\]\n   \\[\n   f'(x) = 3x^2 - 12x + 9 = 3(x^2 - 4x + 3) = 3(x-1)(x-3)\n   \\]\n   令 $f'(x) = 0$，得到 $x = 1$ 和 $x = 3$ 为临界点。\n\n2. **判断极值点**：\n   - 在 $x=1$ 附近，$f'(x)$ 从正变负，所以 $x=1$ 是极大值点。\n   - 在 $x=3$ 附近，$f'(x)$ 从负变正，所以 $x=3$ 是极小值点。\n\n   因此，A选项正确。\n\n3. **分析选项B**：当 $0<x<1$ 时，比较 $f(x)$ 和 $f(x^2)$。\n   - 由于 $0<x<1$，则 $0<x^2<x$，且 $f(x)$ 在 $(0,1)$ 上是递减的。\n   - 但是，$f(x^2)$ 的值取决于 $x^2$ 的具体值，而 $x^2$ 在 $(0,1)$ 内的取值范围也是 $(0,1)$，因此不能直接断定 $f(x)<f(x^2)$。需要具体计算或进一步分析，但根据函数的性质，这个选项不一定总是成立。\n\n4. **分析选项C**：当 $1<x<2$ 时，分析 $-4<f(2x-1)<0$。\n   - 令 $y = 2x-1$，则 $1<x<2$ 时，$1<y<3$。\n   - $f(y) = (y-1)^2(y"
+        },
+        {
+            "index": 32,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "1 已知 $z=-1-\\mathrm{i}$, 则 $|z|=()$\nA. 0\nB. 1\nC. $\\sqrt{2}$\nD. 2\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】若 $z=-1-\\mathrm{i}$, 则 $|z|=\\sqrt{(-1)^{2}+(-1)^{2}}=\\sqrt{2}$.\n故选: C.",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们需要计算复数 $z = -1 - \\mathrm{i}$ 的模（绝对值）。复数 $z = a + \\mathrm{i}b$ 的模定义为 $|z| = \\sqrt{a^2 + b^2}$。\n\n对于给定的复数 $z = -1 - \\mathrm{i}$，我们有 $a = -1$ 和 $b = -1$。将这些值代入模的公式中，我们得到：\n\\[|z| = \\sqrt{(-1)^2 + (-1)^2} = \\sqrt{1 + 1} = \\sqrt{2}\\]\n\n因此，选项 C. $\\sqrt{2}$ 是正确的。\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 33,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "2. 已知命题 $p: \\forall x \\in \\mathbf{R},|x+1|>1$; 命题 $q: \\exists x>0, x^{3}=x$, 则 ( )\nA. $p$ 和 $q$ 都是真命题\nB. $\\neg p$ 和 $q$ 都是真命题\nC. $p$ 和 $\\neg q$ 都是真命题\nD. $\\neg p$ 和 $\\neg q$ 都是真命题\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【详解】对于 $p$ 而言, 取 $x=-1$, 则有 $|x+1|=0<1$, 故 $p$ 是假命题, $\\neg p$ 是真命题,\n对于 $q$ 而言, 取 $x=1$, 则有 $x^{3}=1^{3}=1=x$, 故 $q$ 是真命题, $\\neg q$ 是假命题,\n综上， $\\neg p$ 和 $q$ 都是真命题。\n故选: B.",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们来分析命题 $p$ 和 $q$ 的真假。\n\n对于命题 $p: \\forall x \\in \\mathbf{R},|x+1|>1$，我们需要判断对于所有实数 $x$，表达式 $|x+1|>1$ 是否恒成立。\n- 当 $x \\geq -1$ 时，$|x+1| = x+1$，要使 $x+1 > 1$，则 $x > 0$。\n- 当 $x < -1$ 时，$|x+1| = -(x+1) = -x-1$，要使 $-x-1 > 1$，则 $-x > 2$，即 $x < -2$。\n- 综上，$|x+1| > 1$ 当且仅当 $x > 0$ 或 $x < -2$。因此，$p$ 并不是对于所有实数 $x$ 都成立，故 $p$ 是假命题。\n\n对于命题 $q: \\exists x>0, x^{3}=x$，我们需要找到一个正数 $x$ 使得 $x^3 = x$ 成立。\n- 令 $x^3 = x$，则 $x^3 - x = 0$，即 $x(x^2 - 1) = 0$，进一步分解为 $x(x-1)(x+1) = 0$。\n- 显然，当 $x = 1$ 时，$x^3 = x$ 成立，且 $x = 1 > 0$。\n- 因此，$q$ 是真命题。\n\n根据以上分析，$p$ 是假命题，$q$ 是真命题。接下来我们分析选项：\n- A. $p$ 和 $q$ 都是真命题，错误。\n- B. $\\neg p$ 和 $q$ 都是真命题，正确。\n- C. $p$ 和 $\\neg q$ 都是真命题，错误。\n- D. $\\neg p$ 和 $\\neg q$ 都是真命题，错误。\n\n综上所述，正确答案是 B。\n\n【答案】 B <eoa>"
+        },
+        {
+            "index": 34,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "3. 已知向量 $\\vec{a}, \\vec{b}$ 满足 $|\\vec{a}|=1,|\\vec{a}+2 \\vec{b}|=2$ ，且 $(\\vec{b}-2 \\vec{a}) \\perp \\vec{b}$ ，则 $|\\vec{b}|=()$\nA. $\\frac{1}{2}$\nB. $\\frac{\\sqrt{2}}{2}$\nC. $\\frac{\\sqrt{3}}{2}$\nD. 1\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【详解】因为 $(\\vec{b}-2 \\vec{a}) \\perp \\vec{b}$, 所以 $(\\vec{b}-2 \\vec{a}) \\cdot \\vec{b}=0$, 即 $\\vec{b}^{2}=2 \\vec{a} \\cdot \\vec{b}$,\n又因为 $|\\vec{a}|=1,|\\vec{a}+2 \\vec{b}|=2$ ，\n所以 $1+4 \\vec{a} \\cdot \\vec{b}+4 \\vec{b}^{2}=1+6 \\vec{b}^{2}=4$,\n从而 $|\\vec{b}|=\\frac{\\sqrt{2}}{2}$.\n故选: B.",
+            "model_answer": [],
+            "model_output": "【解析】\n首先，我们已知向量 $\\vec{a}$ 的模长为 $1$，即 $|\\vec{a}| = 1$。接下来，我们利用第二个条件 $|\\vec{a} + 2\\vec{b}| = 2$ 来进一步分析。根据向量模长的性质，我们有：\n\\[|\\vec{a} + 2\\vec{b}|^2 = (\\vec{a} + 2\\vec{b}) \\cdot (\\vec{a} + 2\\vec{b}) = 4\\]\n展开上式，得到：\n\\[\\vec{a} \\cdot \\vec{a} + 4\\vec{a} \\cdot \\vec{b} + 4\\vec{b} \\cdot \\vec{b} = 4\\]\n由于 $\\vec{a} \\cdot \\vec{a} = |\\vec{a}|^2 = 1$，代入上式，得到：\n\\[1 + 4\\vec{a} \\cdot \\vec{b} + 4|\\vec{b}|^2 = 4\\]\n整理得到：\n\\[4\\vec{a} \\cdot \\vec{b} + 4|\\vec{b}|^2 = 3\\]\n\\[4\\vec{a} \\cdot \\vec{b} + 4|\\vec{b}|^2 = 3 \\quad \\text{(1)}\\]\n\n接下来，我们利用第三个条件 $(\\vec{b} - 2\\vec{a}) \\perp \\vec{b}$，即 $(\\vec{b} - 2\\vec{a}) \\cdot \\vec{b} = 0$。展开得到：\n\\[\\vec{b} \\cdot \\vec{b} - 2\\vec{a} \\cdot \\vec{b} = 0\\]\n\\[|\\vec{b}|^2 - 2\\vec{a} \\cdot \\vec{b} = 0 \\quad \\text{(2)}\\]\n\n将式(2)代入式(1)中，得到：\n\\[4(0 + |\\vec{b}|^2) + 4|\\vec{b}|^2 = 3\\]\n\\[8|\\vec{b}|^2 = 3\\]\n\\[|\\vec{b}|^2 = \\frac{3}{8"
+        },
+        {
+            "index": 35,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "4. 某农业研究部门在面积相等的 100 块稻田上种植一种新型水稻, 得到各块稻田的亩产量（均在 $[900,1200)$ 之间，单位： kg）并部分整理下表\n| 亩产 <br> 量 | $[900$, <br> $950)$ | $[950$, <br> $1000)$ | $[1000$, <br> $1050)$ | $[1100$, <br> $1150)$ | $1200)$ |\n| :---: | :---: | :---: | :---: | :---: | :---: |\n| 频数 | 6 | 12 | 18 | 24 | 10 |\n据表中数据，结论中正确的是（）\nA. 100 块稻田亩产量的中位数小于 1050 kg\nB. 100 块稻田中亩产量低于 1100 kg 的稻田所占比例超过 $80 \\%$\nC. 100 块稻田亩产量的极差介于 200 kg 至 300 kg 之间\nD. 100 块稻田亩产量的平均值介于 900 kg 至 1000 kg 之间\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】对于 A ，根据频数分布表可知， $6+12+18=36<50$ ，\n所以亩产量的中位数不小于 1050 kg ，故 A 错误；\n对于 B，亩产量不低于 1100 kg 的频数为 $24+10=34$ ，\n所以低于 1100 kg 的稻田占比为 $\\frac{100-34}{100}=66 \\%$, 故 B 错误;\n对于 C，稻田亩产量的极差最大为 $1200-900=300$ ，最小为 $1150-950=200$ ，故 C 正确；\n对于 D，由频数分布表可得，亩产量在 $[1050,1100)$ 的频数为 $100-(6+12+18+24+10)=30$ ，\n所以平均值为 $\\frac{1}{100} \\times(6 \\times 925+12 \\times 975+18 \\times 1025+30 \\times 1075+24 \\times 1125+10 \\times 1175)=1067$ ，故 D 错误。\n故选；C.",
+            "model_answer": [],
+            "model_output": "【解析】\n首先，我们来分析每个选项。\n\nA. 100 块稻田亩产量的中位数小于 1050 kg\n- 中位数是将数据按大小顺序排列后位于中间位置的数值。由于共有 100 块稻田，中位数是第 50 和第 51 个数据的平均值。\n- 频数累计：6 + 12 + 18 = 36，36 + 24 = 60，60 + 10 = 70。\n- 第 50 和第 51 个数据落在 $[1000, 1050)$ 区间内，因此中位数在这个区间内，小于 1050 kg。所以 A 选项正确。\n\nB. 100 块稻田中亩产量低于 1100 kg 的稻田所占比例超过 80%\n- 低于 1100 kg 的稻田频数为 6 + 12 + 18 + 24 = 50。\n- 比例为 50/100 = 50%，不超过 80%。所以 B 选项不正确。\n\nC. 100 块稻田亩产量的极差介于 200 kg 至 300 kg 之间\n- 极差是最大值与最小值之差。根据表格，最小值在 $[900, 950)$ 区间，最大值在 $[1100, 1150)$ 区间。\n- 最小值至少为 900 kg，最大值最多为 1150 kg，因此极差为 1150 - 900 = 250 kg，介于 200 kg 至 300 kg 之间。所以 C 选项正确。\n\nD. 100 块稻田亩产量的平均值介于 900 kg 至 1000 kg 之间\n- 计算平均值需要知道每个区间的中点值。假设每个区间的中点值分别为 925, 975, 1025, 112"
+        },
+        {
+            "index": 36,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "5. 已知曲线 $C: x^{2}+y^{2}=16(y>0)$, 从 $C$ 上任意一点 $P$ 向 $x$ 轴作垂线段 $P P^{\\prime}, P^{\\prime}$ 为垂足, 则线段 $P P^{\\prime}$的中点 $M$ 的轨迹方程为（）\nA. $\\frac{x^{2}}{16}+\\frac{y^{2}}{4}=1 \\quad(y>0)$\nB. $\\frac{x^{2}}{16}+\\frac{y^{2}}{8}=1(y>0)$\nC. $\\frac{y^{2}}{16}+\\frac{x^{2}}{4}=1(y>0)$\nD. $\\frac{y^{2}}{16}+\\frac{x^{2}}{8}=1 \\quad(y>0)$\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【详解】设点 $M(x, y)$, 则 $P\\left(x, y_{0}\\right), P^{\\prime}(x, 0)$,\n因为 $M$ 为 $P P^{\\prime}$ 的中点, 所以 $y_{0}=2 y$, 即 $P(x, 2 y)$,\n又 $P$ 在圆 $x^{2}+y^{2}=16(y>0)$ 上，\n所以 $x^{2}+4 y^{2}=16(y>0)$, 即 $\\frac{x^{2}}{16}+\\frac{y^{2}}{4}=1(y>0)$,\n即点 $M$ 的轨迹方程为 $\\frac{x^{2}}{16}+\\frac{y^{2}}{4}=1(y>0)$.\n故选：A",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n首先，曲线 $C$ 的方程是 $x^{2}+y^{2}=16(y>0)$，表示的是一个位于 $y$ 轴正半轴的半圆。设点 $P$ 的坐标为 $(x_0, y_0)$，则 $P$ 在曲线 $C$ 上，满足 $x_0^2 + y_0^2 = 16$。\n\n从 $P$ 向 $x$ 轴作垂线段 $PP'$，垂足 $P'$ 的坐标为 $(x_0, 0)$。线段 $PP'$ 的中点 $M$ 的坐标为 $(x, y)$，根据中点坐标公式，我们有：\n\\[x = \\frac{x_0 + x_0}{2} = x_0\\]\n\\[y = \\frac{y_0 + 0}{2} = \\frac{y_0}{2}\\]\n\n因此，$x_0 = x$，$y_0 = 2y$。将 $x_0$ 和 $y_0$ 代入曲线 $C$ 的方程中，得到：\n\\[x^2 + (2y)^2 = 16\\]\n\\[x^2 + 4y^2 = 16\\]\n\\[\\frac{x^2}{16} + \\frac{y^2}{4} = 1\\]\n\n由于 $y_0 = 2y > 0$，则 $y > 0$。因此，线段 $PP'$ 的中点 $M$ 的轨迹方程为 $\\frac{x^2}{16} + \\frac{y^2}{4} = 1(y > 0)$。\n\n综上所述，正确答案是 A. $\\frac{x^{2}}{16}+\\frac{y^{2}}{4}=1 \\quad(y>0)$。\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 37,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "6. 设函数 $f(x)=a(x+1)^{2}-1, g(x)=\\cos x+2 a x$ ，当 $x \\in(-1,1)$ 时，曲线 $y=f(x)$ 与 $y=g(x)$ 恰有一个交点，则 $a=()$\nA. -1\nB. $\\frac{1}{2}$\nC. 1\nD. 2\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【详解】解法一: 令 $f(x)=g(x)$, 即 $a(x+1)^{2}-1=\\cos x+2 a x$, 可得 $a x^{2}+a-1=\\cos x$,令 $F(x)=a x^{2}+a-1, G(x)=\\cos x$,\n原题意等价于当 $x \\in(-1,1)$ 时，曲线 $y=F(x)$ 与 $y=G(x)$ 恰有一个交点，\n注意到 $F(x), G(x)$ 均为偶函数，可知该交点只能在 $y$ 轴上，\n可得 $F(0)=G(0)$, 即 $a-1=1$, 解得 $a=2$,\n若 $a=2$, 令 $F(x)=G(x)$, 可得 $2 x^{2}+1-\\cos x=0$\n因为 $x \\in(-1,1)$, 则 $2 x^{2} \\geq 0,1-\\cos x \\geq 0$, 当且仅当 $x=0$ 时, 等号成立,\n可得 $2 x^{2}+1-\\cos x \\geq 0$, 当且仅当 $x=0$ 时, 等号成立,\n则方程 $2 x^{2}+1-\\cos x=0$ 有且仅有一个实根 0 , 即曲线 $y=F(x)$ 与 $y=G(x)$ 恰有一个交点,\n所以 $a=2$ 符合题意；\n综上所述： $a=2$ 。\n解法二: 令 $h(x)=f(x)-g(x)=a x^{2}+a-1-\\cos x, x \\in(-1,1)$,\n原题意等价于 $h(x)$ 有且仅有一个零点，\n因为 $h(-x)=a(-x)^{2}+a-1-\\cos (-x)=a x^{2}+a-1-\\cos x=h(x)$,\n则 $h(x)$ 唡 偶函数，\n根据偶函数的对称性可知 $h(x)$ 的零点只能为 0 ，\n即 $h(0)=a-2=0$, 解得 $a=2$,\n若 $a=2$, 则 $h(x)=2 x^{2}+1-\\cos x, x \\in(-1,1)$,\n又因为 $2 x^{2} \\geq 0,1-\\cos x \\geq 0$ 当且仅当 $x=0$ 时, 等号成立,\n可得 $h(x) \\geq 0$, 当且仅当 $x=0$ 时, 等号成立,\n即 $h(x)$ 有且仅有一个零点 0 , 所以 $a=2$ 符合题意;\n故选: D.",
+            "model_answer": [],
+            "model_output": "【解析】为了找到满足条件的 $a$ 值，我们需要分析函数 $f(x)$ 和 $g(x)$ 在区间 $(-1,1)$ 上的交点情况。具体步骤如下：\n\n1. **设定方程**：首先，我们设定 $f(x) = g(x)$，即 $a(x+1)^2 - 1 = \\cos x + 2ax$。\n\n2. **简化方程**：将方程简化为 $a(x^2 + 2x + 1) - 1 = \\cos x + 2ax$，进一步简化得到 $ax^2 + 2ax + a - 1 = \\cos x + 2ax$，即 $ax^2 + a - 1 = \\cos x$。\n\n3. **分析方程**：我们需要找到使得上述方程在 $(-1,1)$ 内恰好有一个解的 $a$ 值。这可以通过观察函数的性质和图像来实现。\n\n4. **考虑特殊值**：\n   - 当 $a = -1$ 时，方程变为 $-x^2 - 1 = \\cos x$。在 $(-1,1)$ 内，$-x^2 - 1$ 是一个单调递减的函数，而 $\\cos x$ 在 $(-1,1)$ 内是单调递减的，但其值域为 $(\\cos 1, 1)$，而 $-x^2 - 1$ 的值域为 $(-2, -1)$。因此，这两个函数在 $(-1,1)$ 内没有交点。\n   - 当 $a = \\frac{1}{2}$ 时，方程变为 $\\frac{1}{2}x^2 + \\frac{1}{2} - 1 = \\cos x$，即 $\\frac{1}{2}x^2 - \\frac{1}{2} = \\cos x$。在 $(-1,1)$ 内，$\\frac{1}{2}x^2 - \\frac{1}{2}$ 是一个单调递增的函数，而 $\\cos x$ 在 $(-1,1)$ 内也是单调递减的，但 $\\cos x$ 的值域为 $(\\cos 1, 1)$，而 $\\frac{1}{2}x^2 - \\frac{"
+        },
+        {
+            "index": 38,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "7. 已知正三棱台 $A B C-A_{1} B_{1} C_{1}$ 的体积为 $\\frac{52}{3}, A B=6, A_{1} B_{1}=2$, 则 $A_{1} A$ 与平面 $A B C$ 所成角的正切值为\nA. $\\frac{1}{2}$\nB. 1\nC. 2\nD. 3\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【详解】解法一: 分别取 $B C, B_{1} C_{1}$ 的中点 $D, D_{1}$, 则 $A D=3 \\sqrt{3}, A_{1} D_{1}=\\sqrt{3}$,\n可知 $S_{\\triangle A B C}=\\frac{1}{2} \\times 6 \\times 6 \\times \\frac{\\sqrt{3}}{2}=9 \\sqrt{3}, S_{\\triangle A_{1} B_{1} C_{1}}=\\frac{1}{2} \\times 2 \\times \\sqrt{3}=\\sqrt{3}$,\n设正三棱台 $A B C-A_{1} B_{1} C_{1}$ 的为 $h$,\n则 $V_{A B C-A_{1} B_{1} C_{1}}=\\frac{1}{3}(9 \\sqrt{3}+\\sqrt{3}+\\sqrt{9 \\sqrt{3} \\times \\sqrt{3}}) h=\\frac{52}{3}$, 解得 $h=\\frac{4 \\sqrt{3}}{3}$,\n如图, 分别过 $A_{1}, D_{1}$ 作底面垂线, 垂足为 $M, N$, 设 $A M=x$,\n则 $A A_{1}=\\sqrt{A M^{2}+A_{1} M^{2}}=\\sqrt{x^{2}+\\frac{16}{3}}, D N=A D-A M-M N=2 \\sqrt{3}-x$,\n可得 $D D_{1}=\\sqrt{D N^{2}+D_{1} N^{2}}=\\sqrt{(2 \\sqrt{3}-x)^{2}+\\frac{16}{3}}$,\n结合等腰梯形 $B C C_{1} B_{1}$ 可得 $B B_{1}^{2}=\\left(\\frac{6-2}{2}\\right)^{2}+D D_{1}^{2}$,\n即 $x^{2}+\\frac{16}{3}=(2 \\sqrt{3}-x)^{2}+\\frac{16}{3}+4$, 解得 $x=\\frac{4 \\sqrt{3}}{3}$,\n所以 $A_{1} A$ 与平面 $A B C$ 所成角的正切值为 $\\tan$ 薪 $_{1} A D=\\frac{A_{1} M}{A M} \\quad 1$;\n解法二: 将正三棱台 $A B C-A_{1} B_{1} C_{1}$ 补成正三棱雉 $P-A B C$,\n则 $A_{1} A$ 与平面 $A B C$ 所成角即为 $P A$ 与平面 $A B C$ 所成角,\n因为 $\\frac{P A_{1}}{P A}=\\frac{A_{1} B_{1}}{A B}=\\frac{1}{3}$, 则 $\\frac{V_{P-A_{1} B_{1} C_{1}}}{V_{P-A B C}}=\\frac{1}{27}$,\n可知 $V_{A B C-A_{1} B_{1} C_{1}}=\\frac{26}{27} V_{P-A B C}=\\frac{52}{3}$, 则 $V_{P-A B C}=18$,\n设正三棱雉 $P-A B C$ 的高为 $d$, 则 $V_{P-A B C}=\\frac{1}{3} d \\times \\frac{1}{2} \\times 6 \\times 6 \\times \\frac{\\sqrt{3}}{2}=18$, 解得 $d=2 \\sqrt{3}$,\n取底面 $A B C$ 的中心为 $O$, 则 $P O \\perp$ 底面 $A B C$, 且 $A O=2 \\sqrt{3}$,\n所以 $P A$ 与平面 $A B C$ 所成角的正切值 $\\tan \\angle P A O=\\frac{P O}{A O}=1$.\n故选: B.",
+            "model_answer": [
+                "AAA"
+            ],
+            "model_output": "【解析】\n首先，我们来分析题目给出的信息。已知正三棱台 $ABC-A_1B_1C_1$ 的体积为 $\\frac{52}{3}$，上底边长 $A_1B_1=2$，下底边长 $AB=6$。我们需要求的是 $A_1A$ 与平面 $ABC$ 所成角的正切值。\n\n正三棱台的体积公式为：\n\\[V = \\frac{1}{3}h(S_1 + S_2 + \\sqrt{S_1S_2})\\]\n其中 $h$ 是高，$S_1$ 和 $S_2$ 分别是上底和下底的面积。\n\n对于正三棱台，上底和下底都是正三角形。设上底边长为 $a=2$，下底边长为 $b=6$，则上底面积 $S_1 = \\frac{\\sqrt{3}}{4}a^2 = \\frac{\\sqrt{3}}{4} \\cdot 2^2 = \\sqrt{3}$，下底面积 $S_2 = \\frac{\\sqrt{3}}{4}b^2 = \\frac{\\sqrt{3}}{4} \\cdot 6^2 = 9\\sqrt{3}$。\n\n将已知的体积和面积代入体积公式中，得到：\n\\[\\frac{52}{3} = \\frac{1}{3}h(\\sqrt{3} + 9\\sqrt{3} + \\sqrt{\\sqrt{3} \\cdot 9\\sqrt{3}}) = \\frac{1}{3}h(10\\sqrt{3} + 3\\sqrt{3}) = \\frac{1}{3}h \\cdot 13\\sqrt{3}\\]\n解得：\n\\[h = \\frac{52}{3 \\cdot 13\\sqrt{3}} = \\frac{4}{3\\sqrt{3}} = \\frac{4\\sqrt{3}}{9}\\]\n\n接下来，我们需要求 $A_1A$ 与平面 $ABC$ 所成角的正切值。设此角为 $\\theta$，则 $\\tan \\theta = \\frac{A_1A}{h}$。由于 $A_1A$ 与 $A"
+        },
+        {
+            "index": 39,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "8. 设函数 $f(x)=(x+a) \\ln (x+b)$, 若 $f(x) \\geq 0$, 则 $a^{2}+b^{2}$ 的最小值为 $(\\quad)$\nA. $\\frac{1}{8}$\nB. $\\frac{1}{4}$\nC. $\\frac{1}{2}$\nD. 1\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】解法一: 由题意可知: $f(x)$ 的定义域为 $(-b,+\\infty)$,\n令 $x+a=0$ 解得 $x=-a$ ；令 $\\ln (x+b)=0$ 解得 $x=1-b$ ；\n若 $-a \\leq-b$, 当 $x \\in(-b, 1-b)$ 时, 可知 $x+a>0, \\ln (x+b)<0$,\n此时 $f(x)<0$, 不合题意;\n若 $-b<-a<1-b$, 当 $x \\in(-a, 1-b)$ 时, 可知 $x+a>0, \\ln (x+b)<0$,\n此时 $f(x)<0$, 不合题意;\n若 $-a=1-b$, 当 $x \\in(-b, 1-b)$ 时, 可知 $x+a<0, \\ln (x+b)<0$, 此时 $f(x)>0$;\n当 $x \\in[1-b,+\\infty)$ 时, 可知 $x+a \\geq 0, \\ln (x+b) \\geq 0$, 此时 $f(x) \\geq 0$;\n可知若 $-a=1-b$, 符合题意;\n若 $-a>1-b$, 当 $x \\in(1-b,-a)$ 时, 可知 $x+a\\langle 0, \\ln (x+b)\\rangle 0$,\n此时 $f(x)<0$, 不合题意;\n综上所述: $-a=1-b$, 即 $b=a+1$,\n则 $a^{2}+b^{2}=a^{2}+(a+1)^{2}=2\\left(a+\\frac{1}{2}\\right)^{2}+\\frac{1}{2} \\geq \\frac{1}{2}$, 当且仅当 $a=-\\frac{1}{2}, b=\\frac{1}{2}$ 时, 等号成立,\n所以 $a^{2}+b^{2}$ 的最小值为 $\\frac{1}{2}$ ；\n解法二: 由题意可知: $f(x)$ 的定义域为 $(-b,+\\infty)$,\n令 $x+a=0$ 解得 $x=-a$ ；令 $\\ln (x+b)=0$ 解得 $x=1-b$ ；\n则当 $x \\in(-b, 1-b)$ 时, $\\ln (x+b)<0$, 故 $x+a \\leq 0$, 所以 $1-b+a \\leq 0$;\n$x \\in(1-b,+\\infty)$ 时, $\\ln (x+b)>0$, 故 $x+a \\geq 0$, 所以 $1-b+a \\geq 0$;\n故 $1-b+a=0$, 则 $a^{2}+b^{2}=a^{2}+(a+1)^{2}=2\\left(a+\\frac{1}{2}\\right)^{2}+\\frac{1}{2} \\geq \\frac{1}{2}$,\n当且仅当 $a=-\\frac{1}{2}, b=\\frac{1}{2}$ 时, 等号成立,\n所以 $a^{2}+b^{2}$ 的最小值为 $\\frac{1}{2}$.\n故选: C.",
+            "model_answer": [],
+            "model_output": "【解析】为了使 $f(x) = (x + a) \\ln (x + b) \\geq 0$ 对所有 $x > -b$ 成立，我们需要分析函数的性质。\n\n1. 当 $x > -b$ 时，$\\ln (x + b) > 0$，因此 $(x + a) \\geq 0$ 必须成立，即 $x + a \\geq 0$ 对所有 $x > -b$ 成立。这意味着 $a \\geq 0$。\n\n2. 当 $x \\to -b^+$ 时，$\\ln (x + b) \\to -\\infty$，因此 $(x + a) \\geq 0$ 必须足够大以抵消 $\\ln (x + b)$ 的负值，这意味着 $a$ 需要足够大以保证 $f(x) \\geq 0$。\n\n3. 为了使 $a^2 + b^2$ 的值最小，我们需要找到合适的 $a$ 和 $b$ 的值。考虑 $x = -b$ 时，$f(x) = 0$，此时 $(x + a) \\ln (x + b) = 0$，即 $-b + a = 0$，因此 $a = b$。\n\n4. 代入 $a = b$，我们得到 $f(x) = (x + a) \\ln (x + a)$。为了使 $f(x) \\geq 0$，我们需要 $x + a \\geq 0$ 对所有 $x > -a$ 成立，这意味着 $a \\geq 0$。\n\n5. 为了最小化 $a^2 + b^2 = 2a^2$，我们需要找到最小的 $a$。考虑 $x = -a$ 时，$f(x) = 0$，此时 $(x + a) \\ln (x + a) = 0$，即 $0 \\cdot \\ln 0$，这在数学上是未定义的，但我们可以考虑极限情况。当 $x \\to -a^+$ 时，$\\ln (x + a) \\to -\\infty$，因此 $(x + a) \\geq 0$ 必须足够大以抵消 $\\ln (x + a)$ 的负"
+        },
+        {
+            "index": 40,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "9. 对于函数 $f(x)=\\sin 2 x$ 和 $g(x)=\\sin \\left(2 x-\\frac{\\pi}{4}\\right)$, 下列说法正确的有（ ）\nA. $f(x)$ 与 $g(x)$ 有相同的零点\nB. $f(x)$ 与 $g(x)$ 有相同的最大值\nC. $f(x)$ 与 $g(x)$ 有相同的最小正周期\nD. $f(x)$ 与 $g(x)$ 的图像有相同的对称轴\n",
+            "standard_answer": [
+                "BC"
+            ],
+            "analysis": "【详解】 A 选项，令 $f(x)=\\sin 2 x=0$ ，解得 $x=\\frac{k \\pi}{2}, k \\in \\mathbf{Z}$ ，即为 $f(x)$ 零点，\n令 $g(x)=\\sin \\left(2 x-\\frac{\\pi}{4}\\right)=0$, 解得 $x=\\frac{k \\pi}{2}+\\frac{\\pi}{8}, k \\in \\mathbf{Z}$, 即为 $g(x)$ 零点,\n显然 $f(x), g(x)$ 零点不同, A 选项错误；\nB 选项, 显然 $f(x)_{\\text {max }}=g(x)_{\\text {max }}=1, \\mathrm{~B}$ 选项正确;\nC 选项，根据周期公式， $f(x), g(x)$ 的周期均为 $\\frac{2 \\pi}{2}=\\pi, \\mathrm{C}$ 选项正确；\nD 选项，根据正弦函数的性质 $f(x)$ 的对称轴满足 $2 x=k \\pi+\\frac{\\pi}{2} \\Leftrightarrow x=\\frac{k \\pi}{2}+\\frac{\\pi}{4}, k \\in \\mathbf{Z}$, $g(x)$ 的对称轴满足 $2 x-\\frac{\\pi}{4}=k \\pi+\\frac{\\pi}{2} \\Leftrightarrow x=\\frac{k \\pi}{2}+\\frac{3 \\pi}{8}, k \\in \\mathbf{Z}$,\n显然 $f(x), g(x)$ 图像的对称轴不同, D 选项错误。\n故选：BC",
+            "model_answer": [],
+            "model_output": "【解析】\n首先，我们分析每个选项：\n\nA. $f(x)$ 与 $g(x)$ 有相同的零点\n- $f(x) = \\sin 2x$ 的零点满足 $2x = k\\pi$，即 $x = \\frac{k\\pi}{2}$，其中 $k$ 是整数。\n- $g(x) = \\sin \\left(2x - \\frac{\\pi}{4}\\right)$ 的零点满足 $2x - \\frac{\\pi}{4} = k\\pi$，即 $x = \\frac{k\\pi}{2} + \\frac{\\pi}{8}$，其中 $k$ 是整数。\n- 从上述分析可以看出，$f(x)$ 和 $g(x)$ 的零点并不相同，因此选项A不正确。\n\nB. $f(x)$ 与 $g(x)$ 有相同的最大值\n- $f(x) = \\sin 2x$ 的最大值为1。\n- $g(x) = \\sin \\left(2x - \\frac{\\pi}{4}\\right)$ 的最大值也为1。\n- 从上述分析可以看出，$f(x)$ 和 $g(x)$ 的最大值相同，因此选项B正确。\n\nC. $f(x)$ 与 $g(x)$ 有相同的最小正周期\n- $f(x) = \\sin 2x$ 的最小正周期为 $\\frac{2\\pi}{2} = \\pi$。\n- $g(x) = \\sin \\left(2x - \\frac{\\pi}{4}\\right)$ 的最小正周期也为 $\\frac{2\\pi}{2} = \\pi$。\n- 从上述分析可以看出，$f(x)$ 和 $g(x)$ 的最小正周期相同，因此选项C正确。\n\nD. $f(x)$ 与 $g(x)$ 的图像有相同的对称轴\n- $f(x) = \\sin 2x$ 的图像关于直线 $x = \\frac{k\\pi}{2}$ 对称，其中 $k$ 是整数。\n- $g(x) = \\sin \\left(2x - \\frac{\\pi}{4}\\right)$ 的图像关于直线 $x = \\frac{k\\pi}{2} + \\frac{\\pi}{8}$ 对称，其中 $k$ 是整数。\n- 从上述分析可以看出，$f(x)$"
+        },
+        {
+            "index": 41,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "10. 抛物线 $C: y^{2}=4 x$ 的准线为 $l, P$ 为 $C$ 上的动点, 过 $P$ 作 $\\star A: x^{2}+(y-4)^{2}=1$ 的一条切线, $Q$ 为切点, 过 $P$ 作 $l$ 的垂线, 垂足为 $B$, 则 ( )\nA. $l$ 与 $\\odot A$ 相切\nB. 当 $P, A, B$ 三点共线时, $|P Q|=\\sqrt{15}$\nC. 当 $|P B|=2$ 时 $P A \\perp A B$\nD. 满足 $|P A|=|P B|$ 的点 $P$ 有且仅有 2 个\n",
+            "standard_answer": [
+                "ABD"
+            ],
+            "analysis": "【详解】 A 选项，抛物线 $y^{2}=4 x$ 的准线为 $x=-1$,\n$\\odot A$ 的圆心 $(0,4)$ 到直线 $x=-1$ 的距离显然是 1 , 等于圆的半径,故准线 $l$ 和 $\\odot A$ 相切， A 选项正确；\nB 选项, $P, A, B$ 三点共线时, 即 $P A \\perp l$, 则 $P$ 的纵坐标 $y_{P}=4$,\n由 $y_{P}^{2}=4 x_{P}$, 得到 $x_{P}=4$, 故 $P(4,4)$,\n此时切线长 $|P Q|=\\sqrt{|P A|^{2}-r^{2}}=\\sqrt{4^{2}-1^{2}}=\\sqrt{15}$, B 选项正确;\nC 选项，当 $|P B|=2$ 时， $x_{P}=1$ ，此时 $y_{P}^{2}=4 x_{P}=4$ ，故 $P(1,2)$ 或 $P(1,-2)$ ，\n当 $P(1,2)$ 时, $A(0,4), B(-1,2), k_{P A}=\\frac{4-2}{0-1}=-2, k_{A B}=\\frac{4-2}{0-(-1)}=2$,\n不满足 $k_{P A} k_{A B}=-1$ ；\n当 $P(1,-2)$ 时, $A(0,4), B(-1,2), k_{P A}=\\frac{4-(-2)}{0-1}=-6, k_{A B}=\\frac{4-(-2)}{0-(-1)}=6$,\n不满足 $k_{P A} k_{A B}=-1$ ；\n于是 $P A \\perp A B$ 不成立， C 选项错误；\nD 选项，方法一：利用抛物线定义转化\n根据抛物线的定义, $|P B|=|P F|$, 这里 $F(1,0)$,\n于是 $|P A|=|P B|$ 时 $P$ 点的存在性问题转化成 $|P A|=|P F|$ 时 $P$ 点的存在性问题,\n$A(0,4), F(1,0), A F$ 中点 $\\left(\\frac{1}{2}, 2\\right), A F$ 中垂线的斜率为 $-\\frac{1}{k_{A F}}=\\frac{1}{4}$,\n于是 $A F$ 的中垂线方程为: $y=\\frac{2 x+15}{8}$, 与抛物线 $y^{2}=4 x$ 联立可得 $y^{2}-16 y+30=0$,\n$\\Delta=16^{2}-4 \\times 30=136>0$, 即 $A F$ 的中垂线和抛物线有两个交点,\n即存在两个 $P$ 点, 使得 $|P A|=|P F|, \\mathrm{D}$ 选项正确.\n方法二：（设点直接求解）\n设 $P\\left(\\frac{t^{2}}{4}, t\\right)$, 由 $P B \\perp l$ 可得 $B(-1, t)$, 又 $A(0,4)$, 又 $|P A|=|P B|$,\n根据两点间的距离公式, $\\sqrt{\\frac{t^{4}}{16}+(t-4)^{2}}=\\frac{t^{2}}{4}+1$, 整理得 $t^{2}-16 t+30=0$,\n$\\Delta=16^{2}-4 \\times 30=136>0$, 则关于 $t$ 的方程有两个解,\n即存在两个这样的 $P$ 点, D 选项正确。\n故选：ABD",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n首先，我们分析抛物线 $C: y^2 = 4x$ 的准线 $l$。对于抛物线 $y^2 = 4ax$，其准线方程为 $x = -a$。因此，对于 $y^2 = 4x$，准线 $l$ 的方程为 $x = -1$。\n\n选项A：$l$ 与 $\\odot A: x^2 + (y-4)^2 = 1$ 相切。\n- 圆 $\\odot A$ 的圆心为 $(0, 4)$，半径为 $1$。准线 $l$ 的方程为 $x = -1$。显然，圆心到准线的距离为 $1$，等于圆的半径，因此 $l$ 与 $\\odot A$ 相切。选项A正确。\n\n选项B：当 $P, A, B$ 三点共线时, $|PQ| = \\sqrt{15}$。\n- 设 $P(x_1, y_1)$，则 $y_1^2 = 4x_1$。过 $P$ 作圆 $\\odot A$ 的切线，切点为 $Q$。由于 $P, A, B$ 三点共线，且 $B$ 为 $P$ 在准线 $x = -1$ 上的投影，$B$ 的坐标为 $(-1, y_1)$。$A$ 的坐标为 $(0, 4)$。$PQ$ 的长度可以通过几何关系计算，但直接验证 $|PQ| = \\sqrt{15}$ 需要具体计算，这里我们假设此条件成立，后续验证。\n\n选项C：当 $|PB| = 2$ 时, $PA \\perp AB$。\n- $|PB| = 2$，即 $P$ 到准线 $x = -1$ 的距离为 $2$，因此 $x_1 = 1$。此时 $y_1^2 = 4 \\cdot 1 = 4$，所以 $y_1 = \\pm 2$。$P$ 的坐标为 $(1, 2)$ 或 $(1, -2)$。对于 $P(1, 2)$，$PA$ 的"
+        },
+        {
+            "index": 42,
+            "year": "2024",
+            "category": "2024",
+            "score": 5,
+            "question": "11. 设函数 $f(x)=2 x^{3}-3 a x^{2}+1$, 则 ( )\nA. 当 $a>1$ 时， $f(x)$ 有三个零点\nB. 当 $a<0$ 时, $x=0$ 是 $f(x)$ 的极大值点\nC. 存在 $a, b$, 使得 $\\mathrm{x}=\\mathrm{b}$ 为曲线 $y=f(x)$ 的对称轴\nD. 存在 $a$, 使得点 $(1, f(1))$ 为曲线 $y=f(x)$ 的对称中心\n",
+            "standard_answer": [
+                "AD"
+            ],
+            "analysis": "【详解】 A 选项, $f^{\\prime}(x)=6 x^{2}-6 a x=6 x(x-a)$, 由于 $a>1$,\n故 $x \\in(-\\infty, 0) \\cup(a,+\\infty)$ 时 $f^{\\prime}(x)>0$, 故 $f(x)$ 在 $(-\\infty, 0),(a,+\\infty)$ 上单调递增,\n$x \\in(0, a)$ 时, $f^{\\prime}(x)<0, f(x)$ 单调递减,\n则 $f(x)$ 在 $x=0$ 处取到极大值, 在 $x=a$ 处取到极小值,\n由 $f(0)=1>0, f(a)=1-a^{3}<0$, 则 $f(0) f(a)<0$,\n根据零点存在定理 $f(x)$ 在 $(0, a)$ 上有一个零点，\n又 $f(-1)=-1-3 a<0, f(2 a)=4 a^{3}+1>0$, 则 $f(-1) f(0)<0, f(a) f(2 a)<0$,\n则 $f(x)$ 在 $(-1,0),(a, 2 a)$ 上各有一个零点, 于是 $a>1$ 时, $f(x)$ 有三个零点, A 选项正确;\nB 选项, $f^{\\prime}(x)=6 x(x-a), a<0$ 时, $x \\in(a, 0), f^{\\prime}(x)<0, f(x)$ 单调递减,\n$x \\in(0,+\\infty)$ 时 $f^{\\prime}(x)>0, f(x)$ 单调递增,\n此时 $f(x)$ 在 $x=0$ 处取到极小值, B 选项错误;\nC 选项, 假设存在这样的 $a, b$, 使得 $\\mathrm{x}=\\mathrm{b}$ 为 $f(x)$ 的对称轴,\n即存在这样的 $a, b$ 使得 $f(x)=f(2 b-x)$,\n即 $2 x^{3}-3 a x^{2}+1=2(2 b-x)^{3}-3 a(2 b-x)^{2}+1$,\n根据二项式定理, 等式右边 $(2 b-x)^{3}$ 展开式含有 $x^{3}$ 的项为 $2 \\mathrm{C}_{3}^{3}(2 b)^{0}(-x)^{3}=-2 x^{3}$,\n于是等式左右两边 $x^{3}$ 的系数都不相等，原等式不可能恒成立，\n于是不存在这样的 $a, b$, 使得 $\\mathrm{x}=\\mathrm{b}$ 为 $f(x)$ 的对称轴, C 选项错误;\nD 选项，\n方法一：利用对称中心的表达式化简\n$f(1)=3-3 a$, 若存在这样的 $a$, 使得 $(1,3-3 a)$ 为 $f(x)$ 的对称中心,\n则 $f(x)+f(2-x)=6-6 a$, 事实上,\n$f(x)+f(2-x)=2 x^{3}-3 a x^{2}+1+2(2-x)^{3}-3 a(2-x)^{2}+1=(12-6 a) x^{2}+(12 a-24) x+18-12 a$,\n于是 $6-6 a=(12-6 a) x^{2}+(12 a-24) x+18-12 a$\n即 $\\left\\{\\begin{array}{l}12-6 a=0 \\\\ 12 a-24=0 \\\\ 18-12 a=6-6 a\\end{array}\\right.$, 解得 $a=2$, 即存在 $a=2$ 使得 $(1, f(1))$ 是 $f(x)$ 的对称中心, D 选项正确.\n方法二：直接利用拐点结论\n任何三次函数都有对称中心，对称中心的横坐标是二阶导数的零点，\n$f(x)=2 x^{3}-3 a x^{2}+1, \\quad f^{\\prime}(x)=6 x^{2}-6 a x, f^{\\prime \\prime}(x)=12 x-6 a$,\n由 $f^{\\prime \\prime}(x)=0 \\Leftrightarrow x=\\frac{a}{2}$, 于是该三次函数的对称中心为 $\\left(\\frac{a}{2}, f\\left(\\frac{a}{2}\\right)\\right)$,\n由题意 $(1, f(1))$ 也是对称中心，故 $\\frac{a}{2}=1 \\Leftrightarrow a=2$ ，\n即存在 $a=2$ 使得 $(1, f(1))$ 是 $f(x)$ 的对称中心, D 选项正确。\n故选：AD",
+            "model_answer": [],
+            "model_output": "【解析】\n首先，我们分析每个选项。\n\nA. 当 $a>1$ 时，$f(x)$ 有三个零点。\n为了判断这个选项，我们需要考虑函数的导数和极值点。$f'(x) = 6x^2 - 6ax = 6x(x-a)$. 当 $a>1$ 时，$f'(x) = 0$ 的解为 $x=0$ 和 $x=a$。我们需要判断 $f(x)$ 在这两个点的性质。$f(0) = 1$，$f(a) = 2a^3 - 3a^3 + 1 = 1 - a^3$。由于 $a>1$，$f(a) < 0$。因此，$f(x)$ 在 $x=0$ 和 $x=a$ 之间至少有一个零点。由于 $f(x)$ 是一个三次多项式，它最多有三个零点。因此，当 $a>1$ 时，$f(x)$ 有三个零点。选项A正确。\n\nB. 当 $a<0$ 时, $x=0$ 是 $f(x)$ 的极大值点。\n我们已经知道 $f'(x) = 6x(x-a)$。当 $a<0$ 时，$f'(x) = 0$ 的解为 $x=0$ 和 $x=a$。由于 $a<0$，$x=0$ 是一个极值点。我们需要判断它是极大值点还是极小值点。$f''(x) = 12x - 6a$。在 $x=0$ 时，$f''(0) = -6a > 0$（因为 $a<0$），所以 $x=0$ 是一个极小值点。选项B不正确。\n\nC. 存在 $a, b$, 使得 $\\mathrm{x}=\\mathrm{b}$ 为曲线 $y=f(x)$ 的对称轴。\n对于一个三次多项式 $f(x)$，如果存在对称轴 $x=b$，则 $f(b+x) = f(b-x)$ 对所有 $x$ 成立。考虑 $f(x) = 2x^3 - 3ax^2 + 1$，我们尝试找到这样的 $b$。将 $f"
+        }
+    ]
+}

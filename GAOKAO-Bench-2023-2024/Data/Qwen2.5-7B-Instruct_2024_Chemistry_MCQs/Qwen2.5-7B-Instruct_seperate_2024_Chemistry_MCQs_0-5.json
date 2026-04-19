@@ -1,0 +1,95 @@
+{
+    "keyword": "2024_Chemistry_MCQs",
+    "example": [
+        {
+            "index": 0,
+            "year": "2024",
+            "category": "2024",
+            "score": 6,
+            "question": "1. 文房四宝是中华传统文化的瑰宝。下列有关叙述错误的是\nA. 羊毛可用于制毛笔, 主要成分为蛋白质\nB. 松木可用于制墨, 墨的主要成分是单质碳\nC. 竹子可用于造纸, 纸的主要成分是纤维素\nD. 大理石可用于制砚台, 主要成分为硅酸盐\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【详解】A. 动物的毛、皮、角等的主要成分都是蛋白质，羊毛的主要成分为蛋白质，A 正确；\nB. 墨的主要成分是炭黑, 炭黑是碳元素的一种单质, 碳的单质在常温下的化学性质很稳定, 不易与其他物质发生化学反应, 故用墨汁书写的字画历经千年仍不褪色, B 正确;\nC. 竹子可用于造纸, 竹子的主要成分是纤维素, 用其造的纸的主要成分也是纤维素, C 正确;\nD. 大理石可用于制砚台，大理石主要成分为碳酸钙，不是硅酸盐，D 错误；\n故选 D。",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n我们来逐一分析选项：\n\nA. 羊毛可用于制毛笔, 主要成分为蛋白质\n- 羊毛确实可以用于制毛笔，其主要成分确实是蛋白质。因此，这个选项是正确的。\n\nB. 松木可用于制墨, 墨的主要成分是单质碳\n- 松木可以用于制墨，但墨的主要成分并不是单质碳，而是由松木等材料经过复杂的化学反应生成的碳墨。因此，这个选项的描述不准确。\n\nC. 竹子可用于造纸, 纸的主要成分是纤维素\n- 竹子确实可以用于造纸，纸的主要成分确实是纤维素。因此，这个选项是正确的。\n\nD. 大理石可用于制砚台, 主要成分为硅酸盐\n- 大理石的主要成分是碳酸钙，而不是硅酸盐。因此，这个选项的描述不准确。\n\n综上所述，选项B和D的描述是错误的，但题目要求选择一个错误的叙述，因此我们选择最直接错误的描述。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 1,
+            "year": "2024",
+            "category": "2024",
+            "score": 6,
+            "question": "4. 对于下列过程中发生的化学反应, 相应离子方程式正确的是\nA. 试管壁上的银镜用稀硝酸清洗: $\\mathrm{Ag}+2 \\mathrm{H}^{+}+\\mathrm{NO}_{3}^{-}=\\mathrm{Ag}^{+}+\\mathrm{NO}_{2} \\uparrow+\\mathrm{H}_{2} \\mathrm{O}$\nB. 工业废水中的 $\\mathrm{Pb}^{2+}$ 用 FeS 去除： $\\mathrm{Pb}^{2+}+\\mathrm{S}^{2-}=\\mathrm{PbS} \\downarrow$\nC. 海水提溴过程中将溴吹入 $\\mathrm{SO}_{2}$ 吸收塔: $\\mathrm{Br}_{2}+\\mathrm{SO}_{2}+2 \\mathrm{H}_{2} \\mathrm{O}=2 \\mathrm{Br}^{-}+\\mathrm{SO}_{4}^{2-}+4 \\mathrm{H}^{+}$\nD. 用草酸标准溶液测定高锰酸钾溶液的浓度: $2 \\mathrm{MnO}_{4}^{-}+5 \\mathrm{C}_{2} \\mathrm{O}_{4}^{2-}+16 \\mathrm{H}^{+}=2 \\mathrm{Mn}^{2+}+10 \\mathrm{CO}_{2} \\uparrow+8 \\mathrm{H}_{2} \\mathrm{O}$\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】A. 试管壁上的银镜用稀硝酸清洗, 银溶于稀硝酸生成硝酸银和一氧化氮气体, 该反应的离子方程式为 $3 \\mathrm{Ag}+4 \\mathrm{H}^{+}+\\mathrm{NO}_{3}^{-}=3 \\mathrm{Ag}^{+}+\\mathrm{NO} \\uparrow+2 \\mathrm{H}_{2} \\mathrm{O}, \\mathrm{A}$ 不正确;\nB. 由于 PbS 的溶解度远远小于 FeS , 因此, 工业废水中的 $\\mathrm{Pb}^{2+}$ 用 FeS 去除, 该反应的离子方程式为 $\\mathrm{Pb}^{2+}+\\mathrm{FeS}=\\mathrm{PbS}+\\mathrm{Fe}^{2+}, \\mathrm{B}$ 不正确;\nC. 海水提溴过程中将溴吹入 $\\mathrm{SO}_{2}$ 吸收塔, $\\mathrm{SO}_{2}$ 在水溶液中将 $\\mathrm{Br}_{2}$ 还原为 $\\mathrm{Br}^{-}$, 该反应的离子方程式为 $\\mathrm{Br}_{2}+\\mathrm{SO}_{2}+2 \\mathrm{H}_{2} \\mathrm{O}=2 \\mathrm{Br}^{-}+\\mathrm{SO}_{4}^{2-}+4 \\mathrm{H}^{+}, \\quad \\mathrm{C}$ 正确;\nD. 用草酸标准溶液测定高锰酸钾溶液的浓度, $\\mathrm{H}_{2} \\mathrm{C}_{2} \\mathrm{O}_{4}$ 被氧化为 $\\mathrm{CO}_{2}, \\mathrm{H}_{2} \\mathrm{C}_{2} \\mathrm{O}_{4}$ 属于弱酸, 该反应的离子方程式为 $2 \\mathrm{MnO}_{4}^{-}+5 \\mathrm{H}_{2} \\mathrm{C}_{2} \\mathrm{O}_{4}+6 \\mathrm{H}^{+}=2 \\mathrm{Mn}^{2+}+10 \\mathrm{CO}_{2} \\uparrow+8 \\mathrm{H}_{2} \\mathrm{O}, \\mathrm{D}$ 不正确;\n综上所述, 本题选 C",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n我们逐一分析每个选项的离子方程式是否正确。\n\nA. 试管壁上的银镜用稀硝酸清洗: $\\mathrm{Ag}+2 \\mathrm{H}^{+}+\\mathrm{NO}_{3}^{-}=\\mathrm{Ag}^{+}+\\mathrm{NO}_{2} \\uparrow+\\mathrm{H}_{2} \\mathrm{O}$\n- 实际反应应该是 $\\mathrm{Ag} + 2 \\mathrm{H}^{+} + 2 \\mathrm{NO}_3^- \\rightarrow \\mathrm{Ag}^{+} + 2 \\mathrm{NO}_2 \\uparrow + \\mathrm{H}_2\\mathrm{O}$，但硝酸银在水中会完全电离为 $\\mathrm{Ag}^+$ 和 $\\mathrm{NO}_3^-$，所以正确的离子方程式应该是 $\\mathrm{Ag} + 2 \\mathrm{H}^+ + \\mathrm{NO}_3^- \\rightarrow \\mathrm{Ag}^+ + \\mathrm{NO}_2 \\uparrow + \\mathrm{H}_2\\mathrm{O}$。但是，硝酸银在稀硝酸中不会直接与硝酸根反应生成银离子和氮氧化物，因此这个方程式不正确。\n\nB. 工业废水中的 $\\mathrm{Pb}^{2+}$ 用 FeS 去除： $\\mathrm{Pb}^{2+}+\\mathrm{S}^{2-}=\\mathrm{PbS} \\downarrow$\n- 这个反应是正确的。$\\mathrm{Pb}^{2+}$ 与 $\\mathrm{S}^{2-}$ 结合生成不溶于水的 $\\mathrm{PbS}$ 沉淀，符合化学事实。\n\nC. 海水提溴过程中将溴吹入 $\\mathrm{SO}_{2}$ 吸收塔: $\\mathrm{Br}_{2}+\\mathrm{SO}_{2}+2 \\mathrm{H}_{2} \\mathrm{O}=2 \\mathrm{Br}^{-}+\\mathrm{SO}_{4}^{2-}+4 \\mathrm{H}^{+}$\n- 这个反应也是正确的。溴与二氧化硫和水反应生成溴离子、硫酸根离子和氢离子，符合化学事实。\n\nD. 用草酸标准溶液测定高锰酸钾溶液的浓度: $2"
+        },
+        {
+            "index": 2,
+            "year": "2024",
+            "category": "2024",
+            "score": 6,
+            "question": "5. 我国科学家最近研究的一种无机盐 $\\mathrm{Y}_{3}\\left[\\mathrm{Z}(\\mathrm{WX})_{6}\\right]_{2}$ 纳米药物具有高效的细胞内亚铁离子捕获和抗氧化能力。 $\\mathrm{W} 、 \\mathrm{X} 、 \\mathrm{Y} 、 \\mathrm{Z}$ 的原子序数依次增加，且 $\\mathrm{W} 、 \\mathrm{X} 、 \\mathrm{Y}$ 属于不同族的短周期元素。 W 的外层电子数是其内层电子数的 2 倍, X 和 Y 的第一电离能都比左右相邻元素的高。 Z 的 M 层未成对电子数为 4 。下列叙述错误的是\nA. W、X、Y、Z 四种元素的单质中 $Z$ 的熔点最高\nB. 在 X 的简单氢化物中 X 原子轨道杂化类型为 $\\mathrm{sp}^{3}$\nC. Y 的氢氧化物难溶于 NaCl 溶液，可以溶于 $\\mathrm{NH}_{4} \\mathrm{Cl}$ 溶液\nD. $\\mathrm{Y}_{3}\\left[\\mathrm{Z}(\\mathrm{WX})_{6}\\right]_{2}$ 中 $\\mathrm{WX}^{-}$提供电子对与 $\\mathrm{Z}^{3+}$ 形成配位键\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【分析】 $\\mathrm{W} 、 \\mathrm{X} 、 \\mathrm{Y} 、 \\mathrm{Z}$ 的原子序数依次增加，且 $\\mathrm{W} 、 \\mathrm{X} 、 \\mathrm{Y}$ 属于不同族的短周期元素。 W 的外层电子数是其内层电子数的 2 倍, 则 W 为 C 元素; 每个周期的IIA 和VA 的元素的第一电离能都比左右相邻元素的高,由于配合物 $\\mathrm{Y}_{3}\\left[\\mathrm{Z}(\\mathrm{WX})_{6}\\right]_{2}$ 中 Y 在外界, Y 可形成简单阳离子, 则 Y 属于金属元素, 故 X 和 Y 分别为 N 和 $\\mathrm{Mg} ; \\mathrm{Z}$ 的 M 层未成对电子数为 4 , 则其 3 d 轨道上有 4 个不成对电子, 其价电子排布式为 $3 \\mathrm{~d}^{6} 4 \\mathrm{~s}^{2}, \\mathrm{Z}$ 为 Fe元素, $\\mathrm{Y}_{3}\\left[\\mathrm{Z}(\\mathrm{WX})_{6}\\right]_{2}$ 为 $\\mathrm{Mg}_{3}\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]_{2}$ 。\n【详解】A. W、X、Y、Z 四种元素的单质中, N 元素的单质形成分子晶体, Mg 和 Fe 均形成金属晶体, C 元素既可以形成金刚石又可以形成石墨，石墨的熔点最高，A 不正确；\nB. 在 X 的简单氢化物是 $\\mathrm{NH}_{3}$ ，其中 C 原子轨道杂化类型为 $\\mathrm{sp}^{3}$ ，B 正确;\nC. Y 的氢氧化物是 $\\mathrm{Mg}(\\mathrm{OH})_{2}$, 其属于中强碱, 其难溶于水, 难溶于 NaCl 溶液, 但是, 由于 $\\mathrm{NH}_{4} \\mathrm{Cl}$ 电离产生的 $\\mathrm{NH}_{4}^{+}$可以破坏 $\\mathrm{Mg}(\\mathrm{OH})_{2}$ 的沉淀溶解平衡，因此 $\\mathrm{Mg}(\\mathrm{OH})_{2}$ 可以溶于 $\\mathrm{NH}_{4} \\mathrm{Cl}$ 溶液， C 正确；\nD. $\\mathrm{Mg}_{3}\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]_{2}$ 中 $\\mathrm{CN}^{-}$提供电子对与 $\\mathrm{Fe}^{3+}$ 形成配位键, D 正确;\n综上所述, 本题选 A。",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n首先，我们分析题目给出的信息：\n- $\\mathrm{W}、\\mathrm{X}、\\mathrm{Y}、\\mathrm{Z}$ 的原子序数依次增加。\n- $\\mathrm{W}、\\mathrm{X}、\\mathrm{Y}$ 属于不同族的短周期元素。\n- $\\mathrm{W}$ 的外层电子数是其内层电子数的 2 倍，这意味着 $\\mathrm{W}$ 是 C（碳）。\n- $\\mathrm{X}$ 和 $\\mathrm{Y}$ 的第一电离能都比左右相邻元素的高，这表明它们可能具有较高的电负性。\n- $\\mathrm{Z}$ 的 M 层未成对电子数为 4，这意味着 $\\mathrm{Z}$ 是 Cr（铬）。\n\n接下来，我们逐一分析选项：\nA. W、X、Y、Z 四种元素的单质中 Z 的熔点最高\n- $\\mathrm{Z}$ 是 Cr，Cr 的熔点确实较高，但需要比较其他元素的单质熔点。$\\mathrm{W}$ 是 C，$\\mathrm{X}$ 和 $\\mathrm{Y}$ 的信息不明确，但可以推测 $\\mathrm{X}$ 和 $\\mathrm{Y}$ 可能是较轻的元素，如 N 或 O。因此，Z 的熔点最高这个说法是合理的。\n\nB. 在 X 的简单氢化物中 X 原子轨道杂化类型为 $\\mathrm{sp}^{3}$\n- $\\mathrm{X}$ 可能是 N 或 O。N 的简单氢化物是 NH3，O 的简单氢化物是 H2O。NH3 中 N 原子的杂化类型是 $\\mathrm{sp}^{3}$，H2O 中 O 原子的杂化类型也是 $\\mathrm{sp}^{3}$。因此，这个选项是正确的。\n\nC. Y 的氢氧化物难溶于 NaCl 溶液，可以溶于 $\\mathrm{NH}_{4} \\mathrm{Cl}$ 溶液\n- Y 可能是 N 或 O。N 的氢氧化物是 NH4OH，O 的氢氧化物是 H2O2（过氧化氢）或 H2O。NH4OH 在 NaCl 中难溶，但在 NH4Cl 中可以溶。因此，这个选项是正确的。\n\nD"
+        },
+        {
+            "index": 3,
+            "year": "2024",
+            "category": "2024",
+            "score": 6,
+            "question": "1. 人类对能源的利用经历了柴薪、煤炭和石油时期, 现正向新能源方向高质量发展。下列有关能源的叙述错误的是\nA. 木材与煤均含有碳元素\nB. 石油裂化可生产汽油\nC. 燃料电池将热能转化为电能\nD. 太阳能光解水可制氢\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】A. 木材的主要成分为纤维素，纤维素中含碳、氢、氧三种元素，煤是古代植物埋藏在地下经历了复杂的变化逐渐形成的固体, 是有机物和无机物组成的复杂混合物, 主要含碳元素, A 正确;\nB. 石油裂化是将相对分子质量较大、沸点较高的烃断裂为相对分子质量较小、沸点较低的烃的过程，汽油的相对分子质量较小，可以通过石油裂化的方式得到，B 正确;\nC. 燃料电池是将燃料 化学能变成电能的装置, 不是将热能转化为电能, C 错误;\nD. 在催化剂作用下, 利用太阳能光解水可以生成氢气和氧气, D 正确;\n故答案选 C。",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们逐一分析每个选项：\n\nA. 木材与煤均含有碳元素\n- 木材主要由纤维素、半纤维素和木质素组成，这些物质在燃烧时会分解出碳元素。煤主要由碳、氢、氧、氮、硫等元素组成，因此也含有碳元素。这个选项是正确的。\n\nB. 石油裂化可生产汽油\n- 石油裂化是指将重质油通过高温、高压等条件分解成轻质油的过程，其中确实可以生产汽油。这个选项是正确的。\n\nC. 燃料电池将热能转化为电能\n- 燃料电池是通过化学反应直接将燃料中的化学能转化为电能，而不是热能。因此，这个选项是错误的。\n\nD. 太阳能光解水可制氢\n- 太阳能光解水是指利用太阳能驱动水分解产生氢气和氧气的过程，这是新能源技术的一种应用。这个选项是正确的。\n\n综上所述，错误的叙述是C选项。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 4,
+            "year": "2024",
+            "category": "2024",
+            "score": 6,
+            "question": "2. 下列过程对应的离子方程式正确的是\nA. 用氢氟酸刻蚀玻璃: $\\mathrm{SiO}_{3}^{2-}+4 \\mathrm{~F}^{-}+6 \\mathrm{H}^{+}=\\mathrm{SiF}_{4} \\uparrow+3 \\mathrm{H}_{2} \\mathrm{O}$\nB. 用三氯化铁溶液刻制覆铜电路板: $2 \\mathrm{Fe}^{3+}+3 \\mathrm{Cu}=3 \\mathrm{Cu}^{2+}+2 \\mathrm{Fe}$\nC. 用硫代硫酸钠溶液脱氯: $\\mathrm{S}_{2} \\mathrm{O}_{3}^{2-}+2 \\mathrm{Cl}_{2}+3 \\mathrm{H}_{2} \\mathrm{O}=2 \\mathrm{SO}_{3}^{2-}+4 \\mathrm{Cl}^{-}+6 \\mathrm{H}^{+}$\nD. 用碳酸钠溶液浸泡锅炉水垢中的硫酸钙: $\\mathrm{CaSO}_{4}+\\mathrm{CO}_{3}^{2-}=\\mathrm{CaCO}_{3}+\\mathrm{SO}_{4}^{2-}$\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【详解】A. 玻璃的主要成分为 $\\mathrm{SiO}_{2}$, 用氢氟酸刻蚀玻璃时, $\\mathrm{SiO}_{2}$ 和氢氟酸反应生成 $\\mathrm{SiF}_{4}$ 气体和水, 反应的方程式为 $\\mathrm{SiO}_{2}+4 \\mathrm{HF}=\\mathrm{SiF}_{4} \\uparrow+2 \\mathrm{H}_{2} \\mathrm{O}, \\mathrm{A}$ 错误;\nB. $\\mathrm{Fe}^{3+}$ 可以将 Cu 氧化成 $\\mathrm{Cu}^{2+}$, 三氯化铁刻蚀铜电路板时反应的离子方程式为 $2 \\mathrm{Fe}^{3+}+\\mathrm{Cu}^{-1} 2 \\mathrm{Fe}^{2+}+\\mathrm{Cu}^{2+}, \\mathrm{B}$ 错误;\nC. 氯气具有强氧化性, 可以氧化硫代硫酸根成硫酸根, 氯气被还原为氯离子, 反应的离子方程式为 $\\mathrm{S}_{2} \\mathrm{O}$ ${ }_{3}^{2-}+4 \\mathrm{Cl}_{2}+5 \\mathrm{H}_{2} \\mathrm{O}=2 \\mathrm{SO}_{4}^{2-}+8 \\mathrm{Cl}^{-}+10 \\mathrm{H}^{+}$, C 错误;\nD. 碳酸钙的溶解度小于硫酸钙，可以用碳酸钠溶液浸泡水垢使硫酸钙转化为疏松、易溶于酸的碳酸钙，反应的离子方程式为 $\\mathrm{CaSO}_{4}+\\mathrm{CO}_{3}^{2-}=\\mathrm{CaCO}_{3}+\\mathrm{SO}_{4}^{2-}, \\mathrm{D}$ 正确;故答案选D。",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n我们逐一分析每个选项的离子方程式是否正确。\n\nA. 用氢氟酸刻蚀玻璃: $\\mathrm{SiO}_{3}^{2-}+4 \\mathrm{~F}^{-}+6 \\mathrm{H}^{+}=\\mathrm{SiF}_{4} \\uparrow+3 \\mathrm{H}_{2} \\mathrm{O}$\n- 氢氟酸（$\\mathrm{HF}$）与二氧化硅（$\\mathrm{SiO}_{2}$）反应生成四氟化硅（$\\mathrm{SiF}_{4}$）和水（$\\mathrm{H}_{2}\\mathrm{O}$）。但是，二氧化硅在水中溶解度极低，通常以$\\mathrm{SiO}_{2}$的形式存在，而不是$\\mathrm{SiO}_{3}^{2-}$。因此，这个离子方程式不准确。\n\nB. 用三氯化铁溶液刻制覆铜电路板: $2 \\mathrm{Fe}^{3+}+3 \\mathrm{Cu}=3 \\mathrm{Cu}^{2+}+2 \\mathrm{Fe}$\n- 三氯化铁（$\\mathrm{FeCl}_{3}$）与铜（$\\mathrm{Cu}$）反应生成氯化亚铁（$\\mathrm{FeCl}_{2}$）和氯化铜（$\\mathrm{CuCl}_{2}$）。正确的离子方程式应该是$2 \\mathrm{Fe}^{3+}+3 \\mathrm{Cu}=3 \\mathrm{Cu}^{2+}+2 \\mathrm{Fe}^{2+}$。因此，这个选项的离子方程式不准确。\n\nC. 用硫代硫酸钠溶液脱氯: $\\mathrm{S}_{2} \\mathrm{O}_{3}^{2-}+2 \\mathrm{Cl}_{2}+3 \\mathrm{H}_{2} \\mathrm{O}=2 \\mathrm{SO}_{4}^{2-}+4 \\mathrm{Cl}^{-}+6 \\mathrm{H}^{+}$\n- 硫代硫酸钠（$\\mathrm{Na}_{2}\\mathrm{S}_{2}\\mathrm{O}_{3}$）与氯气（$\\mathrm{Cl}_{2}$）反应生成硫酸钠（$\\mathrm{Na}_{2}\\mathrm{SO}_{4}$）和氯离子（$\\mathrm{Cl}^{-}$）。这个反应的离子"
+        },
+        {
+            "index": 5,
+            "year": "2024",
+            "category": "2024",
+            "score": 6,
+            "question": "5. W、X、Y、 Z 为原子序数依次增大 ${ }^{\\square}$ 短周期元素。 W 和 X 原子序数之和等于 $\\mathrm{Y}^{-}$的核外电子数, 化合物 $\\mathrm{W}^{+}\\left[\\mathrm{ZY}_{6}\\right]^{-5}$ 可用作化学电源的电解质。下列叙述正确的是\nA. X 和 Z 属于同一主族\nB. 非属性： $\\mathrm{X}>\\mathrm{Y}>\\mathrm{Z}$\nC. 气态氢化物的稳定性： $\\mathrm{Z}>\\mathrm{Y}$\nD. 原子半径: $Y>X>W$\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【分析】 $\\mathrm{W} 、 \\mathrm{X} 、 \\mathrm{Y} 、 \\mathrm{Z}$ 为原子序数依次增大的短周期元素，且能形成离子化合物 $\\mathrm{W}^{+}\\left[\\mathrm{ZY}_{6}\\right]$ ，则 W 为 Li 或 Na ；又由于 W 和 X 原子序数之和等于 $\\mathrm{Y}^{-}$的核外电子数，若 W 为 Na ， X 原子序数大于 Na ，则 W 和 X 原子序数之和大于 18 ，不符合题意，因此 W 只能为 Li 元素；由于 Y 可形成 $\\mathrm{Y}^{-}$，故 Y 为第VII主族元素，且原子序数 Z 大于 Y ，故 Y 不可能为 Cl 元素，因此 Y 为 F 元素， X 的原子序数为 $10-3=7, \\mathrm{X}$ 为 N 元素；根据 $\\mathrm{W} 、 \\mathrm{Y} 、 \\mathrm{Z}$ 形成离子化合物 $\\mathrm{W}^{+}\\left[\\mathrm{ZY}_{6}\\right]^{-}$，可知 Z 为 P 元素；综上所述， W 为 Li 元素， X 为 N 元素， Y 为 F 元素， $Z$ 为 $P$ 元素。\n【详解】A. 由分析可知, X 为 N 元素, Z 为 P 元素, X 和 Z 属于同一主族, A 项正确;\nB. 由分析可知, $X$ 为 $N$ 元素, $Y$ 为 $F$ 元素, $Z$ 为 $P$ 元素, 非金属性: $F>N>P, B$ 项错误;\nC. 由分析可知, Y 为 F 元素, Z 为 P 元素, 非金属性越强, 其简单气态氢化物的稳定性越强, 即气态氢化物的稳定性: $\\mathrm{HF}>\\mathrm{PH}_{3}$, C 项错误;\nD. 由分析可知, W 为 Li 元素, X 为 N 元素, Y 为 F 元素, 同周期主族元素原子半径随着原子序数的增大而减小, 故原子半径: $\\mathrm{Li}>\\mathrm{N}>\\mathrm{F}, \\mathrm{D}$ 项错误;\n故选 A。",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n首先，我们分析题目给出的信息。W、X、Y、Z 为原子序数依次增大的短周期元素。题目还给出了两个关键信息：\n1. W 和 X 原子序数之和等于 Y\\(^-\\) 的核外电子数。\n2. 化合物 W\\(^+\\)[ZY\\(_6\\)]\\(^{-5}\\) 可用作化学电源的电解质。\n\n我们先假设 W、X、Y、Z 的原子序数分别为 a、b、c、d。根据题意，有：\n1. \\(a + b = c - 1\\)（因为 Y\\(^-\\) 的核外电子数为 c - 1）\n2. 化合物 W\\(^+\\)[ZY\\(_6\\)]\\(^{-5}\\) 的电荷平衡为 \\(+1 - 5 = -4\\)，说明 W\\(^+\\) 与 [ZY\\(_6\\)]\\(^{-5}\\) 结合形成电中性的化合物。\n\n接下来，我们逐一分析选项：\n\nA. X 和 Z 属于同一主族\n- 由于 W、X、Y、Z 为短周期元素，且 W\\(^+\\) 与 [ZY\\(_6\\)]\\(^{-5}\\) 结合，可以推测 Z 为一种较重的元素，而 X 为较轻的元素。X 和 Z 不太可能属于同一主族，因为它们的原子序数相差较大。因此，A 选项不正确。\n\nB. 非属性：X > Y > Z\n- 由于 W\\(^+\\) 与 [ZY\\(_6\\)]\\(^{-5}\\) 结合，且 W\\(^+\\) 为正离子，Z\\(_6\\) 为负离子，说明 Z 的非金属性较强。根据原子序数依次增大的顺序，Z 的非金属性应强于 Y，Y 的非金属性应强于 X。因此，B 选项正确。\n\nC. 气态氢化物的稳定性：Z > Y\n- 由于 Z 的非金属性较强，其气态氢化物的稳定性应强于 Y 的气态氢化物。因此，C 选项正确。\n\nD. 原子半径: Y > X > W\n- 由于 W、X、Y、Z"
+        }
+    ]
+}
