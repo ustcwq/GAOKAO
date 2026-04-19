@@ -1,0 +1,72 @@
+{
+    "keyword": "2024_Physics_MCQs",
+    "example": [
+        {
+            "index": 0,
+            "year": "2024",
+            "category": "2024",
+            "score": 6,
+            "question": "1. 気核可通过一系列聚变反应释放能量, 总的反应效果可用 $6_{1}^{2} \\mathrm{H} \\rightarrow 2_{2}^{4} \\mathrm{He}+x_{0}^{1} \\mathrm{n}+y_{1}^{1} \\mathrm{p}+43.15 \\mathrm{MeV}_{\\text {表示, }}$,式中 $x 、 y$ 的值分别为 $(\\quad)$\nA. $x=1, y=2$\nB. $x=1, y=3$\nC. $x=2, y=2$\nD. $x=3, y=1$\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】根据反应前后质量数和电荷数守恒可得\n$$\n\\begin{gathered}\n6 \\times 2=2 \\times 4+x+y \\\\\n6=2 \\times 2+y\n\\end{gathered}\n$$\n解得\n$$\nx=2, \\quad y=2\n$$\n故选 C。",
+            "model_answer": [],
+            "model_output": "The user wants me to solve a physics multiple-choice question about nuclear fusion.\nThe question asks for the values of $x$ and $y$ in the given nuclear reaction equation.\n\n**Reaction Equation:**\n$6_{1}^{2} \\mathrm{H} \\rightarrow 2_{2}^{4} \\mathrm{He}+x_{0}^{1} \\mathrm{n}+y_{1}^{1} \\mathrm{p}+43.15 \\mathrm{MeV}$\n\n**Analysis:**\n1.  **Conservation of Mass Number (Nucleon Number):**\n    The sum of mass numbers on the left side must equal the sum of mass numbers on the right side.\n    Left side: $6 \\times 2 = 12$\n    Right side: $2 \\times 4 + x \\times 1 + y \\times 1 = 8 + x + y$\n    Equation 1: $12 = 8 + x + y \\Rightarrow x + y = 4$\n\n2.  **Conservation of Charge Number (Atomic Number):**\n    The sum of charge numbers (proton numbers) on the left side must equal the sum of charge numbers on the right side.\n    Left side: $6 \\times 1 = 6$\n    Right side: $2 \\times 2 + x \\times 0 + y \\times 1 = 4 + 0 + y = 4 + y$\n    Equation 2: $6 = 4 + y \\Rightarrow y = 2$\n\n3.  **Solving for x:**\n    Substitute $y = 2$ into Equation 1:\n    $x + 2 = 4 \\Rightarrow x = 2$\n\n4.  **Verification:**\n    So, $x = 2$ and $y = 2$.\n    Let's check the options.\n    A. $x=1, y=2$\n    B. $x=1, y=3$\n    C. $x=2, y=2$\n    D. $x=3, y=1$\n\n    Option C matches my calculation.\n\n**Constraint Checklist & Confidence Score:**\n1.  Think step by step? Yes.\n2.  Write thinking process between【解析】and<eoe>? Yes.\n3.  Select"
+        },
+        {
+            "index": 1,
+            "year": "2024",
+            "category": "2024",
+            "score": 6,
+            "question": "3. 2024 年 5 月，嫦娥六号探测器发射成功，开启了人类首次从月球背面采样返回之旅。将采得的样品带回地球，飞行器需经过月面起飞、环月飞行、月地转移等过程。月球表面自由落体加速度约为地球表面自由落体加速度的 $\\frac{1}{6}$ 。下列说法正确的是（）\nA. 在环月飞行时，样品所受合力为零\nB. 若将样品放置在月球正面, 它对月球表面压力等于零\nC. 样品在不同过程中受到的引力不同，所以质量也不同\nD. 样品放置在月球背面时对月球的压力，比放置在地球表面时对地球的压力小\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【详解】A. 在环月飞行时, 样品所受合力提供所需的向心力, 不为零, 故 A 错误;\nBD. 若将样品放置在月球正面, 它对月球表面压力大小等于它在月球表面的重力大小; 由于月球表面自由落体加速度约为地球表面自由落体加速度的 $\\frac{1}{6}$, 则样品在地球表面的重力大于在月球表面的重力, 所以样品放置在月球背面时对月球的压力, 比放置在地球表面时对地球的压力小, 故 B 错误, D 正确;\nC. 样品在不同过程中受到的引力不同, 但样品的质量相同, 故 C 错误。\n故选 D。",
+            "model_answer": [
+                "ABCDACAACABBACBC"
+            ],
+            "model_output": "The user wants me to solve a physics multiple-choice question about the Chang'e 6 mission and lunar physics.\nI need to follow a specific format:\n1.  Think step-by-step in the `【解析】` section, ending with `<eoe>`.\n2.  Provide the final answer in the `【答案】` section, ending with `<eoa>`.\n3.  The answer should be a combination of options (e.g., A, B, C, D).\n\n**Question Analysis:**\nThe question is about the physics of the Chang'e 6 mission, specifically regarding gravity, mass, weight, and forces on the Moon vs. Earth.\nGiven: Moon's surface gravity $g_{moon} \\approx \\frac{1}{6} g_{earth}$.\n\n**Option Analysis:**\n*   **Option A:** \"In lunar orbit flight, the net force on the sample is zero.\"\n    *   When a spacecraft is in orbit (circular or elliptical), it is undergoing centripetal acceleration.\n    *   The net force provides the centripetal force ($F_{net} = ma = m \\frac{v^2}{r}$).\n    *   Therefore, the net force is not zero. It is equal to the gravitational force.\n    *   Conclusion: A is incorrect.\n\n*   **Option B:** \"If the sample is placed on the front side of the Moon, the pressure it exerts on the Moon's surface is zero.\"\n    *   \"Front side\" (near side) of the Moon faces Earth. \"Back side\" faces away.\n    *   Regardless of which side, the Moon has gravity.\n    *   If placed on the surface, the sample has weight $W = mg_{moon}$.\n    *   The normal force from the surface balances the weight (assuming no other forces).\n    *   Pressure = Normal Force / Area. Since Normal Force > 0, Pressure > 0.\n    *   The only way pressure is zero is if there is no gravity or the sample is floating.\n    *   Conclusion: B is incorrect.\n\n*   **Option C:** \"The sample experiences different gravitational forces in different processes, so its mass is different.\"\n    *   Mass is an intrinsic property of matter. It does not change with location (Earth, Moon, Space).\n    *   Weight (gravitational force) changes with location"
+        },
+        {
+            "index": 2,
+            "year": "2024",
+            "category": "2024",
+            "score": 6,
+            "question": "2. 福建舰是我国自主设计建造的首艘弹射型航空母舰。借助配重小车可以进行弹射测试，测试时配重小车被弹射器从甲板上水平弹出后，落到海面上。调整弹射装置，使小车水平离开甲板时的动能变为调整前的 4 倍。忽略空气阻力，则小车在海面上的落点与其离开甲板处的水平距离为调整前的（）\nA. 0.25 倍\nB. 0.5 倍\nC. 2 倍\nD. 4 倍\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】动能表达式为\n$$\nE_{\\mathrm{k}}=\\frac{1}{2} m v_{2}^{2}\n$$\n由题意可知小车水平离开甲板时的动能变为调整前的 4 倍，则离开甲板时速度变为变为调整前的 2 倍；小车离开甲板后做平抛运动，从离开加班到到达海面上时间不变，根据\n$$\nx=v t\n$$\n可知小车在海面上的落点与其离开甲板处的水平距离为调整前的 2 倍。\n故选 C。",
+            "model_answer": [],
+            "model_output": "The user wants me to solve a physics multiple-choice question.\nThe question is about a projectile motion problem involving a test weight cart launched from an aircraft carrier.\n\n**Question Analysis:**\n1.  **Scenario:** A test weight cart is launched horizontally from an aircraft carrier deck.\n2.  **Motion:** It's a horizontal projectile motion (平抛运动).\n3.  **Change:** The kinetic energy ($E_k$) of the cart when leaving the deck is adjusted to be 4 times the original kinetic energy ($E_k' = 4E_k$).\n4.  **Condition:** Ignore air resistance.\n5.  **Goal:** Find the ratio of the new horizontal distance ($x'$) to the original horizontal distance ($x$).\n\n**Physics Principles:**\n1.  **Kinetic Energy:** $E_k = \\frac{1}{2}mv^2$.\n2.  **Horizontal Projectile Motion:**\n    *   Horizontal direction: Uniform linear motion. $x = v_0 t$.\n    *   Vertical direction: Free fall. $h = \\frac{1}{2}gt^2$.\n    *   Here, $h$ (height of the deck above sea level) is constant.\n    *   $g$ (acceleration due to gravity) is constant.\n    *   Therefore, the time of flight $t$ depends only on height $h$: $t = \\sqrt{\\frac{2h}{g}}$. Since $h$ is unchanged, $t$ remains unchanged.\n3.  **Relationship between Velocity and Kinetic Energy:**\n    *   $E_k = \\frac{1}{2}mv^2$.\n    *   If $E_k' = 4E_k$, then $\\frac{1}{2}mv'^2 = 4 \\times \\frac{1}{2}mv^2$.\n    *   $v'^2 = 4v^2$.\n    *   $v' = 2v$.\n    *   So, the initial horizontal velocity becomes 2 times the original velocity.\n4.  **Relationship between Horizontal Distance and Velocity:**\n    *   $x = v_0 t$.\n    *   $x' = v' t$.\n    *   Since $t$ is constant, $x' = v' t = 2v t = 2x$.\n    *   So"
+        },
+        {
+            "index": 3,
+            "year": "2024",
+            "category": "2024",
+            "score": 6,
+            "question": "3. 天文学家发现，在太阳系外的一颗红矮星有两颗行星绕其运行，其中行星 GJ1002c 的轨道近似为圆，轨道半径约为日地距离的 0.07 倍，周期约为 0.06 年，则这颗红矮星的质量约为太阳质量的（）\nA. 0.001 倍\nB. 0.1 倍\nC. 10 倍\nD. 1000 倍\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【详解】设红矮星质量为 $M_{1}$, 行星质量为 $m 1$, 半径为 $r_{1}$, 周期为 $T_{1}$; 太阳的质量为 $M_{2}$, 地球质量为 $m_{2}$ ，到太阳距离为 $r_{2}$ ，周期为 $T_{2}$ ；根据万有引力定律有\n$$\n\\begin{aligned}\n& G \\frac{M_{1} m_{1}}{r_{1}^{2}}=m_{1} \\frac{4 \\pi^{2}}{T_{1}^{2}} r_{1} \\\\\n& G \\frac{M_{2} m_{2}}{r_{2}^{2}}=m_{2} \\frac{4 \\pi^{2}}{T_{2}^{2}} r_{2}\n\\end{aligned}\n$$\n联立可得\n$$\n\\frac{M_{1}}{M_{2}}=\\left(\\frac{r_{1}}{r_{2}}\\right)^{3} \\cdot\\left(\\frac{T_{2}}{T_{1}}\\right)^{2}\n$$\n由于轨道半径约为日地距离的 0.07 倍，周期约为 0.06 年，可得\n$$\n\\frac{M_{1}}{M_{2}} \\approx 0.1\n$$\n故选 B。",
+            "model_answer": [],
+            "model_output": "The user wants me to solve a physics multiple-choice question about the mass of a red dwarf star based on the orbital parameters of one of its planets.\n\n**1. Analyze the Problem:**\n*   **Object:** A red dwarf star with two planets.\n*   **Planet:** GJ1002c.\n*   **Orbit:** Approximated as circular.\n*   **Given Data:**\n    *   Orbital radius ($r$) $\\approx 0.07 \\times$ Earth-Sun distance ($R_{ES}$). Let's denote Earth-Sun distance as $R_0$. So $r = 0.07 R_0$.\n    *   Orbital period ($T$) $\\approx 0.06$ years ($Y$). Let's denote Earth's orbital period as $T_0 = 1$ year. So $T = 0.06 T_0$.\n*   **Target:** Find the mass of the red dwarf star ($M$) in terms of the Sun's mass ($M_{Sun}$).\n*   **Options:**\n    *   A. 0.001 times\n    *   B. 0.1 times\n    *   C. 10 times\n    *   D. 1000 times\n\n**2. Physical Principles:**\n*   The gravitational force provides the centripetal force for the planet's circular motion.\n*   Formula: $G \\frac{Mm}{r^2} = m \\frac{4\\pi^2}{T^2} r$\n*   Rearranging for Mass $M$: $M = \\frac{4\\pi^2 r^3}{G T^2}$\n*   This is essentially Kepler's Third Law: $\\frac{r^3}{T^2} = \\frac{GM}{4\\pi^2} = k$.\n*   So, $M \\propto \\frac{r^3}{T^2}$.\n\n**3. Calculation Steps:**\n*   Let $M_{Sun}$ be the mass of the Sun.\n*   Let $R_0$ be the Earth-Sun distance (1 AU).\n*   Let $T_0$ be the Earth's orbital period (1 year).\n*   For the Earth-Sun system: $M_{Sun} = \\frac{4"
+        },
+        {
+            "index": 4,
+            "year": "2024",
+            "category": "2024",
+            "score": 6,
+            "question": "4. 三位科学家由于在发现和合成量子点方面的突出贡献，荣获了 2023 年诺贝尔化学奖。不同尺寸的量子点会发出不同颜色的光。现有两种量子点分别发出蓝光和红光，下列说法正确的是（））\nA. 蓝光光子的能量大于红光光子的能量\nB. 蓝光光子的动量小于红光光子的动量\nC. 在玻璃中传播时，蓝光的速度大于红光的速度\nD. 蓝光在玻璃中传播时的频率小于它在空气中传播时的频率\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【详解】AB. 由于红光的频率小于蓝光的频率, 则红光的波长大于蓝光的波长, 根据\n$$\nE=h v\n$$\n可知蓝光光子的能量大于红光光子的能量；根据\n$$\np=\\frac{h}{\\lambda}\n$$\n可知蓝光光子 ${ }^{\\square}$ 动量大于红光光子的动量, 故 A 正确, B 错误;\nC. 由于红光的折射率小于蓝光，根据\n$$\nv=\\frac{c}{n}\n$$\n可知在玻璃中传播时, 蓝光的速度小于红光的速度, 故 C 错误;\nD. 光从一种介质射入另一种介质中频率不变, 故 D错误。\n故选 A。",
+            "model_answer": [],
+            "model_output": "The user wants me to solve a physics multiple-choice question about quantum dots, light color, energy, momentum, speed in a medium, and frequency.\n\n**Question Analysis:**\nThe question states that two types of quantum dots emit blue light and red light respectively. I need to evaluate four statements (A, B, C, D) based on the properties of blue and red light.\n\n**Physics Principles:**\n1.  **Color and Wavelength/Frequency:**\n    *   Blue light has a shorter wavelength ($\\lambda_{blue} < \\lambda_{red}$) and higher frequency ($f_{blue} > f_{red}$) compared to red light in the visible spectrum.\n    *   Visible spectrum order (long to short wavelength): Red, Orange, Yellow, Green, Blue, Indigo, Violet.\n    *   So, $\\nu_{blue} > \\nu_{red}$ and $\\lambda_{blue} < \\lambda_{red}$.\n\n2.  **Photon Energy:**\n    *   Energy of a photon is given by $E = h\\nu = \\frac{hc}{\\lambda}$.\n    *   Since $\\nu_{blue} > \\nu_{red}$, then $E_{blue} > E_{red}$.\n    *   Statement A says: Blue photon energy > Red photon energy. This should be correct.\n\n3.  **Photon Momentum:**\n    *   Momentum of a photon is given by $p = \\frac{h}{\\lambda} = \\frac{h\\nu}{c}$.\n    *   Since $\\lambda_{blue} < \\lambda_{red}$, then $p_{blue} > p_{red}$.\n    *   Statement B says: Blue photon momentum < Red photon momentum. This is incorrect.\n\n4.  **Speed in a Medium (Glass):**\n    *   Refractive index $n$ depends on frequency (dispersion). Generally, for normal dispersion in glass, higher frequency light has a higher refractive index ($n_{blue} > n_{red}$).\n    *   Speed of light in a medium is $v = \\frac{c}{n}$.\n    *   Since $n_{blue} > n_{red}$, then $v_{blue} < v_{red}$.\n    *   Statement C says: Blue speed > Red speed in glass. This is incorrect.\n\n5.  **Frequency in a Medium:**"
+        }
+    ]
+}

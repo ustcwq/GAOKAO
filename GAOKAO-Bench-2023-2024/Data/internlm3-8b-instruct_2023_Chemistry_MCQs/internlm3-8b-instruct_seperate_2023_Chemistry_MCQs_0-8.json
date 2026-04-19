@@ -1,0 +1,140 @@
+{
+    "keyword": "2023_Chemistry_MCQs",
+    "example": [
+        {
+            "index": 0,
+            "year": "2023",
+            "category": "2023",
+            "score": 6,
+            "question": "1. 化学与生活密切相关, 下列说法正确的是()\nA. 苯甲酸钠可作为食品防腐剂是由于其具有酸性\nB. 豆浆能产生丁达尔效应是由于胶体粒子对光线的散射\nC. $\\mathrm{SO}_2$ 可用于丝织品漂白 由于其能氧化丝织品中有色成分\nD. 维生素 $\\mathrm{C}$ 可用作水果罐头的抗氧化剂是由于其难以被氧化\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【详解】A. 苯甲酸钠属于强碱弱酸盐, 其水溶液呈碱性, 因此, 其可作为食品防腐剂不是由于其具有酸性, A 说法不正确;\nB. 胶体具有丁达尔效应, 是因为胶体粒子对光线发生了散射; 豆浆属于胶体, 因此, 其能产生丁达尔效应是由于胶体粒子对光线的散射, B 说法正确;\nC. $\\mathrm{SO}_2$ 可用于丝织品漂白是由于其能与丝织品中有色成分化合为不稳定的无色物质, $\\mathrm{C}$ 说法不正确;\nD. 维生素 $\\mathrm{C}$ 具有很强的还原性, 因此, 其可用作水果罐头的抗氧化剂是由于其容易被氧气氧化, 从而防止水果被氧化, D 说法不正确;\n综上所述, 本题选 B。",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\nTo determine the correct answer, let's analyze each option step by step:\n\n**Option A: 苯甲酸钠可作为食品防腐剂是由于其具有酸性**\n\n- 苯甲酸钠 (Sodium benzoate) is indeed used as a food preservative, but its primary mechanism of action is not due to its acidity. Instead, it works by inhibiting the growth of microorganisms by disrupting their cell membranes and interfering with their metabolic processes. Therefore, this statement is incorrect.\n\n**Option B: 豆浆能产生丁达尔效应是由于胶体粒子对光线的散射**\n\n- 豆浆 is a colloid, and the Tyndall effect (the scattering of light by colloidal particles) is a characteristic property of colloids. This statement is correct.\n\n**Option C: \\(\\mathrm{SO}_2\\) 可用于丝织品漂白 由于其能氧化丝织品中有色成分**\n\n- Sulfur dioxide (SO2) is used as a bleaching agent because it can react with colored substances to form colorless compounds, not because it oxidizes them. This statement is incorrect.\n\n**Option D: 维生素 \\(\\mathrm{C}\\) 可用作水果罐头的抗氧化剂是由于其难以被氧化**\n\n- Vitamin C (ascorbic acid) is used as an antioxidant because it is easily oxidized, not because it is difficult to be oxidized. It donates electrons to other substances, preventing them from being oxidized. This statement is incorrect.\n\nBased on the analysis, the correct answer is:\n\n\\(\\boxed{B}\\) 豆浆能产生丁达尔效应是由于胶体粒子对光线的散射\n\nThe correct answer is \\(\\boxed{B}\\). <eoe>\n【答案】: B <eoa>"
+        },
+        {
+            "index": 1,
+            "year": "2023",
+            "category": "2023",
+            "score": 6,
+            "question": "3. 实验室将粗盐提纯并配制 $0.1000 \\mathrm{~mol} \\cdot \\mathrm{L}^{-1}$ 的 $\\mathrm{NaCl}$ 溶液。下列仪器中, 本实验必须用到的有()\n(1)天平. \n(2)温度计\n(3)坩埚\n(4)分液漏斗\n(5)容量瓶\n(6)烧杯\n(7) 滴定管\n(8)酒精灯\nA. (1)(2)(4)(6)\nB. (1)(4) (5) (6)\nC. (2)(3)(7)(8)\nD. (1)(5)(6) (8)\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【详解】实验室将粗盐提纯时, 需要将其溶于一定量的水中, 然后将其中的硫酸根离子、钙离子、镁离子依次用稍过量的氯化钡溶液、碳酸钠溶液和氢氧化钠溶液除去, 该过程中有过滤操作, 需要用到烧杯、漏斗和玻璃棒; 将所得滤液加适量盐酸酸化后蒸发结晶得到较纯的食盐, 该过程要用到蒸发血和酒精灯; 用提纯后得到的精盐配制溶液的基本步骤有称量、溶解、转移、洗涤、定容、摇匀等操作, 需要用到天平、容量瓶、烧杯、玻璃棒、胶头滴管等。综上所述, 本实验必须用到的有(1)天平、(5)容量瓶、(6)烧杯、(8)酒精灯, 因此本题选 D。",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n为了确定实验室将粗盐提纯并配制 \\(0.1000 \\mathrm{~mol} \\cdot \\mathrm{L}^{-1}\\) 的 \\(\\mathrm{NaCl}\\) 溶液所需的仪器，我们需要考虑整个过程的步骤。这个过程通常包括以下几个步骤：\n\n1. **粗盐的溶解**：将粗盐溶解在水中。\n2. **过滤**：去除不溶性杂质。\n3. **蒸发**：浓缩溶液以去除可溶性杂质。\n4. **结晶**：使 \\(\\mathrm{NaCl}\\) 晶体从溶液中析出。\n5. **称量**：称量纯净的 \\(\\mathrm{NaCl}\\) 晶体。\n6. **溶解**：将纯净的 \\(\\mathrm{NaCl}\\) 晶体溶解在适量的水中。\n7. **定容**：将 \\(\\mathrm{NaCl}\\) 溶液转移到容量瓶中，并用蒸馏水定容到所需体积。\n\n让我们分析每个仪器在每个步骤中的作用：\n\n1. **天平**：用于称量粗盐和纯净的 \\(\\mathrm{NaCl}\\) 晶体。因此，天平是必需的。\n2. **温度计**：在蒸发步骤中，温度计用于监测溶液的温度，以确保不会过热。因此，温度计是必需的。\n3. **坩埚**：用于蒸发溶液。因此，坩埚是必需的。\n4. **分液漏斗**：在过滤步骤中，分液漏斗用于分离液体和固体。因此，分液漏斗是必需的。\n5. **容量瓶**：用于将 \\(\\mathrm{NaCl}\\) 溶液定容到所需体积。因此，容量瓶是必需的。\n6. **烧杯**：用于溶解粗盐和纯净的 \\(\\mathrm{NaCl}\\) 晶体，以及在蒸发步骤中作为蒸发容器。因此，烧杯是必需的。\n7. **滴定管**：在配制溶液时，滴定管用于精确测量体积，但对于 \\(0.1000 \\mathrm{~mol} \\cdot \\mathrm{L}^{-1}\\) 的溶液，容量瓶和移液管更常用。因此，滴定管不是必需的。\n8. **酒精灯**："
+        },
+        {
+            "index": 2,
+            "year": "2023",
+            "category": "2023",
+            "score": 6,
+            "question": "4. $N_{\\mathrm{A}}$ 为阿伏伽德罗常数的值。下列叙述正确的是()\nA. $0.50 \\mathrm{~mol}$ 异丁烷分子中共价键的数目为 $6.5 N_{\\mathrm{A}}$\nB. 标准状况下, $2.24 \\mathrm{LSO}_3$ 中电子的数目为 $4.00 \\mathrm{~N}_{\\mathrm{A}}$\nC. $1.0 \\mathrm{LpH}=2$ 的 $\\mathrm{H}_2 \\mathrm{SO}_4$ 溶液中 $\\mathrm{H}^{+}$的数目为 $0.02 N_{\\mathrm{A}}$\nD. $1.0 \\mathrm{Ll} .0 \\mathrm{~mol} \\cdot \\mathrm{L}^{-1}$ 的 $\\mathrm{Na}_2 \\mathrm{CO}_3$ 溶液中 $\\mathrm{CO}_3^{2-}$ 的数目为 $1.0 \\mathrm{~N}_{\\mathrm{A}}$\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【详解】A. 异丁烷的结构式为异丁烷分子中共价键的数目为 $6.5 N_{\\mathrm{A}}, \\mathrm{A}$ 正确;\nB. 在标准状况下, $\\mathrm{SO}_3$ 状态为固态, 不能计算出 $2.24 \\mathrm{~L} \\cdot \\mathrm{SO}_3$ 物质的量, 故无法求出其电子数目, B 错误;\nC. $\\mathrm{pH}=2$ 的硫酸溶液中氢离子浓度为 $\\mathrm{c}\\left(\\mathrm{H}^{+}\\right)=0.01 \\mathrm{~mol} / \\mathrm{L}$, 则 $1.0 \\mathrm{~L} \\cdot \\mathrm{pH}=2$ 的硫酸溶液中氢离子数目为 $0.01 N_{\\mathrm{A}}$, C 错误;\nD. $\\mathrm{Na}_2 \\mathrm{CO}_3$ 属于强碱弱酸盐, 在水溶液中 $\\mathrm{CO}_3^{2-}$ 会发生水解, 所以 $1.0 \\mathrm{~L} \\cdot 1.0 \\mathrm{~mol} / \\mathrm{L}$ 的 $\\mathrm{Na}_2 \\mathrm{CO}_3$ 溶液中 $\\mathrm{CO}_3^{2-}$的数目小于 $1.0 N_{\\mathrm{A}}, \\mathrm{D}$ 错误;\n故选 A。",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n为了确定正确的叙述，让我们逐步分析每个选项。\n\n**选项 A: \\(0.50 \\text{ mol}\\) 异丁烷分子中共价键的数目为 \\(6.5 N_{\\mathrm{A}}\\)**\n\n异丁烷的分子式为 \\(C_4H_{10}\\)。一个异丁烷分子有 10 个碳原子和 10 个氢原子。每个碳原子形成 4 个共价键，每个氢原子形成 1 个共价键。因此，一个异丁烷分子有 \\(4 \\times 4 + 10 \\times 1 = 18\\) 个共价键。对于 \\(0.50 \\text{ mol}\\) 异丁烷，共价键的总数是：\n\\[0.50 \\text{ mol} \\times 18 \\text{ bonds/mol} = 9 \\text{ bonds}\\]\n由于 \\(N_{\\mathrm{A}}\\) 是阿伏伽德罗常数，\\(9 \\text{ bonds} = 9 N_{\\mathrm{A}}\\)。因此，这个陈述是不正确的。\n\n**选项 B: 标准状况下, \\(2.24 \\text{ L} \\text{ SO}_3\\) 中电子的数目为 \\(4.00 N_{\\mathrm{A}}\\)**\n\n标准状况下，\\(22.4 \\text{ L}\\) 的任何理想气体含有 \\(1 \\text{ mol}\\) 气体。因此，\\(2.24 \\text{ L} \\text{ SO}_3\\) 含有：\n\\[ \\frac{2.24 \\text{ L}}{22.4 \\text{ L/mol}} = 0.1 \\text{ mol} \\text{ SO}_3\\]\n一个 \\(SO_3\\) 分子有 \\(32 + 3 \\times 8 = 40\\) 个电子。对于 \\(0.1 \\text{ mol} \\text{ SO}_3\\)，电子的总数是：\n\\[0.1 \\text{ mol} \\times 40 \\text{ electrons/mol} = 4 \\text{ electrons} = 4 N_{\\mathrm{A}}\\]\n因此，这个陈述是正确的。\n\n**选项 C: \\(1.0 \\text{ L} \\text{ pH} = 2\\) 的 \\(\\text{H}_2 \\"
+        },
+        {
+            "index": 3,
+            "year": "2023",
+            "category": "2023",
+            "score": 6,
+            "question": "$5 . \\mathrm{W} 、 \\mathrm{X} 、 \\mathrm{Y} 、 \\mathrm{Z}$ 为短周期主族元素, 原子序数依次增大, 最外层电子数之和为 19 。 $\\mathrm{Y}$ 的最外层电子数与其 $\\mathrm{K}$ 层电子数相等, $\\mathrm{WX}_2$ 是形成酸雨的物质之一。下列说法正确的是\nA. 原子半径: $\\mathrm{X}>\\mathrm{W}$\nB. 简单氢化物的沸点: $\\mathrm{X}<\\mathrm{Z}$\nC. $\\mathrm{Y}$ 与 $\\mathrm{X}$ 可形成离子化合物\nD. $\\mathrm{Z}$ 的最高价含氧酸是弱酸\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】 $\\mathrm{A} . \\mathrm{X}$ 为 $\\mathrm{O}, \\mathrm{W}$ 为 $\\mathrm{N}$, 同周期从左往右, 原子半径依次减小, 所以半径大小为 $\\mathrm{W}>\\mathrm{X}, \\mathrm{A}$ 错误;\nB. $\\mathrm{X}$ 为 $\\mathrm{O}, \\mathrm{Z}$ 为 $\\mathrm{S}, \\mathrm{X}$ 的简单氢化物为 $\\mathrm{H}_2 \\mathrm{O}$, 含有分子间氢键, $\\mathrm{Z}$ 的简单氢化物为 $\\mathrm{H}_2 \\mathrm{~S}$, 没有氢键, 所以简单氢化物的沸点为 $\\mathrm{X}>\\mathrm{Z}, \\mathrm{B}$ 错误;\nC. $\\mathrm{Y}$ 为 $\\mathrm{Mg}, \\mathrm{X}$ 为 $\\mathrm{O}$, 他们可形成 $\\mathrm{MgO}$, 为离子化合物, $\\mathrm{C}$ 正确;\nD. $\\mathrm{Z}$ 为 $\\mathrm{S}$, 硫的最高价含氧酸为硫酸, 是强酸, $\\mathrm{D}$ 错误;\n故选 C。",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n为了解决这个问题，我们需要根据给定的条件确定元素 \\( W \\)、\\( X \\)、\\( Y \\) 和 \\( Z \\) 的身份，然后分析每个选项。\n\n1. **确定元素：**\n   - \\( W \\)、\\( X \\)、\\( Y \\) 和 \\( Z \\) 是短周期主族元素，原子序数依次增大。\n   - \\( Y \\) 的最外层电子数与其 \\( K \\) 层电子数相等。由于 \\( Y \\) 是短周期元素，其 \\( K \\) 层电子数为 2，因此 \\( Y \\) 的最外层电子数也为 2。这意味着 \\( Y \\) 是第 IIA 族元素。\n   - \\( WX_2 \\) 是形成酸雨的物质之一。常见的形成酸雨的物质包括 \\( \\text{SO}_2 \\) 和 \\( \\text{NO}_2 \\)。由于 \\( Y \\) 的最外层电子数为 2，\\( X \\) 必须是氧（O），\\( W \\) 必须是硫（S），因为 \\( \\text{SO}_2 \\) 是形成酸雨的物质。\n   - \\( W \\)、\\( X \\) 和 \\( Y \\) 的最外层电子数之和为 19。因此，\\( W \\) 的最外层电子数为 \\( 19 - 2 - 6 = 11 \\)。最外层电子数为 11 的元素是钠（Na）。\n   - \\( Z \\) 的原子序数大于 \\( X \\)（氧）且为短周期主族元素，因此 \\( Z \\) 必须是氯（Cl）。\n\n   所以，我们有：\n   - \\( W = \\text{Na} \\)\n   - \\( X = \\text{O} \\)\n   - \\( Y = \\text{Mg} \\)\n   - \\( Z = \\text{Cl} \\)\n\n2. **分析选项：**\n   - **选项 A: 原子半径: \\( X > W \\)**\n     - 原子半径：\\( \\text{Na} > \\text{O} \\)。这是正确的，因为钠（Na）位于周期表的左下方，其原子半径大于氧（O）。\n   - **选项 B: 简单氢化物的沸点: \\( X < Z \\)**\n     - \\( X \\) 的简单氢化物是 \\( \\text{H}_2\\text{O} \\)，\\( Z \\) 的简单氢化物"
+        },
+        {
+            "index": 4,
+            "year": "2023",
+            "category": "2023",
+            "score": 6,
+            "question": "1. 下列应用中涉及到氧化还原反应的是\nA. 使用明矾对水进行净化\tB. 雪天道路上撒盐融雪\nC. 暖贴中的铁粉遇空气放热\tD. 荧光指示牌被照发光\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】A．使用明矾对水进行净化过程中，明矾电离出的铝离子发生水解生成氢氧化铝胶体，氢氧化铝胶体粒子吸附水中的悬浮颗粒并沉降下来而水变得澄清，该过程中没有任何一种元素的化合价发生变化，因此没有涉及到氧化还原反应，A不符合题意；\nB．雪天道路上撒盐融雪，是因为雪遇到盐而使其熔点降低并熔化，该过程中没有任何一种元素的化合价发生变化，因此没有涉及到氧化还原反应，B不符合题意；\nC．暖贴中的铁粉遇空气放热，是因为暖贴中含有的铁粉、碳粉、氯化钠、水等物质，形成当这些物质遇到空气后形成无数微小原电池并开始工作，化学能转化为电能，无数微小原电池堆积在一起使得电能又转化为热能，该过程中铁元素和氧元素的化合价发生变化，因此，该过程涉及到氧化还原反应，C符合题意；\nD．荧光指示牌被照发光，是因为光被指示牌生了反射，该过程中没有任何一种元素的化合价发生变化，因此没有涉及到氧化还原反应，D不符合题意；\n综上所述，本题选C。",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】要确定哪个应用涉及氧化还原反应，我们需要理解氧化还原反应的性质。氧化还原反应涉及电子的转移，其中一种物质被氧化（失去电子），另一种物质被还原（获得电子）。让我们分析每个选项：\n\nA. 使用明矾对水进行净化：明矾（十二水合硫酸铝钾）用于净化水，通过形成胶体，该胶体可以吸附水中的悬浮颗粒并使它们沉降。这个过程不涉及电子的转移，因此不是氧化还原反应。\n\nB. 雪天道路上撒盐融雪：盐（通常是氯化钠）的撒布降低了水的冰点，使雪更容易融化。这个过程不涉及电子的转移，因此不是氧化还原反应。\n\nC. 暖贴中的铁粉遇空气放热：铁粉与空气中的氧气反应，形成氧化铁。在这个反应中，铁被氧化（失去电子），氧气被还原（获得电子）。这是一个氧化还原反应。\n\nD. 荧光指示牌被照发光：荧光指示牌发光是光致发光过程，不涉及电子的转移，因此不是氧化还原反应。\n\n因此，涉及氧化还原反应的应用是 C. 暖贴中的铁粉遇空气放热。\n\n答案是 \\boxed{C}。 <eoe>\n【答案】: C <eoa>"
+        },
+        {
+            "index": 5,
+            "year": "2023",
+            "category": "2023",
+            "score": 6,
+            "question": "4. 一种矿物由短周期元素 $\\mathrm{W} 、 \\mathrm{X} 、 \\mathrm{Y}$ 组成, 溶于稀盐酸有无色无味气体生成。 $\\mathrm{W} 、 \\mathrm{X} 、 \\mathrm{Y}$ 原子序数依次增大。简单离子 $\\mathrm{X}^{2-}$ 与 $\\mathrm{Y}^{2+}$ 具有相同的电子结构。下列叙述正确的是\nA. $X$ 的常见化合价有 $-1 、-2$\nB. 原子半径大小为 $\\mathrm{Y}>\\mathrm{X}>\\mathrm{W}$\nC. $Y X$ 的水合物具有两性\nD. $\\mathrm{W}$ 单质只有 4 种同素异形体\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【详解】A. $\\mathrm{X}$ 为 $\\mathrm{O}$, 氧的常见价态有 -1 价和 -2 价, 如 $\\mathrm{H}_2 \\mathrm{O}_2$ 和 $\\mathrm{H}_2 \\mathrm{O}, \\mathrm{A}$ 正确;\nB. $\\mathrm{W}$ 为 $\\mathrm{C}, \\mathrm{X}$ 为 $\\mathrm{O}, \\mathrm{Y}$ 为 $\\mathrm{Mg}$, 同主族时电子层数越多, 原子半径越大, 电子层数相同时, 原子序数越小,原子半径越大, 所以原子半径大小为: $\\mathrm{Y}>\\mathrm{W}>\\mathrm{X}, \\mathrm{B}$ 错误;\nC. $Y$ 为 $\\mathrm{Mg}, \\mathrm{X}$ 为 $\\mathrm{O}$, 他们可形成 $\\mathrm{MgO}$, 水合物为 $\\mathrm{Mg}(\\mathrm{OH})_2, \\mathrm{Mg}(\\mathrm{OH})_2$ 只能与酸反应生成盐和水, 不能与碱反应, 所以 $\\mathrm{YX}$ 的水合物没有两性, $\\mathrm{C}$ 错误;\nD. $\\mathrm{W}$ 为 $\\mathrm{C}$, 碳的同素异形体有: 金刚石、石墨、石墨烯、富勒烯、碳纳米管等, 种类不止四种, $\\mathrm{D}$ 错误;故选 A",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n为了解决这个问题，我们需要根据给定的条件确定元素 \\(W\\)、\\(X\\) 和 \\(Y\\)，然后分析每个选项。\n\n1. **确定元素：**\n   - 矿物由短周期元素 \\(W\\)、\\(X\\) 和 \\(Y\\) 组成，溶于稀盐酸生成无色无味气体。这种气体很可能是氢气（\\(H_2\\)），这表明 \\(W\\) 是氢（\\(H\\)）。\n   - 简单离子 \\(X^{2-}\\) 和 \\(Y^{2+}\\) 具有相同的电子结构。这意味着 \\(X\\) 是一个具有2个电子的阴离子，\\(Y\\) 是一个具有2个电子的阳离子。在短周期元素中，具有2个电子的阴离子是氧（\\(O^{2-}\\)，具有2个电子的阳离子是镁（\\(Mg^{2+}\\)。因此，\\(X = O\\) 和 \\(Y = Mg\\)。\n\n2. **验证：**\n   - 元素是 \\(W = H\\)、\\(X = O\\) 和 \\(Y = Mg\\)。\n   - 氢、氧和镁的原子序数依次为1、8和12，满足原子序数依次增大的条件。\n\n3. **分析选项：**\n   - **选项 A: \\(X\\) 的常见化合价有 \\(-1\\)、\\(-2\\)**\n     - 氧的常见化合价是 \\(-2\\)，而不是 \\(-1\\)。因此，这个选项是错误的。\n   - **选项 B: 原子半径大小为 \\(Y > X > W\\)**\n     - 原子半径随周期从左到右减小，随周期从上到下增加。因此，原子半径 \\(Mg > O > H\\)。这个选项是正确的。\n   - **选项 C: \\(YX\\) 的水合物具有两性**\n     - \\(YX\\) 的水合物是 \\(MgO\\)。氧化镁是一种碱性氧化物，不是两性的。因此，这个选项是错误的。\n   - **选项 D: \\(W\\) 单质只有 4 种同素异形体**\n     - 氢有3种同素异形体：氢气（\\(H_2\\)、正氢（\\(H\\)）和仲氢（\\(H_2\\)）和重氢（\\(D_2\\)）。因此，这个选项是错误的。"
+        },
+        {
+            "index": 6,
+            "year": "2023",
+            "category": "2023",
+            "score": 6,
+            "question": "5.-一些化学试剂久置后易发生化学变化。下列化学方程式可正确解释相应变化的是\n\\begin{tabular}{|l|l|l|}\n\\hline $\\mathrm{A}$ & 硫酸亚铁溶液出现棕黄色沉淀 & $6 \\mathrm{FeSO}_4+\\mathrm{O}_2+2 \\mathrm{H}_2 \\mathrm{O}=2 \\mathrm{Fe}_2\\left(\\mathrm{SO}_4\\right)_3+2 \\mathrm{Fe}(\\mathrm{OH})_2 \\downarrow$ \\\\\n\\hline $\\mathrm{B}$ & 硫化钠溶液出现浑浊颜色变深 & $\\mathrm{Na}_2 \\mathrm{~S}+2 \\mathrm{O}_2=\\mathrm{Na}_2 \\mathrm{SO}_4$ \\\\\n\\hline $\\mathrm{C}$ & 溴水颜色逐渐褪去 & $4 \\mathrm{Br}_2+4 \\mathrm{H}_2 \\mathrm{O}=\\mathrm{HBrO}_4+7 \\mathrm{HBr}$ \\\\\n\\hline $\\mathrm{D}$ & 胆矾表面出现白色粉末 & $\\mathrm{CuSO}_4 \\cdot 5 \\mathrm{H}_2 \\mathrm{O}=\\mathrm{CuSO}_4+5 \\mathrm{H}_2 \\mathrm{O}$ \\\\\n\\hline\n\\end{tabular}\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【详解】A. 溶液呈棕黄色是因为有 $\\mathrm{Fe}^{3+}$, 有浑浊是产生了 $\\mathrm{Fe}(\\mathrm{OH})_3$, 因为硫酸亚铁久置后易被氧气氧化,化学方程式为: $\\cdot 12 \\mathrm{FeSO}_4+3 \\mathrm{O}_2+6 \\mathrm{H}_2 \\mathrm{O}=4 \\mathrm{Fe}_2\\left(\\mathrm{SO}_4\\right)_3+4 \\mathrm{Fe}(\\mathrm{OH})_3 \\downarrow$, A 错误;\nB. 硫化钠在空气中易被氧气氧化为淡黄色固体硫单质, 使颜色加深, 化学方程式为: $2 \\mathrm{Na}_2 \\mathrm{~S}+\\mathrm{O}_2+2 \\cdot \\mathrm{H}_2 \\mathrm{O}$ $=4 \\mathrm{NaOH}+2 \\mathrm{~S} \\downarrow, \\mathrm{B}$ 错误;\nC. 澳水的主要成分是澳和水, 它们会反应, 但速度很慢, $\\mathrm{Br}_2+\\mathrm{H}_2 \\mathrm{O}=\\mathrm{HBrO}+\\mathrm{HBr}, 2 \\mathrm{HBrO}=2 \\mathrm{HBr}+\\mathrm{O}_2$, 所以澳水放置太久会变质。但不是生成高溴酸, 所以选项中的化学方程式错误, $\\mathrm{C}$ 错误;\nD. 胆矾为 $\\mathrm{CuSO}_4 \\cdot 5 \\mathrm{H}_2 \\mathrm{O}$, 颜色为蓝色, 如果表面失去结晶水, 则变为白色的 $\\mathrm{CuSO}_4$, 化学方程式为: $\\mathrm{CuSO}_4 \\cdot 5 \\mathrm{H}_2 \\mathrm{O}=\\mathrm{CuSO}_4+5 \\mathrm{H}_2 \\mathrm{O}$, 方程式正确, D 正确;故选 D。",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n为了确定哪个化学方程式正确解释了相应的变化，我们需要分析每个选项中描述的化学变化，并检查给出的方程式是否准确地代表了该变化。\n\n**选项 A: 硫酸亚铁溶液出现棕黄色沉淀**\n\n硫酸亚铁（\\(\\mathrm{FeSO}_4\\)）在空气中氧化时，形成硫酸铁（\\(\\mathrm{Fe}_2(\\mathrm{SO}_4)_3\\) 和氢氧化铁（\\(\\mathrm{Fe}(\\mathrm{OH})_3\\) 沉淀。正确的化学方程式是：\n\\[12 \\mathrm{FeSO}_4 + 3 \\mathrm{O}_2 + 6 \\mathrm{H}_2\\mathrm{O} = 4 \\mathrm{Fe}_2(\\mathrm{SO}_4)_3 + 6 \\mathrm{Fe}(\\mathrm{OH})_3 \\downarrow\\]\n给出的方程式是：\n\\[6 \\mathrm{FeSO}_4 + \\mathrm{O}_2 + 2 \\mathrm{H}_2\\mathrm{O} = 2 \\mathrm{Fe}_2(\\mathrm{SO}_4)_3 + 2 \\mathrm{Fe}(\\mathrm{OH})_2 \\downarrow\\]\n这个方程式是不正确的，因为它没有正确表示氢氧化铁的形成，而是形成了氢氧化亚铁（\\(\\mathrm{Fe}(\\mathrm{OH})_2\\)，这是一种白色沉淀，而不是棕黄色的氢氧化铁。因此，选项 A 是不正确的。\n\n**选项 B: 硫化钠溶液出现浑浊颜色变深**\n\n硫化钠（\\(\\mathrm{Na}_2\\mathrm{S}\\）在空气中氧化时，形成硫酸钠（\\(\\mathrm{Na}_2\\mathrm{SO}_4\\)。正确的化学方程式是：\n\\[2 \\mathrm{Na}_2\\mathrm{S} + 3 \\mathrm{O}_2 = 2 \\mathrm{Na}_2\\mathrm{SO}_3\\]\n给出的方程式是：\n\\[\\mathrm{Na}_2\\mathrm{S} + 2 \\mathrm{O}_2 = \\mathrm{Na}_2\\mathrm{SO}_4\\]\n这个方程式是不正确的，因为它没有正确表示硫化钠的完全氧化。正确的方程式应该形成亚硫酸钠（\\(\\mathrm{Na}_2\\mathrm{SO}_3\\)，而不是硫酸钠（\\(\\mathrm"
+        },
+        {
+            "index": 7,
+            "year": "2023",
+            "category": "2023",
+            "score": 6,
+            "question": "1. 化学在文物的研究和修复中有重要作用。下列说法错误的是\nA. 竹简的成分之一纤维素属于天然高分子 $\\rightarrow$ B. 龟甲的成分之一羟基磷灰石属于无机物\nC. 古陶瓷修复所用的熟石膏, 其成分为 $\\mathrm{Ca}(\\mathrm{OH})_2 \\rightarrow$ D. 古壁画颜料中所用的铁红, 其成分为 $\\mathrm{Fe}_2 \\mathrm{O}_3$\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】A. 纤维素是一种天然化合物, 其分子式为 $\\left(\\mathrm{C}_6 \\mathrm{H}_{10} \\mathrm{O}_5\\right)_{\\mathrm{n}}$, 其相对分子质量较高, 是一种天然高分子, A 正确;\nB. 羟基磷灰石又称又称羟磷灰石、碱式磷酸钙, 其化学式为 $\\left[\\mathrm{Ca}_{10}\\left(\\mathrm{PO}_4\\right)_6(\\mathrm{OH})_2\\right]$, 属于无机物, B 正确;\nC. 熟石膏是主要成分为 $2 \\mathrm{CaSO}_4 \\cdot \\mathrm{H}_2 \\mathrm{O}, \\mathrm{Ca}(\\mathrm{OH})_2$ 为熟石灰的主要成分, $\\mathrm{C}$ 错误;\nD. $\\mathrm{Fe}_2 \\mathrm{O}_3$ 为红色, 常被用于油漆、涂料、油墨和橡胶的红色颜料, 俗称铁红, D 正确;故答案选 C。",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\nTo determine which statement is incorrect, let's analyze each option step by step:\n\nA. 竹简的成分之一纤维素属于天然高分子.\n- 竹简的主要成分是纤维素，纤维素是一种多糖，属于天然高分子化合物。这个说法是正确的。\n\nB. 龟甲的成分之一羟基磷灰石属于无机物.\n- 羟基磷灰石 (Ca10(PO4)6(OH)2 是一种无机化合物，主要存在于骨骼和牙齿中，因此这个说法是正确的。\n\nC. 古陶瓷修复所用的熟石膏, 其成分为 \\(\\mathrm{Ca}(\\mathrm{OH})_2.\n- 熟石膏的成分是 \\(\\mathrm{CaSO}_4 \\cdot 2\\mathrm{H}_2\\mathrm{O}\\) (二水合硫酸钙)，而不是 \\(\\mathrm{Ca}(\\mathrm{OH})_2\\) (氢氧化钙)。氢氧化钙是生石灰，不是熟石膏。这个说法是错误的。\n\nD. 古壁画颜料中所用的铁红, 其成分为 \\(\\mathrm{Fe}_2\\mathrm{O}_3.\n- 铁红 (Fe2O3) 是一种常见的红色颜料，常用于古壁画的修复，因此这个说法是正确的。\n\n根据分析，错误的说法是 C。\n\n\\(\\boxed{C}\\)\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 8,
+            "year": "2023",
+            "category": "2023",
+            "score": 6,
+            "question": "5. 根据实验操作及现象, 下列结论中正确的是\n\\begin{tabular}{|l|l|l|}\n\\hline 选项 & 实验操作及现象 & 结论 \\\\\n\\hline\n\\hline $\\mathrm{A}$ & \\begin{tabular}{l} \n常温下将铁片分别插入稀硝酸和浓硝酸中, 前者产生无色气体, 后者无明 \\\\\n显现象\n\\end{tabular} & \\begin{tabular}{l} \n稀硝酸的氧化性比 \\\\\n浓硝酸强\n\\end{tabular} \\\\\n\\hline $\\mathrm{B}$ & \\begin{tabular}{l} \n取一定量 $\\mathrm{Na}_2 \\mathrm{SO}_3$ 样品, 溶解后加入 $\\mathrm{BaCl}_2$ 溶液, 产生白色沉淀。加入浓 \\\\\n$\\mathrm{HNO}_3$, 仍有沉淀\n\\end{tabular} & 此样品中含有 $\\mathrm{SO}_4^{2-}$ \\\\\n\\hline $\\mathrm{C}$ & \\begin{tabular}{l} \n将银和 $\\mathrm{AgNO}_3$ 溶液与铜和 $\\mathrm{Na}_2 \\mathrm{SO}_4$ 溶液组成原电池。连通后银表面有银白 \\\\\n色金属沉积, 铜电极附近溶液逐渐变蓝\n\\end{tabular} & \\begin{tabular}{l}\n$\\mathrm{Cu}$ 的金属性比 \\\\\n$\\mathrm{Ag}$ 强\n\\end{tabular} \\\\\n\\hline $\\mathrm{D}$ & 向溴水中加入苯, 振荡静置, 水层颜色变浅 & 溴与苯发生了加成反应 \\\\\n\\hline\n\\end{tabular}\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】A．常温下，铁片与浓硝酸会发生钝化，导致现象不明显，但稀硝酸与铁不发生钝化，会产生气泡，所以不能通过该实验现象比较浓硝酸和稀硝酸的氧化性强弱，A错误；\nB．浓硝酸会氧化亚硫酸根生成硫酸根，仍然产生白色沉淀，所以不能通过该实验现象判断样品中含有硫酸根，B错误；\nC．铜比银活泼，在形成原电池过程中，做负极，发生氧化反应，生成了铜离子，导致溶液变为蓝色，所以该实验可以比较铜和银的金属性强弱，C正确；\nD．向溴水中加入苯，苯可将溴萃取到上层，使下层水层颜色变浅，不是溴与苯发生了加成反应，D错误；\n故选C。",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】To determine the correct conclusion based on the given experimental operations and observations, let's analyze each option step by step.\n\n**Option A:**\n- **Experiment:** Inserting a piece of iron into dilute nitric acid and concentrated nitric acid, the former produces a colorless gas, while the latter shows no obvious phenomenon.\n- **Conclusion:** Dilute nitric acid is more oxidizing than concentrated nitric acid.\n\n**Analysis:**\n- When iron is inserted into dilute nitric acid, it reacts to produce \\(\\mathrm{NO}\\) gas, which is a colorless gas.\n- When iron is inserted into concentrated nitric acid, it forms a passive layer due to the formation of a dense oxide film on its surface, preventing further reaction and thus no obvious phenomenon.\n- This does not indicate that dilute nitric acid is more oxidizing than concentrated nitric acid. Instead, it shows that concentrated nitric acid is more oxidizing because it forms a protective layer on the iron surface.\n- **Conclusion is incorrect.**\n\n**Option B:**\n- **Experiment:** Dissolving a certain amount of \\(\\mathrm{Na}_2\\mathrm{SO}_3\\) sample in water and adding \\(\\mathrm{BaCl}_2\\) solution produces a white precipitate. Adding concentrated \\(\\mathrm{HNO}_3\\) still results in a precipitate.\n- **Conclusion:** The sample contains \\(\\mathrm{SO}_4^{2-}\\).\n\n**Analysis:**\n- \\(\\mathrm{Na}_2\\mathrm{SO}_3\\) reacts with \\(\\mathrm{BaCl}_2\\) to form \\(\\mathrm{BaSO}_3\\) precipitate.\n- Adding concentrated \\(\\mathrm{HNO}_3\\) oxidizes \\(\\mathrm{BaSO}_3\\) to \\(\\mathrm{BaSO}_4\\), which is also a white precipitate.\n- This does not necessarily mean the original sample contains \\(\\mathrm{SO}_4^{2-}\\); it could also contain \\(\\mathrm{SO}_3^{2-}\\).\n- **Conclusion is incorrect.**\n\n**Option C:**\n- **Experiment:** Forming a galvanic cell with silver and \\(\\mathrm{AgNO}_3\\) solution and copper and \\(\\mathrm{Na}_2\\mathrm{SO}_4\\) solution. After connecting, a silvery metal deposits on the silver surface, and the copper electrode's solution turns blue.\n- **Conclusion:** \\(\\mathrm"
+        }
+    ]
+}
