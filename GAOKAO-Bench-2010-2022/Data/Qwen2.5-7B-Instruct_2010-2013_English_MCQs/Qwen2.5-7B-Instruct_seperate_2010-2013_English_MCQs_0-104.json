@@ -1,0 +1,1580 @@
+{
+    "keyword": "2010-2013_English_MCQs",
+    "example": [
+        {
+            "index": 0,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "21. --- Have  you finished  reading  Jane  Eyre ? \n--- No, I        my homework  all day yesterday . \nA. was doing  B. would  do C. had done  D. do\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案 A． was/were  doing，表示过去的某个时间点或时间段正在做某事\n，根据句意，我没有读完简爱，我昨天一天一直在写家庭作业． 故选 A． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解对话的语境。前一句询问“你读完《简爱》了吗？”后一句回答“没有，我昨天一整天都在做作业。”这里的关键在于时间状语“all day yesterday”，表示“昨天一整天”，这是一个过去的时间点。\n\n接下来，我们分析每个选项：\nA. was doing - 过去进行时，表示过去某段时间内正在进行的动作。这里不符合语境，因为“昨天一整天”是一个持续的时间段，但“was doing”强调的是动作正在进行中，而不是完成的动作。\nB. would do - 通常用于表示意愿或计划，不符合这里的时间和语境。\nC. had done - 过去完成时，表示在过去某个时间点之前已经完成的动作。这里可以表示“昨天一整天都在做作业”，强调动作的持续性和完成性。\nD. do - 一般现在时，表示习惯性或经常性的动作，不符合这里的时间和语境。\n\n综合分析，选项C“had done”最符合语境，表示“昨天一整天都在做作业”，强调动作的持续性和完成性。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 1,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "22. The workers      the glasses  and marked  on each box “This Side UP”. \nA. carried  B. delivered  C. pressed  D. packed\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D． carry\"拿，携带 \"；deliver\"递送，发表，给 …接生 \"；press\"压\"\n；pack\"包装 \"．根据常识和句意，先把玻璃杯 \"包装起来 \"再标上 \"此面朝上 \"．故\n  选D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子提到的是工人们做了某件事情，然后在每个箱子上标记了“此面朝上”。我们需要找出与这个动作最相关的动词。\n\nA. carried - 意为“搬运”，虽然工人们可能搬运了这些眼镜，但这个动词没有提到如何处理眼镜，也没有提到标记箱子。\n\nB. delivered - 意为“交付”，这个动词通常用于描述将物品送到某个地方，但没有提到如何处理眼镜或标记箱子。\n\nC. pressed - 意为“压”，这个动词与眼镜和标记箱子无关，不符合句子的意思。\n\nD. packed - 意为“打包”，这个动词与处理眼镜并标记箱子的动作最相关。工人们需要将眼镜打包，并在每个箱子上标记“此面朝上”。\n\n综合分析，最合适的动词是“packed”。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 2,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "23. I’ll spend  half of my holiday  practicing  English  and      half learning  drawing . \nA. another  B. the other  C. other ’s D. other\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案 B．本题主要考查代词． 选项 A another  3个及 3个以上中的另一\n个；选项 B the other两个中的另一个 ；选项 C other ’s 一般没有这种说法 ；选项 D \nother其它的．根据句意，应该是两个中的另一个， 故选 B． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子的意思是“我将把假期的一半时间用来练习英语，另一半时间用来学习画画。”\n接下来，我们分析每个选项：\nA. another - 另一个，通常用于指代可数名词，且通常用于指代多个中的一个，而不是全部。\nB. the other - 另一个，通常用于指代两个中的另一个。\nC. other's - 形容词性物主代词，表示“别人的”，不符合句子结构。\nD. other - 其他的，通常用于指代多个中的其他部分，但不加's。\n在这个句子中，我们需要表达的是“另一半”，即两个中的另一个部分。因此，\"the other\" 是最合适的选项，因为它明确指代两个中的另一个部分。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 3,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "24. As a child , Jack studied  in a village  school ,       is named  after his grandfather . \nA. which  B. where  C. what  D. that\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案： A． 题干中含有的从句是非限制性的定语从句， 所以不能用 that\n，what不能引导定语从句， 故排除 C，从句中缺少主语，应该用关系代词，所\n以排除 where．所以本题选 A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n这道题考察的是定语从句的用法。句子的主干是“Jack studied in a village school”，后面的部分“is named after his grandfather”是对先行词“school”的补充说明。我们需要选择一个引导词来连接主句和从句。\n\n- 选项A: \"which\" 可以引导非限制性定语从句，用来指代前面的整个句子或部分句子，并且在从句中可以作主语、宾语或表语。\n- 选项B: \"where\" 通常用来引导地点状语从句，表示“在哪里”。\n- 选项C: \"what\" 不能引导定语从句，它通常用来引导名词性从句，表示“什么”。\n- 选项D: \"that\" 在非正式语体中可以引导定语从句，但在正式语体中通常不用于引导非限制性定语从句。\n\n在这个句子中，我们需要一个引导词来指代“school”并说明它的名字来源于Jack的祖父。因此，\"which\" 是最合适的选择。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 4,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "25. Mary  made  coffee         her guests  were  finishing  their meal . \nA. so that B. although  C. while  D. as if\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】 答案 C．本题考查连词． 选项 A so that 以便，为了，用来引导目的状\n语从句； 选项 B although 尽管；选项 C while在…期间，当 …时候，用来引导时\n间状语从句； 选项 D as if（=as though）仿佛，好像，用来引导方式状语从句．\n通过句意可知 C项正确．  \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的结构和逻辑关系。句子的前半部分是“Mary made coffee”，后半部分是“her guests were finishing their meal”。我们需要选择一个连接词，使得前后两部分之间的关系合理。\n\nA. so that - 这个选项表示“以便，为了”，通常用于表示目的。例如：“I studied hard so that I could pass the exam.” 这里没有表达目的的意思，所以不合适。\n\nB. although - 这个选项表示“尽管，虽然”，通常用于表示转折关系。例如：“Although it was raining, we went for a walk.” 这里没有转折的意思，所以不合适。\n\nC. while - 这个选项表示“当...时候”，可以用于表示两个同时进行的动作。例如：“While I was reading, she was sleeping.” 这里可以表示Mary在客人吃完饭的时候做咖啡，符合逻辑。\n\nD. as if - 这个选项表示“好像，仿佛”，通常用于表示假设或虚拟的情况。例如：“He acted as if he knew everything.” 这里没有虚拟或假设的意思，所以不合适。\n\n综上所述，最合适的选项是C. while。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 5,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "26. I have  seldom  seen my mother       pleased  with my progress  as she is now. \nA. so B. very  C. too D. rather\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案： A  如此满意的语义， 只有 so pleased…as  能表达出来吧， as是\n像…一样， too表示 \"太…\"，rather  确实满意，像现在一样对我确实满意，这样\n的表达不符语境． 所以选择 A． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n这道题考察的是形容词的比较级和副词的用法。句子的意思是“我很少见过妈妈像现在这样满意我的进步。”我们需要选择一个合适的副词来修饰形容词“pleased”。\n\n- 选项A \"so\" 通常用于肯定句中，表示“如此”，例如：“I am so happy.”（我非常开心。）这里可以用来表示程度，但通常不直接修饰形容词的比较级。\n- 选项B \"very\" 通常用来修饰形容词或副词，表示“非常”，但在这里用“very pleased”不符合英语习惯，因为“very”通常不直接修饰形容词的比较级。\n- 选项C \"too\" 通常用于肯定句中，表示“太”，例如：“It is too hot.”（天气太热了。）这里不符合句子结构。\n- 选项D \"rather\" 通常用于表示“相当”，可以用来修饰形容词的比较级，例如：“She is rather pleased.”（她相当满意。）这里可以用来表示程度，符合句子结构。\n\n综合分析，选项D \"rather\" 是最合适的。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 6,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "27. Mrs. White  showed  her students  some  old maps     from  the library . \nA. to borrow     B. to be borrowed      C. borrowed      D. borrowing\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案 C． from  the library做后置定语， 修饰 old maps  根据句意， borrow\n与old maps  之间是被动关系，所以用过去分词表示被动或完成， 故选 C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们需要明确句子的结构和逻辑。句子的主语是“Mrs. White”，谓语是“showed”，宾语是“her students”，而“some old maps from the library”是宾语补足语，用来补充说明这些地图的来源或用途。\n\n选项分析：\nA. to borrow：这个选项表示目的，但“maps”和“to borrow”之间没有直接的逻辑关系，因为地图是从图书馆借来的，而不是用来借的。\nB. to be borrowed：这个选项表示被动和目的，但“maps”和“to be borrowed”之间也不直接相关，因为地图是从图书馆借来的，而不是用来被借的。\nC. borrowed：这个选项表示被动语态，但没有明确的逻辑关系，因为句子中并没有表示地图被借来的意思。\nD. borrowing：这个选项表示主动进行时态，但“maps”和“borrowing”之间没有直接的逻辑关系，因为句子中并没有表示地图正在被借来的意思。\n\n考虑到句子的逻辑，这里应该使用被动语态来表示地图是从图书馆借来的。因此，正确的选项应该是表示被动语态的选项，即“borrowed”。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 7,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "28. When  you are home , give a call to let me know  you        safely . \nA. are arriving  B. have  arrived  C. had arrived  D. will arrive\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案 B．本题主要考查动词时态．根据题意可知，这里要表达 \"回家后\n打电话确认已经安全到达 \"，所以应该用现在完成时 ，答案为 B项．A项和 D项\n均表示将来，没有 \"完成 \"之意，所以排除 ；C项为过去完成时，不符合题意，所\n以排除． 故选 B． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n这道题考察的是时态的正确使用。句子的前半部分\"When you are home\"表示一个现在进行的动作，而\"give a call to let me know\"是一个现在完成的动作，用来表达已经完成的动作对现在的影响。\n\n选项分析：\nA. are arriving - 这个选项表示正在进行的动作，与后半句的时态不匹配。\nB. have arrived - 这个选项表示已经完成的动作，符合前半句的时态，且可以表达“已经安全到达”的意思。\nC. had arrived - 这个选项表示过去完成的动作，不符合句子的时间顺序。\nD. will arrive - 这个选项表示将来要进行的动作，不符合句子的时间顺序。\n\n因此，正确的选项是B. have arrived。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 8,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "29. Just be patient . You       expect  the world  to change  so soon . \nA. can’t B. needn ’t C. may not D. will not\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案 A． can't \"不能，不可能 \"；needn't  \"不需要，没必要 \"；may \"一般\n用于肯定句中 ，表示可能 \"；will \"意愿或习惯性动作 \"．根据句意 ，要耐心点 ，你\n\"不能 \"期望世界变得如此之快， 故选 A． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子的意思是“请耐心等待，你不能期望世界会这么快就改变。”\n接下来，我们分析每个选项：\nA. can’t - 不能，表示能力上的不可能。\nB. needn’t - 不必，表示不需要做某事。\nC. may not - 可能不，表示可能性。\nD. will not - 不会，表示将来不会发生。\n\n根据句子的意思，这里表达的是期望世界改变是不现实的，而不是说“不能”（能力上的不可能）、“不必”（不需要做）、或“可能不”（可能性）。因此，最合适的选项是“不会”，即选项D。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 9,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "30. The little boy won’t go to sleep      his mother  tells him a story . \n  A. or B. unless  C. but D. whether\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案 B．本题主要考查连词， unless  引导条件状语从句，意思是除非 ，\n如果不 =\"if not\"； A or 或，或者；还是；不然，否则；  C but但是，表转折； D \nwhether  是否、不管 …（还是 …）习惯用语 whether  or not．根据句意， 应该选 B\n． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n这道题考察的是连词的用法。我们需要理解句子的意思和逻辑关系。\n\n句子是：“The little boy won’t go to sleep      his mother tells him a story.”\n我们需要填入一个连词，使得句子的意思通顺且逻辑正确。\n\n- A. or：表示选择关系，意为“或者”。例如：“He can go to the park or stay at home.” 这里不符合句意，因为男孩不会在妈妈讲故事的情况下睡觉，而是需要妈妈讲故事。\n- B. unless：表示条件关系，意为“除非”。例如：“He won’t go to the party unless he is invited.” 这里符合句意，因为“除非妈妈讲故事，他才不会睡觉”。\n- C. but：表示转折关系，意为“但是”。例如：“He is tired but he won’t go to sleep.” 这里不符合句意，因为没有转折关系。\n- D. whether：表示是否关系，意为“是否”。例如：“I don’t know whether he will come.” 这里不符合句意，因为没有表示是否关系。\n\n综上所述，正确的连词是“unless”。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 10,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "31. --- Everybody  is going  to climb  the mountain . Can I go too, mum ? \n---         Wait  till you are old enough , dear. \nA. will you?     B. Why  not?     C. I hope  so.       D. I’m afraid  not.\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D．A项\"Will用于第二人称表示征求对方的意见 \"；B项\"为什么\n不？ \"表示同意对方的观点； C项\"我希望如此 \"；D项\"我恐怕不行 \"；根据句意 \"\n亲爱的，等到你年龄足够大的时候再去 \"可知，孩子的妈妈不让孩子去爬山．因\n此D项符合语境， 故选 D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解对话的语境。母亲在回答孩子是否可以一起去爬山时，使用了“Wait till you are old enough”（等你足够大了再等），这表明母亲认为孩子现在还不适合去爬山，因此她会用否定回答。\n\n接下来，我们分析每个选项：\nA. will you? 这个选项不符合语境，因为母亲并没有问孩子是否愿意等待。\nB. Why not? 这个选项也不符合语境，因为母亲并没有建议孩子可以去尝试。\nC. I hope so. 这个选项表示希望孩子可以去，但母亲实际上并不希望孩子现在去。\nD. I’m afraid not. 这个选项直接表示了否定，符合母亲的意思，即孩子现在还不适合去爬山。\n\n因此，最合适的回答是D选项。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 11,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "32. The discovery  of gold in Australia  led thousands  to believe  that a fortune        . \nA. is made      B. would  make       C. was to be made      D. had made\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案： C．本题采用排除法． 根据主句的谓语动词 led（lead﹣led）可知\n这里是一般过去时 ，所以从句也应该用过去时 ，排除 A．这里 fortune表示财富 ，\nmake  fortune发财，make与fortune之间构成动宾关系 ，fortune在从句中作主语 ，\n故用被动语态， 排除 B、D．was to be made是过去将来时的被动式， 故选 C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的时态和语态。句子的主语是“the discovery of gold in Australia”，这是一个名词短语，表示一个过去的事件。接下来，我们需要分析句子的谓语部分。\n\n选项A: \"is made\" - 这个选项使用了现在时态，但句子描述的是过去的情况，因此不合适。\n\n选项B: \"would make\" - 这个选项使用了过去将来时，但句子中的主语是“the discovery”，它是一个已完成的动作，因此使用将来时态也不合适。\n\n选项C: \"was to be made\" - 这个选项使用了过去时态的被动语态，表示过去某个时间点预期将要发生的事情。这与句子描述的情况相符，即发现黄金后，人们预期会获得财富。\n\n选项D: \"had made\" - 这个选项使用了过去完成时，表示在过去某个时间点之前已经完成的动作，但句子中并没有这样的时间关系。\n\n综合分析，选项C最符合句子的语境和时态要求。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 12,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "33. We haven ’t discussed  yet      we are going  to place  our new furniture . \nA. that B. which  C. what  D. where\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】答案 D． discuss后面是宾语从句 ，在宾语从句中 we are going  to place  our \nnew furniture是完整的句子 ，根据句意 ，我们还没有商量好把新家具放在 \"where\"\n．故选 D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n首先，我们需要分析句子的结构和语法。句子的前半部分“We haven’t discussed yet”表示还没有讨论的内容，后半部分“we are going to place our new furniture”是讨论的内容。这里需要填入一个引导词，引导一个宾语从句。\n\n选项分析：\nA. that - 通常用于引导宾语从句，但不添加任何意义。\nB. which - 通常用于引导定语从句，不用于引导宾语从句。\nC. what - 通常用于引导名词性从句，但在这里不适用于引导宾语从句。\nD. where - 通常用于引导地点状语从句，但在这里可以引导一个表示地点的宾语从句。\n\n根据句子的意思，我们需要表达的是“我们还没有讨论我们新家具将放置在哪里”，因此“where”是最合适的引导词。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 13,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "34. With  Father ’s Day around  the corner , I have  taken  some  money  out of the bank  \n         presents  for my dad. \nA. buy     B. to buy     C. buying        D. to have  bought\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】答案 B．根据句意，我从银行里取钱的 \"目的是 \"为了给父亲买礼物，所\n以用不定式表示目的状语， 而to have  done  表示不定式的动作发生在主句之间 ，\n不符合题意， 故选 B． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们需要明确句子的结构和时态。句子的前半部分提到“With Father's Day around the corner”，这是一个介词短语，表示“随着父亲节的到来”。后半部分是“have taken some money out of the bank”，这是一个现在完成时的句子，表示已经完成的动作。\n\n接下来，我们需要确定空白处需要填入的动词形式。根据句子的意思，说话者已经从银行取出了一些钱，目的是为了给父亲买礼物。因此，这里需要一个表示目的的结构。\n\n选项分析：\nA. buy - 这是一个动词原形，不符合句子结构。\nB. to buy - 这是一个不定式，表示目的，符合句子结构。\nC. buying - 这是一个动名词，不符合句子结构。\nD. to have bought - 这是一个不定式的完成式，不符合句子结构。\n\n因此，正确答案是B. to buy。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 14,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "35. --- Was he sorry  for what  he’d done ?   ---          . \nA. No wonder  B. Well  done  C. Not really  D. Go ahead\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】 答案 C．A项\"难怪， …不足为奇 \"；B项\"做得真棒 \"；D项 通常意为  \n\"说吧！做吧！ \"；C项 根据句意 ：上文 \"他为他所做的事道歉了吗 \"下文意思为事\n实上 \"没有 \"，因此要表达否定意义， C项符合语境． Not really，意为 \"不很 \"或者\n表示语气很强的否定，意为 \"真的没有 \"\"的确没有 \"．故选： C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解对话的语境。前半句“Was he sorry for what he’d done?”是一个问句，询问某人是否为他所做的事情感到抱歉。后半句的回答应该是一个肯定或否定的回答，或者表达某种态度。\n\n我们来分析每个选项：\nA. No wonder（难怪）：这个选项表达的是对某事的惊讶或理解，不符合语境。\nB. Well done（做得好）：这个选项是对某人行为的肯定，不符合语境。\nC. Not really（不是真的）：这个选项可以用来否定前半句的问句，表示他并不为所做的事情感到抱歉。\nD. Go ahead（继续）：这个选项通常用于鼓励某人继续做某事，不符合语境。\n\n综合分析，选项C“Not really”最符合语境，表示他并不为所做的事情感到抱歉。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 15,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "6. --- Is it all right  if I keep  this photo？   --- _______ .  \nA. No, you don’t    B. No, it shouldn ’t    C. I’m afraid  not    D. Don’t keep  it\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】 答案 C. A项\"不，你不要（保存照片） \"；B项\"不，这不应该 \"；D项\"\n不要保存 \"；根据上句句意 \"我可以保存这张照片吗？ \"可知，下句是作出回答，\n四个选项都是否定回答， 但A、B和D三项拒绝地都太生硬，语气不委婉，不\n  符合英语表达的习惯， 因此 C项符合语境， 故选 C.  \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解对话的语境。问句“Is it all right if I keep this photo？”是在询问是否可以保留这张照片。回答者需要根据具体情况给出肯定或否定的回答。\n\n选项分析：\nA. No, you don’t - 这个选项的语法不正确，且表达的意思是“不，你不能”，不符合语境。\nB. No, it shouldn’t - 这个选项的语法也不正确，且表达的意思是“不，不应该”，不符合语境。\nC. I’m afraid not - 这个选项的表达是“恐怕不行”，符合语境，是一种委婉的否定回答。\nD. Don’t keep it - 这个选项直接告诉对方不要保留，不符合语境，显得过于直接。\n\n综合分析，选项C“恐怕不行”是最符合语境的回答，既礼貌又委婉地表达了否定的意思。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 16,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "7. Tom  was about  to close  the windows_____his  attention  was caught  by a bird.  \nA. when  B. if C. and D. till\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案 A. be about  to do…when… 正要做 …突然 . when作并列连词，相当\n于and at that time. 根据句意 ：汤姆正要关窗户 \"突然 \"他的注意力被一只鸟吸引了 . \n故选 A.  \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n这道题考察的是英语中的连词用法。我们需要选择一个连词，使得句子的逻辑关系通顺。\n\n句子的前半部分是“Tom was about to close the windows”，表示汤姆正要关窗户。后半部分是“his attention was caught by a bird”，表示他的注意力被一只鸟吸引了。我们需要找到一个连词，使得这两个动作之间有一种自然的连接。\n\nA. when：表示“当……的时候”，用于表示两个动作同时发生或一个动作紧接着另一个动作发生。在这个句子中，汤姆正要关窗户，但他的注意力被一只鸟吸引了，这可以理解为一个动作紧接着另一个动作发生。\n\nB. if：表示“如果”，用于引导条件状语从句。这个选项不符合句子的逻辑，因为句子并没有表达一个条件。\n\nC. and：表示“和”，用于连接两个并列的动作或事件。这个选项也不合适，因为两个动作之间没有并列关系，而是先后关系。\n\nD. till：表示“直到”，用于引导时间状语从句。这个选项也不合适，因为句子并没有表达一个持续到某个时间点的动作。\n\n综合分析，选项A “when” 最符合句子的逻辑关系。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 17,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "8. My mother  opened  the drawer  to _________  the knives  and spoons .  \nA. put away  B. put up C. put on D. put together\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案 A. put away\"放好，收好 \"；put up\"举起，搭建，张贴 \"；put on\"播\n放，上演，增加，穿上 \"；put together\"组合，装配 \". 根据句意 ，to _____  the knives  \nand spoons是目的状语，妈妈打开抽屉是为了 \"收好 \"刀和汤匙 . 故选 A.  \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思和语境。句子的意思是“我的妈妈打开了抽屉来...刀和勺子”。我们需要选择一个合适的动词短语来填空。\n\n- A. put away：意思是“收起来，放好”，常用于描述将物品放回原位或收纳。\n- B. put up：意思是“搭建，举起”，也可以表示“张贴”，不符合语境。\n- C. put on：意思是“穿上，戴上”，也不符合语境。\n- D. put together：意思是“组装”，也不符合语境。\n\n根据句子的意思，妈妈打开抽屉是为了将刀和勺子放好，因此“put away”是最合适的选项。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 18,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "9. Barbara  is easy to recognize  as she’s the only of the women  who ____  evening  \ndress .  \nA. wear  B. wears  C. has worm  D. have  worm\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案： B 此题考查主谓一致和时态， the only one of …. 为先行词时，\n定语从句修饰的是 one，即who代替的是 one，而非后面的复数 women，根据主\n谓一致的原则，定语从句的谓语动词应该用单数， 排除 A/D；根据前句中的 \"is\"\n以及句意 ，可以看出句子表示只是个人穿着方面的一种习惯性动作 ，因此只须一\n般现在时即可， 由此可以排除 C，所以正确答案为 B.  \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们需要明确句子的主语和谓语。句子的主语是“Barbara”，而“the only of the women”是修饰“Barbara”的定语从句。因此，我们需要找到一个动词形式来描述Barbara穿晚礼服的情况。\n\n选项分析：\nA. wear - 这是一个动词原形，通常用于复数主语或泛指情况，但在这里Barbara是单数主语，所以不合适。\nB. wears - 这是一个第三人称单数形式，适用于描述Barbara穿晚礼服的情况，符合句子结构。\nC. has worm - 这个选项中的“worm”是错误的拼写，应该是“worn”，而且“has worn”是现在完成时，不符合句子的时态。\nD. have  worm - 这个选项中的“have”和“worm”都是错误的，应该是“have worn”。\n\n综上所述，正确的选项是B. wears。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 19,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "10. --- Have  you finished  the book？ \n  --- No. I’ve read up to _____  the children  discover  the secret  cave.  \nA. which  B. what  C. that D. where\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】答案 D. _____  the children  discover  the secret  cave是介词宾语从句 ，在介\n词宾语从句中不缺少任何成分，结合句意， 用where表示 …地方 . 故选 D.  \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n这道题考察的是定语从句的用法。句子中的“up to _____ the children discover the secret cave”是一个定语从句，修饰“up to”。我们需要选择一个合适的引导词来连接这个从句。\n\n- A. which：通常用来引导定语从句，指代前面的整个句子或事物，但在这里“which”不能直接引导地点的定语从句。\n- B. what：通常用来引导名词性从句，如主语从句、宾语从句等，但不能直接引导定语从句。\n- C. that：在定语从句中，可以引导指代前面的整个句子或事物，也可以引导地点的定语从句，但在这里“that”通常不用于引导定语从句，除非从句中不缺少任何成分。\n- D. where：用来引导定语从句，指代地点，且从句中通常缺少地点状语。\n\n根据句子的意思，我们需要一个引导词来指代地点，即孩子们发现秘密洞穴的地方。因此，“where”是最合适的选择。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 20,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "11. Though  ______  to see us, the professor  gave  us a warm  welcome .  \nA. surprise     B. was surprised     C. surprised     D. being  surprised\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】 答案： C 本题考查让步状语从句中的省略 . 过去分词作状语表示分词与\n句子主语为被动关系 . 表示某人感到惊讶应该用 surprised 的形式所以可以排除\nA和D两项 . 当从句中的主语和主句中的主语一致 ，可以省略从句中的主语和 be\n动词，不能单独省略主语， 可排除 B. 所以，本句补全之后应该是： Though  the \n  professor  was surprised  to see us，the professor  gave  us a warm  welcome . 故本题选\n择C.  \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n这道题考察的是非谓语动词的用法。句子的主语是“the professor”，而“surprise”在这里是表示教授的感受。我们需要选择一个与教授主语相匹配的非谓语形式。\n\nA. surprise - 这是一个名词，不符合句子结构。\nB. was surprised - 这是一个被动语态的过去分词形式，不符合句子的主语和逻辑。\nC. surprised - 这是一个形容词，表示“感到惊讶的”，可以用来修饰主语“the professor”。\nD. being surprised - 这是一个现在分词的进行时态形式，不符合句子的逻辑。\n\n因此，正确答案是C，表示教授感到惊讶。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 21,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "12. Neither  side is prepared  to talk to _____  unless  we can smooth  thing  over between  \nthem .  \nA. others  B. the other  C. another  D. one other\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案 B.  根据句意， neither（两者之中没有一个）可知是 \"两者 \"，故选\nthe other，表示两者中的另外一个 . others泛指其他人； another另一，又一； one \nother无此搭配 . 故选 B.  \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子的意思是：“除非我们能够在这两方之间缓和关系，否则任何一方都不愿意与另一方交谈。”\n- 选项A \"others\" 意思是“其他人”，不符合句子的语境。\n- 选项B \"the other\" 意思是“另一方”，符合句子中提到的“两方”的情况。\n- 选项C \"another\" 意思是“另一个”，通常用于指代单数，不符合这里指代双方的情况。\n- 选项D \"one other\" 语法上不正确，通常不用于此情境。\n\n因此，最合适的选项是B \"the other\"。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 22,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "13. The island  is ____  attractive  in spring  and autumn  because  of the pleasant  weather  \nin both seasons .  \nA. partly  B. merely  C. nearly  D. equally\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案： D，本题考查副词辨析 . A. partly  部分的， B. merely  只是，仅仅\n，C. nearly  几乎的， D. equally  相等的，同样的 . 根据题干的意思：这个岛屿在\n春天和秋天都同样的（ equally）迷人，因为这两季的惬意的天气 . 所以本题选择\nD.  \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子的意思是：“这个岛屿在春天和秋天因为天气宜人而同样具有吸引力。”\n接下来，我们分析每个选项：\nA. partly - 部分地，部分地具有吸引力，这与句子的意思不符，因为句子强调的是两个季节都具有吸引力。\nB. merely - 仅仅，只是，这与句子的意思也不相符，因为句子强调的是两个季节都具有吸引力，而不是仅仅其中一个。\nC. nearly - 几乎，接近，这与句子的意思也不完全匹配，因为句子强调的是两个季节都具有吸引力，而不是接近具有吸引力。\nD. equally - 同样地，这与句子的意思相符，因为句子强调的是两个季节都具有吸引力。\n\n因此，正确答案是D. equally。\n【答案】: D <eoa>"
+        },
+        {
+            "index": 23,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "14. The doctor  thought  ____  would  be good  for you to have  a holiday . \nA. this B. that C. one D. it\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D. 本题 to have  a holiday是真正的宾语， thought后面缺少一个形\n式宾语， 所以用 it做形式宾语 . 故选 D.  \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n在这个句子中，我们需要填入一个引导从句的代词。句子的意思是“医生认为你去度假会有好处”。在这个结构中，“think + it + 形容词 + for sb to do sth”是一个常见的固定搭配，其中“it”作为形式宾语，真正的宾语是后面的不定式短语。\n\n- A. this - 这里不适用，因为“this”不能作为形式宾语。\n- B. that - “that”通常用于引导从句，而不是作为形式宾语。\n- C. one - “one”也不能作为形式宾语。\n- D. it - “it”可以作为形式宾语，符合句子结构。\n\n因此，正确答案是D。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 24,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "15. Linda , make  sure the tables  ____  before  the guests  arrive .  \nA. be set B. set C. are set D. are setting\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案： C. make  sure后面加宾语从句 . 根据动词 set与其逻辑主语即句子\n的主语 the tables之间的关系可知， set tables桌子是被摆放的，所以需用被动语\n态，排除选项 B和D；另外根据题干中的 make  sure可知，后面跟陈述语气的宾\n语从句，不接虚拟语气， 所以排除选项 A. 故选 C.  \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n这道题考察的是动词的时态和语态。句子中的主语是“the tables”，是动作的承受者，因此应该使用被动语态。句子的意思是“确保在客人到来之前把桌子摆好”，这是一个现在时态的句子，因此需要使用现在时态的被动语态，即“are + 动词过去分词”。\n\n选项分析：\nA. be set - 这是动词的不定式形式，不符合句子结构。\nB. set - 这是动词原形，不符合被动语态的要求。\nC. are set - 这是现在时态的被动语态，符合句子结构和时态要求。\nD. are setting - 这是现在进行时的被动语态，不符合句子的时态要求。\n\n因此，正确答案是C。  \n【答案】: C <eoa>"
+        },
+        {
+            "index": 25,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "16. I refuse  to accept  the blame  for something  _____  was someone  else’s fault.  \nA. who  B. that C. as D. what\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案： B 本句中含有定语从句， what不可以引导定语从句， 所以排除\nD. 从句中缺少主语，所以应该用关系代词，当先行词是事物时，定语从句的关\n系代词可用 that 或which，可以排除 who. 但本句中先行词是不定代词 something\n，所以只能用关系代词 that. as作为关系代词时 ，先行词前面应有 such或so、the \nsame修饰，或代替一句话，不符本题题干 . 故选择 B.  \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】这道题考察的是定语从句的用法。句子的结构是“I refuse to accept the blame for something...”，其中“something”后面跟着一个定语从句，用来修饰“something”。我们需要选择一个合适的引导词来引导这个从句。\n\n- 选项A: \"who\" 通常用来引导指人的定语从句，这里“something”是物，所以不合适。\n- 选项B: \"that\" 也可以引导定语从句，但通常在口语中用\"that\"引导非限制性定语从句时会省略，而在正式语境中，\"that\"引导的定语从句通常不省略先行词。这里可以使用，但不如其他选项常见。\n- 选项C: \"as\" 也可以引导定语从句，用来指代前面提到的事物，且在口语中较为常见。\n- 选项D: \"what\" 不能引导定语从句，它通常用来引导名词性从句。\n\n综合考虑，选项C \"as\" 是最合适的，因为它既符合语法要求，也符合英语的常用表达。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 26,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "17. I’m afraid  Mr. Harding  ____  see you now, he’s busy .  \nA. can’t B. mustn ’t C. shouldn ’t D. needn ’t\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案 A. can't \"不能，不可能 \"；mustn 't \"禁止，不允许 \"；shouldn 't \"不应\n该\"；needn 't \"不需要，没必要 \". 根据句意，他在忙，说明他现在 \"不能 \"见你 . 故\n选A.  \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思和语境。句子的意思是“恐怕Harding先生现在不能见你，他很忙。”这里的关键在于表达“不能”的意思，同时考虑到Harding先生的忙状态。\n\n- A. can't 表示“不能”，符合“不能见你”的意思。\n- B. mustn't 表示“禁止”，不符合语境。\n- C. shouldn't 表示“不应该”，不符合语境。\n- D. needn't 表示“不需要”，不符合语境。\n\n因此，根据句子的意思和选项的含义，正确答案是A. can't。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 27,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "18. --- Can I help you? Are you looking  for anything  in particular  today ? \n--- _____ , we’re just looking .  \nA. Yes, pleas e    B. No, thank  you    C. Yes, you can    D. No, you needn ’t\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案 B. A项\"好的，请吧 \"；C项\"是的，你可以的 \"；D项\"不，你没有\n必要 \"；B项\"不，谢谢 \"；由语境可知，对方显然是提供帮助，如果接受帮助则\n说\"Yes，please . \"如果不接受帮助要说 \"No，thank  you. \"，根据句意 \"我们只不过\n是看看 \"可知，这里是不需要帮助，礼貌地拒绝， 因此 B项符合语境， 故选 B.  \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们来看这个对话的上下文。前一句是“Can I help you? Are you looking for anything in particular today?”，意思是“我可以帮助你吗？你今天有什么特别需要找的东西吗？”这是一个服务行业常见的开场白，比如在商店里，店员在询问顾客是否需要帮助。\n\n后一句的回答应该是对前一句的回应。选项A和C的回答不符合语境，因为如果顾客需要帮助，他们通常会说“是的，我需要帮助”，而不是“是的，请”或“是的，你可以”。选项D的回答也不合适，因为“你不需要”这个回答不符合礼貌用语，而且也不符合语境。\n\n选项B“No, thank you”（不，谢谢）是一个礼貌的拒绝，符合语境。顾客在这种情况下通常会礼貌地表示不需要帮助，因为他们可能只是在浏览，并没有特别需要找的东西。\n\n因此，最合适的回答是B选项。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 28,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "19. Excuse  me, I      I was blocking  your way. \nA. didn’t realize     B. don’t realize     C. haven ’t realized     D. wasn ’t realizing\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案： A. \"Excuse  me\"说明我现在已经意识到了（ realize）我正挡着你的\n路，所以没有意识到 \"not realize\"这个动作应该发生在过去 ，明显是刚刚发生的动\n作，故didn't realize符合语境， 所以选 A.  \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n首先，我们需要分析句子的时态和语境。句子中提到“Excuse me, I... I was blocking your way.”，这表明说话者是在道歉，说明他意识到自己当时挡住了对方的路。因此，说话者是在描述一个过去发生的动作，并且这个动作在说话时已经结束了。\n\n选项分析：\nA. didn’t realize - 这表示说话者在过去的某个时间点没有意识到挡住了对方的路，但没有明确表示这个动作已经结束。\nB. don’t realize - 这表示说话者现在没有意识到挡住了对方的路，不符合语境。\nC. haven’t realized - 这表示说话者从过去到现在都没有意识到挡住了对方的路，也不符合语境。\nD. wasn’t realizing - 这表示说话者在过去某个时间点没有意识到挡住了对方的路，但没有明确表示这个动作已经结束，也不完全符合语境。\n\n考虑到说话者是在描述一个已经结束的动作，并且是在道歉，最合适的选项是A. didn’t realize，因为它表示说话者在过去的某个时间点没有意识到挡住了对方的路，但这个动作已经结束了。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 29,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "20. Mr. Black  is very happy  because  the clothes  made  in his factory  have  never  been  \n      .  \nA. popular     B. more  popular     C. most  popular     D. the most  popular\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】答案：B，选项中 A为原级， C和D项表示最高级，根据题干可知，衣\n服从来没有比现在受欢迎过，也就是说现在是最受欢迎的，在英语句型中，\nnever/not 加形容词比较级 =形容词最高级，所以本题选择比较级， B选项 .  \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的语境。句子的意思是“布莱克先生非常高兴，因为他的工厂生产的衣服从未如此受欢迎。”这里的关键在于“从未如此受欢迎”，这表明我们需要一个表示比较的形容词形式。\n\n选项分析：\nA. popular - 一般形式，没有比较意义。\nB. more popular - 比较级形式，表示“更受欢迎”。\nC. most popular - 最高级形式，表示“最受欢迎”。\nD. the most popular - 最高级形式，表示“最受欢迎”。\n\n根据句子的意思，这里需要表达的是“从未如此受欢迎”，即“从未比现在更受欢迎”，因此应该使用比较级形式。所以，正确答案是B。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 30,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "6. --- Did you forget  about  my birthday ? \n---         I’ve booked  a table  at Michel ’s restaurant  for this evening . \nA. What  then?    B. I’m afraid  so.    C. How could  I?    D. For sure.\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案：C．本题考查交际用语 ．How  could  I？表示 \"我怎么会呢？ \"．What  \nthen？\"那便会怎么样呢？ \"，I'm afraid  so．\"恐怕是这样． \"，For sure．\"肯定；确\n定．\"根据 \"I've booked  a table  at Michel's  restaurant  for this evening．\"可知，答话人\n并没有忘记对方的生日， 因此选择 C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们来看第一个句子：“Did you forget about my birthday?” 这是一个问句，询问对方是否忘记了说话人的生日。根据语境，回答者应该给出一个合理的解释或回应。\n\n接下来，我们分析每个选项：\nA. \"What then?\" 这个选项的意思是“那又怎样？”它没有直接回答忘记生日的问题，不符合语境。\nB. \"I’m afraid so.\" 这个选项的意思是“恐怕是这样。”它表示承认忘记了，但与后半句提供的信息不符，因为后半句提到了已经预订了餐厅，所以回答者并没有忘记。\nC. \"How could I?\" 这个选项的意思是“我怎么可能忘记呢？”它直接回应了忘记生日的问题，同时暗示了回答者没有忘记，而是已经做了安排。\nD. \"For sure.\" 这个选项的意思是“当然了。”它没有直接回答忘记生日的问题，且语气不够强烈，不符合语境。\n\n综合分析，选项C \"How could I?\" 最符合语境，因为它既回应了忘记生日的问题，又通过否定的方式暗示了回答者已经做了安排。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 31,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "7. Ted came  for the weekend  wearing  only some  shorts  and a T-shirt,        is a \nstupid  thing  to do in such weather . \n  A. this B. that C. what  D. which\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】答案： D．分析句子结构可知，本句为非限定性的定语从句；由于关系\n词指代的是前一句话的内容，在该从句中作主语； 由于 A与C不是关系词； C．\n  不能用于非限定性的语从句中； 故选 D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n这道题考察的是非限制性定语从句的用法。句子的前半部分描述了Ted的行为，后半部分是对这种行为的评价。我们需要找到一个连接词来引导这个评价部分，这个连接词需要指代前面整个句子的内容。\n\n选项分析：\nA. this - 通常用来指代单数可数名词或整个句子的意思，但在这里指代整个句子的意思不太合适。\nB. that - 通常用来指代单数可数名词或整个句子的意思，但在这里指代整个句子的意思也不太合适。\nC. what - 不能引导定语从句。\nD. which - 可以用来引导非限制性定语从句，指代前面整个句子的内容。\n\n因此，\"which\" 是最合适的选项，因为它可以引导非限制性定语从句，指代前面整个句子的内容。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 32,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "8. If you_______smoke , please  go outside . \nA. can B. should  C. must  D. may\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】 答案： C．本题考查情态动词的用法． can 能，会； may 可以，可能；\nmust  必须，非要； might  可以，可能， 是may的过去式形式．根据句意可知，\n这里表示的是如果你非得要吸烟这个意思， 故选 C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n这道题考察的是情态动词的用法。句子的意思是“如果你要抽烟，请到外面去。”\n- 选项A \"can\" 表示能力或可能性，不符合语境。\n- 选项B \"should\" 表示建议或义务，虽然可以表达建议，但不如“must”强烈。\n- 选项C \"must\" 表示强制或义务，符合语境中的要求。\n- 选项D \"may\" 表示许可或可能性，不符合语境。\n\n综合分析，最合适的选项是C \"must\"，因为它表达了强烈的强制性，符合句子的意思。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 33,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "9. If you don’t like the drink  you ________ , just leave  it and try a different  one. \nA. ordered  B. are ordering  C. will order  D. had ordered\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案是 A．考查动词时态， 分析题干可知 you drink  是定语从句，先行\n词是 drink，饮料是在喝之前点的 ，发生在过去 ，所以要用过去时 ，故答案是 A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n这道题考察的是时态的正确使用。句子中的关键信息是“you don’t like the drink”，这表明动作已经发生，且与现在的情况相关。因此，应该使用过去时态。\n\n选项分析：\nA. ordered - 过去时，符合语境，表示过去的动作。\nB. are ordering - 现在进行时，表示正在进行的动作，不符合语境。\nC. will order - 未来时，表示将要进行的动作，不符合语境。\nD. had ordered - 过去完成时，表示过去的过去，不符合语境。\n\n因此，正确答案是A. ordered。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 34,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "10. Mary , I       John  of his promise  to help you. \nA. told B. reminded  C. warned  D. advised\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】答案：B．A．tell告诉，常用 tell sb to do；B．remind  提醒，用法为 remind  \nsb of sth或remind  sb to do；C．warn  警告，提醒； 也有 warn  sb of sth的用法，\n但它侧重 \"警告 \"的意思； D．advise建议，用法： advise  sb to do；所以结合句意\n答案应该选 B． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子是“Mary, 我……提醒John他答应帮助你了。”我们需要选择一个合适的动词来填空。\n\n- A. told：告诉。这个选项不太合适，因为“told”通常用于传达信息或讲述事情，而不是提醒某人关于某个承诺。\n- B. reminded：提醒。这个选项比较合适，因为“reminded”可以用来提醒某人关于某个承诺或约定。\n- C. warned：警告。这个选项不合适，因为“warned”通常用于警告某人关于某种危险或不好的情况，而不是提醒关于一个承诺。\n- D. advised：建议。这个选项也不合适，因为“advised”通常用于给出建议或意见，而不是提醒关于一个承诺。\n\n综合分析，最合适的选项是B. reminded。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 35,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "11. I got this bicycle  for ______ . My friend  gave  it to me when  she bought  a new one. \nA. everything  B. something  C. anything  D. nothing\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案：D．A．everything\" 一切，所有事物 \"； B．something\" 某事某物 \"\n，表示不确指； C．anything\" 任何东西 \"；D．nothing  表示什么都没有．根据句\n意，我朋友买了新的自行车，把原来的自行车给了我，所以 \"I got this bicycle  for \n______．\"应该是我没花钱，白得了一辆自行车． 故选 D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子的意思是“我得到了这辆自行车……”。根据句子的逻辑，朋友送给我这辆自行车的原因是她买了一辆新的。因此，这里需要填入一个表示“不需要其他东西”的词，即“这辆自行车是不需要额外支付费用的”。\n\n选项分析：\nA. everything - 意思是“一切”，不符合语境。\nB. something - 意思是“某物”，也不符合语境。\nC. anything - 意思是“任何东西”，不符合语境。\nD. nothing - 意思是“没有东西”，符合语境，表示这辆自行车是不需要额外支付费用的。\n\n因此，正确答案是D. nothing。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 36,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "12. It is one thing  to enjoy  listening  to good  music , but it is       another  to play it \nwell yourself . \nA. quite  B. very C. rather  D. much\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案 A．考查副词辨析．句意为 \"欣赏好的音乐是一回事，但是亲自把\n它演奏好完全是另一回事 ．\"表示 \"很，非常 \"时，very用来修饰形容词 、副词，much\n用来修饰形容词或副词的比较级 ．quite和rather都可修饰名词 ，但rather多用于\n贬义． another指的是 another  thing，这个名词受 quite的修饰．  \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子表达的是享受听好音乐和自己演奏好音乐是两回事。这里需要一个副词来连接两个部分，表示两者之间的对比关系。\n\n选项分析：\nA. quite - 表示相当、很，但没有强烈的对比意味。\nB. very - 表示非常，同样没有强烈的对比意味。\nC. rather - 表示更、比较，可以用来表示对比。\nD. much - 表示很多，不符合句子结构和语义。\n\n结合句子的语义和选项的含义，\"rather\" 最适合用来表示两者之间的对比关系。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 37,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "13. Jane won’t join us for dinner  tonight  and        . \nA. neither  won’t Tom    B. Tom  won’t either    C. Tom  will too   D. so will Tom\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案是 B．本题考查否定结构；根据语境 \"Jane今晚不和我们一起吃晚\n饭，Tom也不会．\"，排除 C和D；因为 too 和so用在肯定句中表示 \"也\"；neither\n表示 \"也不 \"，不需要再与否定词连用， 故排除 A；either表示 \"也\"，常常出现在\n否定句中， 故选 B． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的逻辑关系。句子的前半部分是“Jane won’t join us for dinner tonight”，表示Jane不会和我们一起吃晚饭。接下来的部分需要表达Tom的情况，即Tom也不会和我们一起吃晚饭。\n\n选项分析：\nA. “neither won’t Tom” 这个选项的语法不正确，neither后面应该直接跟主语，不需要助动词。\nB. “Tom won’t either” 这个选项是正确的，表示Tom也不会和我们一起吃晚饭，符合逻辑。\nC. “Tom will too” 这个选项表示Tom会和我们一起吃晚饭，与前半句的逻辑不符。\nD. “so will Tom” 这个选项表示Tom也会和我们一起吃晚饭，同样与前半句的逻辑不符。\n\n因此，正确的选项是B。<eoe>\n【答案】: B <eoa>"
+        },
+        {
+            "index": 38,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "14. This shop  will be closed  for repairs        further  notice . \nA. with B. until C. for D. at\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案 B．with 和，跟；随着；关于；  和…一致； for为了，由于； at （\n表示位置）在；  在（某时间或时刻）；  until 到…为止；  在…以前．结合句意\n\"直到另行通知为止 \"可知 until符合句意， 故选 B项．  \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子的意思是“这家商店将在进一步通知之前关闭进行维修”。我们需要选择一个合适的介词来填空，使得句子语法正确且意义通顺。\n\n- A. with：表示伴随，例如“他带着礼物来”。这里不合适，因为“with”不能直接引导时间。\n- B. until：表示直到某个时间点为止，例如“我将等你直到你回来”。这里合适，可以表示“直到进一步通知为止”。\n- C. for：表示一段时间，例如“我将等你一个小时”。这里不合适，因为“for”不能直接引导时间。\n- D. at：表示在某个时间点，例如“我将在下午三点到达”。这里不合适，因为“at”不能直接引导时间。\n\n因此，最合适的选项是B. until。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 39,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "15. The island ,          to the mainland  by a bridge , is easy to go to. \nA. joining     B. to join    C. joined     D. having  joined\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案：C．此处在句中作后置定语， 修饰名词 The island；由于动词 join\n与该名词构成被动关系，表示已经完成的动作， 故用过去分词形式 ；A．现在分\n词作定语时， 与其修饰词构成主谓关系 ；B．动词不定式作后置定语，表示将要\n完成的动作， 并且与其修饰词之间不能用逗号隔开 ；D．现在分词的完成式通常\n  表示伴随的状况，不能做后置定语； 故选 C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n这道题考察的是非谓语动词的用法。句子的主语是“the island”，它与“join”之间是被动关系，即“the island”被“join”到“the mainland”。因此，应该使用过去分词形式来表示这种被动关系。\n\n选项分析：\nA. joining - 这是现在分词形式，表示主动关系，不符合题意。\nB. to join - 这是不定式形式，表示目的，也不符合题意。\nC. joined - 过去分词形式，表示被动关系，符合题意。\nD. having joined - 这是现在分词的完成式，表示动作发生在谓语动词之前，也不符合题意。\n\n因此，正确答案是C。<eoe>\n【答案】: C <eoa>"
+        },
+        {
+            "index": 40,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "16. As he reached         front  door, Jack saw         strange  sight . \nA. the; 不填  B. a; the C. 不填 ; a D. the; a\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案： D．本题第一个空后面的名词 door有front修饰，所以要用 the\n表示 \"特指 \"，sight此处指 \"景色，景观 \"，是可数名词， 前面用不定冠词 a表示 \"\n泛指 \"． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n首先，我们来看第一个空格“front door”。在英语中，表示特定的门（如家里的前门）时，通常会使用定冠词“the”。因此，第一个空格应该填“the”。\n\n接下来，我们来看第二个空格“strange sight”。这里描述的是一个具体的、不寻常的景象，因此需要用不定冠词来表示一个特定的、不寻常的事物。由于“strange”是以辅音音素开头的单词，所以应该使用不定冠词“a”。\n\n综上所述，正确的选项是D. the; a。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 41,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "17. Mr. Stevenson  is great  to work  for --- I really  couldn ’t ask for a_______  boss. \nA. better  B. good  C. best D. still better\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案： A．考查比较级的否定用法． 否定词 couldn't与better连用，表\n示\"非常好 \"，相当于最高级． still better不能用于否定句中．  \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n这道题考察的是形容词的比较级用法。句子的意思是“史蒂文森先生是一个很好的老板，我无法要求有更好的老板了。”\n- 选项A: \"better\" 表示“更好的”，符合句子的意思，表示“一个更好的老板”。\n- 选项B: \"good\" 表示“好的”，但不能直接与“a”搭配使用，也不能表达出“更好的”意思。\n- 选项C: \"best\" 表示“最好的”，但句子中没有比较的范围，不能直接使用“best”。\n- 选项D: \"still better\" 表示“更好”，但“still”在这里用得不自然，通常用于表示“仍然更好”，不符合句子的语境。\n\n因此，正确答案是A. better。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 42,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "18. Sarah  pretended  to be cheerful , ______nothing  about  the argument . \nA. says B. said C. to say D. saying\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案： D．此处在句中作伴随状语， 由于动词 say与其逻辑主语 Sarah\n  构成主谓关系， 故此处应使用现在分词形式 ；A．动词的第三人称单数形式 ；B．\n动词的一般过去时； A．与B．在句中只能作谓语； C．动词不定式，不能作伴\n随状语； 故选 D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n这道题考察的是非谓语动词的用法。句子中已经有了谓语动词“pretended”，所以需要选择一个非谓语动词形式来填空。选项A是动词原形，B是过去式，C是不定式，D是现在分词。根据句子结构，这里需要一个现在分词来表示伴随状态或伴随动作，因此选项D \"saying\" 是正确的。\n\n另外，从逻辑上讲，Sarah假装快乐的同时没有提到争论的事情，现在分词“saying”可以很好地表达这个伴随动作。\n\n综上所述，正确答案是D \"saying\"。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 43,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "19. It was a nice meal ,         a little expensive . \nA. though  B. whether  C. as D. since\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案： A．though，虽然，尽管；  即使；纵然．根据句意 \"这顿饭很可\n口\"与后面 \"有点贵 \"，判断可知之间为让步关系 ，故though符合句意 ． 其余选项\n：B whether，是否；不管；无论； C as，像，像 …一样；  由于；  同时，当 …时\n；D since，自从 …以来；  自从 …的时候起；  既然；  因为；均不符合句意．故\n选A项．  \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n这道题考察的是连词的用法。我们需要选择一个合适的连词来连接两个分句，使整个句子的意思连贯且逻辑合理。\n\n- A. though：尽管，表示转折关系。\n- B. whether：是否，引导选择疑问句。\n- C. as：因为，表示因果关系。\n- D. since：因为，表示因果关系。\n\n从句子结构来看，前半句“It was a nice meal”和后半句“a little expensive”之间存在一种转折关系，即虽然饭菜很好吃，但是有一点贵。因此，选择“though”最为合适。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 44,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "20. --- So you gave  her your phone ? \n--- ______ , she said she’d return  it to me when  she could  afford  her own. \nA. My pleasure  B. Not exactly  C. No doubt  D. All right\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案： B．分析各个选项 A．My pleasure不用谢， B．Not exactly  不确\n切， C．No wonder难怪， D．All right好的，结合语境可知 B符合题意．  \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解对话的上下文。前一句“你把手机给了她吗？”是一个询问对方是否把手机给了某人的句子。后一句的回答中，说话者提到“她”说会在她能负担得起自己的手机时归还。这表明说话者并没有直接把手机给她，而是对方提出了一个条件。\n\nA. My pleasure - 这个选项的意思是“不客气”，通常用于回应感谢，不符合这里的语境。\nB. Not exactly - 这个选项的意思是“不完全是”，可以用来表示对方的描述不完全准确，符合这里的情况，因为说话者并没有直接把手机给她。\nC. No doubt - 这个选项的意思是“毫无疑问”，不符合这里的语境，因为说话者并没有表示肯定。\nD. All right - 这个选项的意思是“好的”，不符合这里的语境，因为说话者并没有表示同意。\n\n综合分析，B选项“Not exactly”最符合语境，表示说话者并没有直接把手机给她，而是对方提出了一个条件。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 45,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "21. — We could  invite  John  and Barbara  to the Friday  night  party.  \n— Yes, _______?  I’ll give them  a call right  now.  \nA. why not     B. What  for      C. why       D. what\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案 A．B项\"为何？ \"；C项\"为什么 \"；D项\"什么 \"；A项\"为什么不呢？\n\"；\"why  not\"表示同意对方的意见 ．分析语境可知 ，\"why  not\"完整表达为 \"why  not \ninvite  them  tothe  Friday  night．\"．根据句意 \"为什么不呢？我们现在就给他们打电\n话\"可知，同意对方的建议（ 邀请 John和Barbara来参加周五晚上的聚会），因\n此A项符合语境， 故选 A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n这道题考察的是英语中的交际用语。从对话的上下文来看，第一句话是提议邀请John和Barbara参加周五晚上的聚会，第二句话是对这个提议的回应，表示同意并决定立即打电话给他们。\n\n选项分析：\nA. why not - 为什么不做呢？这是一个表示赞同并提出建议的回答。\nB. What for - 为什么？这个选项通常用于询问目的，不符合这里的语境。\nC. why - 为什么？这个选项也用于询问原因，不符合这里的语境。\nD. what - 什么？这个选项通常用于询问具体内容，也不符合这里的语境。\n\n根据对话的语境，最合适的回答是A. why not，因为它表示同意并提出建议，符合对话的上下文。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 46,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "22. Try _______  she might,  Sue couldn’t  get the door open.  \nA. if         B. when          C. since        D. as\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案： D．根据句意可知，前后之间是让步关系， as作\"虽然 \"之意时，\n从句需要倒装 ，将表语、状语或者动词位于句首 ，后接 as，再加上其他内容 ．所\n以本题选择 D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n这道题考察的是连词的用法。我们需要选择一个合适的连词来连接两个分句，使得整个句子的意思通顺且语法正确。\n\n- 选项A: \"if\" 表示“如果”，通常用于条件句，不符合这里的情境。\n- 选项B: \"when\" 表示“当...时候”，也不适用于这里的情境。\n- 选项C: \"since\" 表示“自从...以来”，通常用于表示原因或时间起点，也不合适。\n- 选项D: \"as\" 表示“尽管，虽然”，可以用来引导让步状语从句，符合这里的情境，表示尽管Sue尝试了很多次，但仍然无法打开门。\n\n因此，最合适的选项是D。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 47,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "23. Planning  so far ahead  _______no  sense  --- so many  things  will have  changed  by \nnext year.  \nA. made         B. is making      C. makes         D. has made\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案： C．该句中没有明显的时间状语，根据句意，该句所表达的是一\n般的道理，所以用一般现在时态．故选： C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们需要分析句子的时态和语态。句子中的“Planning so far ahead”是一个现在分词短语，用作主语，表示一种状态或行为。接下来，我们需要确定谓语动词的形式。\n\n句子的后半部分“no sense --- so many things will have changed by next year”是一个解释为什么“Planning so far ahead”没有意义的原因。这里的关键是“so many things will have changed by next year”，这是一个将来完成时的句子，表示到未来某个时间点之前将会发生的事情。\n\n因此，我们需要一个与将来完成时相匹配的现在时态来表达“Planning so far ahead”与“no sense”的关系。现在时态中，动词“make”（使，认为）的正确形式是“makes”，因为它与主语“Planning so far ahead”是单数形式，且句子表达的是一个普遍真理或当前状态。\n\n所以，正确的选项是C. makes。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 48,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "24. I wasn’t  sure if he was really  interested  or if he _______polite.  \nA. was just being      B. will just be     C. had just been       D. would  just be\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案：A．A项是过去进行时 ；B项是一般将来时 ；C项是过去完成时 ；\nD项是过去将来时 ．因为前一分句是一般过去式 ，后一分句也应该是过去的相应\n时态，由句意知 ，是当时正在做 ，而不是将要做或发生在当时的动作之前 ，所以\n用过去进行时 ，排除 B、D两项．C项主要是 \"过去的过去 \"，与句意不符 ．故选\nA． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子表达的是说话者不确定对方是否真的感兴趣，还是仅仅出于礼貌。这里的关键在于“礼貌”这个行为是发生在说话者说话之前，且是一个持续的状态。\n\n选项分析：\nA. \"was just being\" 表示“只是在表现”，符合句子中说话者不确定对方是否出于礼貌的情况。\nB. \"will just be\" 表示“将只是在表现”，不符合句子的时间背景，因为说话者是在描述一个过去的不确定情况。\nC. \"had just been\" 表示“刚刚在表现”，不符合句子的时间背景，因为说话者是在描述一个过去的不确定情况。\nD. \"would just be\" 表示“将会只是在表现”，不符合句子的时间背景，因为说话者是在描述一个过去的不确定情况。\n\n因此，最合适的选项是A. \"was just being\"。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 49,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "25. — Someone  wants  you on the phone.    — _______nobody  knows  I am here.  \nA. Although         B. And        C. But        D. So\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】 答案： C A项\"虽然，尽管 \"，引导让步状语从句； B项\"和，并且 \"，并\n列连词，连接并列句， 表示顺承关系 ；C\"但是 \"，转折连词， 表示转折 ；D\"因此\n\"，因果连词 ，表示原因 ．因为此句是简单句 ，所以排除 A项．通过 \"nobody  knows  \nI am here\"可知，此处是转折． 排除 B、D两项．故选 C项．  \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思和逻辑关系。第一句话“Someone wants you on the phone.”表示有人想打电话给你。第二句话“nobody knows I am here.”表示没有人知道你在这里。这两句话之间存在一种转折关系，即尽管有人想打电话给你，但没有人知道你在这里，因此你可能无法接电话。\n\n选项分析：\nA. Although - 虽然，表示让步关系，但这里更需要转折关系。\nB. And - 和，表示并列关系，不符合语境。\nC. But - 但是，表示转折关系，符合语境。\nD. So - 所以，表示因果关系，不符合语境。\n\n因此，正确答案是C. But。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 50,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "26. I can _______the  house  being  untidy,  but I hate it if it’s not clean.  \nA. come  up with      B. put up with     C. turn to      D. stick  to\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】答案：B．come  up with\"提出，想出 \"；put up with\"忍受，容忍 \"；turn to\"\n转向；求助于 \"；stick  to\"坚持；粘住 \"．根据题干中转折连词 but可知，前一句的\n意思应与后一句的 hate\"讨厌 \"之意相反 ，即\"不讨厌 \"，所以 put up with\"忍受，容\n忍\"之意与语境相符． 故选 B． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子表达的是“我可以忍受房子不整洁，但我讨厌它不干净”。我们需要找到一个合适的短语来填空。\n\n- A. come up with：提出，想出。这个短语不符合句子的意思。\n- B. put up with：忍受，容忍。这个短语符合句子的意思，表示可以忍受不整洁。\n- C. turn to：求助于，转向。这个短语不符合句子的意思。\n- D. stick to：坚持，遵守。这个短语也不符合句子的意思。\n\n因此，最合适的短语是“put up with”，表示可以忍受不整洁，但讨厌不干净。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 51,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "27. The next thing  he saw was smoke  _______from  behind  the house.  \nA. rose         B. rising          C. to rise      D. risen\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】答案：B．本题考察非谓语动词的用法， 先分析句子的主干为 ：The next \nthing  was smoke．risng与所修饰的名词 smoke之间的关系是主动的关系， 故用\nrising  from  behind  the house  做后置定语． 故选 B． \n  【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n这道题考察的是非谓语动词的用法。具体来说，这里需要一个分词来修饰\"smoke\"，表示烟从房子后面升起的状态。\n\n- 选项A \"rose\" 是动词过去式，不能直接修饰名词。\n- 选项B \"rising\" 是现在分词，表示正在进行的动作，可以用来修饰名词，表示烟正在从房子后面升起。\n- 选项C \"to rise\" 是不定式，通常用来表示目的或意图，不符合这里语境。\n- 选项D \"risen\" 是过去分词，通常用来表示完成的动作，也不符合这里语境。\n\n因此，正确答案是B. rising。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 52,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "28. Only  when  he reached  the tea-house  _______it  was the same  place  he’d been  in \nlast year.  \nA. he realized     B. he did realize     C. realized  he   D. did he realize\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案： D．本题考查倒装句式． 本句中 only位于句首，强调时间状语 ，\n主句需要部分倒装 ，根据句意 ，主句应该用一般过去时态 ，所以借助于助动词 did\n，将did和主语颠倒． 故本题选择 D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n这道题考察的是英语中的倒装句结构。在英语中，当否定词或疑问词位于句首时，句子需要使用部分倒装的形式。具体到这个句子，\"Only\" 位于句首，因此句子需要使用部分倒装。\n\n原句是：\nOnly when he reached the tea-house did it become clear that it was the same place he’d been in last year.\n\n我们需要将 \"did\" 放在主语 \"it\" 之前，形成部分倒装。因此，正确的选项应该是 \"did he realize\"。\n\n逐一分析选项：\nA. he realized - 这个选项没有使用倒装结构，不符合题意。\nB. he did realize - 这个选项虽然使用了 \"did\"，但位置不对，应该放在 \"it\" 之前。\nC. realized he - 这个选项没有使用倒装结构，且主语位置不对。\nD. did he realize - 这个选项正确使用了倒装结构，符合题意。\n\n因此，正确答案是 D. did he realize。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 53,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "29. When  Alice  came  to, she did not know  how long she _______there.  \nA. had been  lying     B. has been  lying     C. was lying     D. has lain\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案： A．A项是过去完成进行时； B项是现在完成进行时； C项是过\n去进行时； D项是现在完成时． Alice醒过来是过去的动作，她躺在那儿应该是\n在醒过来之前，并且醒过来时还在那躺着．过去完成进行时表示 \"发生在过去之\n前的动作一直持续到当时，并且再继续下去 \"．由句子的时间状语可知，应该用\n过去完成进行时． 故选 A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的时态和语境。句子中的“When Alice came to”表明Alice在某个时刻恢复了意识，而她不知道自己在那个地方躺了多久。这涉及到过去某个时间点之前发生的一段时间。\n\n选项分析：\nA. \"had been lying\" - 过去完成进行时，表示在过去某个时间点之前已经持续进行的动作。符合语境，Alice在恢复意识之前已经在那里躺了一段时间。\nB. \"has been lying\" - 现在完成进行时，表示从过去某个时间点一直持续到现在的动作。不符合语境，因为Alice恢复意识时，这个动作已经结束。\nC. \"was lying\" - 过去进行时，表示在过去某个时间点正在进行的动作。不符合语境，因为Alice恢复意识时，这个动作已经结束。\nD. \"has lain\" - 现在完成时，表示从过去一直持续到现在的动作。不符合语境，因为Alice恢复意识时，这个动作已经结束。\n\n综上所述，最合适的选项是A. \"had been lying\"。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 54,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "30. The form  cannot  be signed  by anyone  _______yourself.  \nA. rather  than      B. other  than       C. more  than     D. better  than\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】答案：B．A项\"而不是 \"；B\"除了 \"；C\"多于，不仅仅 \"；D\"好于 \"．由cannot  \nbe signed  by anyone可知，只能由你本人签字 ．所以是 \"除了 \"你自己．故选 B项． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n这道题考察的是英语中表示“除了你自己之外”的表达方式。我们需要选择一个合适的介词短语来填空。\n\n- A. rather than：表示“而不是”，不符合题意。\n- B. other than：表示“除了……之外”，符合题意。\n- C. more than：表示“多于”，不符合题意。\n- D. better than：表示“比……更好”，不符合题意。\n\n因此，正确答案是B. other than。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 55,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "31. The prize  will go to the writer  _______story  shows  the most  imagination.  \nA. that         B. which         C. whose        D. what\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案 C．通过分析句子成分可知 ，这是一个定语从句 ，先行词是 the writer\n，关系词在从句中充当 story的定语， 所以本题应该选择 C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n这道题考察的是定语从句的用法。句子的主干是\"The prize will go to the writer\"，后面的部分是定语从句，用来修饰\"writer\"。定语从句中包含\"story shows the most imagination\"，我们需要选择一个适当的引导词来连接主句和从句。\n\n选项分析：\nA. that - 用于指代人或物，在从句中可以作主语或宾语。\nB. which - 用于指代物，在从句中可以作主语或宾语。\nC. whose - 用于指代人或物，在从句中作定语。\nD. what - 不能引导定语从句。\n\n在这个句子中，我们需要一个引导词来指代\"writer\"，并且在从句中\"story\"是\"writer\"的所属关系，即\"writer's story\"。因此，\"whose\"是最合适的引导词。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 56,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "32. They  _______have  arrived  at lunchtime  but their flight  was delayed.  \nA. will          B. can        C. must         D. should\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】答案： D．根据 but后\"their  flight  was delayed\"可知是过去时态， 故排除\nA；can have  done表示对过去或已经发生的事情的推测，通常用于否定和疑问句\n中，故排除 B；must  have  done表示过去一定做过某事，对过去情况的推测，不\n符合题意；should  have  done表示本应该做某事而没有做 ．根据 \"but their flight  was \ndelayed\"这样的结果可以推断出他们本应该到达却没有到达， 故选 D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n这道题考察的是情态动词的用法。我们需要根据句子的意思来选择最合适的选项。\n\n句子的意思是：“他们本应该在午餐时间到达，但他们的航班被延误了。”\n- A. will（将会）：表示将来时，不符合句子中的“本应该”这个含义。\n- B. can（能，可以）：表示能力或可能性，不符合句子中的“本应该”这个含义。\n- C. must（必须，一定）：表示强制或必然，虽然可以表达一种强烈的推测，但不如“should”贴切。\n- D. should（应该）：表示建议或预期，符合“本应该”的含义。\n\n因此，最合适的选项是D. should。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 57,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "33. It is generally  accepted  that _______boy  must  learn  to stand  up and fight  like \n_______man.  \nA. a; a        B. a; the        C. the; the       D. a; 不填\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案： A．boy和man都是可数名词，并且泛指一类人，所以前面都加\n不定冠词 a．故选 A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n首先，我们来看第一个空格。句中的“boy”指的是任何一个男孩，而不是特指某一个男孩，因此应该用不定冠词“a”来表示泛指。所以，第一个空格应该填“a”。\n\n接下来，我们来看第二个空格。句中的“man”指的是任何一个成年男人，同样也是泛指，因此也应该用不定冠词“a”来表示。但是，这里有一个选项是“不填”，这在英语中也是可以的，因为有时候在比较句型中，第二个名词前不需要冠词。所以，我们需要检查一下四个选项。\n\nA. a; a - 这个选项符合我们的分析。\nB. a; the - 这个选项不符合，因为“the”表示特指，不符合句意。\nC. the; the - 这个选项也不符合，因为“the”表示特指，不符合句意。\nD. a; 不填 - 这个选项也是符合的，因为“不填”在英语中是可以的。\n\n综上所述，两个空格都可以填“a”，但D选项中的“不填”也是正确的。不过，根据题目的设计，通常会有一个更明确的答案。因此，我们选择A作为最明确的答案。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 58,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "34. William  found  it increasingly  difficult  to read,  for his eyesight  was beginning  to \n_______.  \nA. disappear        B. fall        C. fail        D. damage\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案 C．A选项 \"消失 \"；B选项 \"落下；跌倒；陷入 \"；D选项 \"破坏 \"；C\n选项 \"失败，不及格，（指健康）衰退；变弱；消失 \"；根据句意 \"他的视力开始\n衰退 \"可知 C项符合语境， 故选 C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子的意思是“William发现阅读越来越困难，因为他的视力开始……”。我们需要选择一个合适的动词来填空，使得句子通顺且意义明确。\n\n- A. disappear：消失。这个选项不符合语境，因为视力不会“消失”，而是会变差。\n- B. fall：下降。虽然这个选项在语法上是正确的，但“视力下降”通常用“fall”不太自然，更常用的是“decline”或“worsen”。\n- C. fail：失败。这个选项可以使用，表示视力开始变差，但不如“worsen”或“decline”常用。\n- D. damage：损坏。这个选项也不合适，因为视力不会“损坏”，而是会变差。\n\n在这些选项中，最合适的选项是C. fail，因为它表示视力开始变差，符合句子的意思。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 59,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "35. — Artistic  people  can be very difficult  sometimes.  \n— Well,  you married  one. _______.  \nA. You name  it          B. I’ve got it  \nC. I can’t  agree  more        D. You should  know\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D．A项常用于口语中 \"凡你想得起的，凡是你说的出的，不管什\n么；你说了算 \"；B项\"我懂了，明白了 \"；C项\"我完全同意 \"；D项\"你应该知道 \"\n； \n由上句的句意 \"艺人有时也很难相处 \"可知，这里陈述了一个情况，下句的句意 \"\n  你嫁（娶）的就是艺人，你应该知道 \"艺人有时可能难相处 \"这个情况 \"，是对上\n句的一个承接． 因此 D项符合语境， 故选 D． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解对话的上下文。前一句提到“艺术人士有时很难相处”，后一句回应说“是的，你娶了一个”。因此，后一句的回应应该表示同意前一句的观点。\n\nA. You name it：意思是“你随便说一个”，不符合语境。\nB. I’ve got it：意思是“我懂了”，也不符合语境。\nC. I can’t agree more：意思是“我完全同意”，符合语境，表示对前一句观点的强烈赞同。\nD. You should know：意思是“你应该知道”，虽然与语境有关，但不如C选项直接表达同意。\n\n综合分析，C选项“我完全同意”是最符合语境的回答。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 60,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "21. — Which  one of these  do you want?     —        . Either  will do. \nA. I don’t mind       B. I’m sure       C. No problem        D. Go ahead\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案 A．B项\"我肯定 \"；C项\"没问题 \"；D项\"1．表示同意对方的请求 ，\n根据情况可译为：说吧，做吧，开始吧，进行吧． 2．表示请对方继续说、继续\n做等，通常可译为：继续 …吧． 3．表示请对方先走或先做某事，其意为：你先\n走一步，你先请 \"．A项\"我不介意 \"；根据句意 \"（两个）随便哪一个都行 \"可知，\n并不介意． 因此 A项符合语境， 故选 A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n首先，我们来看第一个句子：“Which one of these do you want?” 这是一个询问对方想要哪一个的选择题。接下来，我们看回答部分：“Either will do.” 这句话的意思是“随便哪一个都可以”，表示对方对选择没有特别偏好，只要有一个选项就可以。\n\n现在我们分析每个选项：\nA. I don’t mind - 我不介意。这个回答符合情境，表示对方不介意选择哪一个。\nB. I’m sure - 我确定。这个回答不符合情境，因为“我确定”通常表示有明确的选择，而不是随便哪一个都可以。\nC. No problem - 没问题。这个回答虽然表示同意，但没有明确表达出“随便哪一个都可以”的意思。\nD. Go ahead - 继续。这个回答不符合情境，因为“继续”通常用于鼓励对方进行某个动作，而不是回答选择题。\n\n综合分析，选项A最符合情境，表达了对方不介意选择哪一个的意思。\n【答案】: A <eoa>"
+        },
+        {
+            "index": 61,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "22. Sarah  looked  at         finished  painting  with         satisfaction.  \nA. 不填 ; a          B. a; the          C. the; 不填         D. the; a\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】 答案 C．第一空特指 \"已经画完的画 \"；第二空考查介词短语 with \n  satisfaction 意为：满意地，作状语． 此处 satisfaction 为抽象名词，在此短语中不\n用冠词． 选C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们来分析句子的结构和语境。句子是“Sarah looked at ... finished painting with ... satisfaction”。\n\n1. 第一部分“looked at”后面需要填入一个宾语，宾语是“finished painting”，表示一幅已完成的画。这里“finished painting”是一个特指的名词短语，表示一幅具体的画，因此需要用定冠词“the”来指代这幅特定的画。所以，第一个空应该填“the”。\n\n2. 第二部分“with satisfaction”表示的是“满意地”，这里“satisfaction”是一个抽象名词，不需要加冠词。因此，第二个空应该填“不填”。\n\n综上所述，正确的选项是C. the; 不填。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 62,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "23. “Life is like walking  in the snow ”, Granny  used to say, “because  every  step  \n       . \nA. has shown         B. is showing         C. shows           D. showed\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案 C．这题是直接引用了过去奶奶常常说的一句话 ，句子的内容是生\n活哲理．所以用一般现在时． 故答案选 C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的时态和语境。句子中的“used to say”表明这是引用祖母过去常说的一句话。因此，从时态上来看，应该使用过去时态。选项中，A选项“has shown”是现在完成时，B选项“is showing”是现在进行时，D选项“showed”是过去时，但它是句子的主句，所以用过去时态更合适。C选项“shows”是现在时，不符合过去时态的要求。\n\n再来看句子的逻辑，祖母说“生活就像在雪地里行走”，每一步都留下了痕迹。这里强调的是每一步都会留下痕迹，这应该是一个普遍的、持续的状态，因此用一般现在时“shows”是最合适的。\n\n综上所述，正确答案是C选项“shows”。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 63,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "24. It is by no means  clear          the president  can do to end the strike.  \nA. how             B. which             C. that            D. what\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D．题干中 by no means表示 \"绝不 \"相当于一个否定词．所以题干\n就可以简化为句型 \"it+be（not）+adj.+引导词 +从句 \"，即it 为形式主语的主语从\n句．简化从句 ，去掉目的状语 to end the strike后，可以很清楚地看出从句中谓语\n动词 do后缺少宾语 ，即所要填的引导词充当宾语成分 ．在主语从句中 how充当\n方式状语 ，that不充当成分 ，A和C都可直接排除 ．which和what虽然都可以充\n当宾语，但它们的区别就在于 ，which表示有范围的选择 \"哪一个 \"，而what没有\n范围表示 \"什么 \"．根据句意 ，该题没有可供选择的范围 ，故排除 B，所以选择 D\n． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n这道题考察的是英语中的强调句型。强调句型的基本结构是\"It is/was + 被强调部分 + that/who + 其他部分\"。在这个句子中，我们需要强调的是\"the president can do to end the strike\"这部分内容。因此，我们需要选择一个能够连接这个强调句型的词。\n\n- 选项A \"how\"：表示方式，不符合句型要求。\n- 选项B \"which\"：表示选择，不符合句型要求。\n- 选项C \"that\"：虽然在某些情况下可以用于强调句型，但在这里不适用于连接整个句子。\n- 选项D \"what\"：可以用于连接整个句子，符合强调句型的结构。\n\n因此，正确答案是D。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 64,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "25. I don’t believe  we’ve met before,          I must  say you do look familiar.  \nA. therefore          B. although           C. since            D. unless\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案 B．A项\"因此 \"；B项\"尽管，虽然 \"；C项\"既然，自从 \"；D项\"除\n非\"．因为主句的 \"don ’t believe\"与从句的 \"do look familiar\"意思相反 ，前后意思转\n折，所以用表转折的连词， 故选 B项．  \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解这句话的意思和逻辑关系。句子前半部分表达的是“我不相信我们以前见过”，后半部分是“但我必须说你看起来很熟悉”。这里前后两个部分之间存在一种转折关系，即虽然不相信见过面，但因为看起来很熟悉，所以有这种感觉。\n\n- A. therefore（因此）：表示因果关系，不符合这里的情况。\n- B. although（虽然）：表示转折关系，符合这里的情况。\n- C. since（自从...以来；既然）：表示原因或时间起点，不符合这里的情况。\n- D. unless（除非）：表示条件，不符合这里的情况。\n\n因此，正确答案是 B. although。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 65,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "26. The result  is not very important  to us, but if we do win, then so much         .  \nA. the best          B. best              C. better           D. the better\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D．So much  the better常常和 if条件句连用，意为 \"如果 …那就更\n好了 \"，其反义短语为 so much  the worse，意思是那就更糟糕了． 故选 D． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子的意思是“结果对我们来说并不重要，但如果我们赢了，那真是太好了。”\n接下来，我们分析选项：\nA. the best - 这里使用了定冠词“the”，但“the best”通常用于最高级，句子中没有比较的语境，所以不合适。\nB. best - 这是形容词“good”的最高级形式，但没有冠词，可以用于此处，表示“太好了”。\nC. better - 这是形容词“good”的比较级形式，但句子中没有比较的语境，所以不合适。\nD. the better - 这里使用了定冠词“the”，但“the better”通常用于比较级，句子中没有比较的语境，所以不合适。\n\n综上所述，选项B“best”是最合适的，表示“太好了”。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 66,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "27. Mary  is really  good  at taking  notes  in class.  She can         almost  every  word  \nher teacher  says.  \nA. put out           B. put down          C. put away         D. put together\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】答案 B．A项表示 \"扑灭，生产，出版 \"；C项表示 \"把…收起，放好，储\n  存\"；D项表示 \"把…放在一起，组合 \"；B项表示 \"写下，记下，放下，镇压 \"；根\n据句意， B项与题意相符． 故答案选 B． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子的意思是“Mary在课堂上记笔记非常好，她几乎可以记下老师说的每一个单词。”\n接下来，我们分析每个选项：\nA. put out - 意为“扑灭，伸出”；\nB. put down - 意为“记下，写下”；\nC. put away - 意为“收起来，储存”；\nD. put together - 意为“组装，合计”。\n\n根据句子的意思，Mary记笔记，所以她需要把老师说的话记下来，而不是扑灭、收起来或组装。因此，选项B“put down”是最符合句子意思的。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 67,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "28. The party  will be held in the garden,  weather         . \nA. permitting         B. to permit           C. permitted         D. permit\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案 A．属于独立主格结构 ．因为句子的主语是 the party，而permit的\n逻辑主语是 weather，构成独立主格结构 ．permit与weather之间是主动关系 ，故\n用现在分词作状语． 所以选 A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n这道题考察的是非谓语动词的用法。具体来说，这里需要一个分词来修饰“weather”，表示在“天气允许的情况下”。在选项中，只有A选项“permitting”符合这个用法。\n\n- A. permitting：现在分词形式，可以用来表示伴随情况或条件，符合题意。\n- B. to permit：不定式形式，通常用于表示目的或意图，不符合题意。\n- C. permitted：过去分词形式，通常用于表示被动或完成的动作，不符合题意。\n- D. permit：动词原形，不能直接用来修饰名词，不符合题意。\n\n因此，正确答案是A. permitting。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 68,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "29. This restaurant  wasn ’t         that other  restaurant  we went  to. \nA. half as good  as   B. as half good  as    C. as good  as half    D. good  as half as\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案 A．倍数表达法：倍数  as 形容词 /副词原级  as；本题的 half就是\n倍数，故A正确  \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思和结构。句子的意思是“这家餐厅没有那家我们去过的餐厅好。”我们需要选择一个正确的比较结构来完成这个句子。\n\n选项分析：\nA. half as good as：这个结构是正确的，表示“一半那么好”。例如：“This restaurant wasn’t half as good as the other restaurant we went to.” 这个句子是正确的。\nB. as half good as：这个结构不正确，因为“half good”不是一个标准的英语表达方式。\nC. as good as half：这个结构也不正确，因为“as good as half”不符合英语的比较结构。\nD. good as half as：这个结构同样不正确，因为“good as half as”不符合英语的比较结构。\n\n因此，正确的选项是A。<eoe>\n【答案】: A <eoa>"
+        },
+        {
+            "index": 69,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "30. I         use a clock  to wake  me up because  at six o’clock  each morning  the \n  train comes  by my house.        \nA. couldn ’t         B. mustn ’t          C. shouldn ’t        D. needn ’t\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D．选项 A couldn ’t \"不可能 \"；选项 B mustn ’t \"禁止 \"；选项 C \nshouldn ’t \"不应该 \"；选项 D needn ’t \"不必，没必要 \"．结合句子的意思 \"我没有必\n要使用闹钟 \"，D项符合语境， 故选 D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子的意思是：“我使用闹钟来叫醒自己，因为每天早上六点钟，火车会经过我的房子。”\n接下来，我们分析每个选项：\nA. couldn’t（不能）：表示能力上的不可能，不符合语境。\nB. mustn’t（禁止）：表示禁止或不允许，不符合语境。\nC. shouldn’t（不应该）：表示建议或劝阻，不符合语境。\nD. needn’t（不必）：表示不需要，符合语境，因为使用闹钟是因为有火车经过，而不是因为必须使用闹钟。\n\n因此，正确答案是D。需要指出的是，这里“needn’t”实际上并不完全符合语境，因为使用闹钟是必要的，但选项中只有D最符合逻辑。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 70,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "31. Larry  asks Bill and Peter  to go on a picnic  with him, but         of them  wants  \nto, because  they have  work  to do. \nA. either            B. any          C. neither          D. none\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】 答案 C．None指三个或者三个以上中一个也没有； any一些； either两\n者中的一个 ；neither指两者都不． 根据句意说明 Bill和Peter这两个人都不想去 ，\n表示两者都不． 故C正确．  \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子的意思是：Larry 请 Bill 和 Peter 和他一起去野餐，但是他们中的某个人不想去，因为他们都有工作要做。\n\n接下来，我们分析每个选项：\n- A. either：表示两者中的一个，但句子中提到的是两者都不想去，所以不合适。\n- B. any：通常用于疑问句或否定句中询问某人或某物，这里不符合语境。\n- C. neither：表示两者都不，符合句子的意思，即 Bill 和 Peter 都不想去。\n- D. none：表示三者或三者以上都不，而句子中提到的是 Bill 和 Peter 两个人，所以不合适。\n\n因此，正确答案是 C. neither。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 71,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "32. Film  has a much  shorter  history,  especially  when          such art forms  as \nmusic  and painting.  \nA. having  compared  to    B. comparing  to     C. compare  to     D. compared  to\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】答案： D．此句是一个省略句．当从句的主语和主句的主语一致，而且\n从句又有 it is时，常常省略 it is．补充完整为： when  it is compared  to such … 因\n此应该用过去分词，是被动语态． 故D项正确．  \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n这道题考察的是英语中的比较结构。我们需要选择一个正确的介词短语来完成句子。\n\n首先，我们来看句子的结构：“Film has a much shorter history, especially when [介词短语] such art forms as music and painting.”\n\n选项分析：\nA. having compared to - 这个选项中的“having”是现在分词的完成式，通常用于表示动作已经完成，但在这里不符合句子的逻辑。\nB. comparing to - “comparing to”是现在分词的主动形式，但“compare to”是不及物动词，后面不能直接跟介词“to”。\nC. compare to - “compare to”是不及物动词，后面不能直接跟介词“to”。\nD. compared to - “compared to”是过去分词的被动形式，可以作为介词短语使用，表示“与...相比”。\n\n根据句子结构和语法，正确答案应该是“compared to”，因为它表示“与...相比”。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 72,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "33. I had been  working  on math  for the whole  afternoon  and the numbers           \nbefore  my eyes.  \nA. swim            B. swum          C. swam          D. had swum\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案 C．在整个题目中， and 连接两个并列句，前面的句子使用的是过\n去完成时表示过去一直在学习数学 ，由语境可知 ，空白处表示的是发生在过去的\n一个动作，应该用一般过去时， 故选 C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的语境。句子的意思是“我整个下午都在做数学题，但是数字在我的眼前不停地游动。”这里的关键在于描述数字在视觉上的动态效果，即“游动”。\n\n接下来，我们分析每个选项：\n- A. swim：动词原形，表示“游动”，但这里需要的是过去进行时的动词形式。\n- B. swum：过去分词，通常用于完成时态，如“have swum”，表示“已经游过”。\n- C. swam：过去式，表示“游动”，但这里需要的是过去进行时的动词形式。\n- D. had swum：过去完成时，表示“已经游过”，不符合句子的时态要求。\n\n根据句子的时态和语境，我们需要的是过去进行时的动词形式，即“was/were + 动词的现在分词”。因此，正确的形式应该是“swimming”。但是选项中没有“swimming”，我们需要选择最接近的选项，即“swam”，尽管它表示的是过去式，但在这种语境下可以近似理解为过去进行时。\n\n综上所述，最合适的选项是C. swam。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 73,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "34. You have  to move  out of the way         the truck  cannot  get past you. \nA. so              B. or           C. and             D. but\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案： B．你得（从这条路上）走开，后面表示 \"结果 \"﹣﹣这辆车无法\n从你身边经过 ，可知后面为结果状语从句 ，排除 C，D．而根据句意 ，前后有转\n折关系，表示 \"要不然，否则 \"．故选 B． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思和逻辑关系。句子的意思是“你必须移动以便卡车能够过去”。这里的关键在于“移动”和“卡车能够过去”之间的关系。我们需要找到一个连接词，使得前后两个部分的逻辑关系合理。\n\n- 选项A: \"so\" 表示结果，意思是“因此，所以”。如果使用“so”，句子的意思会变成“你必须移动，因此卡车能够过去”，这在逻辑上是合理的。\n- 选项B: \"or\" 表示选择或否定，意思是“或者”。如果使用“or”，句子的意思会变成“你必须移动或者卡车不能过去”，这在逻辑上是合理的，但不如“so”自然。\n- 选项C: \"and\" 表示并列，意思是“并且”。如果使用“and”，句子的意思会变成“你必须移动并且卡车能够过去”，这在逻辑上是合理的，但不如“so”自然。\n- 选项D: \"but\" 表示转折，意思是“但是”。如果使用“but”，句子的意思会变成“你必须移动但是卡车不能过去”，这在逻辑上是不合理的。\n\n综合考虑，选项A \"so\" 是最符合逻辑和自然表达的连接词。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 74,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "35. If she doesn ’t want  to go, nothing  you can say will         her. \nA. persuade         B. promise          C. invite            D. support\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案： A．A项\"说服 \"；B\"许诺 \"；C\"邀请 \"；D\"支持 \"．因为 \"she doesn't  \nwant  to go\"，所以 \"persuade\" 是没有用的． 故选 A项．  \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子的意思是：“如果她不想去，无论你说什么都不会说服她。”\n接下来，我们分析每个选项：\nA. persuade - 说服\nB. promise - 承诺\nC. invite - 邀请\nD. support - 支持\n\n从句子的意思来看，我们需要一个动词来表示“说服”的意思。只有选项A \"persuade\" 符合这个语境，表示“说服”某人做某事。其他选项的意思和用法都不符合句子的意思。\n\n因此，正确答案是A. persuade。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 75,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "21. --- I’m sorry  I made  a mistake!     ---      . Nobody  is perfect.  \nA. Take  your time B. You’re right   C.Whatever  you say    D. Take  it easy\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】答案 D．A项\"不着急 \"；B项\"你是对的 \"；C项\"你说了算，你说什么都\n行\"；D项\"放松点，别紧张 \"；根据句意 \"﹣﹣很抱歉，我犯了错 \"可知，说话者是\n在劝告对方保持平静 ，别紧张．因此 D项符合语境 ，其它选项均不符合 ，故选 D\n． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解对话的语境。说话者承认自己犯了一个错误，而对方的回应应该是安慰或理解的。接下来，我们分析每个选项：\nA. Take your time - 这个选项的意思是“慢慢来”，通常用于对方在做事情时需要更多时间。这里不太合适。\nB. You’re right - 这个选项的意思是“你是对的”，这与说话者承认错误的语境不符。\nC. Whatever you say - 这个选项的意思是“你说什么就什么”，通常用于表示不关心或无所谓，也不符合安慰的语境。\nD. Take it easy - 这个选项的意思是“别担心，放松点”，这与安慰对方承认错误的语境相符。\n\n因此，最合适的回答是D选项。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 76,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "22. Would  you like to      with us to the film tonight?  \nA. come  along   B. come  off  C. come  across   D. come  through\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案： A．考查动词短语辨析． A项意为 \"一起来，进展，前进 \"；B项\n  意为 \"离开，成功，（从某物上 ）脱落，掉落 \"；C项意为 \"偶遇 \"；D项意为 \"到达，\n穿过，传来，恢复（健康 ）\"．根据题干中 \"with  us to the film tonight\"可知，此处指\n\"一起去看电影 \"，故选 A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思和语境。句子的意思是“你今晚想和我们一起去电影吗？”这是一个邀请性质的句子，询问对方是否愿意加入某个活动。\n\n接下来，我们分析每个选项：\nA. come along：表示“加入”或“一起来”，符合邀请的语境。\nB. come off：通常表示“脱下”或“取消”，不符合语境。\nC. come across：表示“偶然遇到”或“发现”，不符合语境。\nD. come through：通常表示“通过”或“度过难关”，不符合语境。\n\n综合分析，只有选项A“come along”符合句子的语境和用法。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 77,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "23. I was glad to meet  Jenny  again,          I didn’t want  to spend  all day with her. \nA. but         B. and       C.so          D.or\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案： A 考查并列连词． and\"和\"，表并列和递进； but\"但是 \"，表转折 ；\nor\"或者 \"，表选择； so\"因此 \"，表因果．句意 \"非常高兴能再次见到 Jenny，但是\n我不想和她呆一整天． \"根据句意可知，前后表示转折的含义， 故选 A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子的前半部分是“I was glad to meet Jenny again”，意思是“我很高兴再次见到Jenny”。后半部分是“I didn’t want to spend all day with her”，意思是“我不想整天和她在一起”。这两部分之间存在一种转折关系，即虽然我很高兴见到她，但并不想整天和她在一起。\n\n选项分析：\nA. but - 但是，表示转折关系。\nB. and - 和，表示并列关系。\nC. so - 所以，表示因果关系。\nD. or - 或者，表示选择关系。\n\n根据句子的意思，前后两部分之间是转折关系，因此应该选择表示转折关系的连词。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 78,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "24. When  I arrived,  Bryan  took me to see the house           I would  be staying.  \nA. what    B. when        C. where    D. which\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】 答案： C 考查定语从句． what不能引导定语从句，所以排除；定语从\n句中主语是 I，谓语动词 stay为不及物动词 ，故不缺宾语 ，所以排除 D，而应该\n用关系副词 ；先行词为 house，指地点范畴 ，所以排除 when，而用关系副词 where\n． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n这道题考察的是定语从句的用法。句子的主干是\"When I arrived, Bryan took me to see the house\"，后面的部分是定语从句，用来修饰\"the house\"。我们需要找出一个合适的引导词来引导这个定语从句。\n\n从选项来看：\nA. what - 通常用来引导名词性从句，如主语从句、宾语从句等，不用于引导定语从句。\nB. when - 通常用来引导时间状语从句，不用于引导定语从句。\nC. where - 通常用来引导地点状语从句或定语从句，用来表示地点。\nD. which - 通常用来引导定语从句，指代前面的名词或代词，并且在从句中作主语或宾语。\n\n根据句子的意思，\"I would be staying\"是说明\"the house\"的具体位置或地点，因此应该用\"where\"来引导这个定语从句。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 79,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "25. I got to the office  earlier  that day,        the 7:30 train from  Paddington . \nA. caughl      B. to have  caught      C. to catch       D. having  caught\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案： D 本题采用排除法．注意句中的时态， I got to明显是过去式，\n说明已经发生了， 那么也一定已经乘上了 7:30的那班车．所以能更早地到达办\n公室，用现在分词的完成式表示原因 ．非谓语动词在此处做原因状语 ，主语 I和\ncatch之间为主动的关系，且非谓语动词的动作发生在谓动词的动作之前，符合\n这两点用法的为 having  done，caught  表示被动关系； to have  done  表示将来的完\n成，通常不用作状语， 此结构常用于 sb/sth+be  said/reported/thought+to  do/to  be \ndoing/to  have  done  这种结构． to catch动词不定式表将来，不符合题意．所以本\n题选择 D． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的结构和语境。句子的意思是“那天我比平时更早到了办公室，赶上了7:30从Paddington出发的火车。”这里的关键在于表达“赶上了”这趟火车的动作。\n\n1. 选项A \"caughl\" 是“caught”的错误拼写，显然不符合语法要求。\n2. 选项B \"to have caught\" 表示“本应该做某事但没有做”，不符合句子的意思。\n3. 选项C \"to catch\" 表示目的，即“为了赶上这趟火车”，这在句子中是合适的。\n4. 选项D \"having caught\" 表示“已经做了某事”，这在句子中表示的动作发生在“我比平时更早到了办公室”之前，不符合句子的时间顺序。\n\n综上所述，选项C \"to catch\" 是最合适的，因为它表示了“为了赶上这趟火车”的目的。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 80,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "26. Since  nobody  gave  him any help,  he         have  done  the research  on his own.  \nA. can       B. must        C. would          D. need\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案 B．can have  done  sth可能已经做了某事； must  have  done  sth一定\n已经做了某事； would  have  done表示与过去事实相反； need  have  done  本来需要\n做某事． 根据句意 ：由于没有人给他任何帮助，他 \"肯定 \"独立完成研究．  故选 B\n． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的语境。句子的意思是“由于没有人帮助他，他必须自己完成这项研究。”这里的关键在于“由于没有人帮助他”，这表明他没有得到任何帮助，因此他必须自己完成研究。\n\n接下来，我们分析每个选项：\n- A. can：表示能力或可能性，但不强调必然性。\n- B. must：表示必然性或强制性，符合句子中“由于没有人帮助他，他必须自己完成”的意思。\n- C. would：表示过去习惯或意愿，不符合句子的时态和语境。\n- D. need：表示需要，但不强调必然性，且在本句中用法不正确。\n\n综合分析，选项B“must”最符合句子的意思和语境。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 81,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "27. We        very early  so we packed  the night  before.  \nA. leave        B. had left       C. were  leaving         D. have  left\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案：C，题干的意思是 ：\"我们很早 ________ ，因此我们前一晚上就把\n东西打包了 ．\"根据句中的 packed可知此处应用过去的时态 ，所以排除 A、D两\n项．根据常识及句意可知， pack  要发生在 leave  之前，所以排除 B项， had left\n表示动作发生在 \"过去的过去 \"．故选 C项，leave的过去进行时态表示过去将来 ． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们需要分析句子的时态和语态。句子中的“so we packed the night before”表明，打包行李的动作发生在“我们很早就离开”的动作之前，因此“我们很早就离开”应该使用过去时态。\n\n选项分析：\nA. leave - 这是动词原形，表示一般现在时，不符合句子的时态要求。\nB. had left - 这是过去完成时，表示在过去某个时间之前已经完成的动作，符合句子的时态要求。\nC. were leaving - 这是过去进行时，表示过去某个时间正在进行的动作，不符合句子的时态要求。\nD. have left - 这是现在完成时，表示从过去某个时间开始一直持续到现在的动作，不符合句子的时态要求。\n\n因此，正确答案是B. had left。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 82,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "28. The watch  was very good,  and he         20 percent  down  for it. \nA. paid          B. cost          C. bought            D. spent\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案： A. A. sb.+ pay some  money  for sth. \"某人花钱买某物 \"；B. cost 的\n主语通常指物 ：sth. + cost sb. some  money  \"某物花费某人多少钱 \"，C. buy的主语\n是人，其后跟双宾语 ：buy sth. for sb.或者 buy sb. sth \"某人为 …买某物 \"；D. spend\n的主语是人， \"sb. spend  time/money  in/on  doing  sth. 某人在某事上花费时间或金\n钱\"；根据句意可知， 此处的意思是 ：他花了低于原价 20%的价格买了这块手表 ；\n故选 A. \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的结构和逻辑。句子的前半部分提到“watch was very good”，这是一个描述手表质量的句子。后半部分提到“he... 20 percent down for it”，这里需要填入一个动词，表示他为手表支付了20%的定金。\n\n- 选项A: \"paid\" - 这个词可以表示支付，但通常用于支付全部或部分费用，而不是仅仅支付定金。\n- 选项B: \"cost\" - 这个词通常用于描述物品的价格，而不是描述人的行为，因此不合适。\n- 选项C: \"bought\" - 这个词表示购买，但通常用于描述整个购买过程，而不是支付定金。\n- 选项D: \"spent\" - 这个词通常用于描述花费时间或金钱，但不常用在支付定金的语境中。\n\n考虑到支付定金的上下文，最合适的动词是“paid”，因为它可以具体表示支付了定金的行为。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 83,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "29. It may not be a great  suggestion.  But before  _______  is put forward,  we’ll  make  \ndo with it. \nA. a good  one     B. a better  one       C. the best one       D. a best one\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】答案： B. 考查比较级的用法。不定冠词 +比较级，表示泛指，意为“一\n个更（好） ......的......”。根据句意：它或许不是很好的建议。但是在一个更好的\n  被提出来之前，我们不得不将就一下。 故选 B. \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们来看句子的结构和语境。句子的意思是“这可能不是一个很好的建议，但在更好的建议提出之前，我们将就这个建议进行。”\n- 选项A: \"a good one\" 表示一个不错的建议，但句子中已经提到“这可能不是一个很好的建议”，所以这里使用“a good one”与前文矛盾。\n- 选项B: \"a better one\" 表示一个更好的建议，这符合句子的意思，即在更好的建议提出之前，我们先使用这个建议。\n- 选项C: \"the best one\" 表示最好的建议，但句子中并没有提到这是最好的建议，所以使用“the best one”不合适。\n- 选项D: \"a best one\" 中的“best”前面没有冠词，这在英语中是不正确的表达方式。\n\n综合以上分析，选项B \"a better one\" 是最符合句子意思的。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 84,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "30. It was only after he had read the papers        Mr. Gross  realized  the task before  \nhim was extremely  difficult  to complete.  \n  A. when        B. that      C. which          D. what\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】答案 B．本句为强调句型 ，句型结构为 \"It is/was+被强调部分 +that+剩余\n部分． \"根据句意， 本题是对时间状语 after he had read the papers的强调．此外 ，\n我们也可以将 It is/was与空格去掉来验证此句是不是一个强调句． 故选 B． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n这道题考察的是英语中的强调句型。强调句型的基本结构是：It is/was + 被强调部分 + that/who + 其他部分。在这个句子中，强调的部分是“after he had read the papers”，表示强调的是时间点。因此，正确填入的连接词应该是“that”。\n\n我们来分析每个选项：\nA. when - 这个选项通常用于引导时间状语从句，但不能用于强调句型。\nB. that - 这个选项用于强调句型，符合句子结构。\nC. which - 这个选项通常用于定语从句，不适用于此处。\nD. what - 这个选项通常用于引导名词性从句，不适用于此处。\n\n因此，正确答案是B。<eoe>\n【答案】: B <eoa>"
+        },
+        {
+            "index": 85,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "31. A serious  study  of physics  is impossible       some  knowledge  of mathematics.  \nA. against        B. before         C. beyond        D. without\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D． against反对，衬托； before在…之前； beyond超过； without\n没有．根据句意 ：\"没有 \"一定的数学知识是没有办法对物理学进行系统地研究的\n．故选 D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n这道题考察的是介词的用法。我们需要选择一个介词，使得句子的意思通顺且符合逻辑。\n\n句子的意思是：“要进行严肃的物理学研究是不可能的，除非具备一定的数学知识。”\n\n- A. against：表示反对、对抗，不符合句意。\n- B. before：表示在...之前，不符合句意。\n- C. beyond：表示超出、超过，不符合句意。\n- D. without：表示没有，符合句意，表示没有一定的数学知识，就不可能进行严肃的物理学研究。\n\n因此，正确答案是D。  \n【答案】: D <eoa>"
+        },
+        {
+            "index": 86,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "32. Only  by increasing  the number  of doctors  by 50 percent         properly  in this \nhospital.  \nA. can be the patients                B. can the patients  be treated  \nC. the patients  can be treated          D. treated  can be the patients\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案： B．\"only+状语 \"置于句首时，句子要部分倒装．本句中 \"only+by  \nincreaing  the number  of doctors  by 50 percent（介词短语在句中作状语） \"位于句\n首，故须部分倒装 ，排除 C；部分倒装就是将谓语的一部分如助动词 、情态动词\n或be动词放在主语之前 ，故排除 A、D，只有 can the patients  be treated符合，故\n选B． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】这道题考察的是英语中的倒装结构。在英语中，如果要强调动作的执行者，可以使用部分倒装结构，即将助动词或情态动词提到主语之前。\n\n首先，我们来看句子的结构：“Only  by increasing  the number  of doctors  by 50 percent         properly  in this hospital.” 这句话强调的是“通过增加医生数量50%”这一动作，因此需要将助动词“can”提到主语“the patients”之前。\n\n接下来，我们分析每个选项：\nA. can be the patients - 这个选项不符合语法，因为“can”后面不能直接跟“the patients”。\nB. can the patients  be treated - 这个选项符合部分倒装的语法结构，将“can”提到“the patients”之前，主语“the patients”和动词“be treated”正常排列。\nC. the patients  can be treated - 这个选项不符合题意，因为没有使用倒装结构。\nD. treated  can be the patients - 这个选项不符合语法，因为“treated”不能放在句首作为主语。\n\n因此，正确答案是B，因为它使用了正确的部分倒装结构，并且语义上也符合题意。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 87,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "33. Four  and    half hours  of discussion  took us up to midnight,  and    break  for \ncheese,  chocolate  and tea with sugar.  \nA. a; a       B. the; the       C. 不填 ; the       D. a; 不填\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案 A． 第一空 four and a half hours是习惯表达，表示 \"四个半小时 \"； \n第二空 a break泛指 \"一段休息时间 \"． \n故选： A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n首先，我们来看第一个空格。\"Four and a half hours\" 是一个固定表达，用来表示“四个半小时”。在这个表达中，\"a\" 用来表示“一个”，因此第一个空格应该填 \"a\"。\n\n接下来，我们来看第二个空格。\"a break\" 表示“一个休息时间”。这里“break”是一个泛指的概念，不需要特指，因此第二个空格应该填 \"a\"。\n\n综上所述，正确答案是 A. a; a\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 88,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "34. It’s an either-or  situation  --- we can buy a new car this year or we can go on \nholiday  but we can’t  do      . \nA. others        B. either        C. another      D. both\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D． others三者或者三者以上的其他的； either两者之一； another\n泛指三者以上的人或物中的一个； Both两者都．根据句意：我们今年要么买一\n辆新车，要么去度假．提供了两种选择， 故选 D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子的意思是：“这是一个非此即彼的情况——我们今年可以买一辆新车或者我们可以去度假，但我们不能做……”。\n\n接下来，我们分析每个选项：\n- A. others：这个词通常用于指代其他的人或事物，不符合句子的语境。\n- B. either：这个词通常用于指代两者中的一个，但在这个句子中，它不能单独使用来表示“两者都不能做”。\n- C. another：这个词通常用于指代额外的某物，也不符合句子的语境。\n- D. both：这个词表示两者都，与句子的意思相反，因为句子说两者只能选一个。\n\n根据句子的意思，我们需要表达的是“我们不能做两件事”，即“我们不能买新车也不能去度假”。因此，正确答案是D. both。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 89,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "35. --- Are you sure you won’t come  for a drink  with us? \n---       , if you insist . \nA. Not at all   B. It depends   C. All right  then  D. I don’t care\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案 C．A项1．用于回答感谢，意为 \"不用谢；不客气 \"2．用于回答带\n有感谢性质的客套话，意为 \"没什么；哪里哪里 \"3．用于回答道歉，意为 \"没关系\n\"4．用来表示否定（ 是No的加强说法 ），意为 \"一点也不；完全不 \"．B项\"视情\n况而定 \"；D项\"我不在乎 \"；C项\"那好吧 \"；分析句意 \"﹣﹣﹣你确定不来和我们\n一起喝饮料吗？ ﹣﹣﹣        假如你坚持的话． \"可以判断所填部分应该是向对\n方让步， 因此 C项符合语境，其它选项均不符合， 故选 C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们来看这个对话的语境。前一句是“你确定不来和我们一起喝一杯吗？”这是一个邀请，对方在询问对方是否愿意加入他们一起喝酒。后一句的回答是“如果你们坚持的话”，这表明对方在权衡之后，决定在对方坚持的情况下接受邀请。\n\n接下来，我们分析每个选项：\nA. Not at all - 这个选项的意思是“一点也不”，不符合语境，因为对方并没有表示拒绝。\nB. It depends - 这个选项的意思是“这要看情况”，也不符合语境，因为对方没有表示犹豫或条件。\nC. All right then - 这个选项的意思是“好吧，那就算了”，也不完全符合语境，因为对方并没有完全拒绝，只是在对方坚持的情况下接受。\nD. I don’t care - 这个选项的意思是“我不在乎”，也不符合语境，因为对方并没有表示不在乎，而是在对方坚持的情况下接受邀请。\n\n综合考虑，选项C “All right then” 最符合语境，因为它表示在对方坚持的情况下，对方同意了邀请。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 90,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "21. — Why,  this is nothing  but common  vegetable  soup!  \n— _________,  madam.  It’s our soup  of the day!  \nA. Let me see      B. So it is     C. Don’t mention  it     D. Neither  do I\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案 B．A项\"让我看看 \"；C项\"不用谢；没关系；算了，别提了 \"；D\n项\"我也不 \"；B项\"的确如此 \"；根据 \"嗨，这只是普通的蔬菜汤！ \"判断顾客是在\n抱怨，而答语是服务员对顾客的话做了 \"确认 \"回答．因此 B项符合语境 ，其它选\n项均不符合， 故选 B． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解对话的语境。第一句话是顾客对服务员说的，表示这不过是一碗普通的蔬菜汤。第二句话是服务员的回答，服务员想要强调这碗汤是当天的特色汤。\n\nA. Let me see - 让我看看，这个回答不符合语境，因为服务员不需要去查看这碗汤。\n\nB. So it is - 就是这样，这个回答虽然符合语境，但没有强调这碗汤是当天的特色汤。\n\nC. Don’t mention it - 别客气，这个回答通常用于回答感谢，不符合语境。\n\nD. Neither do I - 我也不这样认为，这个回答不符合语境，因为服务员并不认为这是一碗普通的汤。\n\n因此，最合适的回答是B. So it is，但考虑到服务员想要强调这碗汤是当天的特色，更合适的回答应该是强调这一点，即服务员想要表达的是这碗汤其实不普通，而是当天的特色。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 91,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "22. They  might  just have  a place  ________  on the writing  course  — why don’t  you \ngive it a try?  \nA. leave        B. left         C. leaving          D. to leave\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答： B 本题考查非谓语动词． 从结构判断空格上的词应该做 place的定\n语，逻辑主语是 a place，而leave\"剩下 \"和place之间是被动关系，位置是 \"被留\n下的 \"，所以应该用过去分词作后置定语． 所以选 B． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n这道题考察的是动词不定式在句子中的用法。句子中的\"have a place\"是一个固定短语，意为“有位置，有资格”。在英语中，\"have a place to do sth.\" 是一个常见的结构，其中\"to do sth.\" 表示目的或用途。因此，我们需要选择一个能够与\"have a place\"搭配使用，并且符合句子结构的选项。\n\n选项分析：\nA. leave - 动词原形，不符合句子结构。\nB. left - 过去分词，不符合句子结构。\nC. leaving - 现分词，不符合句子结构。\nD. to leave - 动词不定式，符合句子结构。\n\n因此，正确答案是D。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 92,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "23. Try not to cough  more  than you can         since  it may cause  problems  to \nyour lungs.  \nA. check        B. allow    C. stop     D. help\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】 答案 C． check\"核实，抑制 \"；allow\"允许，许可 \"；stop\"停止 \"；help\"\n帮助，促进，治疗，补救 \"．句意：尽量不要咳嗽，因为这会给你的肺带来问题 ．\n考生需掌握短语 more  than one can help的意思 \"尽量不，绝对不 \"，故正确答案是\nC． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子的意思是“尽量不要咳嗽得比你能控制的更多，因为这可能会对你的肺造成问题。”\n接下来，我们分析每个选项：\nA. check - 检查。这个选项不符合语境，因为“检查”不能直接用来控制咳嗽。\nB. allow - 允许。这个选项也不合适，因为“允许”也不直接与控制咳嗽相关。\nC. stop - 停止。这个选项符合语境，因为“停止咳嗽”是合理的建议，且“控制”咳嗽意味着“停止”。\nD. help - 帮助。这个选项也不合适，因为“帮助”不能直接用来控制咳嗽。\n\n综合分析，最合适的选项是C. stop，因为它直接表达了控制咳嗽的意思。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 93,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "24. If we          now to protect  the environment,  we’ll  live to regret  it. \nA. hadn’t acted     B. haven ’t acted     C. don’t act    D. won’t act\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案： C 句子成分分析： if引导条件状语从句， act为从句中谓语动词 ．\n逗号后为主句 ，live为主句谓语动词 ，to protect和to regret是非谓语动词做状语\n． \n  根据 if主句中的时态是一般将来时态 ，可知从句应使用一般现在时态 ，且有 now\n作为现在时态的标志词， 所以选择 C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n这道题考察的是时态和语境的理解。句子的前半部分使用了“now”，表明这是一个关于当前行为的陈述。后半部分“we’ll live to regret it”则表示如果现在不采取行动，将来会后悔。因此，我们需要选择一个与现在时态相关的选项。\n\nA. hadn’t acted - 过去完成时，表示过去的过去，不符合当前语境。\nB. haven’t acted - 现在完成时，表示过去的动作对现在的影响，也不符合当前语境。\nC. don’t act - 现在时，表示当前的行为，符合语境。\nD. won’t act - 一般将来时，表示将来的行为，不符合当前语境。\n\n综上所述，正确答案是C。【答案】: C <eoa>"
+        },
+        {
+            "index": 94,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "25. Tony  can hardly  boil an egg, still      cook  dinner.  \nA. less   B. little   C. much       D. more\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案：A．根据句意 ：Tony连煮鸡蛋都不会 ，更不要说做晚饭了 ．still less\n是固定词组 \"更别说 \"，选A． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子的意思是“托尼几乎不能煮一个鸡蛋，更不用说做晚饭了。”这里的关键在于“still”，它表示一种对比或强调，意味着即使托尼连煮鸡蛋都做不好，他还是能够做晚饭。\n\n接下来，我们分析每个选项：\n- A. less：表示“更少”，不符合语境。\n- B. little：表示“很少”，也不符合语境。\n- C. much：表示“很多”，不符合语境。\n- D. more：表示“更多”，符合语境，因为“more”可以用来表示“更进一步”，即即使托尼连煮鸡蛋都做不好，他还是能够做晚饭，这是一种进步或能力的提升。\n\n因此，正确答案是D。 \n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 95,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "26. Police  have  found          appears  to be the lost ancient  statue.  \nA. which    B. where    C. how   D. what\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D．分析句子结构可知， found后面接的是宾语从句，宾语从句中\n\"appears\" 是谓语，缺少主语， 用what连接宾语从句， which哪个， where哪里，\nhow怎样，都不符合句意， 故选 D． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n这道题考察的是定语从句的用法。句子的主干是“Police have found the lost ancient statue”，后面的部分是修饰“the lost ancient statue”的定语从句。我们需要找到一个引导词，它既能够引导定语从句，又能够作为从句中的主语。\n\n选项分析：\nA. which - 可以引导定语从句，并且在从句中可以作为主语、宾语或表语。\nB. where - 引导地点状语从句，不符合题意。\nC. how - 引导方式状语从句，不符合题意。\nD. what - 不能引导定语从句。\n\n从句需要表达的是“找到的物品”看起来像是丢失的古雕像，因此“what”不能作为引导词。而“which”可以引导定语从句，并且在从句中可以作为主语，符合题意。\n\n因此，正确答案是A. which。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 96,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "27. When  I first met Bryan  I didn’t  like him, but I        my mind.  \nA. have  changed       B. change   C. had changed     D. would  change\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案： A，本题考查时态． 题干中的 but提示： \"我\"第一次见布莱恩的\n时候不喜欢他，但现在喜欢他， met和didn't可以看出前半句话是一般过去式，\n后面的意思是现在我已经改变了心意，故用现在完成时．  \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的时态和语境。句子的前半部分提到“我第一次遇见布莱恩时不喜欢他”，这是一个过去的事件。后半部分提到“我改变了我的想法”，这表明“改变”这个动作发生在“不喜欢他”之后，是一个与过去有关的动作，但发生在过去某个时间点之后。\n\n选项分析：\nA. \"have changed\" - 这表示现在完成时，意味着从过去某个时间点开始一直持续到现在，不符合语境。\nB. \"change\" - 这表示一般现在时，表示经常性或习惯性的动作，不符合语境。\nC. \"had changed\" - 这表示过去完成时，表示在过去的某个时间点之前已经完成的动作，符合语境。\nD. \"would change\" - 这表示过去将来时，表示在过去某个时间点看来将要发生的动作，不符合语境。\n\n因此，最合适的选项是C，表示在“不喜欢他”这个过去的事件之前，已经发生了“改变我的想法”的动作。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 97,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "28. The driver  wanted  to park his car near the roadside  but was asked  by the police  \n       . \nA. not to do     B. not to     C. not do     D. do not\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】答案 B． ask sb not to do sth 让某人不要做某事 ，根据句意 but was asked  \nby the police  not to \"park  his car near the roadside\" ，不定式中重复的部分可以省略 ，\n但是要保留到 to．故选 B． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的结构和语境。句子的意思是“司机想把车停在路边，但被警察要求不要这样做”。我们需要选择一个合适的选项来完成这个句子。\n\n选项分析：\nA. not to do - 这个选项的结构是“not to + 动词原形”，符合英语中否定祈使句的结构，即“不要做某事”。\nB. not to - 这个选项缺少动词原形，不符合完整的否定祈使句结构。\nC. not do - 这个选项缺少“to”，也不符合完整的否定祈使句结构。\nD. do not - 这个选项是肯定祈使句的否定形式，不符合句子的意思。\n\n因此，正确的选项是A，因为它符合否定祈使句的结构。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 98,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "29. The door        open,  no matter  how hard she pushed.  \nA. shouldn’t    B. couldn ’t   C. wouldn ’t  D. mightn ’t\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案 C． shouldn ’t \"不应该 \"；couldn ’t \"不能，不可能 \"；wouldn ’t \"不愿\n意\"，would  还可以表示一种倾向性或者习惯．； mightn ’t \"可能不 \"．根据句意 ：\n描述主语 the door的特点 \"偏是打不开 \"，其固有的特性 ，用情态动词 would（will\n）．故选 C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子的意思是“无论她怎么推，门都不开”。这里的关键在于表达“无论怎么推，门都不开”的意思。\n\n- A. shouldn’t（不应该）：表示一种建议或禁止，不符合句意。\n- B. couldn’t（不能）：表示一种能力上的限制，但这里强调的是门的状态，而不是能力问题。\n- C. wouldn’t（不会）：表示一种习惯性动作或条件下的结果，符合句意，表示无论怎么推，门都不会开。\n- D. mightn’t（可能不）：表示一种可能性，不符合句意，因为这里强调的是确定性。\n\n因此，最合适的选项是C. wouldn’t。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 99,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "30. At the last moment , Tom  decided  to          a new character  to make  the story  \nseem  more  likely.  \nA. put up   B. put in    C. put on   D. put off\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案： B  本题考查动词短语辨析． put …up举起 …；张贴 …；put …in \n使…加入；使 …进入； put …on  穿上 …；上演 …；put …off  推迟 …．句意：在\n最后一刻， Tom决定添加一个新角色来使故事显得更加真实． 题干中的 more  \nlikely提示， Tom决定 \"添加 \"一个角色， 故B正确．  \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子的意思是“在最后一刻，汤姆决定添加一个新角色，使故事看起来更可信。”\n接下来，我们分析每个选项：\nA. put up - 悬挂，张贴，提出（建议）\nB. put in - 添加，投入\nC. put on - 穿上，上演，增加（时间）\nD. put off - 推迟\n根据句子的意思，汤姆是在故事中添加一个新角色，因此“添加”是正确的意思。在这些选项中，只有B选项“put in”符合这个意思。\n因此，正确答案是B. put in。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 100,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "31. India  attained           independence  in 1947,  after           long struggle.  \nA. 不填 ; a   B. the; a   C. an; 不填     D. an; the\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案 A．  attain  independence 获得独立， independence 为抽象名词，前\n不加冠词； after a long struggle表示经过一段长时间的抗争， 用不定冠词 a表示\n数量．故选 A． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，我们来看句子的结构：“India  attained           independence  in 1947,  after           long struggle.” 这句话的意思是“印度在1947年获得了独立，经历了长期的斗争。”\n\n1. 第一空：“India  attained           independence  in 1947” 中，independence（独立）是一个抽象名词，表示一个国家或地区从另一个国家或地区中分离出来，成为一个独立的国家。在这种情况下，我们通常使用定冠词“the”来指代这个特定的历史事件，即“the independence”。因此，第一空应该填“the”。\n\n2. 第二空：“after           long struggle” 中，long struggle（长期的斗争）是一个泛指的概念，表示印度获得独立之前的长期斗争。在这种情况下，我们不需要使用任何冠词，直接使用“long struggle”即可。\n\n综上所述，正确的选项是 B. the; a。\n\n【答案】: B <eoa>"
+        },
+        {
+            "index": 101,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "32. There’s  no way of knowing  why one man makes  an important  discovery        \nanother  man,  also intelligent,  fails.  \nA. since       B. if     C. as    D. while\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案： D 本题考查从属连词和并列连词的区别．根据句意断定，该题\n的空格处需要填入一个并列连词 ．乍一看，这四个连词似乎都是从属连词 ，都不\n能填入句中 ．殊不知，在实际的语言运用过程中 ，while还具有并列连词的属性 ，\n  表示 \"转折和对比 \"，正好符合句式结构和语意逻辑 ．故答案选 D．其他三个选项\n都没有这种属性和功能，所以可以排除．  \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n这道题考察的是连词的用法。我们需要选择一个合适的连词来连接两个句子，使整个句子的意思连贯且逻辑正确。\n\n1. \"since\" 表示“因为”，用于表示原因，但这里并没有给出具体的原因，所以不合适。\n2. \"if\" 表示“如果”，用于表示条件，但这里并没有讨论条件，所以也不合适。\n3. \"as\" 表示“正如，因为”，用于表示对比或原因，但这里并没有直接对比或原因的关系，所以也不合适。\n4. \"while\" 表示“然而，尽管”，用于表示对比，这里可以用来对比两个男人的情况，一个成功，一个失败，符合语境。\n\n因此，\"while\" 是最合适的选项。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 102,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "33. “You  can’t  judge  a book  by its cover,”  ________  .  \nA. as the saying  goes old      B. goes as the old saying    \nC. as the old saying  goes      D. goes as old the saying\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案： C． as引导非限制性定语从句，表示 \"正如 \"，不用倒装． 故选 C\n． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n这道题考察的是英语中谚语的正确用法。我们需要选择一个符合英语语法和习惯表达的选项。\n\n首先，我们来看每个选项：\nA. \"as the saying goes old\" - 这里的“old”放在句尾，不符合英语习惯。\nB. \"goes as the old saying\" - 这里的“goes”和“the old saying”位置不正确。\nC. \"as the old saying goes\" - 这个选项符合英语习惯，谚语“as the old saying goes”是正确的表达方式。\nD. \"goes as old the saying\" - 这里的“old”位置不正确，且“the saying”和“old”之间的顺序也不对。\n\n综合分析，选项C符合英语语法和习惯表达。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 103,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "34. It was a real race _______  time to get the project  done.  Luckily,  we made  it.  \nA. over      B. by      C. for      D. against\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D． against  time 是固定搭配 \"争分多秒，同时间赛跑 \"．根据句意\n：为了完成项目我们要 \"争分夺秒 \"．故选 D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】\n首先，我们需要理解句子的意思。句子表达的是“这是一场与时间赛跑的真实比赛，目的是完成项目。幸运的是，我们做到了。”\n- 选项A \"over\" 表示“超过，越过”，不符合句子的语境。\n- 选项B \"by\" 表示“通过，凭借”，也不符合句子的语境。\n- 选项C \"for\" 表示“为了”，也不符合句子的语境。\n- 选项D \"against\" 表示“与...对抗，与...相对”，在英语中常用来表示“与...竞争，与...对抗”，符合句子表达的“与时间赛跑”的意思。\n\n因此，正确答案是D \"against\"。\n\n【答案】: D <eoa>"
+        },
+        {
+            "index": 104,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "35. The sunlight  is white  and blinding,  _______  hard-edged  shadows  on the ground.   \nA. throwing      B. being  thrown       C. to throw      D. to be thrown\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案： A 本题考查非谓语动词形式． 句子中已经有谓语动词 is了，中\n间没有其他连词，所以肯定是选非谓语，选项全部是非谓语， throw的逻辑主语\n是the sunlight，是主动表伴随的意思； 没有被动的意思排除 A，CD不定式表将\n  来或者表目的，都不符合． 所以本题选择 A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n这道题考察的是非谓语动词的用法。句子的主语是“sunlight”，谓语是“is white and blinding”，因此我们需要在空白处填入一个非谓语动词来描述sunlight的动作。\n\n选项分析：\nA. throwing - 这是一个现在分词，表示主动进行的动作，符合句子逻辑，sunlight主动投射出阴影。\nB. being thrown - 这是一个现在分词的被动形式，虽然语法上没有错误，但在这个句子中显得多余，因为sunlight是主动投射阴影，而不是被投射。\nC. to throw - 这是一个不定式，通常用于表示目的或意图，不符合此处的语境。\nD. to be thrown - 这也是不定式的被动形式，同样不符合此处的语境。\n\n综合分析，选项A \"throwing\" 是最合适的，因为它表示sunlight主动投射出阴影。\n\n【答案】: A <eoa>"
+        }
+    ]
+}

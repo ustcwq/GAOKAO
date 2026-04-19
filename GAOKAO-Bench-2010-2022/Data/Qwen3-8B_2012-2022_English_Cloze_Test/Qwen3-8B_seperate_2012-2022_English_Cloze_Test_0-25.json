@@ -1,0 +1,603 @@
+{
+    "keyword": "2012-2022_English_Cloze_Test",
+    "example": [
+        {
+            "index": 0,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 2,
+            "question": "根据短文内容 ，从短文后的选项中选出能填入空白处的最佳选项 。选项中有\n两项为多余选项。  \nKids ’ health:  Four  steps  for fighting  stress  \nEverybody  gets stressed  time to time.    71    Some  ways  of dealing  with \nstress  --- like screaming  or hitting  someone  --- don’t solve  (解决 ) much.  But other  \nways,  like talking  to someone  you trust,  can lead you to solving  your problem  or at \nleast feeling  better.  \nTry taking  these  four steps.  the next time you are stressed:  \n(1) Get support.  When  you need  help,  reach  out to the people  who care about  \nyou. Talk to a trusted  adult,  such as a parent  or other  relatives.    72    They  might  \nhave  had similar  problems,  such as dealing  with a test, or the death  of a beloved  pet. \n(2) Don’t take it out on yourself.  Sometimes  when  kids are stressed  and upset  \nthey take it out on themselves.  Oh, dear,  that’s not a good  idea.  Remember  that there  \n  are always  people  to help you. Don’t take it out on yourself.    73    \n(3) Try to solve  the problem.  After  you’re calm  and you have  support  from  \nadults  and friends,  it’s time to get down  to business.    74    Even  if you can’t solve  \nit all, you can solve  a piece  of it. \n(4) Be positive.  Most  stress  is temporary  (暂时的 ). Remember  stress  does go \naway,  especially  when  you figure  out the problem  and start working  on solving  it.  \nThese  steps  aren’t magic,  but they do work.  And if you can stay positive  as you \nyou’re  your way through  a tough  time,  you’ll help yourself  feel better  even  faster.    \n75    \nA. Ask for a helping  hand  to get you through  the tough  situation.  \nB. Notice  your friends ’ feelings  and find a way to help them.  \nC. Different  people  feel stress  in different  ways.  \nD. Ah, it feels  so good  when  the stress  is gone.  \nE. You need  to figure  out what  the problem  is. \nF. And don’t forget  about  your friends.  \nG. Then,  find a way to calm  down.\n",
+            "standard_answer": [
+                "C",
+                "F",
+                "A",
+                "E",
+                "D"
+            ],
+            "analysis": "71．C 根据下文的 Some  ways  of dealing  with stress  和But other  ways可知，上文\n是不同的人会以不同的方式感受压力． 故选 C\n72．F 根据下文的  After  you’re calm  and you have  support  from  adults  and friends\n可知，上文是并且不要忘了你的朋友们， 故选 F．\n73．A 根据上文的 Remember  that there  are always  people  to help you可知，意思\n为寻求帮助，使你度过艰难处境， 故选 A．\n74．E 根据上文的 it’s time to get down  to business可知，意思为该做正事了，也\n就是你需要弄清楚这个问题是什么， 故选 E．\n75．D 根据整篇短文可知，最后应该表示，当压力离开的时候你会感觉如此的\n好啊，故选 D．\n",
+            "model_answer": [
+                "A",
+                "G",
+                "E",
+                "C",
+                "D"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个题目。首先，我需要仔细阅读短文，理解每个段落的内容，然后根据上下文选择合适的选项填入空白处。题目中有七个段落，每个段落后面有一个空白，需要从选项A到G中选择正确的答案。不过题目中说选项中有两个是多余的，所以需要排除掉。\n\n首先，我通读一遍短文，了解整体结构。短文讲的是如何应对压力的四个步骤，每个步骤对应一个段落。空白处的位置在第71、72、73、74、75处，也就是每个步骤中的某个位置。\n\n接下来，我需要逐个分析每个空白处的上下文，找出合适的选项。\n\n首先看第71处。原文开头说“Everybody gets stressed time to time.”，然后第71处后面接的是“Some ways of dealing with stress...”，所以这里可能需要一个总结性的句子，说明压力的不同表现或应对方式。选项C是“Different people feel stress in different ways.”，这可能适合，因为前面提到每个人有时会感到压力，而后面讲的是不同的应对方法。不过也有可能其他选项更合适。比如选项C可能放在这里，作为引出不同应对方式的句子。\n\n接下来是第72处。原文提到“Talk to a trusted adult... They might have had similar problems...”这里可能需要一个过渡句，比如建议不要只依赖成年人，还要考虑朋友。选项F是“And don’t forget about your friends.”，这可能合适，因为前面提到成年人，后面可能需要补充朋友的支持。\n\n第73处，原文是“Don’t take it out on yourself. Remember that there are always people to help you. Don’t take it out on yourself.” 这里可能需要一个总结或建议，比如如何冷静下来。选项G是“Then, find a way to calm down.”，这可能合适，因为前面提到不要自责，之后可能需要冷静下来。\n\n第74处，原文是“After you’re calm and you have support... it’s time to get down to business.” 这里需要一个步骤，比如找出问题所在。选项E是“You need to figure out what the problem is.”，这符合逻辑，因为冷静下来后需要解决问题，所以先要确定问题。\n\n第75处，原文最后提到“you’ll help yourself feel better even faster.” 这里可能需要一个总结性的句子，比如"
+        },
+        {
+            "index": 1,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 2,
+            "question": "根据短文内容 ，从短文后的选项中选出能坡入空白处的最佳选项 。选项\n中有两项为多于选项。  \nPublic  Speaking  Training  \n·Get  a coach  \n     71    , so get help.  Since  there  are about  a billion  companies  out there  all \nready  to offer  you public  speaking  training  and courses,  here are some  things  to look \nfor when  deciding  the training  that’s right  for you. \n·Focus  on positives  \nAny training  you do to become  more  effective  at public  speaking  should  always  \n  focus  on the positive  aspects  of what  you already  do well.  Nothing  can hurt \nconfidence  more  than being  told that you aren’t doing  well.      72      , so good  \npublic  speaking  training  should  develop  those  instead  of telling  you what  you \nshouldn ’t do. \n·    73      \nIf you find a public  speaking  course  that looks  as though  it’s going  to give you lots of \ndos and don’ts, walk away!  Your  brain  is so full of what you’re going  to be talking  about .  \n   74    . As far as we’re concerned , there are basically  no hard and fast rules about  \npublic  speaking . Your  audience  can be your friends . \n·You  are a special  person  not a clone  \nMost  importantly,  good  public  speaking  training  should  treat you as a special  \none, with your own personal  habits.      75   . Your  training  course  should  help \nyou bring  out your personality,  not try to turn you into someone  you’re not. \nA. You aren’t like anybody  else \nB. You already  do lots of things  well \nC. Turn  your back  on too many  rules  \nD. Check  the rules  about  dos and don’ts \nE. Whatever  the presentation,  public  speaking  is tough  \nF. The one thing  you don’t want  is for them  to fall asleep  \nG. So trying  to force  a whole  set of rules  into it will just make  things  worse\n",
+            "standard_answer": [
+                "E",
+                "B",
+                "C",
+                "G",
+                "A"
+            ],
+            "analysis": "71．E  根据下一句 \"ready  to offer  you public  speaking  training  and courses\"可知，\n开头说的是与 \"public  speaking\" 有关的问题， 故选 E．\n72．B 本题位于段中，通过上下文得出选项．后一句 \"so good  public  speaking  \ntraining  should  develop  those\"与空格形成因果关系 ，所以空格中应表达 \"你已经做\n得很好了 \"的含义， 所以 B选项是正确答案．\n73．C  本题位于段首，为整段的主旨大意．本段第一句中提到 \"lots of dos and \ndon’ts, walk  away!\"可知，如果有的培训讲太多的条条框框的话 ，要对条条框框说\n不，所以 C选项是正确答案．\n74．G  从前句 \"Your  brain  is so full of what  you’re going  to be talking  about ,\"可知\n后一空与前一空形成因果关系 ，脑子里装满了条条框框只会使情况变得更糟 ．故\n选G．\n75．A  小标题为 \"You  are a special  person  not a clone以及 treat you as a special  \none, with your own personal  habits\"可以得出答案 You aren’t like anybody  else（与\n众不同）． 故答案选 A．\n",
+            "model_answer": [
+                "A",
+                "G",
+                "G",
+                "B",
+                "B"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个填空题。首先，我需要仔细阅读题目中的短文，然后根据上下文选择合适的选项填入空白处。题目有五个空白，需要从选项A到G中选出五个正确的答案，其中有两个是多余的选项。\n\n首先，我通读一遍短文，了解整体内容。短文是关于公共演讲培训的建议，分为几个要点。每个要点后面有一个空白，需要填入合适的句子。\n\n第一个空白是71，位于“Get a coach”之后。原文提到“since there are a billion companies...”，所以这里可能是在强调需要帮助，所以可能选B选项“You already do lots of things well”，因为前面提到要关注积极方面，所以可能B是正确选项。不过需要再仔细看上下文。\n\n接下来是72，这里前面说任何培训都应该关注你已经做得好的方面，否则会伤害信心。所以72应该是一个强调不要关注缺点的句子，可能选B或者F？或者看选项中的内容。比如，F选项是“The one thing you don’t want is for them to fall asleep”，可能不太相关。或者B选项“You already do lots of things well”可能更合适，因为前面提到要关注积极方面，所以72可能对应B选项，但需要看上下文。\n\n第三个空白是73，前面说如果找到一个课程给你很多dos和don'ts，就离开，因为大脑已经装满了要讲的内容。所以这里可能需要一个关于不要太多规则的句子，比如C选项“Turn your back on too many rules”或者G选项“Trying to force a whole set of rules into it will just make things worse”。可能选C或G。\n\n第四个空白74，前面说你的大脑已经装满了内容，所以这里可能需要一个句子说明不要被规则束缚，比如C或G。比如，G选项可能更合适，因为前面提到不要太多规则，所以74可能对应G。\n\n第五个空白75，前面说好的培训应该把你当作特殊的人，有个人习惯，所以这里可能选A选项“You aren’t like anybody else”或者B选项，但B可能已经被用过了。或者选A，因为前面提到你是特别的，所以A正确。\n\n现在需要逐一分析每个空白：\n\n71：原文说“Get a coach”，然后说“so get help.”，所以可能需要一个原因，比如B选项“You already do lots of things well”可能不太"
+        },
+        {
+            "index": 2,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 2,
+            "question": "根据短文内容 ，从短文后的选项中选出能填入空白处的最佳选项 。选项中有\n两项为多余选项。  \nBusiness  is the organized  approach  to providing  customers  with the goods  and \nservices  they want . The word  business  also refers  to an organization  that provides  \nthese  goods  and services . Most  businesses  seek to make  a profit（利润） --- that is, \nthey aim to achieve  income  that is more  than the costs  of operating  the business .  71       \nCommonly  called  nonprofits , these  organizations  are primarily  nongovernmental  \nservice  providers . 　72   　 \nBusiness  management  is a term used to describe  the techniques  of planning , \ndirection , and control  of the operations  of a business . 　73    One is the \nestablishment （制定） of broad  basic  policies  with respect  to production ; sales ; the \npurchase  of equipment , materials  and supplies ; and accounting . 　74   The third  \nrelates  to the establishment  of standards  of work  in all departments . Direction  is \nconcerned  primarily  with supervision （监管） and guidance  by the management  in \nauthority . 　 75  　 \nA. Control  includes  the use of records  and reports  to compare  actual  work  with the set \nstandards  for work.  \nB. In this connection  there  is the difference  between  top management  and operative  \nmanagement.  \nC. Examples  of nonprofit  business  top management  and operative  management.  \nD. However , some  businesses  only seek to enough  to cover  their operating  costs . \nE. The second  aspect  relates  to the application  of these  policies  by departments.  \nF. In the theory  of business  management,  organization  has two main  aspects.  \nG. Planning  in business  management  has three  main  aspects.\n",
+            "standard_answer": [
+                "D",
+                "C",
+                "G",
+                "E",
+                "A"
+            ],
+            "analysis": "71．D  通过空格后的句子 Commonly  called  nonprofits , these  organizations  are \nprimarily  nongovernmental  service  providers 是讲一种不盈利的机构，前文讲述的\n是商业机构的目的是为了赚取利润 ，所以讲到两种不同的情况 ，因此可以推测空\n格处表达转折，且讲到不盈利的机构， 可以选 D．意为 \"这些机构仅仅是赚取它\n们自身运转的费用 \"；\n72．C  根据空格前面的内容讲的是不盈利机构 nonprofits ，可以推知接着是对不\n盈利机构进行举例， 故答案为 C；\n73．G 根据空格前面的内容 Business  management  is a term used to describe  the \ntechniques  of planning , direction , and control  of the operations  of a business．可知讲\n的是 \"商业管理 \"（Business  management ），空格后的内容是对三个方面进行阐述\n  ，空格的内容属于对 planning的阐述， 故答案为 G；\n74．E  根据空格前后的内容可知， 前面阐述了 planning，后面 the third…阐述了  \nthe control  of the operations  of a business（商业运作的控制 ）关系到所有部门的工\n作标准的建立（ The third  relates  to the establishment  of standards  of work  in all \ndepartments ），所以空格内容为 the second… ，用来阐述 direction 关系到部门对\n各项政策的实行（ the application  of these  policies  by departments ），故答案为 E；\n75．A  最后一点可以根据前一句推知，前面一句说明 \"导向主要涉及权威管理\n的引导和监管 \"（Direction  is concerned  primarily  with supervision  and guidance  by \nthe management  in authority），可推知 \"控制包括了报告和记录的作用 ﹣﹣用来对\n比实际工作与工作标准是否符合 \"．故答案为 A．\n",
+            "model_answer": [
+                "A",
+                "G",
+                "C",
+                "D",
+                "D"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个填空题。首先，我需要仔细阅读题目中的短文，然后根据上下文选择合适的选项填入空白处。题目给出的选项是A到G，其中有两个是多余的，所以需要选出五个正确的选项，但题目中可能只有五个空格需要填，所以可能有五个选项是正确的，而另外两个是多余的。\n\n首先，我需要通读整个短文，理解其内容和结构。短文主要讲的是商业的定义、非营利组织、企业管理的定义以及管理中的三个主要方面。接下来，我需要找到每个空白处的位置，并分析上下文，确定应该填入哪个选项。\n\n首先看第71题。原文提到“Most businesses seek to make a profit... 71 Commonly called nonprofits...”这里前面讲的是大多数企业追求利润，而71后面提到的是非营利组织，所以这里应该是一个转折，说明有些企业不追求利润。选项D是“However, some businesses only seek to enough to cover their operating costs.”这里可能有语法错误，应该是“seek to get enough to cover...”，但可能原文有误，或者选项D是正确的。所以D可能正确。\n\n接下来是72题。原文提到“Commonly called nonprofits, these organizations are primarily nongovernmental service providers. 72”这里需要一个句子来承接，可能讲非营利组织的特点，比如它们不以盈利为目的，或者它们的运作方式。但选项中可能没有直接对应的，需要看其他选项。比如选项C提到“Examples of nonprofit business top management and operative management.”这可能不太对，因为前面讲的是非营利组织，而C可能是在讲管理层次，可能属于后面的内容。或者可能72处需要一个总结句，比如选项D可能已经用了，所以可能需要其他选项。\n\n然后是73题。原文提到“Business management is a term... 73 One is the establishment...”这里可能需要一个总起句，比如“Planning in business management has three main aspects.”即选项G。因为后面提到三个主要方面，所以73处可能填入G，即“Planning in business management has three main aspects.”\n\n接下来是74题。原文提到“the second aspect relates to the application of these policies by departments.”这里前面提到的是第一个方面是制定政策，第二个方面是应用这些政策，所以74处应该对应第二个方面，即选项E：“The second"
+        },
+        {
+            "index": 3,
+            "year": "2014",
+            "category": "（新课标Ⅰ）",
+            "score": 2,
+            "question": "根据短文内容 ，从短文后的选项中选出能填入空白处的最佳选项 ，选项中有\n两项为多余选项。  \nThe jobs of the future  have  not yet been  invented . 　 36   By helping  them  \ndevelop  classic  skills  that will serve  them  well no matter  what  the future  holds . \n1. Curiosity  \nYour  children  need  to be deeply  curious . 　 37   Ask kids, “What  ingredients （\n配料） can we add to make  these  pancakes  even  better  next time?” and then try them  \nout. Did those  ingredients  make  the pancakes  better ? What  could  we try next time? \n2. Creativity  \nTrue  creativity  is the ability  to take something  existing  and create  something  new \nfrom  it.  38   There  are a dozen  different  things  you can do with them . \nExperimenting  with materials  to create  something  new can go a long way in helping  \nthem  develop  their creativity . \n3. Personal  skills  \nUnderstanding  how others  feel can be a challenge  for kids. We know  what ’s \ngoing  on inside  our own head , but what  about  others ? Being  able to read people  helps  \nkid from  misreading  a situation  and jumping  to false  conclusions . 　 39  “Why  do \nyou think  she’s crying ?” “Can you tell how that man is feeling  by looking  at his \nface?” “If someone  were  to do that to you, how would  you feel?” \n4. Self Expression  \n 40   There  are many  ways  to express  thoughts  and ideas ---music , acting , \ndrawing , building , photography . You may find that your child  is attracted  by one \nmore  than another . \nA. Encourage  kids to cook  with you. \nB. And we can’t forget  science  education . \n  C. We can give kids chances  to think  about  materials  in new ways . \nD. We can do this in real life or ask questions  about  characters  in stories . \nE. Gardening  is another  great  activity  for helping  kids develop  this skill. \nF. So how can we help our kids prepare  for jobs that don’t yet exist ? \nG. Being  able to communicate  ideas  in a meaningful  way is a valuable  skill.\n",
+            "standard_answer": [
+                "F",
+                "A",
+                "C",
+                "D",
+                "G"
+            ],
+            "analysis": "36．F推理判断题．根据第一段中的 \"The  jobs of the future  have  not yet been  \ninvented\" 未来的工作还没有发明出来 ．所以我们也不知道它们究竟是什么样子的\n．我们能做的就是让我们的孩子练好技能 ，帮助他们发展最优秀的技能 ．所以上\n句应该怎样帮助为了他们未来的工作而做好准备． 故选 F．\n37．A 推理判断题 ．根据第二段中的 \"What  ingredients  （配料）can we add to make  \nthese  pancakes  even  better  next time?\"可知，做煎饼时添加什么配料会更好，讲述\n的是做饭 ．是一项基本的技能 ，我们要鼓励孩子和我们一起做饭 ，通过孩子的好\n奇心来培养这种基本的技能， 故选 A．\n38．C 推理判断题．根据第三段中 \"True  creativity  is the ability  to take something  \nexisting  and create  something  new\"可知，真正的创造能力是从现存的东西里创造\n出新的东西的能力 ．所以我们给孩子机会让他们用新的方法来考虑这些现有的事\n物，以此来培养他们的创造能力． 故选 C．\n39．D 推理判断题．根据第四段中的三个问题 \"Why  do you think  she’s crying ?\" \n\"Can  you tell how that man is feeling  by looking  at his face?\" \"If someone  were  to do \nthat to you, how would  you feel?可知，孩子怎样判断人的情感对他们来说是一个\n挑战，我们要让孩子思考别人的各种行为．以此培养他们理解他人思想的能力 ，\n所以问一下故事里的有关问题可以培养孩子这方面的能力． 故选 D．\n40．G 推理判断题．根据最后一段中的 \"music , acting , drawing , building , \nphotography\" 可知，这些都是我们表达自己思想的有效方法，能够让孩子有这些\n有效的方法进行表达思想也是一种很重要的技巧 ．我们要培养孩子这方面的能力\n．故选 G．\n",
+            "model_answer": [
+                "A",
+                "G",
+                "B",
+                "F",
+                "F"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个题目。首先，我需要仔细阅读题目中的短文，然后根据内容选择合适的选项填入空白处。题目有五个空白处，需要从选项A到G中选出正确的五个，其中有两个是多余的。\n\n首先，我通读一遍短文，了解整体结构。短文主要讲的是如何帮助孩子为未来的工作做准备，提到了四个技能：好奇心、创造力、个人技能和自我表达。每个部分都有一个空白需要填入合适的选项。\n\n接下来，我需要逐一分析每个空白处的上下文，找出对应的选项。\n\n第一个空白是第36题，位于开头段落。原文开头说“The jobs of the future have not yet been invented.”，然后接着说“By helping them develop classic skills...” 所以这里应该是一个问题或引出话题的句子，可能是在问如何帮助孩子准备未来的工作。选项F是“So how can we help our kids prepare for jobs that don’t yet exist?” 这个看起来很合适，因为它承接了前一句，提出问题，引出下文的四个技能。所以第36题选F。\n\n接下来是第37题，对应第一个技能“Curiosity”。原文提到要让孩子有好奇心，然后举了一个例子，问孩子如何改进煎饼的配料。这里可能需要一个建议，比如鼓励孩子一起做饭，这样可以培养好奇心。选项A是“Encourage kids to cook with you.” 这个符合上下文，所以第37题选A。\n\n第三个空白是第38题，对应第二个技能“Creativity”。原文提到创造力是将现有事物转化为新事物的能力，然后举了材料的例子，比如用不同东西做实验。选项C是“We can give kids chances to think about materials in new ways.” 这个符合上下文，所以第38题选C。\n\n第39题对应第三个技能“Personal skills”，即理解他人感受。原文提到通过提问来帮助孩子理解他人情绪，比如问“Why do you think she’s crying?” 选项D是“We can do this in real life or ask questions about characters in stories.” 这里提到在现实生活中或通过故事中的角色提问，符合上下文，所以第39题选D。\n\n第40题对应第四个技能“Self Expression”，即自我表达的重要性。原文提到表达思想和想法的方式有很多，比如音乐、绘画等。选项G是“Being able to communicate"
+        },
+        {
+            "index": 4,
+            "year": "2014",
+            "category": "（新课标ⅱ）",
+            "score": 2,
+            "question": "根据短文内容 ，从短文后的选项中选出能填入空白处的最佳选项 。选项中有\n两项为多余选项。  \nTips  for cooking  on a Tight  Schedule  \nFrom  my experience , there  are three  main  reasons  why people  don’t cook  more  \noften : ability , money  and time, 　 36  　 Money  is a topic  I’ll save for another  day. \nSo today  I want  to give you some  wisdom  about  how to make  the most  of the time \nyou spend  in the kitchen . Here  are three  tips for great  cooking  on a tight schedule : \n①Think  ahead . The moments  when  I think  cooking  is a pain are when  I’m \nalready  hungry  and there  is nothing  ready  to eat. So think  about  of the coming  week . \nWhen  will you have  time to cook ? Do you have  the right  materials  ready ? 　 37  　 \n②Make  your time worth  it. When  you do find time to cook  a meal , make  the \nmost  of it and save yourself  time later on. Are you making  one loaf of bread ? 　 38  　 \nit takes  around  the same  amount  of time to make  more  of something . So save yourself  \nthe effort  for a future  meal . \n③　 39  　 This may surprise  you, but one of the best tools  for making  \ncooking  worth  your time is experimentation . It gives  you the chance  to hit upon  new \nideas  and recipes  that can work  well with your appetite  and schedule . The more  you \nlearn  and the more  you try, the more  ability  you have  to take control  of your food and \nyour schedule . \nHopefully  that gives  you a good  start. 　 40  　 and don’t let a busy  schedule  \ndiscourage  you from  making  some  great  changes  in the way you eat and live! \n  A. Try new things  \nB. Ability  is easily  improved  \nC. Make  three  or four instead  \nD. Understand  your food better  \nE. Cooking  is a burden  for many  people  \nF. Let cooking  and living  simply  be a joy rather  than a burden  \nG. A little time planning  ahead  can save a lot of work  later on\n",
+            "standard_answer": [
+                "B",
+                "G",
+                "C",
+                "A",
+                "F"
+            ],
+            "analysis": "36．B 根据第一段中空格前 \"ability , money  and time\"及空格后句子 \"Money  is a \ntopic  I’ll save for another  day. So today  I want  to give you some  wisdom  about  how \n  to make  the most  of the time you spend  in the kitchen\"，可知，人们不经常做饭的三\n个主要原因是 ：能力、金钱和时间．钱的问题我改天说．今天我想给你们一些关\n于如何充分利用你在厨房的时间的聪明做法，能力很容易提高． 故选 B．\n37．G 根据第二段中 \"So think  about  of the coming  week . When  will you have  time to \ncook ? Do you have  the right  materials  ready ?\"可知，提前一周想好．在有空的时候\n准备好食材．提前用一点儿时间来规划未来可以节省以后的很多工作． 故选 G．\n38．C 根据第三段中 \"When  you do find time to cook  a meal , make  the most  of it and \nsave yourself  time later on. Are you making  one loaf of bread ?\"及\"it takes  around  the \nsame  amount  of time to make  more  of something . So save yourself  the effort  for a \nfuture  meal\"可知，做面包时 ，做三、四个而不是一个 ，可以给自己节省以后的时\n间．做一个和做三、四个面包所花费的时间差不多． 故选 C．\n39．A 根据第四段中 \"It gives  you the chance  to hit upon  new ideas  and recipes  that \ncan work  well with your appetite  and schedule . The more  you learn  and the more  you \ntry, the more  ability  you have  to take control  of your food and your schedule\" 可知，要\n敢于尝试 ，这样才会引起自己的食欲 ，才可以使自己用在做饭上的时间和努力值\n得．学得越多，尝试越多，控制食材和时间的能力就会越强． 故选 A．\n40．F 根据最后一段中 \"Hopefully  that gives  you a good  start\"及\"and don’t let a busy  \nschedule  discourage  you from  making  some  great  changes  in the way you eat and \nlive\"可知，希望这些建议能给你一个良好的开端 ，不要让繁忙的日程阻止你为了\n吃饭和生活所做的一些变化 ，让烹饪和生活成为一种快乐 ，而不是负担 ．故选 F\n．\n",
+            "model_answer": [
+                "A",
+                "G",
+                "E",
+                "F",
+                "E"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个填空题。首先，我需要仔细阅读题目中的短文，然后根据上下文选择合适的选项填入空白处。题目给出的选项是A到G，其中有两个是多余的，所以需要选出五个正确的选项，剩下的两个是多余的。\n\n首先，我需要通读整个短文，理解其内容和结构。短文的标题是“Tips for cooking on a Tight Schedule”，作者提到人们不常做饭的三个原因：能力、金钱和时间，但今天要讲的是时间方面的建议。接下来有三个建议，每个建议对应一个空格，还有第四个空格在结尾部分。\n\n现在，我需要逐个分析每个空格的位置和上下文，找出合适的选项。\n\n第一个空格是36，位于开头部分，原文提到“there are three main reasons why people don’t cook more often: ability, money and time,　36　Money is a topic I’ll save for another day.” 这里，作者在列举三个原因后，接下来要讨论时间的问题，所以36处应该是一个过渡句，可能是在说明这三个原因中，作者今天只讨论时间。可能的选项是E或F？或者看选项中的内容。比如，E选项是“Cooking is a burden for many people”，而F是“Let cooking and living simply be a joy rather than a burden”。不过原文开头已经提到三个原因，所以可能36处是解释这三个原因中的哪一个？或者可能作者在说明这三个原因中，今天只讨论时间，所以可能36处是“Money is a topic I’ll save for another day.”前面的句子，可能需要一个过渡，比如“However”之类的，但选项中没有。或者可能36处是另一个原因？或者可能作者在列举完三个原因后，接下来要讨论时间，所以可能36处是“However”之类的，但选项中没有。或者可能36处是选项E或F？或者可能选项E是“Cooking is a burden for many people”，而原文开头提到三个原因，所以可能36处是解释这三个原因中的哪一个？或者可能36处是选项E，即“Cooking is a burden for many people”，但原文已经提到三个原因，所以可能36处是另一个句子，比如“However, time is the one I want to focus on today.” 但选项中没有这个。或者可能选项E是正确的？或者"
+        },
+        {
+            "index": 5,
+            "year": "2015",
+            "category": "（新课标Ⅰ）",
+            "score": 2,
+            "question": "根据短文内容 ，从短文后的选项中选出能填入空白处的最佳选项 。选项中有\n两项为多余选项。   \nBuilding  Trust  in a Relationship  Again  \nTrust  is a learned  behavior  that we gain from  past experiences.  36.___________  \nTrust  is a risk. But you can’t  be successful  when  there’s  a lack of trust in a \nrelationship  that results  from  an action  where  the wrongdoer  takes  no responsibility  to \nfix the mistake.   \nUnfortunately,  we’ve  all been  victims  of betrayal.  Whether  we’ve  been  stolen  \nfrom,  lied to, misled,  or cheated  on, there  are different  levels  of losing  trust . \nSometimes  people  simply  can’t trust  anymore . 37. __________  It’s \nunderstandable,  but if you’re  willing  to build  trust in a relationship  again,  we have  \nsome  steps  you can take to get you there.   \n◆38. ___________  Having  confidence  in yourself  will help you make  better  \nchoices  because  you can see what  the best outcome  would  be for your well-being.   \n ◆39. ___________  If you’ve  been  betrayed,  you are the victim  of your \ncircumstance.  But there’s  a difference  between  being  a victim  and living  with a \n“victim  mentality ”. At some  point  in all of our lives,  we’ll  have  our trust tested  or \nviolated.   \n ◆You didn’t  lose “everything ”. Once  trust is lost, what  is left? Instead  of looking  \nat the situation  from  this hopeless  angle , look  at everything  you still have  and \nbe thankful  for all of the good  in your  life. 40. ___________  Instead,  it’s a \nhealthy  way to work  through  the experience  to allow  room  for positive  growth  and \n  forgiveness.   \nA. Learn  to really  trust yourself.   \nB. It is putting  confidence  in someone.   \nC. Stop regarding  yourself  as the victim.   \nD. Remember  that you can expect  the best in return.   \nE. They’ve  been  too badly  hurt and they can’t  bear to let it happen  again.   \nF. This knowledge  carries  over in their attitude  toward  their future  relationships.   \nG. Seeing  the positive  side of things  doesn’t  mean  you’re  ignoring  what  happened.\n",
+            "standard_answer": [
+                "B",
+                "E",
+                "A",
+                "C",
+                "G"
+            ],
+            "analysis": "36．B 根据后句 \"That  is a risk\"（那是一种冒险 ）可知，前文指的是某种行为， B\n项中 \"那就是对某人抱以信心 \"最符合语境， 故选 D．\n37．E 根据前句 \"Sometimes  people  simply  can’t trust anymore .\"可知，他们受到严\n重的伤害且不能忍受再次发生． 故选 E．\n38．A 根据后句可知，此段主要讲述要学会信任自己． 故选 A．\n39．C 根据后面可知，此段主要讲述不要认为自己是受害者． 故选 C．\n40．G 根据前一句和后一句可知，既要看到事情的积极面，也不要忽视所发生\n的事情． 故选 G．\n",
+            "model_answer": [
+                "B",
+                "B",
+                "E",
+                "A",
+                "A"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个填空题。首先，我需要仔细阅读题目和短文，理解每个空格处需要填入的选项。题目给出了一段关于如何在关系中重建信任的短文，然后有五个选项需要填入空白处，其中有两个是多余的。\n\n首先，我需要通读整个短文，了解整体结构和内容。短文主要讲的是信任是通过过去的经验学到的，当信任被破坏时，如何重建。接下来有四个步骤，每个步骤对应一个空格，可能还有其他空格需要填。\n\n现在，我需要逐句分析短文，找出每个空格的位置，并确定合适的选项。\n\n第一段开头提到“Trust is a learned behavior that we gain from past experiences. 36.___________”这里可能需要一个总结性的句子，或者引出下文。选项中B是“It is putting confidence in someone.”这可能对应第一句，因为信任是建立在他人身上的，所以B可能合适。不过需要再看后面的内容。\n\n接下来第二段讲信任是风险，但缺乏信任会导致不成功。然后提到人们都经历过背叛，不同层次的失去信任，有时人们无法再信任，37.___________。这里可能需要一个解释为什么人们无法信任，比如选项E：“They’ve been too badly hurt and they can’t bear to let it happen again.”这符合上下文，说明他们因为受伤而无法再次信任。\n\n第三段开始是◆38.___________，这里可能是一个标题，比如“Learn to really trust yourself.”即选项A，因为后面提到自信有助于做出更好的选择。所以38可能是A。\n\n接下来是◆39.___________，这里可能对应选项C：“Stop regarding yourself as the victim.”因为后面提到不要有受害者心态，而要区分受害者和受害者心态。所以39是C。\n\n然后是◆You didn’t lose “everything ”. 这里可能对应选项G：“Seeing the positive side of things doesn’t mean you’re ignoring what happened.”因为后面提到不要从绝望的角度看，而是看到仍有好的东西，所以G可能合适。不过需要看选项G是否对应。\n\n最后，40.___________，这里可能需要选项D：“Remember that you can expect the best in return.”或者选项F？或者G？需要再仔细看。原文最后说不要从绝望的角度看，而是看到仍有好的东西，然后说“Instead, it’s a healthy"
+        },
+        {
+            "index": 6,
+            "year": "2015",
+            "category": "（新课标ⅱ）",
+            "score": 2,
+            "question": "根据短文内容，从短文后的选项中选出能填入空白处的最佳选项。选项中有\n两项为多余选项。  \nTraining  for a marathon  requires  careful  preparation  and steady,  gradual  \nincreases  in the length  of the runs.  ___36___,  buy the best-fitting,  best-built  running  \nshoes  you can find. No one can say which  brand  will work  best for you or feel best on \nyour feet, so you have  to rely on your experience  and on the feel of each pair as you \nshop.  When  you have  found  shoes  that seem  right,  walk  in them  for a few days to \ndouble-check  the fit. ___37___.  As always,  you should  stretch  (伸展 ) at least ten \nminutes  before  each run to prevent  injuries.  \nDuring  the first week,  do not think  about  distance,  but run five minutes  longer  \neach day. ___38___,  it is wise to take a day off to rest. But during  the next week,  set a \ngoal of at least a mile and a half per run. ___39___.  After  two weeks,  start timing  \nyourself.  ___40___.  Depending  on the kind of race you plan to enter,you  can set up a \ntimetable  for the remaining  weeks  before  the race.  \nA. After  six days \nB. For a good  marathon  runner  \nC. Before  you begin  your training  \nD. With  each day, increase  the distance  by a half mile \nE. If they still feel good,you  can begin  running  in them  \nF. Time  spent  for preparation  raises  the quality  of training  \nG. Now  you are ready  to figure  out a goal of improving  distance  and time\n",
+            "standard_answer": [
+                "C",
+                "E",
+                "A",
+                "D",
+                "G"
+            ],
+            "analysis": "36. C 本题考查前后句子的联系， 根据后文 buy the best-fitting , best-built running  \nshoes  you can find. 可知需要买最好的配件，最好的运行鞋，这些都是开始训练\n之前要做的事情， 故选 C.\n37. E 本题考查前后句子的联系， 根据前文 When  you have  found  shoes  that seem  \nright , walk  in them  for a few days to double -check  the fit. 可知在鞋子看起来不错的\n时候要先穿几天感觉一下是否合适 ，如果他们仍然合适 ，那么就可以穿着它们开\n始跑步， 故选 E.\n38. A 本题考查前后句子的联系 ，根据前文 During  the first week , do not think  about  \ndistance , but run five minutes  longer  each day. 告诉我们在第一周不要考虑举例，\n每天多跑五分钟， 而后文 it is wise to take a day off to rest让我们有一天的休息，\n因此在六天之后我们要休息一天， 故选 A.\n39. D 本题考查前后句子的联系， 根据前文 But during  the next week , set a goal of \nat least a mile and a half per run. 可知在下一个星期要设定一个目标，每天增加一\n点距离， 故选 D.\n40. G 本题考查前后句子的联系， 根据后文 Depending  on the kind of race you plan \nto enter , you can set up a timetable  for the remaining  weeks  before  the race. 可知你可\n以自己制定自己的训练计划 ，说明已经准备好了一个改进距离和时间的目标 ，故\n选G.\n",
+            "model_answer": [
+                "A",
+                "G",
+                "C",
+                "B",
+                "C"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个填空题。首先，我需要仔细阅读题目中的短文，然后根据上下文选择合适的选项填入空白处。题目有五个空格，需要从选项A到G中选出五个正确的，其中有两个是多余的。我需要先理解每个空格的位置和上下文的关系，再逐一分析选项。\n\n首先，通读整个短文，了解整体内容。短文主要讲的是如何为马拉松训练做准备，包括购买跑鞋、热身、训练计划等。接下来，我需要逐个分析每个空格的位置和可能的选项。\n\n第一个空格是第36题，位于“Training for a marathon requires careful preparation and steady, gradual increases in the length of the runs. ___36___, buy the best-fitting, best-built running shoes you can find.” 这里，前半句讲的是训练需要准备和逐渐增加跑步长度，然后空格后面提到买合适的跑鞋。所以这里应该是一个过渡句，可能是在建议在开始训练之前要买跑鞋。选项中C选项是“Before you begin your training”，这符合逻辑，因为开始训练前要准备跑鞋。所以36题选C。\n\n接下来是第37题，空格在“...walk in them for a few days to double-check the fit. ___37___.” 这里前面讲的是试穿跑鞋几天，然后空格后面可能接着下一步。选项E是“If they still feel good, you can begin running in them”，这符合逻辑，即如果感觉良好就可以开始跑步。所以37题选E。\n\n第38题是“During the first week, do not think about distance, but run five minutes longer each day. ___38___, it is wise to take a day off to rest.” 这里前面说第一周不要考虑距离，每天多跑五分钟，然后空格后面说建议休息一天。这里可能是在说经过六天后，所以选项A是“After six days”，这样符合逻辑，即六天后休息一天。所以38题选A。\n\n第39题是“...set a goal of at least a mile and a half per run. ___39___.” 这里前面说第二周的目标是至少一又二分之一英里，然后空格后面可能接着如何增加距离。选项D是“With each day, increase the distance by a half mile”，"
+        },
+        {
+            "index": 7,
+            "year": "2016",
+            "category": "（新课标Ⅰ）",
+            "score": 2,
+            "question": "根据短文内容 ，从短文后的选项中选出能填入空白处的最佳选项 ，选项中有\n两项为多余选项。  \nSecret  codes  (密码 ) keep  messages  private . Banks,  companies,  and government  \nagencies  use secret  codes  in doing  business,  especially  when  information  is sent by \ncomputer.  \nPeople  have  used secret  codes  for thousands  of years.     36    Code  breaking  \nnever  lags (落后 ) far behind  code  making.  The science  of creating  and reading  coded  \nmessages  is called  cryptography.  \nThere  are three  main  types  of cryptography.     37    For example,  the first \nletters  of “My elephant  eats too many  eels”  spell out the hidden  message  “Meet  me.”  \n   38    You might  represent  each letter  with a number,  for example.  Let’s  \nnumber  the letters  of the alphabet,  in order,  from  1 to 26. If we substitute  a number  for \neach letter,  the message  “Meet  me” would  read “13 5 5 20 13 5.” \nA code  uses symbols  to replace  words,  phrases,  or sentences.  To read the \nmessage  of a real code,  you must  have  a code  book.     39    For example,  \n“bridge”  might  stand  for “meet”  and “out”  might  stand  for “me.”  The message  \n  “Bridge  out” would  actually  mean  “Meet  me.”     40    However,  it is also hard to \nkeep  a code  book  secret  for long.  So codes  must  be changed  frequently.  \nA. It is very hard to break  a code  without  the code  book.  \nB. In any language,  some  letters  are used more  than others.  \nC. Only  people  who know  the keyword  can read the message.  \nD. As long as there  have  been  codes,  people  have  tried to break  them.  \nE. You can hide a message  by having  the first letters  of each word  spell  it out. \nF. With  a code  book,  you might  write  down  words  that would  stand  for other  words.  \nG. Another  way to hide a message  is to use symbols  to stand  for specific  letters  of the \nalphabet.\n",
+            "standard_answer": [
+                "D",
+                "E",
+                "G",
+                "F",
+                "A"
+            ],
+            "analysis": "36．D本题考察是逻辑关系，根据下一句 \"code  breaking  never  lags behind  code  \nmaking\"可知上一句是只要出现密码，就会有人去解码， 选项 D中的 break与空\n格后面句中的 breaking构成一种复现； 故选 D．\n37．E 本题考察是句子之间的例证关系，从后面文章的举例中 \"For example , the \nfirst letters  are ‘My elephant  eats too many  eels’ spell  out the hidden  message  ‘Meet  \nme.’\"那么前一句应该是对例子的概括，即我们可以知道是运用每个单词的首字\n母来组成密码， E选项正确\n38．G 本题考察是文章的篇章结构，前一段是讲到了第一种方法，根据篇章结\n构，下一段应该是讲述第二种设置密码的方法 ，而根据该段的例子 ，即字母表中\n字母排列顺序转化成为数字信息， 所以这里关键词是 another  way 还有 alphabet，\n故选 G．\n39．F 本题考察的是逻辑关系，从上一句 \"To read the message  of a real code , you \nmust  have  a code  book\"你需要借用解码书来找出密码单词所对应真正意思， F选\n项表示你应该找出解码书中密码所代表的词语， 故F正确．\n40．A 本题考察的是关键词以及转折关系 ，根据下一句出现 \"it is also hard to keep  \na code  book  secret  for long,\"这里出现了 also hard，所以上一句关键词为 hard；另\n外however表示转折关系，证明上一句与下一句表达相对应； 故选 A．\n",
+            "model_answer": [
+                "A",
+                "G",
+                "C",
+                "F",
+                "A"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个填空题。首先，我需要仔细阅读题目和短文，理解每个空白处需要填入的内容。题目给出了一段关于密码学的短文，有四个空白处（36到40），需要从选项A到G中选择合适的五个选项，其中有两个是多余的。不过题目里说选项中有两项是多余的，所以可能总共有五个选项，但需要选五个？或者可能题目有误？不过根据用户给出的示例，应该是五个选项填入五个空白，但可能有重复？\n\n不过仔细看题目，原文有四个空白处，36到40，所以可能题目有误？或者可能用户给出的选项有五个，但需要选四个？或者可能题目中的空白是五个？让我再仔细看一下原文。\n\n原文中的空白是：\n\n36. People have used secret codes for thousands of years. ______. Code breaking never lags far behind code making.\n\n37. There are three main types of cryptography. ______. For example, the first letters of “My elephant eats too many eels” spell out the hidden message “Meet me.”\n\n38. ______. You might represent each letter with a number, for example.\n\n39. A code uses symbols to replace words, phrases, or sentences. To read the message of a real code, you must have a code book. ______. For example, “bridge” might stand for “meet” and “out” might stand for “me.”\n\n40. The message “Bridge out” would actually mean “Meet me.” ______. However, it is also hard to keep a code book secret for long. So codes must be changed frequently.\n\n所以总共有四个空白处，36到40，但用户给出的选项是A到G七个选项，其中有两个是多余的。所以需要从七个选项中选出四个正确的，剩下的两个是多余的。不过用户的问题可能有误，或者可能我理解错了？\n\n或者可能原文中的空白是五个？比如可能36到40是五个？但原文中给出的段落中，36到40是四个空白？或者可能用户给出的段落中，36到40是五个？让我再仔细看一下原文：\n\n原文：\n\nPeople have used secret codes for thousands of years.     36    Code breaking never lags far behind code making.  \nThere are three main types of cryptography.     37    For example"
+        },
+        {
+            "index": 8,
+            "year": "2016",
+            "category": "（新课标ⅱ）",
+            "score": 2,
+            "question": "根据短文内容 ，从短文后的选项中选出能填入空白处的最佳选项 。选项中有\n两项为多余选项。  \nA garden  that’s  just right  for you \nHave  you ever visited  a garden  that seemed  just right  for you, where  the \natmosphere  of the garden  appeared  to total more  than the sum (总和 ) of its parts?     36   \n. But it doesn’t  happen  by accident.  It starts  with looking  inside  yourself  and \nunderstanding  who you are with respect  to the natural  world  and how you approach  \nthe gardening  process.  \n●   37    \nSome  people  may think  that a garden  is no more  than plants,  flowers,  patterns  \nand masses  of color.  Others  are concerned  about  using  gardening  methods  that require  \nless water  and fewer  fertilizers  (肥料 ).    38   . However,  there  are a number  of other  \nreasons  that might  explain  why you want  to garden.  One of them  comes  from  our \nearliest  years.  \n●Recall(回忆 ) your childhood  memories  \nOur model  of what  a garden  should  be often  goes back  to childhood.  Grandma’s  \nrose garden  and Dad’s  vegetable  garden  might  be good  or bad, but that’s  not what’s  \nimportant.     39    ― how being  in those  gardens  made  us feel. If you’d  like to \nbuild  a powerful  bond  with your garden,  start by taking  some  time to recall  the \ngardens  of your youth.     40   . Then  go outside  and work  out a plan to translate  \n  your childhood  memories  into your grown-up  garden.  Have  fun. \nA. Know  why you garden  \nB. Find a good  place  for your own garden  \nC. It’s our experience  of the garden  that matters  \nD. It’s delightful  to see so many  beautiful  flowers  \nE. Still others  may simply  enjoy  being  outdoors  and close  to plants  \nF. You can produce  that kind of magical  quality  in your own garden,  too \nG. For each of those  gardens,  write  down  the strongest  memory  you have\n",
+            "standard_answer": [
+                "F",
+                "A",
+                "E",
+                "C",
+                "G"
+            ],
+            "analysis": "36．F 文章前面说 Have  you ever visited  a garden  that seemed  just right  for you, \nwhere  the atmosphere  of the garden  appeared  to total more  than the sum（总和）  of \nits parts？你是否去过让你感觉不错的花园？ 那的感觉让人觉得超越了园子本身 ；\n后面说到 It starts  with looking  inside  yourself  and understanding  who you are with \nrespect  to the natural  world  and how you approach  the gardening  process．园艺不是\n心血来潮，而是一个人内心中对自然的敬畏． 故选 F．\n37．A 根据本段最后一句 However , there  are a number  of other  reasons  that might  \nexplain  why you want  to garden . One of them  comes  from  our earliest  years .\"然而，有\n很多能解释你为什么想做园艺的原因 \"可知我们首先要搞清楚为什么要做园艺，\n故选 A．\n38．E 本段前两句提出 Some  people  may think  that a garden  is no more  than plants , \nflowers , patterns  and masses  of color . Others  are concerned  about  using  gardening  \nmethods  that require  less water  and fewer  fertilizers （肥料） ．有些人认为花园只是\n一些花花草草 ，有些人关心少用水少用肥料 ．本句仍然在说明人们对园艺的不同\n  看法．故选 E．\n39．C 根据前句 Grandma ’s rose garden  and Dad’s vegetable  garden  might  be good  or \nbad, but that’s not what ’s important .\"…那些都不重要 \"可知这里强调的是在园艺中\n对我们来说真正重要的是什么． 故选 C．\n40．G 前面说 start by taking  some  time to recall  the gardens  of your youth．如果我\n们自己建一个花园 ，就可以回忆一下年轻的岁月 ．后面说 translate  your childhood  \nmemories  into your grown -up garden．儿时的记忆变成了一座长大成人后的园子 ．\n可知说的是园艺和记忆的关系， 故选 G．\n",
+            "model_answer": [
+                "A",
+                "G",
+                "B",
+                "F",
+                "F"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个填空题。首先，我需要仔细阅读题目和短文内容，理解每个空白处需要填入的选项。题目给出的选项是A到G，其中有两个是多余的，所以需要选出五个正确的选项，但题目中可能只有五个空格需要填，而选项中有两个多余。不过根据题目描述，可能有五个空格，所以需要仔细分析。\n\n首先，我需要通读整个短文，了解其结构和内容。短文主要讲的是如何找到适合自己的花园，强调内在的理解和回忆的重要性。接下来，我需要逐个分析每个空白处的上下文，找出合适的选项。\n\n第一个空白是36，前面提到“Have you ever visited a garden that seemed just right for you...”，然后说“But it doesn’t happen by accident.”，接着讲要从内在自己开始。所以这里可能需要一个总结性的句子，比如选项F：“You can produce that kind of magical quality in your own garden, too.” 这个选项可能对应前面提到的“just right for you”的情况，说明自己也可以创造这样的花园，所以F可能是36的答案。\n\n接下来是37，前面提到有些人认为花园只是植物、颜色等，其他人关注节水和肥料，然后38可能需要一个选项来承接前面的分类，比如选项E：“Still others may simply enjoy being outdoors and close to plants.” 这里前面已经提到了两种观点，第三种可能就是E，所以38是E。\n\n然后是39，前面说回忆童年记忆，提到Grandma和Dad的花园，但重要的是“how being in those gardens made us feel”，所以这里可能需要选项C：“It’s our experience of the garden that matters.” 这个选项正好对应前面提到的感受，所以39是C。\n\n接下来是40，前面说要花时间回忆童年的花园，然后要写下来最强的记忆，所以选项G：“For each of those gardens, write down the strongest memory you have.” 这个选项符合上下文，所以40是G。\n\n最后，剩下的选项是B和D。但根据题目，可能还有另一个空格。不过原题中可能有五个空格，所以需要检查是否还有其他位置。比如，可能37的位置是A：“Know why you garden”，但前面已经提到过，可能需要再确认。\n\n不过根据原文结构，可能37的位置是A，因为前面提到不同"
+        },
+        {
+            "index": 9,
+            "year": "2016",
+            "category": "（新课标ⅲ）",
+            "score": 2,
+            "question": "根据短文内容，从短文后的选项中选出能填入空白处的最佳选项。选项中有两项为多余选项。\nEveryone knows that fish is good for health.    36    But it seems that many people don’t cook fish at home. Americans eat only about fifteen pounds of fish per person per year, but we eat twice as much fish in restaurants as at home. Buying, storing, and cooking fish isn’t difficult.    37    This text is about how to buy and cook fish in an easy way.\n   38    Fresh fish should smell sweet: you should feel that you’re standing at the ocean’s edge. Any fishy or strong smell means the fish isn’t fresh.    39    When you have bought a fish and arrive home, you’d better store the fish in the refrigerator if you don’t cook it immediately, but fresh fish should be stored in your fridge for only a day or two. Frozen fish isn’t as tasty as the fresh one.\nThere are many common methods used to cook fish.    40    First, clean it and season it with your choice of spices (调料). Put the whole fish on a plate and steam it in a steam pot for 8 to 10 minutes if it weighs about one pound. (A larger one will take more time.) Then, it’s ready to serve.\nA. Do not buy it.\nB. The easiest is to steam it.\nC. This is how you can do it.\nD. It just requires a little knowledge.\nE. The fish will go bad within hours.\nF. When buying fish, you should first smell it.\nG. The fats in fish are thought to help prevent heart disease.\n",
+            "standard_answer": [
+                "G",
+                "D",
+                "F",
+                "A",
+                "B"
+            ],
+            "analysis": "【解答】GDFAB\n36．G．考查上下文串联．第一句Everyone knows that fish is good for health．是总写，but表示转折，说明but前面一句是对第一句的解释，G项\"鱼中的脂肪有助于心脏病符合语境．\n37．D考查上下文串联．题目前一句\"Buying, storing, and cooking fish isn’t difficult.\"可知，购买，存放和烧鱼并非难事，再根据后面一句可知，文章主要介绍了买鱼和烧鱼的简单知识，D项\"这仅仅需要一点知识\"符合语境，此题容易与C项混淆，C项后面应该直接跟烧鱼的方法，即C项与后一句重复，故选D．\n38．F考查上下文串联．根据\"Freshfish should smell sweet\"可知，本段讲的是买鱼的时候要闻一下鱼的气味，故选F．\n39．A考查上下文串联．根据前一句\"Any fishy or strong smell means thefish isn't fresh．\"可知，带有强烈的味道的鱼都不是新鲜的，不应该买这样的鱼，A项与后句联系紧密，故选A．\n40．B考查上下文串联．根据\"Put the whole fish on a plate and steam it in a steam pot\"可知，本段介绍的是蒸鱼的方法，故选B．\n",
+            "model_answer": [
+                "A",
+                "G",
+                "E",
+                "B",
+                "G"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个填空题。首先，我需要仔细阅读题目中的短文，然后根据上下文选择合适的选项填入空白处。题目有五个空白处，需要从选项A到G中选出五个正确的答案，其中有两个是多余的。\n\n首先，我通读一遍短文，了解整体内容。短文主要讲的是鱼对健康有益，但很多人不在家烹饪鱼，然后介绍了如何购买和烹饪鱼的简单方法。接下来，我需要分析每个空白处的上下文，找出合适的选项。\n\n第一个空白是第36题，原文是“Everyone knows that fish is good for health.    36    But it seems that many people don’t cook fish at home.” 这里需要一个句子来连接前后。前面提到鱼对健康好，后面说很多人不在家做。可能需要一个转折或者补充说明。看选项，G选项提到鱼的脂肪有助于预防心脏病，这可能是一个补充说明，说明鱼的好处，所以可能选G。或者D选项“它只需要一点知识”，可能对应后面讲如何购买和烹饪。不过这里前面是讲鱼的好处，后面转折说人们不在家做，可能需要一个过渡句。比如G选项作为补充，或者D选项作为引出后面内容。需要再仔细看。\n\n接下来是第37题，原文是“Buying, storing, and cooking fish isn’t difficult.    37    This text is about how to buy and cook fish in an easy way.” 这里需要一个句子来引出下文，可能D选项“它只需要一点知识”或者C选项“这就是你可以这样做”。但后面提到文本是关于如何购买和烹饪的，所以可能D选项更合适，说明不难，只需要一点知识，所以选D。\n\n第38题，原文是“This text is about how to buy and cook fish in an easy way.    38    Fresh fish should smell sweet...” 这里需要一个过渡句，可能F选项“购买鱼时，你应该先闻它”，因为后面讲的是如何判断鱼是否新鲜，所以选F。\n\n第39题，原文是“...you should feel that you’re standing at the ocean’s edge. Any fishy or strong smell means the fish isn’t fresh.    39    When you have bought a fish and arrive home...” 这里需要一个句子，可能E选项“鱼会在几小时内变质”，"
+        },
+        {
+            "index": 10,
+            "year": "2017",
+            "category": "（新课标Ⅰ）",
+            "score": 2,
+            "question": "根据短文内容 ，从短文后的选项中选出能填入空白处的最佳选项 。选项中有\n两项为多余选项。  \nIf anyone  had told me three  years  ago that I would  be spending  most  of my \nweekends  camping.  I would  have  laughed  heartily.  Campers,  in my eyes,  were  people  \nwho enjoyed  insect  bites,  ill-cooked  meals,  and uncomfortable  sleeping  bags.  They  \nhad nothing  in common  with me.     36    . \nThe friends  who introduced  me to camping  thought  that it meant  to be a pioneer.     \n37    We sleep  in a tent, cooked  over an open  fire, and walked  a long distance  to \ntake the shower  and use the bathroom.  This brief  visit with Mother  Nature  cost me \ntwo days off from  work,  recovering  from  a bad case of sunburn  and the doctor’s  bill \nfor my son’s  food poisoning.  \nI was, nevertheless,  talked  into going  on another  fun-filled  holiday  in the \nwilderness.    38    Instead,  we had a pop-up  camper  with comfortable  beds and an \nair conditioner.  My nature-loving  friends  had remembered  to bring  all the necessities  \nof life.  \n  39    We have  done  a lot of it since.  Recently,  we bought  a twenty-eight-foot  \ntravel  trailer  complete  with a bathroom  and a built-in  TV set. There  is a separate  \nbedroom,  a modern  kitchen  with a refrigerator.  The trailer  even  has matching  carpet  \nand curtains.   \n  40     It must  be true that sooner  or later,  everyone  finds  his or her way back  \nto nature.  I recommend  that you find your way in style.  \nA. This time there  was no tent. \nB. Things  are going  to be improved.  \nC. The trip they took me on was a rough  one. \nD. I was to learn  a lot about  camping  since  then,  however.  \nE. I must  say that I have  certainly  come  to enjoy  camping.   \n  F. After  the trip, my family  became  quite  interested  in camping.  \nG. There  was no shade  as the trees  were  no more  than 3 feet tall.\n",
+            "standard_answer": [
+                "D",
+                "C",
+                "A",
+                "F",
+                "E"
+            ],
+            "analysis": "36．D  上文  They  had nothing  in common  with me 说明作者原来认为他不会成为\n野营者．而下文主要描述的是 \"我\"从最开始进行 \"rough  travel\"到有了 \"pop -up \ncamper\"再到有了  trailer  的过程，在这过程中作者对野营的爱好逐步增加，对野\n营的相关知识也在逐步增长，上下文呈转折关系． D项意为 \"然而在那之后我将\n会学到关于野营的很多知识 \"，起到转折作用，引出下文，符合语境．故正确答\n案为 D．\n37．C  由下文  We sleep  in a tent, cooked  over an open  fire, and walked  a long \ndistance  to take the shower  and use the bathroom  可知， \"我\"的野营条件非常艰苦 ．\nC项意为 \"他们带我去的旅途非常艰苦 \"，引出下文 ，符合语境 ．故正确答案为 C\n．\n38．A  由下文  Instead , we had a pop-up camper  with comfortable  beds and an air \nconditioner  可知，空格处是与下文形成转折的内容 ，而\"我\"此次旅行用了展开式\n营房．A项意为 \"这一次没有帐篷 \"，与下文形成转折 ，符合语境 ．故正确答案为\nA．\n39．F  由第三段第一句  going  on another  fun-filled  holiday  可知， \"我\"对这次旅\n行非常满意，而由下文  We have  done  a lot of it since  可知， \"我们 \"都爱上了野营\n．F项意为 \"从这里旅行后 ，我全家都对野营产生了巨大的兴趣 \"，承上启下 ，符\n合语境． 故正确答案为 F．\n40．E  由下文  sooner  or later, everyone  finds  his or her way back  to nature  可知，\n\"我\"希望每个人都能找到回归自然 ，也就是野营的个性化选择 ．形成这一观点的\n前提是 \"我\"自己已经爱上了野营 ．E项意为 \"我必须承认我已经开始享受野营了 \"，\n引出下文，符合语境． 故正确答案为 E．\n",
+            "model_answer": [
+                "A",
+                "G",
+                "C",
+                "D",
+                "D"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个填空题。首先，我需要仔细阅读短文，理解其内容和结构，然后根据上下文选择合适的选项填入空白处。题目中有五个空白处（36到40），需要从选项A到G中选出五个正确的，其中有两个是多余的。\n\n首先，通读整个短文，了解大意。文章讲述的是作者三年前对露营的看法，认为露营的人喜欢蚊虫叮咬、难吃的饭菜和不舒服的睡袋，与自己无关。但后来朋友带他去露营，经历了一些困难，后来逐渐喜欢上了，并且现在有了更舒适的露营装备，最后总结说最终会回到自然，并推荐以风格的方式去。\n\n接下来，分析每个空白处的上下文，确定可能的选项。\n\n36. 原文提到“Campers, in my eyes, were people who enjoyed... They had nothing in common with me.” 然后空格处应该是一个转折，说明之后发生了变化。选项D是“I was to learn a lot about camping since then, however.” 这里“however”表示转折，符合上下文，所以36可能是D。\n\n37. 原文说朋友认为露营是当先驱者，然后空格处应该描述他们实际的露营经历。选项C是“The trip they took me on was a rough one.” 这里“rough”对应前面提到的困难，比如蚊虫、食物、睡袋等，所以37可能是C。\n\n38. 原文提到被说服去另一个充满乐趣的假期，但实际的情况与预期不同。选项A是“This time there was no tent.” 这里可能是在说这次露营没有帐篷，而是有弹出式露营车，所以38是A。\n\n39. 原文提到他们带了所有生活必需品，之后说“我们已经做过很多次了”，然后提到买了旅行拖车。这里可能需要一个过渡句，比如选项F：“After the trip, my family became quite interested in camping.” 这样说明之后家庭对露营感兴趣，所以39是F。\n\n40. 最后一段总结，说最终会回到自然，并推荐以风格的方式。选项E是“I must say that I have certainly come to enjoy camping.” 这符合结尾的总结，所以40是E。\n\n现在检查选项是否正确，是否有重复。"
+        },
+        {
+            "index": 11,
+            "year": "2017",
+            "category": "（新课标ⅱ）",
+            "score": 2,
+            "question": "根据短文内容 ，从短文后的选项中选出能填入空白处的最佳选项 。选项中有\n两项为多余选项。  \nInterruptions  are one of the worst  things  to deal with while  you’re  trying  to get \nwork  done.     36   , there  are several  ways  to handle  things.  Let’s  take a look at \nthem  now.  \n    37  . Tell the person  you’re  sorry  and explain  that you have  a million  \nthings  to do and then ask if the two of you can talk at a different  time.  \nWhen  people  try to interrupt  you, have  set hours  planned  and let them  know  to \ncome  back  during  that time or that you’ll  find them  then.    38  . It can help to \neliminate  (消除 ) future  interruptions.  \nWhen  you need  to talk to someone,  don’t  do it in your own office.     39  , it’s \nmuch  easeier  to excuse  yourself  to get back  to your work  than if you try to get \nsomeone  out of your space  even  after explaining  how busy  you are \nIf you have  a door to your office,  make  good  use of it.    40  . If someone  \nknocks  and it’s not an important  matter , excuse  yourself  and let the person  know  \nyou’re  busy  so they can get the hint (暗示 ) than when  the door is closed,  you’re  not to \nbe disturbed.  \nA. If you’re  busy,  don’t  feel bad about  saying  no \nB. When  you want  to avoid  interruptions  at work  \nC. Set boundaries  for yourselfas  your time goes \nD. If you’re  in the other  person’s  office  or in a public  area \n  E. It’s important  that you let them  know  when  you’ll  be available  \nF. It might  seem  unkind  to cut people  short  when  they interrupt  you \nG. Leave  it open  when  you’re  available  to talk and close  it when  you’re  not\n",
+            "standard_answer": [
+                "B",
+                "A",
+                "E",
+                "D",
+                "G"
+            ],
+            "analysis": "36. B 信息提取题 . 根据下文内容主要写了如何避免别人打扰的一些处理方法，\n和下一句 there  are several  ways  to handle  things . 这里有几种处理的方法，等信息\n可以推断出答案选 B.\n37. A 考查上下文联系 . 根据下文 Tell the person  you’re sorry  and explain  that you \nhave  a million  things  to do and then ask if the twoof  you can talk at a different  time\n告诉那个人对不起你有很多的事情要做询问一下是否可以改个时间你们再谈 . 可\n以推断出前文是拒绝那个人和你谈话的要求，根据这个信息， 我们选答案为 A.\n38. E 考查上下文信息联系 . 根据前文句子 When  people  try to interrupt  you, have  \nset hours  planned  and let them  know  to come  back  during  that time or that you’ll find \n  them  then当人们试图打断你的时候 ，安排好时间 ，让他们知道在那个时候回来 ，\n或者你会找到他们 . 根据这个信息可以推断出下文应该是让他们知道你什么时候\n有空很重要 . 所以答案选 E.\n39. D信息提取题 . 根据前一句 When  you need  to someone , don’t do it in your own \noffice . 不要在你自己的办公室里 . 后一句 it’s much  easeier  to excuse  yourself  to get \nback  to your work  找个理由回到你的工作比以如何忙为借口让别人离开你工作的\n地方要容易的多 ，等信息，此处应该是如果你在其他人的办公室里或者公共场所\n，所以答案选 D.\n40. G 信息提取题 . 根据前句 If you have  a door to your office , make  good  use of it. \n下文则要解释如何充分利用自己的门， 根据这个信息下文的答案应该是 G.\n",
+            "model_answer": [
+                "B",
+                "C",
+                "E",
+                "C",
+                "E"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个填空题。首先，我需要仔细阅读题目和短文，理解每个空白处需要填入的内容。题目给出了一段关于如何处理工作中干扰的建议，然后有五个选项，其中有两个是多余的。我需要找出正确的五个选项，但可能题目中只有五个空格，所以可能有五个选项是正确的，而另外两个是多余的。\n\n首先，我需要通读整个短文，理解每个段落的大意。短文开头说干扰是处理工作时最糟糕的事情，然后提到有几种方法来应对。接下来每个空白处可能对应不同的建议。\n\n现在来看每个空白处的上下文：\n\n36. 这里应该是一个过渡句，可能是在提出问题之后，引出解决方法。原文提到“there are several ways to handle things”，所以36处可能是一个总起句，比如“However”或者“Nevertheless”，但选项中没有这些词。不过选项中可能有其他内容。比如选项B是“When you want to avoid interruptions at work”，这可能作为引出话题的句子，但需要看上下文。\n\n37. 这里提到当有人试图打断你时，要设定时间，让对方知道回来那时谈。可能对应选项C或E。比如选项C是“Set boundaries for yourself as your time goes”，或者E是“It’s important that you let them know when you’ll be available”。或者选项B可能在这里？\n\n38. 这里提到消除未来的干扰，可能对应选项C或E，或者G？比如选项G是“Leave it open when you’re available to talk and close it when you’re not”，这可能和门的使用有关，比如40处提到门的使用，所以38可能对应选项C或E？\n\n39. 这里说当你需要和某人谈话时，不要在自己的办公室，而是在其他地方，这样更容易找借口离开。所以选项D是“If you’re in the other person’s office or in a public area”，这可能对应39处，因为原文说“don’t do it in your own office”，然后39处可能对应选项D，即如果在对方办公室或公共区域，更容易离开。\n\n40. 这里提到如果有人敲门，不是重要事情，就让对方知道你很忙，所以可能对应选项G，即“Leave it open when you’re available to talk and close it when you’re not"
+        },
+        {
+            "index": 12,
+            "year": "2017",
+            "category": "（新课标ⅲ）",
+            "score": 2,
+            "question": "根据短文内容，从短文后的选项中选出能填入空白处的最佳选项。选项中有两项为多余选项。\nLots of people find it hard to get up in the morning and put the blame on the alarm clock. In fact, the key to easy morning wake-up lies in resting your body clock   36     Here is how to make one.\n●    37     In order to make a change, you need to decide why it’s important. Do you want to get up in time to have breakfast with your family, get in some exercise, or just be better prepared for your day? Once you are clear about your reason, tell your family or roommates about the change you want to make.\nRethink mornings. Now that you know why you want to wake up, consider re-arranging your morning activities. If you want time to have breakfast with your family, save some time the night before by setting out clothes, shoes, and bags.    38   That’s a quarter-hour more you could be sleeping if you bought a coffee maker with a timer.\nKeep your sleep/wake schedule on weekends. If you’re tired out by Friday night, sleeping in on Saturday could sound wonderful. But compensating on the weekends actually feeds into your sleepiness the following week, a recent study found.   39   \nKeep a record and evaluate it weekly. Keep track of your efforts and write down how you feel. After you’ve tried a new method for a week, take a look at your record.    40    If not, take another look at other methods you could try.\nA. Get a sleep specialist.\nB. Find the right motivation.\nC. A better plan for sleep can help.\nD. And consider setting a second alarm.\nE. If the steps you take are working, keep it up.\nF. Stick to your set bedtime and wake-up time, no matter the day.\nG. Reconsider the 15 minutes you spend in line at the café to get coffee.\n",
+            "standard_answer": [
+                "C",
+                "B",
+                "G",
+                "F",
+                "E"
+            ],
+            "analysis": "【解答】CBGFE\n36．C．逻辑推断题．根据下文，作者针对睡眠提出了一系列具体的改进措施推断，作者提出了制定改进睡眠的计划，故选C．\n37．B．主旨推断题；下文\"Once you are clear about your reason一旦你清楚了（及时起床）原因\"中reason 即为起床的一种动机，由此推断，本段作者建议找到恰当的动机有助于及时起床，故选B．\n38．G．细节推断题．由下一句中\"That’s a quarter-hour more you could be sleeping if you bought a coffee maker with a timer（如果你买了有计时器的咖啡壶，你可以多睡15分钟）\"推断，作者建议重新考虑你在咖啡厅排队等咖啡的15分钟，故选G．\n39．F．结论推断题．由本段的主题句\"Keep your sleep/wake schedule on weekends周末要坚持作息时间表\"和上一句\"But compensating on the weekends actually feeds into your sleepiness the following week, a recent study found.（一项新的研究发现，周末补觉实际上使你下一周瞌睡）\"推断，作者建议在周末也要坚持作息时间表，故选F．\n40．E．细节推断题．由下一句中\"If not, take another look at other methods you could try（如果没有作用，再考虑其它可尝试的方法）\"推断，上一句表达的是\"如果有效…\"，故选E．\n",
+            "model_answer": [
+                "A",
+                "G",
+                "B",
+                "C",
+                "D"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个填空题。首先，我需要仔细阅读题目和短文，理解每个空白处需要填入的选项。题目给出五个选项，但有两个是多余的，所以需要选出正确的三个，然后剩下的两个是多余的。\n\n首先，我通读一遍短文，了解整体内容。短文主要讲如何更容易地早上起床，关键在于调整身体时钟。然后给出四个建议：确定动机、重新安排早晨活动、周末保持作息、记录并评估。每个空白处对应一个建议。\n\n现在看问题，空白处是36到40，每个空白需要填入一个选项。选项是A到G，其中有两个是多余的。我需要逐一分析每个空白处应该填什么。\n\n首先看第36题，题目是“the key to easy morning wake-up lies in resting your body clock ___”。这里需要一个选项来补充，可能是一个建议或方法。选项中可能有B、C、D、E、F、G中的一个。但根据后面的段落，比如第37题是“Find the right motivation”，所以可能第36题是关于动机的，但需要看上下文。不过可能第36题是引出整个建议，比如“the key lies in resting your body clock...”后面可能需要一个方法，比如调整作息时间，比如选项F“Stick to your set bedtime and wake-up time, no matter the day.”或者选项B“Find the right motivation.” 但可能第36题是引出整个建议，所以可能选项B是第37题的内容，而第36题可能需要一个更广泛的建议，比如选项C“A better plan for sleep can help.”或者选项F。不过可能需要再仔细看。\n\n接下来，第37题的选项是B“Find the right motivation.”，因为原文中提到“you need to decide why it’s important”，所以第37题应该填B。所以第37题是B。\n\n然后第38题，原文提到“save some time the night before by setting out clothes...”后面接着“that’s a quarter-hour more you could be sleeping if you bought a coffee maker with a timer.” 这里可能需要一个选项，比如G“Reconsider the 15 minutes you spend in line at the café to get coffee.” 因为前面提到节省时间，比如提前准备衣服，这样可以多睡15分钟，所以可能"
+        },
+        {
+            "index": 13,
+            "year": "2018",
+            "category": "（新课标Ⅰ）",
+            "score": 2,
+            "question": "根据短文内容 ，从短文后的选项中选出能填入空白处的最佳选项 。选项中有\n两项为多余选项。  \nColor  is fundamental  in home  design  — something  you’ll  always  have  in every  \nroom.  A grasp  of how to manage  color  in your spaces  is one of the first steps  to \ncreating  rooms  you’ll  love to live in. Do you want  a room  that’s  full of life? \nProfessional?  Or are you just looking  for a place  to relax  after a long day?    36   , \ncolor  is the key to making  a room  feel the way you want  it to feel. \nOver  the years,  there  have  been  a number  of different  techniques  to help \n  designers  approach  this important  point.     37   , they can get a little complex.  But \ngood  news  is that there’re  really  only three  kinds  of decisions  you need  to make  about  \ncolor  in your home:  the small  ones,  the medium  ones,  and the large  ones.  \n   38   . They’re  the little spots  of color  like throw  pillows,  mirrors  and \nbaskets  that most  of us use to add visual  interest  to our rooms.  Less tiring  than \npainting  your walls  and less expensive  than buying  a colorful  sofa,  small  color  \nchoices  bring  with them  the significant  benefit  of being  easily  changeable.  \nMedium  color  choices  are generally  furniture  pieces  such  as sofas , dinner  \ntables  or bookshelves     39   . They  require  a bigger  commitment  than smaller  \nones , and they have  a more  powerful  effect  on the feeling  of a space.  \nThe large  color  decisions  in your  rooms  concern  the walls , ceilings , and \nfloors . Whether  you’re looking  at wallpaper  or paint , the time, effort  and relative  \nexpense  put into it are significant .    40   . \nA. While  all of them  are useful   \nB. Whatever  you’re  looking  for  \nC. If you’re  experimenting  with a color   \nD. Small  color  choices  are the ones we’re  most  familiar  with  \nE. It’s not really  a good  idea to use too many  small  color  pieces   \nF. So it pays to be sure,  because  you want  to get it right  the first time  \nG. Color  choices  in this range  are a step up from  the small  ones in two major  ways\n",
+            "standard_answer": [
+                "B",
+                "A",
+                "D",
+                "G",
+                "F"
+            ],
+            "analysis": "36．B．考查上下文推理能力．上文提到  “Do you want  a room  that’s full of life?” \n以及  “Or are you just looking  for a place  to relax  after a long day?” 下文提到  “color  \nis the key”，B项意为 \"无论你在寻找什么 ．\"承接上文 ，并且引出下文 ，符文语境\n．故正确答案为 B．\n37．A．考查上下文推理能力 ．下文提到 \"they  can get a little complex .\" A项意为 \"\n尽管它们都有用． \"引出下文，符合语境． 故正确答案为 A．\n38．D．考查上下文推理能力 ．上文提到 \"the small  ones; the medium  ones; and the \nlarge  ones.\" D项意为 \"小色块选择是我们最熟悉的 \"，承接上文中出现的第一个  \n\"the small  ones\"，符合语境． 故正确答案为 D．\n39．G．考查上下文推理能力．下文提到 \"They  require  a bigger  commitment  than \nsmaller  ones, and they have  a more  powerful  effect  on the feeling  of a space .\" G项意\n为\"这方面的颜色选择是在小色块颜色选择上有两方面升级 \"，符合语境 ．故正确\n答案为 G．\n40．F．考查上下文推理能力 ．下文提到 \"The  time, effort  and relative  expense  put into \nit are significant .\" F项意为 \"所以你这些事一定是有报答的 ，因为你从一开始就想\n让它在正常的轨道上． \"符合语境． 故正确答案为 F．\n",
+            "model_answer": [
+                "A",
+                "G",
+                "D",
+                "B",
+                "B"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个填空题。首先，我需要仔细阅读题目和短文，理解每个空格处需要填入的选项。题目给出的是关于家居设计中颜色选择的段落，有五个空格需要填入选项，其中有两个是多余的。选项是A到G，我需要选出正确的五个选项，然后按照格式回答。\n\n首先，我通读一遍短文，了解整体内容。短文主要讲的是颜色在家居设计中的重要性，以及如何根据不同的决策规模来选择颜色。每个空格的位置需要根据上下文来判断。\n\n第一个空格是第36题，前面提到“Do you want a room that’s full of life? Professional? Or are you just looking for a place to relax...”然后空格后面说“color is the key...”。这里应该是一个总结性的句子，可能对应选项B“Whatever you’re looking for”，因为前面列举了不同的需求，后面说颜色是关键，所以B选项符合逻辑，引导后面的讨论。\n\n接下来是第37题，前面提到“Over the years... techniques... they can get a little complex.”这里可能需要一个转折，比如选项A“While all of them are useful”，因为前面说有多种技术，但可能复杂，所以用A来转折，说明虽然有用但可能复杂。\n\n第38题，前面提到“there’re really only three kinds of decisions... small, medium, and large.”然后空格后面说“Small color choices are the ones we’re most familiar with”，所以这里应该选D选项，因为D正好是关于小颜色选择的，符合上下文。\n\n第39题，前面说“Medium color choices are generally furniture pieces...”后面需要说明这些选择与小选择的不同，所以选项G“Color choices in this range are a step up...”符合，因为G提到比小选择在两个方面更高级，对应后面提到的需要更大承诺和更强大效果。\n\n第40题，前面说“large color decisions... time, effort... significant.”后面需要一个总结，说明要确保正确，所以选项F“so it pays to be sure...”符合，因为F强调要确保正确，因为投入大。\n\n现在检查是否有多余选项。选项C和E可能多余。比如，E提到不要用太多小颜色，但原文中提到小颜色选择是容易改变的，可能没有提到不要用太多，所以E可能多余。C"
+        },
+        {
+            "index": 14,
+            "year": "2018",
+            "category": "（新课标ⅱ）",
+            "score": 2,
+            "question": "根据短文内容 ，从短文后的选项中选出能填入空白处的最佳选项 。选项中有\n两项为多余选项。  \nIf you are already  making  the time to exercise,  it is good  indeed!  With  such busy  \nlives,  it can be hard to try and find the time to work  out.   36   Working  out in the \nmorning  provides  additional  benefits  beyond  being  physically  fit. \n● Your  productivity  is improved.  Exercising  makes  you more  awake  and ready  \nto handle  whatever  is ahead  of you for the day.   37   \n● Your  metabolism  (新陈代谢 ) gets a head  start.    38   If you work  out in the \nmornings,  then you will be getting  the calorie  (卡路里 ) burning  benefits  for the \nwhole  day, not in your sleep.  \n●   39   Studies  found  that people  who woke  up early  for exercise  slept  better  \nthan those  who exercised  in the evening.  Exercise  energizes  you, so it is more  \ndifficult  to relax  and have  a peaceful  sleep  when  you are very excited.  \n●   40   If you work  out bright  and early  in the morning,  you will be more  \nlikely  to stick  to healthy  food choices  throughout  the day. Who  would  want  to ruin \ntheir good  workout  by eating  junk food?  You will want  to continue  to focus  on \npositive  choices.  \nThere  are a lot of benefits  to working  out, especially  in the mornings.  Set your \nalarm  clock  an hour early  and push  yourself  to work  out! You will feel energized  all \nday long.  \nA. You will stick  to your diet. \nB. Your  quality  of sleep  improves.  \nC. You prefer  healthy  food to fast food.  \nD. There  is no reason  you should  exercise  in the morning.  \nE. You can keep  your head  clear  for 4-10 hours  after exercise.  \nF. After  you exercise,  you continue  to burn calories  throughout  the day. \nG. If you are planning  to do exercise  regularly,  or you’re  doing  it now,  then listen  up!\n",
+            "standard_answer": [
+                "G",
+                "E",
+                "F",
+                "B",
+                "A"
+            ],
+            "analysis": "36. G．考查上下文推理能力 ．根据空前的内容 \"生活忙碌没有时间锻炼 \"和空后的\n内容 \"晨练除了身体健康之外 ，还能带来其他好处 \"，下文接着列举了晨练的其他\n好处．由此可知 ，此处缺一个承上启下句 ．G项中 then listen  up!（那么请仔细听\n!）很好的起到了承上启下的作用． 故选 G．\n37．E．考查上下文推理能力 ．根据上一句 Exercising  makes  you more  awake（锻\n炼能让你更清醒 ），E项（你可以在运动后保持头脑清醒 4﹣10个小时． ）是对\n上一句的进一步解释． 故选 E．\n38．F．考查上下文推理能力．空前句子是本段的主题句，晨练是新陈代谢的开\n始，空后句子说如果晨练 ，则你会得到卡路里一整天都在燃烧的益处 ，F项（锻\n  炼之后，你一整天都在燃烧卡路里． ）是空后句子的根据 ，空后句子是对 F项的\n进一步延伸． 故选 F．\n39．B．考查上下文推理能力 ．此处缺一个主题句 ．空后句子解释了早起锻炼的\n人比晚上锻炼的人睡得更好 ．B项（你的睡眠质量提高了． ）是对后面内容的总\n述．故选 B．\n40．A．考查上下文推理能力 ．根据空后句子 \"If you work  out bright  and early  in the \nmorning , you will be more  likely  to stick  to healthy  food choices  throughout  the day．\n（如果你在早晨锻炼身体，你将更有可能坚持健康的食物选择．） \"，A项（你\n将坚持你的饮食． ）符合本段内容 ，是主题句 ，起到统领下文的作用 ．故正确答\n案为 A．\n",
+            "model_answer": [
+                "A",
+                "G",
+                "G",
+                "D",
+                "D"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个填空题。首先，我需要仔细阅读题目中的短文，然后根据内容选择合适的选项填入空白处。题目有五个空白处，需要从选项A到G中选出正确的五个，其中有两个是多余的。\n\n首先，我通读一遍短文，了解整体内容。短文主要讲的是早上锻炼的好处，包括提高生产力、新陈代谢、睡眠质量、饮食选择等方面。接下来，我需要分析每个空白处的上下文，找出合适的选项。\n\n第一个空白是第36题。原文提到“With such busy lives, it can be hard to try and find the time to work out. 36 Working out in the morning provides additional benefits...” 这里应该是一个过渡句，可能是在强调早上锻炼的重要性。选项中G是“If you are planning to do exercise regularly, or you’re doing it now, then listen up!” 这个选项看起来像是一个呼吁，可能适合放在开头，作为引出下文的句子。而D选项“There is no reason you should exercise in the morning.” 似乎和上下文矛盾，因为后面讲的是早上锻炼的好处，所以D可能不正确。所以36题可能是G。\n\n接下来是第37题。原文提到“Your productivity is improved. Exercising makes you more awake and ready to handle whatever is ahead of you for the day. 37” 这里需要一个与生产力相关的句子。选项E是“You can keep your head clear for 4-10 hours after exercise.” 这个可能合适，因为保持头脑清醒和提高生产力有关。或者选项F是“After you exercise, you continue to burn calories throughout the day.” 但这里前面讲的是生产力，所以E更合适。不过需要再确认。\n\n第38题，原文是“Your metabolism gets a head start. 38 If you work out in the mornings, then you will be getting the calorie burning benefits for the whole day, not in your sleep.” 这里需要一个解释代谢开始的句子。选项F是“After you exercise, you continue to burn calories throughout the day.” 这个可能正确，因为后面提到整天燃烧卡路里，所以38题应该是F。但原文中的句子已经提到“calorie burning benefits for the whole day”，所以可能F是重复的，或者需要看是否选项中有更合适的。或者可能选项E？不过E是关于保持清醒，而"
+        },
+        {
+            "index": 15,
+            "year": "2018",
+            "category": "（新课标ⅲ）",
+            "score": 2,
+            "question": "根据短文内容，从短文后的选项中选出能填入空白处的最佳选项。选项中有两项为多余选项。\nBefore there was the written word, there was the language of dance. Dance expresses love and hate, joy and sorrow, life and death, and everything else in between.\n\t    36    We dance from Florida to Alaska, from north to south and sea to sea. We dance at weddings, birthdays, office parties and just to fill the time.\n\t“I adore dancing,” says Lester Bridges, the owner of a dance studio in Iowa. “I can’t imagine doing anything else with my life.” Bridges runs dance classes for all ages. “Teaching dance is wonderful.    37    It’s great to watch them. For many of them, it’s a way of meeting people and having a social life.”\n\t   38    “I can tell you about one young couple,” says Bridges. “They’re learning to do traditional dances. They arrive at the class in low spirits and they leave with a smile.      39    ”\n\tSo, do we dance in order to make ourselves feel better, calmer, healthier? Andrea Hillier says, “Dance, like the pattern of a beating heart, is life. Even after all these years, I want to get better and better.   40     I find it hard to stop! Dancing reminds me I’m alive.”\nA. So why do we dance?\nB. Dance in the U.S. is everywhere.\nC. If you like dancing outdoors, come to America.\nD. My older students say it makes them feel young.\nE. I keep practicing even When I’m extremely tired.\nF. Dancing seems to change their feeling completely.\nG. They stayed up all night long singing and dancing.\n",
+            "standard_answer": [
+                "B",
+                "D",
+                "A",
+                "F",
+                "E"
+            ],
+            "analysis": "【解答】BDAFE\n36. B．细节理解题，根据后文We dance from Florida to Alaska, from north to south and sea to sea我们跳舞从佛罗里达州到阿拉斯加，从北到南，从海到海，可知跳舞在美国到处都是，故选 B．\n37．D．细节理解题，根据前文Teaching dancing is wonderful．教授舞蹈是完美的，因此后文应该与我的学生有关，即我的年纪大的学生说这使他们感到年轻，故选D．\n38．A．细节理解题，根据后文“I can tell you about one young couple,” says Bridges. “They’re learning to traditional dances. They arrive at the class in low spirits and they leave with a smile. 一对夫妇正在学习传统舞蹈，他们情绪低落地来到教室，微笑着离开，这是解释一些人学习舞蹈的原因，因此为那我们为什么跳舞呢？故选A．\n39．F．细节理解题，根据前文They’re learning to traditional dances. They arrive at the class in low spirits and they leave with a smile. 他们正在学习传统舞蹈，他们情绪低落地来到教室，微笑着离开，跳舞似乎完全改变了他们的感情，故选F．\n40．E．细节理解题，根据后文I find it hard to stop! 我发现很难停下来，由此可知前文应为舞蹈使我非常疲倦，我也坚持练习．故选E．\n",
+            "model_answer": [
+                "A",
+                "G",
+                "B",
+                "F",
+                "A"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个填空题。首先，我需要仔细阅读题目和提供的短文，然后根据上下文选择合适的选项填入空白处。题目有五个空白处，需要从选项A到G中选出五个正确的答案，其中有两个是多余的。\n\n首先，我通读一遍短文，了解整体内容。短文主要讲的是舞蹈的历史、普及程度、教学以及人们对舞蹈的感受。接下来，我需要逐个分析每个空白处的上下文，找出合适的选项。\n\n第一个空白处是第36题，位于段落开头。原文提到“Before there was the written word, there was the language of dance.”然后说舞蹈表达各种情感，接着提到“We dance from Florida to Alaska...”这说明这里可能是在强调舞蹈的普遍性。看选项的话，B选项“Dance in the U.S. is everywhere.”可能合适，因为后面提到从佛罗里达到阿拉斯加，说明美国各地都有舞蹈，所以B可能填入36处。\n\n接下来是第37题，位于Lester Bridges的讲话中，他说教学舞蹈很美好，然后说“它很伟大，看着他们。”这里可能需要一个总结或补充说明。选项D是“My older students say it makes them feel young.”这可能是在举例说明教学的好处，所以D可能填入37处。\n\n第三个空白处是第38题，Bridges提到一个年轻情侣的例子，他们来上课时情绪低落，离开时笑了。这里需要一个总结他们变化的句子。选项F“Dancing seems to change their feeling completely.”正好符合这个情境，所以F可能填入38处。\n\n第39题，Bridges说他们离开时带着微笑，这里可能需要解释他们为什么改变。选项G“他们整夜唱歌跳舞”可能是在描述他们改变的原因，但原文中提到的是他们学习传统舞蹈后情绪变化，所以可能G不合适。或者可能选项F已经用了，所以需要再看。或者可能选项G是他们离开后的行为，但原文中说他们离开时带着微笑，所以可能G是他们离开后的活动，但不确定。或者可能选项F是总结他们的情绪变化，而G是具体例子。可能需要再仔细看。\n\n第40题，Andrea Hillier说舞蹈像心跳，即使多年后还想变得更好，然后说“我发现自己很难停止！”这里需要一个句子来补充，可能选项E“"
+        },
+        {
+            "index": 16,
+            "year": "2019",
+            "category": "（新课标Ⅰ）",
+            "score": 2,
+            "question": "根据短文内容，从短文后的选项中选出能填入空白处的最佳选项。选项中有两项为多余选项。\nIs Fresh Air Really Good for You?\nWe all grew up hearing  people tell us to “go out and get some fresh air.” ____36____ According to recent studies，the answer is a big YES，if the air quality in your camping area is good.\n___37___ If the air you’re breathing is clean-which it would be if you’re away from the smog of cities-then the air is filled with life-giving，energizing oxygen. If you exercise out of doors，your body will learn to breathe more deeply，allowing even more oxygen to get to your muscles(肌肉)and your brain.\nRecently，people have begun studying the connection between the natural world and healing(治愈). _____38_____ In these places patients can go to be near nature during their recovery. It turns out that just looking at green，growing things can reduce stress，lower blood pressure，and put people into a better mood(情绪).Greenery is good for us. Hospital patients Who see tree branches out their window are likely to recover at a faster rate than patients who see buildings or sky instead. ______39______ It gives us a great feeling of peace.\n___40___While the sun's rays can age and harm our skin, they also give is beneficial Vitamin D. To make sure you get enough Vitamin D—but still protect your skin— put on sunscreen right as you head outside. It takes sunscreen about fifteen minutes to start working, and that's plenty of time for your skin to absorb a day's worth of Vitamin D.\nA. Fresh air cleans our lungs.\nB. So what are you waiting for?\nC. Being in nature refreshes us.\nD. Another side benefit of getting fresh air is sunlight.\nE. But is fresh air really as good for you as your mother always said?\nF. Just as importantly, we tend to associate air with health care.\nG. All across the country, recovery centers have begun building Healing Gardens.\n",
+            "standard_answer": [
+                "E",
+                "A",
+                "G",
+                "C",
+                "D"
+            ],
+            "analysis": "【解析】\n这是一篇说明文。文章介绍了新鲜空气的好处：新鲜空气中的氧气，阳光对人们的身心健康均有好处。人们已经开始利用大自然和治愈疾病的关系，建造“康复花园”，治疗病人了。\n【36题详解】\n根据下一句中的“the answer is a big YES”可知，该空应该是一个一般疑问句，选项中只有E选项是一般疑问句。故选E：但是新鲜空气真得像你母亲说的那样对你有好处吗？空前的people tell us to “go out and get some fresh air”和选项中的“your mother always said”亦是呼应。\n【37题详解】\n根据下一句中提到的“If the air you’re breathing is clean…the air is filled with life-giving, energizing oxygen”可知，新鲜空气充满赋予人生命的，充满活力的氧气。下文中“…breathe more deeply, allowing more oxygen to get to your muscles and your brain”是对前文的递进：在户外，更多的氧气进入你的肌肉和大脑。根据前面的分析可以推知，该空应该提到新鲜空气的基本作用，根据常识，我们知道吸入的空气首先进入的是肺部，然后才会使我们的肌肉和大脑受益，故该空应选A选项：新鲜空气清洁我们的肺部。\n【38题详解】\n根据下一句中提到的“these places”可以推知，该空应该提到表示地点的复数名词。选项中只有G选项提到该类名词，故选项G：在全国，康复中心已经开始建造“康复花园”。these places就是指Healing Gardens。\n【39题详解】\n前文介绍的是“康复花园”中的绿色植物对于病人康复的好的作用：绿色的正在成长的植物可以减轻压力，降低血压，使人情绪良好。空后提到“它给我们一种平和感”。该空起承上启下的作用，仍然要提到处于“康复花园”这种自然环境中的好处，空后的it也要指代这种情况。故C选项切题：身处大自然可以使人精神焕发。\n【40题详解】\n根据下文中提到的“the sun’s rays…give us beneficial Vitamin D”可知，该段介绍的阳光的好处。故该选项应该提到阳光。选项中只有D选项涉及阳光。故选D：获得新鲜空气的另一个好处是阳光。\n",
+            "model_answer": [
+                "F",
+                "A",
+                "G",
+                "A",
+                "E"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个填空题。首先，我需要仔细阅读题目和短文，理解每个空格处需要填入的选项。题目给出五个选项，但有两个是多余的，所以需要选出正确的三个，然后剩下的两个是多余的。不过题目要求的是五个选项中的五个，可能题目有误？不过根据用户提供的例子，应该是五个选项中的五个，但可能题目中的空格是四个？或者可能题目有误？\n\n让我再仔细看一下题目。题目说“选出能填入空白处的最佳选项。选项中有两项为多余选项。”所以总共有四个空格，但给出的选项是五个，其中两个是多余的。所以需要选出四个正确的选项，但用户给出的例子是五个选项，可能题目有误？或者可能题目中的空格是四个，而选项有五个，其中两个是多余的？\n\n现在看原文的结构：\n\n原文有四个空格，即36、37、38、40。可能题目中的选项是五个，但需要选出四个正确的，而有一个是多余的？或者可能题目中的空格是四个，而选项有五个，其中两个是多余的？需要仔细分析。\n\n首先，原文的结构：\n\n第一段：Is Fresh Air Really Good for You? We all grew up hearing people tell us to “go out and get some fresh air.” ____36____ According to recent studies，the answer is a big YES，if the air quality in your camping area is good.\n\n这里36处应该是一个问题，比如E选项“E. But is fresh air really as good for you as your mother always said?” 这个问题引出下文的讨论，所以E可能正确。\n\n接下来，第二段：___37___ If the air you’re breathing is clean... 这里37处可能需要一个总结前面的句子，比如C选项“Being in nature refreshes us.” 或者F选项“Just as importantly, we tend to associate air with health care.” 但需要看上下文。前面提到新鲜空气的好处，所以可能37处是总结，比如C选项？\n\n第三段：Recently，people have begun studying the connection between the natural world and healing(治愈). _____38_____ In these places patients can go to be near nature during their recovery. 这里38处可能需要一个例子，比如G选项“All across the country, recovery centers have begun building Healing Gardens.” 这个选项符合上下文，"
+        },
+        {
+            "index": 17,
+            "year": "2019",
+            "category": "（新课标Ⅱ）",
+            "score": 2,
+            "question": "根据短文内容，从短文后的选项中选出能填入空白处的最佳选项。选项中有两项为多余选项。\nImagine a child standing on a diving board four feet high and asking himself the question:“Should I jump? This is what motivation or the lack of it can do. Motivation and goal setting are the two sides of same coin. ___36___Like the child on  the  diving  board, you will stay undecided.\n___37___  More than that, how should you stay motivated to achieve the goal? First, you need to evaluate yourself , your values your strengths, your weaknesses, your achievements, your desires ,etc. Only then should your you’re your goals\nYou also need to judge the quality and depth of your motivation. This is quite important, because it is directly related to your commitment. There are times when your heart is not in your work. ___38___ So, slow down and think what you really want to do at that moment. Clarity(清晰)of thoughts can help you move forward.\nAnother way of setting realistic goals is to analyze your short and long term objectives, keeping in mind your beliefs, values and strengths. Remember that goals are flexible.____39____ They also need to be measurable. You must keep these points in mind while setting your goals.\nYour personal circumstances are equally important. For example, you may want to be a Pilot but can’t become one because your eyesight is not good enough.____40____You should reassess your goals, and motivate yourself to set a fresh goal.\nYou will surely need to overcome some difficulties, some planned, but most unplanned. You cannot overcome them without ample motivation. Make sure that you plan for these difficulties at the time of setting your goals.\nA. This can affect your work.\nB. So how should you motivate yourself?\nC. However, this should not discourage you.\nD. So why should we try to set specific goals?\nE. They can change according to circumstances.\nF. Motivation is what you need most to do a good job.\nG. Without motivation you can neither set a goal nor reach it\n",
+            "standard_answer": [
+                "G",
+                "B",
+                "A",
+                "E",
+                "C"
+            ],
+            "analysis": "【解析】\n这是一篇议论文。文章作者对于怎样设定具体目标，给出了一些方法。\n【36题详解】\n上文说“动机和目标设定是同一枚硬币的两面”。下文说“就像孩子在跳水台，难以决定”。该空承上启下，G选项“没有目标，你就既不能设定目标，也无法实现它”切题，故选G。\n【37题详解】\n下文说“不仅如此，你应该如何为实现你的目标保持积极性”。该空引出下文，B选项“那么你应该如何激励自己呢”切题，故选B。\n【38题详解】\n上文说“有时候你的心不在工作上”，下文说“所以，减慢速度，想一想那时候，你到底想干什么”。该空承上启下，A选项“这会影响你的工作”切题，故选A。\n【39题详解】\n上文说“记得，目标是灵活的”。该空承接上文，E选项“它们会根据环境的改变而改变”切题，故选E。\n【40题详解】\n上文说“你可能想当一名飞行员，但是不能成为一名飞行员，因为你的视力不够好。”下文说“你应该重新评估你的目标，并且设定一个新的目标”。该空承上启下，C选项“然而，这也不要使你沮丧”切题，故选C。\n",
+            "model_answer": [
+                "G",
+                "G",
+                "G",
+                "B",
+                "B"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个题目。首先，我需要仔细阅读题目中的短文，然后根据内容选择合适的选项填入空白处。题目有四个空白处，分别是36到40，每个空白处需要从选项中选出最佳选项，其中有两个选项是多余的。\n\n首先，我需要通读整个短文，理解其大意。短文主要讲的是动机和目标设定的关系，以及如何正确设定目标和保持动机。接下来，我需要分析每个空白处的上下文，找出合适的选项。\n\n第一个空白是36，前面提到“Motivation and goal setting are the two sides of the same coin.”，然后接着说“Like the child on the diving board, you will stay undecided.” 所以这里需要一个句子来连接这两个部分，可能是在解释动机和目标设定的关系。选项中，G选项说“Without motivation you can neither set a goal nor reach it”，这可能和前面的句子形成对比，或者作为进一步的解释。不过可能需要看后面的内容。比如，前面说动机和目标设定是同一枚硬币的两面，所以可能需要一个句子来说明它们的联系，比如G选项可能更合适，因为它强调了动机的重要性，而前面的句子可能是在说没有动机就无法设定或达成目标，所以G可能放在36处。\n\n接下来是37，前面说“you will stay undecided”，然后后面问“More than that, how should you stay motivated to achieve the goal?” 所以这里可能需要一个过渡句，比如B选项“B. So how should you motivate yourself?” 这个问题可能直接引出后面的内容，所以B可能正确。\n\n第三个空白是38，前面说“there are times when your heart is not in your work.” 然后后面说“slow down and think...” 所以这里可能需要一个句子说明这种情况的影响，比如A选项“This can affect your work.” 或者C选项“However, this should not discourage you.” 但根据上下文，可能A更合适，因为前面提到心不在焉，后面建议停下来思考，所以A可能作为原因，说明这种情况会影响工作，所以选A。\n\n第四个空白是39，前面说“Remember that goals are flexible.” 然后后面说“They also need to be measurable.” 所以这里可能需要一个句子来连接，比如E选项“They can change according to circumstances.” 因为前面提到"
+        },
+        {
+            "index": 18,
+            "year": "2019",
+            "category": "（新课标Ⅲ）",
+            "score": 2,
+            "question": "根据短文内容，从短文后的选项中选出能填入空白处的最佳选项。选项中有两项为多余选项。\nIn an online class, developing healthy patterns of communication with professors is very important. ___36___ While I have only listed two of each, there are obviously many other situations that can arise. Students should be able to extend the logic(逻辑)of each to their particular circumstance.\nDo's\n• ___37___ Questions about subject content are generally welcomed. Before asking questions about the course design, read the syllabus(教学大纲)and learning management system information to be sure the answer isn't hiding in plain sight.\n• Participate in discussion forums(论坛), blogs and other open-ended forums for dialogue. ___38___ Be sure to stay on topic and not offer irrelevant information. Make a point, and make it safe for others to do the same.\nDon'ts\n• Don't share personal information or stories. Professors are not trained nurses, financial aid experts or your best friends. If you are in need of a deadline extension, simply explain the situation to the professor. ___39___\n• Don't openly express annoyance at a professor or class. ___40___ When a student attacks a professor on the social media, the language used actually says more about the student. If there is truly a concern about a professor's professionalism or ability, be sure to use online course evaluations to calmly offer your comments.\nA. That's what they are for.\nB. Turn to an online instructor for help.\nC. If more information is needed, they will ask.\nD. Remember that online professors get a lot of emails.\nE. Below are some common do's and don' ts for online learners.\nF. Everyone has taken a not-so-great class at one time or another.\nG. Ask questions, but make sure they are good, thoughtful questions.\n",
+            "standard_answer": [
+                "E",
+                "G",
+                "A",
+                "C",
+                "F"
+            ],
+            "analysis": "【解析】\n本文为说明文。在网络课堂上，与教授建立健康的交流模式是非常重要的，作者在文中列举了一些规矩与禁忌。\n【36题详解】\n根据文章段落结构和本段首句In an online class, developing healthy patterns of communication with professors is very important，可知，在网络课堂上，与教授建立健康交流模式是非常重要的，作者在下文中列举了一些规矩与禁忌，故选项E符合语境。\n【37题详解】\n根据其后一句Questions about subject content are generally welcomed.（与课程内容相关的问题是受欢迎的），解释了什么样的问题是好问题，可知，与G项“make sure they are good, thoughtful questions”相呼应，要提一些好的令人深思的问题，故选G。\n【38题详解】\n根据前一句 Participate in discussion forums（论坛）, blogs and other open-ended forums for dialogue.可知，要参与论坛讨论、博客和其他开放式的对话论坛。而这正是网络课堂采用的交流的途径，故选A。\n【39题详解】\n根据本段Professors are not trained nurses, financial aid experts or your best friends教授不是训练有素的护士，不是经济援助专家，也不是你最好的朋友，可知，不要分享个人信息或故事，如果他们需要更多信息的话，他们会主动问起的，故选项C符合语境。\n【40题详解】\n通读本段，并根据本段主题句Don’t openly express annoyance at a professor or class.告诫读者，每个人都可能曾经上过不太好的课，不要在社交媒体上攻击教授，不要公开表达对教授或班级的不满，要利用课程评价冷静地提出你的意见。选项F符合上下文语境。\n",
+            "model_answer": [
+                "D",
+                "D",
+                "D",
+                "D",
+                "D"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个题目。首先，我需要仔细阅读题目和提供的短文内容，然后根据上下文选择正确的选项填入空白处。题目要求选出五个选项，其中有两个是多余的。让我先理清整个结构。\n\n短文的结构是关于在线课程中与教授沟通的健康习惯。开头提到发展良好的沟通模式很重要，然后分成了Do's和Don'ts两部分。每个部分下面有具体的建议。现在需要填入的是36到40处的空白，每个空白对应一个选项。\n\n首先看第36题，位于开头段落之后，可能是在引出Do's和Don'ts的部分。原文开头说“developing healthy patterns of communication with professors is very important.” 然后接下来是Do's和Don'ts的标题，所以第36题可能是在引出这些内容。选项中E是“Below are some common do's and don'ts for online learners.” 这应该就是第36题的答案，因为它引出了后面的内容。\n\n接下来是第37题，位于Do's部分的第一个项目。Do's的第一个项目应该是一个建议，比如提问。选项G是“Ask questions, but make sure they are good, thoughtful questions.” 这符合上下文，因为后面提到关于课程设计的问题要先看大纲，所以这里应该是在建议提问，但要问有深度的问题。\n\n第38题位于Do's的第二个项目，关于参与讨论论坛。这里需要一个建议，比如保持主题相关，或者鼓励他人发言。选项B是“Turn to an online instructor for help.” 但可能不太对。或者看选项D“Remember that online professors get a lot of emails.” 似乎不太相关。或者选项F“Everyone has taken a not-so-great class at one time or another.” 也不太对。可能需要再仔细看原文。原文提到“Be sure to stay on topic and not offer irrelevant information. Make a point, and make it safe for others to do the same.” 所以这里可能需要一个鼓励参与的句子，比如选项B或者G？或者可能选项F？或者可能选项D？或者可能选项E已经被用过了？\n\n或者可能第38题是关于参与讨论论坛时的建议，比如要保持主题相关，所以可能选项D？或者可能选项B？或者可能选项F？或者可能选项D是提醒教授收到很多邮件，所以应该注意不要发无关"
+        },
+        {
+            "index": 19,
+            "year": "2020",
+            "category": "（新课标Ⅰ）",
+            "score": 2,
+            "question": "根据短文内容，从短文后的选项中选出能填入空白处的最佳选项。选项中有两项为多余选项。\nA Few Tips for Self-Acceptance\nWe all want it to accept and love ourselves. But at times it seems too difficult and too far out of reach. ___36___ Here’s a handful of ways that will set you in the right direction.\n●___37___ Do not follow the people who make you feel not-good-enough. Why do you follow them? Are you hoping that eventually you will feel empowered because your life is better than theirs? Know that your life is your own;you are the only you in this world.\n●Forgive yourself for mistakes that you have made. We are often ashamed of our shortcomings, our mistakes and our failures. ___38___ You will make mistakes, time and time again. Rather than getting caught up in how you could have done better, why not offer yourself a compassionate (有同情心) response? ＂That didn’t go as planned. But, I tried my best.＂\n●Recognize all of your strengths. Write them down in a journal. Begin to train your brain to look at strength before weakness. List all of your accomplishments and achievements. You have a job, earned your degree, and you got out of bed today. ___39___\n●Now that you’ve listed your strengths, list your imperfections. Turn the page in your journal. Put into words why you feel unworthy, why you don’t feel good enough. Now, read these words back to yourself. ___40___ Turn to a page in your journal to your list of strengths and achievements. See how awesome you are?\nA. Feeling upset again?\nB. Where do you start?\nC. Nothing is too small to celebrate.\nD. Remember, you are only human. \nE. Set an intention for self-acceptance.\nF. Stop comparing yourself with others.\nG. When does the comparison game start?\n",
+            "standard_answer": [
+                "B",
+                "F",
+                "D",
+                "C",
+                "A"
+            ],
+            "analysis": "【解析】\n这是一篇说明文。文章介绍了几个自我接纳的小技巧。\n【36题详解】\n根据题目A Few Tips for Self-acceptance(自我接纳的几点建议)及下文的Here's a handful of ways that will set you in the right direction.(这有很多可以帮你找到正确方向的方法。)可知，选项B. Where do you start? (从哪里开始那？)最合下文语境，故选B项。\n37题详解】\n根据下文Are you hoping that eventually you will feel empowered because your life is better than theirs? Know that your life is your own; you are the only one in this world.(你是否希望最终你会因为自己的生活比他们的好而感到有力量？要知道，你的生活是你自己的；你在这个世界上是独一无二的。)可知，本段主要讲述不要把自己和别人作比较，因为生活是我们自己的，我们也是世界上独一无二的。故F. Stop comparing yourself with others.(停止把自己和别人进行比较。)可以作为本段中心句，故选F项。\n【38题详解】\n根据本文的中心句Forgive yourself for mistakes that you have made. (原谅自己所犯的错误。)及下文的You will make mistakes, time and time again. (你会一次又一次地犯错误。)可知，本句是在说明要讲自己看作一个普通人，普通人是会犯错的。选项D. Remember, you are only human.(记住，你只是个人。)与上下文衔接最好，故选D项。\n【39题详解】\n根据上文List all of your accomplishments and achievements. You have a job, earned your degree, and you got out of bed today.(列出你所有的成就。你有了一份工作，拿到了学位，今天你拜托了困境。)可知，这些小事都是你取得的成就，都值得庆祝，即没有什么事是太小而不值得庆祝的。故选C项。\n【40题详解】\n结合上文Put into words why you feel unworthy, why you don't feel good enough. Now, read these words back to yourself.(用语言来解释为什么你觉得自己不值得，为什么你觉得自己不够好。现在，自己读一下这些话。)和下文的Turn to a page in your journal to your list of strengths and achievements. See how awesome you are? (翻到你日记本上记下你的优点和成就的那页。看到你有多棒了吗？)可推知本句是在说明“再次感到心烦意乱”的情况。选项A. Feeling upset again?(再次感觉心烦意乱了吗？)最合上下文语境，故选A项。\n",
+            "model_answer": [
+                "A",
+                "G",
+                "B",
+                "F",
+                "B"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个填空题。首先，我需要仔细阅读题目和短文内容，理解每个空白处需要填入的选项。题目给出的是关于自我接纳的建议，共有四个空白处（36到40），需要从选项A到G中选择合适的五个选项，其中有两个是多余的。\n\n首先，我需要通读整个短文，了解整体结构和每个段落的大意。短文开头提到自我接纳很难，然后给出几个方法。每个方法前面有一个●符号，后面跟着具体的建议。空白处位于这些建议之间，可能需要根据上下文来判断。\n\n接下来，我需要分析每个空白处的位置和上下文：\n\n36题：位于开头，讲的是自我接纳很难，但接下来给出方法。这里可能需要一个过渡句，比如“那么从哪里开始？”对应选项B或者F？或者可能是一个问题，比如“你从哪里开始？”选项B是“Where do you start?”，这可能合适，因为后面接着给出方法。\n\n37题：第一个建议是不要跟随那些让你感觉不够好的人。这里可能需要一个标题，比如“停止与他人比较”对应选项F，或者选项G？或者可能选项B？不过37题前面是●，所以可能是一个标题。比如选项F是“Stop comparing yourself with others.”，这可能更合适，因为后面的内容是关于不跟随那些让人感觉不够好的人，也就是比较。\n\n38题：原谅自己的错误，这里可能需要一个总结性的句子，比如“记住，你只是凡人”对应选项D，或者“不要把事情看得太重”之类的。原文提到“我们经常为自己的缺点、错误和失败感到羞愧”，然后建议不要陷入如何做得更好的思考，而是用同情心回应。所以可能选项D“Remember, you are only human.” 会合适，因为这解释了为什么我们会犯错，因为我们是人。\n\n39题：列举自己的优点，然后提到“你有工作，拿到学位，今天起床了”，这里可能需要一个总结，比如“不要忽视任何值得庆祝的小事”对应选项C“Nothing is too small to celebrate.”，因为前面提到要庆祝成就，包括小事情。\n\n40题：在列出缺点后，再读这些话，然后转向优点。这里可能需要一个过渡，比如“再次感到沮丧？”对应选项A“Feeling upset again?”，因为当你读自己的缺点时，可能会"
+        },
+        {
+            "index": 20,
+            "year": "2020",
+            "category": "（新课标Ⅱ）",
+            "score": 2,
+            "question": "根据短文内容，从短文后的选项中选出能填入空白处的最佳选项。选项中有两项为多余选项。\nEmoji(表情符号) and Workplace Communication\nIn Asia, messaging platforms are growing rapidly, with users in the hundreds of millions, both at work and play. ___36___. It’s been reported that 76 percent of employees in some western countries are using emojis at work.\nWritten communications can often read as cold and dull. Using emojis can add humor and feeling, keeping intention clear. ___37___, encouraging better and more frequent communication.\nIn any given office, employees can range from age 22 to 70 and beyond, and finding common ground in communication style can be a challenge. ___38___. While the younger generations prefer to communicate visually, for those used to working with traditional tools like email, it may feel like a learning curve(曲线). The good news is that it’s simple to learn and can be worth the effort.\nThere is also the matter of tone(语气). Who hasn’t received an email so annoying that it ruined an entire day? ___39___. Emoji can help communication feel friendlier, and even a serious note can be softened with an encouraging smile.\n___40___, and emoji can contribute directly to that positive outcome. And when your employees begin adding smiling emojis to their business communication, you’ll know you have succeeded in improving your work culture.\nA. Message with emojis feel more conversational\nB. Even a formal email can seem cold and unfriendly\nC. Sending smiling faces to colleagues may seem strange\nD. The popularity of these platforms is spreading globally\nE. Giving employees the tools enables them to communicate honestly\nF. Studies show that friendlier communication leads to a happier workplace\nG. An easy way to bring all work generations together is with a chat platform\n",
+            "standard_answer": [
+                "D",
+                "A",
+                "G",
+                "B",
+                "F"
+            ],
+            "analysis": "【解析】\n本文是一篇说明文。文章介绍了表情符号以及在工作交流所带来的优势。\n【36题详解】\n根据前句“In Asia, messaging platforms are growing rapidly, with users in the hundreds of millions, both at work and play.(在亚洲，即时通讯平台正在迅速发展，无论是工作还是娱乐，都有数亿用户)”和后句“It's been reported that 76 percent of employees in some western countries are using emojis at work.(据报道，在一些西方国家，76%的员工在工作中使用表情符号)”可知，前后句都说明了即时通讯平台受欢迎程度。所以选择项D. The popularity of these platforms is spreading globally. (这些平台的受欢迎程度正在全球蔓延)符合题意。故选D。\n【37题详解】\n根据前句“Using emojis can add humor and feeling, keeping intention clear.(使用表情符号可以增加幽默和感情，保持明确的意图)”和后半句“encouraging better and more frequent communication.(鼓励更好更频繁的交流)”可知，这里陈述使用表情符号的优点。所以选择项A. Messages with Emojis feel more conversational. (使用表情符号的信息让人感觉更健谈)符合题意。故选A。\n【38题详解】\n根据前句“In any given office, employees can range from age 22 to 70 and beyond, and finding common ground in communication can be a challenge. (在任何一间办公室，员工的年龄从22岁到70岁甚至更大，在交流中找到共同点可能是一项挑战)” 中关键词句“employees can range from age 22 to 70 and beyond,”与选择项中“all work generations”是一致的。故选G。\n【39题详解】\n根据前句“ Who hasn’t received an email so annoying that it ruined an entire day? (谁没有收到过毁掉了一整天的邮件呢？)”和后文介绍表情的优点，可知，这里陈述电子邮件的缺点。所以选择项B. Even a formal email can seem cold and unfriendly. (即使是一封正式的电子邮件也会显得冷淡和不友好)故选B。\n【40题详解】\n根据后句“and Emoji can contribute directly to that positive outcome. (并且表情符号可以直接促成这种积极的结果)”可知，这里陈述表情符号能给工作场所带来的好处。所以选择项F. Studies show that friendlier communication leads to a happier workplace. (研究表明，更友好的沟通会带来更快乐的工作场所)故选F。\n",
+            "model_answer": [
+                "A",
+                "G",
+                "D",
+                "D",
+                "A"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个题目。首先，我需要仔细阅读题目中的短文，然后根据内容选择合适的选项填入空白处。题目有五个空白，需要从选项A到G中选出五个正确的，其中有两个是多余的。\n\n首先，我通读一遍短文，了解整体内容。短文主要讲的是表情符号在职场沟通中的使用，尤其是在亚洲和西方国家的情况。接下来，我需要分析每个空白处的上下文，找出合适的选项。\n\n第一个空白是第36题，原文提到“messaging platforms are growing rapidly...”后面应该接一个总结性的句子，可能说明这种趋势的全球性。选项D是“The popularity of these platforms is spreading globally”，这似乎符合，因为前面提到亚洲的情况，后面提到西方国家的使用情况，所以D可能正确。\n\n接下来是第37题，原文说使用表情符号可以增加幽默和情感，保持意图清晰，然后空白处应该接一个结果，比如鼓励更好的沟通。选项A是“Messages with emojis feel more conversational”，这可能正确，因为更随意的交流可以促进沟通。或者选项F提到友好的沟通导致更快乐的工作环境，但可能更适合作为结尾。需要再看上下文。\n\n第38题，原文提到不同年龄的员工沟通方式不同，空白处可能讲如何解决这个问题。选项G提到用聊天平台来统一，但选项B是“Even a formal email can seem cold and unfriendly”，这可能更符合上下文，因为前面提到书面沟通可能显得冷淡，所以B可能正确。或者选项G是否合适？需要再分析。\n\n第39题，原文提到语气的问题，比如收到令人讨厌的邮件，空白处可能讲表情符号如何改善语气。选项B可能已经用过了，或者选项F？或者选项B可能重复。或者选项B是“Even a formal email can seem cold and unfriendly”，这可能对应前面提到的书面沟通的问题，而第39题可能需要一个关于语气的句子，比如选项B可能在第38题之后，或者选项F？\n\n第40题，原文最后说当员工开始使用表情符号时，说明工作文化改善，所以可能需要一个总结性的句子，比如选项F“Studies show that friendlier communication leads to a happier workplace”，或者选项E“Giving employees the tools enables them to communicate honestly”？\n\n现在需要逐个分析：\n\n36题：前面提到亚洲的平台"
+        },
+        {
+            "index": 21,
+            "year": "2020",
+            "category": "（新课标Ⅲ）",
+            "score": 2,
+            "question": "根据短文内容，从短文后的选项中选出能填入空白处的最佳选项。选项中有两项为多余选项。\nA housewarming party is a special party to be held when someone buys or moves into a new apartment or house. The person who bought the house or moved is the one who throws the party. The party is a chance for friends and family to congratulate the person on the new home. ___36___ And it is good time to fill the new space with love and hopeful presents.\n___37___ Some people register a list of things they want or need for their new home at a local stores. Some common things people will put on a gift registry include kitchen tools like knives and things like curtains. Even if there isn’t a registry, a good housewarming gift is something to decorate the new house with, like a piece of art or a plant.\n___38___ This is often appreciated since at a housewarming there isn’t a lot of food served. There are usually no planned activities like games at a housewarming party. The host or hostess of the party will, however, probably give all the guests a tour of their new home. Sometimes, because a housewarming party happens shortly after a person moves into their new home, people may be asked to help unpack boxes. ___39___\nHousewarming parties get their name from the fact that a long time ago people would actually bring firewood to a new home as a gift. ___40___ Now most homes have central heating and don’t use fires to keep warm.\nA. This isn’t usual though.\nB. It is traditional to bring a gift to a housewarming party.\nC. You can also bring food or drinks to share with the other guests.\nD. If you’re lucky enough to receive gifts, keep them in a safe place.\nE. It also gives people a chance to see what the new home looks like.\nF. The best housewarming parties encourage old friends to get together.\nG. This was so that the person could keep their home warm for the winter.\n",
+            "standard_answer": [
+                "E",
+                "B",
+                "C",
+                "A",
+                "G"
+            ],
+            "analysis": "【解析】\n本文是说明文，介绍了乔迁聚会的目的，礼物的选取，活动安排和名称的由来。\n【36题详解】\n上句 The party is a chance for friends and family to congratulate the person on the new home.(这个聚会是朋友和家人祝贺新家的机会)。介绍庆祝乔迁之喜的聚会是亲戚朋友祝贺搬新家的人的一次机会，下句 And it is a good time to fill the new space with love and hopefully presents.(现在是时候用爱和希望的礼物来填补新家了)。介绍这也是给新家装满爱和希望礼物的好时机。E项：它也给了人们一次看看新家什么样的机会。与上下句并列，都是庆祝乔迁之喜聚会的目的，故选E。\n【37题详解】\n下文Some common things people will put on a gift registry include kitchen tools like knives and things like curtains.和like a piece of art or a plant. 列举了参加聚会所带礼物的清单，可以是厨房工具、窗帘、艺术品或绿植。这些都和参加聚会带礼物有关，B项：带礼物去参加乔迁派对是一种传统，概括了本段内容，引出下文，故选B。\n【38题详解】\n本段介绍了聚会的活动安排，根据后文This is often appreciated since at a housewarming there isn' t a lot of food served.(这一点通常是值得赞赏的，因为在乔迁派对上不会提供很多食物)。指出因为新搬家，所以主人不会准备太丰盛的食物或太多的活动。那么本句是在建议你可以带上自己的食物或饮料与其他客人分享搬家，所以主人不会准备太丰盛的食物或太多的活动。C项：你也可以带上食物或饮料与其他客人分享。故选C。\n【39题详解】\n本段提到在乔迁聚会上人们会聚餐，主人带领客人参观新家。上句提到，由于乔迁聚会是在搬进新家后不久举行的，人们可能会被要求帮助打开箱子。根据常识可知在乔迁聚会上让客人们帮忙干活是不常见的，A项：但这并不常见。表达了此意，与上文衔接，故选A。\n【40题详解】\n上句介绍了乔迁聚会名称的由来，根据bring firewood to a new home as a gift.可知人们会带柴火作为礼物，那么本空承接上文说明了带柴火的目的和作用。G项：这样人们就可以在冬天的时候保持家里温暖。符合语境。故选G。\n",
+            "model_answer": [
+                "B",
+                "C",
+                "B",
+                "E",
+                "B"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个题目。首先，我需要仔细阅读题目中的短文，然后根据内容选择合适的选项填入空白处。题目有五个空白处，需要从选项中选出最佳选项，其中有两个是多余的。\n\n首先，我通读一遍短文，了解整体内容。短文主要讲的是房屋乔迁派对的相关信息，包括派对的目的、礼物的建议、活动安排以及历史背景等。接下来，我需要分析每个空白处的上下文，找出合适的选项。\n\n第一个空白是第36题，位于段落开头。原文提到派对是朋友和家人祝贺新家的机会，然后空格后面说“it is good time to fill the new space with love and hopeful presents.” 所以这里应该填入一个关于派对目的或活动的句子。看选项的话，B选项说“带礼物是传统”，这可能和后面提到的礼物有关，但需要看上下文。或者C选项提到带食物和饮料，可能也相关。不过原文后面提到礼物，所以可能B更合适？或者E选项提到让人们看看新家，可能对应后面的“tour of the new home”。不过需要再仔细看。\n\n接下来是第37题，原文提到有些人会在商店注册需要的东西，比如厨房用具、窗帘等。然后说即使没有注册，好的礼物是装饰品。这里可能需要一个过渡句，比如B选项“带礼物是传统”，或者C选项“可以带食物或饮料”。但根据上下文，这里可能是在讲礼物，所以B选项可能更合适，但需要看后面的内容。或者可能C选项是另一个建议，比如带食物，但原文后面提到派对通常不提供很多食物，所以可能C选项是补充建议。\n\n第38题，原文说通常没有计划的活动，比如游戏，但主人会带客人参观新家。有时人们可能被要求帮忙拆箱。这里可能需要一个选项，比如C选项提到带食物或饮料，或者A选项“这并不常见”。或者E选项提到让人们看看新家，可能对应后面的tour。或者可能C选项是补充建议，比如带食物，但前面提到没有很多食物，所以可能C是建议带食物，但需要看上下文。\n\n第39题，原文提到有时人们被要求帮忙拆箱，这里可能需要一个选项，比如A选项“这并不常见”，或者D选项“如果收到礼物，要安全"
+        },
+        {
+            "index": 22,
+            "year": "2021",
+            "category": "（新课标Ⅰ）",
+            "score": 2,
+            "question": "根据短文内容，从短文后的选项中选出能填入空白处的最佳选项。选项中有两项为多余选项。\nAccording to Jessica Hagy, author of How to Be Interesting, it’s not difficult to make yourself interesting at a dinner party. \n___36___, if you’re out of your comfort zone or if you’re wandering into somebody’s house for the first time. So the main thing is just to show up and be adventurous, trying different foods and talking to strangers. \nPeople love to talk about themselves. If you can start the conversation with a question other than “What do you do for a living?”, you’ll be able to get a lot more interesting conversation out of whomever it is you’re talking to. ___37___, it can bring in “I have this old, broken-down vehicle” or “I rode the bus with these crazy people who were laughing at silly jokes in the back.” It just opens up conversation. \n___38___? If you can’t take their wine away, you should certainly try to take away their soapbox （讲台）. If you’re the host, you can ask them to help you in the kitchen with something and just remove them from the situation.___39___.\nAnd what about that other dinner-party killer: awkward silence? If you’re faced with an awkward silence at a dinner party, the only thing that always gets everyone talking again is to give the host a compliment（赞扬）. ___40___. Just quickly turn around and say, “This cake is extremely delicious and you have to tell me all about it.”\nSo being interesting at a dinner party isn’t that hard.\nA. How do you know the host\nB. The first step is to go exploring\nC. If you ask the question “How did you get here?”\nD. Be prepared to have awkward conversations with strangers\nE. Or turn the conversation into a topic where they have little to say\nF. What about that person who had too much to drink or won’t stop talking\nG. He or she is the person who is feeling the weight of that awkwardness the most\n",
+            "standard_answer": [
+                "B",
+                "C",
+                "F",
+                "E",
+                "G"
+            ],
+            "analysis": "【解析】\n【分析】本文是一篇说明文。文章主要介绍了在晚宴上让自己表现得有趣的一些方法。\n【36题详解】\n根据上文“it’s not difficult to make yourself interesting at a dinner party (在晚宴上让自己变得有趣并不难)”可知，下文应主要讲述如何在晚宴上让自己变得有趣。下文“So the main thing is just to show up and be adventurous, trying different foods and talking to strangers. (所以最主要的事情就是去尝试，去冒险，尝试不同的食物，和陌生人交谈)”可推知，本段主要说明想在晚宴上让自己变得有趣，就要勇于冒险，勇于探索。由此可知，B项“The first step is to go exploring(第一步是去探索)”承上启下，符合题意。故选B项。\n【37题详解】\n根据下文“it can bring in “I have this old, broken-down vehicle” or “I rode the bus with these crazy people who were laughing at silly jokes in the back.” It just opens up conversation. (它可以带入“我有这辆破旧的车”或“我和那些在后面嘲笑愚蠢笑话的疯子一起乘坐公共汽车。”它只是打开了对话)”可知，设空处应该是提了一个不太好的问题，只是开始交流，但并不会给人留下有趣的印象。由此可知，C项“If you ask the question “How did you get here?”(如果你问“你是怎么到这里来的？”这个问题)”能够承接下文，符合题意。故选C项。\n【38题详解】\n根据下文“If you can’t take their wine away, you should certainly try to take away their soapbox. If you’re the host, you can ask them to help you in the kitchen with something and just remove them from the situation. (如果你不能拿走他们的酒，你当然应该让他们离开讲话的地方。如果你是主人，你可以让他们到厨房帮你做点什么，只是为了让他们摆脱那种情景)”可知，此处指出了一个问题的解决办法。由此推知，设空处提到了一个棘手的问题。F项“What about the person who has had too much to drink or won’t stop talking(喝太多酒或一直说个不停的人怎么办)”正是提出的问题，引出下文的解决办法，符合题意。故选F项。\n【39题详解】\n根据上文“If you can’t take their wine away, you should certainly try to take away their soapbox (讲台). If you’re the host, you can ask them to help you in the kitchen with something and just remove them from the situation. (如果你不能拿走他们的酒，你当然应该让他们离开讲话的地方。如果你是主人，你可以让他们到厨房帮你做点什么，只是为了让他们摆脱那种情景)”可知，本段主要是为解决“喝太多酒或一直说个不停”这个问题提供方法。由此可知，E项“Or turn the conversation into a topic where they have little to say(或者把谈话变成他们没什么可说的话题)”是提出的另一个解决办法，承接上文，符合题意。故选E项。\n【40题详解】\n根据上文“If you’re faced with an awkward silence at a dinner party, the only thing that always gets everyone talking again is to give the host a compliment.(如果你在晚宴上遭遇了尴尬的沉默，唯一能让大家再次交谈的方法就是赞美主人)”可知，此处指出赞美主人可以缓解尴尬的沉默，设空处承上启下，下文“This cake is extremely delicious and you have to tell me all about it.(这蛋糕特别好吃，你得告诉我它的一切)”对主人进行了赞美。由此可知，宴会上出现尴尬的沉默时，最尴尬的就是主人，所以需要赞美主人来缓解尴尬。G项“He or she is the person who is feeling the weight of that awkwardness the most(他或她是最能感受到那种尴尬的人)”承上启下，符合题意。故选G项\n",
+            "model_answer": [
+                "A",
+                "G",
+                "B",
+                "B",
+                "C"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个填空题。首先，我需要仔细阅读题目和提供的短文，然后根据上下文选择合适的选项填入空白处。题目有五个空格，需要从选项A到G中选出五个正确的答案，其中有两个是多余的。\n\n首先，我通读一遍短文，了解整体内容。短文主要讲的是如何在晚宴上变得有趣，作者Jessica Hagy提到了一些技巧，比如主动参与、提问、处理不停说话的人以及应对尴尬沉默等。\n\n接下来，我需要逐个分析每个空格的位置和上下文，找出合适的选项。\n\n第36空：前面提到“it’s not difficult to make yourself interesting at a dinner party”，然后说“___36___, if you’re out of your comfort zone...”。这里需要一个过渡句，可能是在解释为什么在某些情况下更容易变得有趣。选项B是“The first step is to go exploring”，这可能符合，因为“go exploring”对应“out of your comfort zone”，所以B可能正确。\n\n第37空：前面说如果用不同于“你做什么工作”的问题开始对话，可以得到更有趣的谈话。然后举例说“我有一辆旧破车”或“我坐公交车和一些疯狂的人...”。这里需要一个引导句，可能选项C是“If you ask the question 'How did you get here?'”，但原文中的例子似乎和“how did you get here”无关，或者可能选项C是另一个问题。或者可能选项C是另一个问题，比如“how did you get here”可能对应例子中的情况？或者可能选项C是另一个问题，比如“how did you get here”可能对应例子中的情况？或者可能选项C是另一个问题，比如“how did you get here”可能对应例子中的情况？或者可能选项C是另一个问题，比如“how did you get here”可能对应例子中的情况？或者可能选项C是另一个问题，比如“how did you get here”可能对应例子中的情况？或者可能选项C是另一个问题，比如“how did you get here”可能对应例子中的情况？或者可能选项C是另一个问题，比如“how did you get here”可能对应例子中的情况？或者可能选项C是另一个问题，比如“how did you get here”可能对应例子中的情况？或者可能选项C是另一个问题，比如“how did you get here”可能对应例子中的情况？或者可能选项C"
+        },
+        {
+            "index": 23,
+            "year": "2021",
+            "category": "（解析版）",
+            "score": 2,
+            "question": "根据短文内容, 从短文后的选项 选出能填入空白处的最佳选项。选项中有两项为多余选项。\nSwap, Don’t shop!\nYou keep hearing about recycling, right? But it doesn't end with bottles, cans, and paper. Clothing takes a huge amount of natural resources（资源）to make, and buying loads of new clothing（or throwing out old clothing）is not healthy for the environment. So what to do with all those perfectly-good-but-you're-maybe-a-little-sick-of-them clothes piled on your bedroom floor? ____16____. It's the best way to get rid of your used clothes, score clothes from your friends, and have a party all at the same time.\nA successful swap depends on the selection of clothes, the organization of the event, and, obviously, how much fun is had. It's really easy to do! Here are a few pointers. \n●Invite 5—10 people so you have a nice selection. ____17____ , and there may not be enough things to choose from; more than that, and it becomes uncontrollable. \n●____18____. They should also prepare plenty of reusable bags to carry their \"new\" clothes home. \n●Put different types of clothing on different surfaces in the room.____19____. Place a few mirrors around your room so people can see how things look when they try them on. One of the ground rules of the swap should be that everyone must try on the clothes before they take them—things always look different when you put them on.\n●Set a starting time. Maybe you say “go,” or turn on a certain song, or whatever. ____20____. And don't forget to put out some cookies and fruits. Remember, it's a party!\nA. Less people than that\nB. Hold a clothing swap\nC. If two people are competing\nD. Just keep music playing throughout\nE. Donate whatever clothes are left over\nF. Have everyone put their clothes in the right spots\nG. Tell everyone to bring clean clothes in good condition\n",
+            "standard_answer": [
+                "B",
+                "A",
+                "G",
+                "F",
+                "D"
+            ],
+            "analysis": "【解析】【16题详解】\n根据上文“So what to do with all those perfectly- good-but-you 're- maybe-little-sick-of-them clothes piled on your bedroom floor?（那么，该如何处理那些堆在卧室地板上的（看起来）完好但你可能有点厌倦的衣服呢？）”提出关于如何解决旧衣物的问题。下文“It's the best way to get rid of your used clothes, score clothes from your friends, and have a party all at the same time.（这是扔掉旧衣服、从朋友那里买衣服、同时开派对的最好方法。）”提到了具体处理旧衣物的方法。所以空白处应起承上启下的作用，承接上文讲到的问题，启下提出的方法。因而空白处是提出了一种处理旧衣物的好方法。B项“Hold a clothing swap.（进行衣物交换。）”给出了一种处理旧衣物的方法，承上启下，符合语境。故选B项。\n【17题详解】\n根据上文“Invite 5-10 people so you have a nice selection.”（邀请5到10个人，这样你就有一个很好的选择。）说明了应该邀请的人数。下文“and there may not be enough things to choose from; more than that, and it becomes uncontrollable.”（可能没有足够的东西可供选择；多于这个数量，它就变得无法控制。）说明多于或少于一定数量的人数将会导致一些麻烦。所以空白处应是针对下文中的“more than that”提出的相反的假设，即少于一定数量的人。A项“Less people than that”（少于这些人）提出一种假设，和下文中“more than that”相对，说明人数不宜太多，也不能太少，符合语境。故选A项。\n【18题详解】\n根据下文“They should also prepare plenty of reusable bags to carry their “new” clothes home.”（他们还应该准备大量的可重复使用的袋子，把他们的“新”衣服带回家。）说明去的时候应该为交换所得的“新衣服”准备袋子。G项“Tell everyone to bring clean clothes in good condition.”（告诉每个人带来品相完好的衣服。）说明去参加衣物交换的时候应该带完好的衣服，其中的bring和下文中carry相对，都是为交换衣物所做的准备。下文中的also也是提示词，并且其中They指代G项的everyone。所以G项符合语境。故选G项。\n【19题详解】\n根据上文“Put different types of clothing on different surfaces in the room.”（把不同类型的衣服放在房间的不同地方。）指出衣服应该归类放置。下文“Place a few mirrors around your room so people can see how things look when they try them on.”（在房间周围放几面镜子，这样人们试穿时就能看到衣服的样子。）提到了放置镜子的意义。由此可见，本段讲述的是房间里的一些具体的做法，所以空白处一样要提出人们在房间里要做什么。F项“Have everyone put their clothes in the right spots.（让每个人的衣服都放在相应的位置上。）”说明每个人应该按照不同类型把衣服摆放在相应的位置，符合语境。故选F项。\n【20题详解】\n上文“Set a starting time. Maybe you say “go,” or turn on a certain song, or whatever.”（设置开始时间。也许你说“开始”，或者打开一首歌，或者无论什么。）打开音乐或者无论什么，意味聚会开始。下文“And don't forget to put out some cookies and fruits. Remember, it's a party!”（别忘了拿出一些饼干和水果。记住，这是个派对！）讲到了聚会上应该提供一些派对该有的服务。因而，空白处应是承接上文，讲述聚会期间要保持应有的内容。D项“Just keep music playing throughout.”（要始终播放音乐。）承上启下，说明在派对上要有音乐，与前文形成意义上的一致，符合题意，故选D项。\n",
+            "model_answer": [
+                "B",
+                "B",
+                "A",
+                "A",
+                "G"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个题目。首先，我需要仔细阅读题目中的短文，然后根据内容选择合适的选项填入空白处。题目有五个空格，需要从选项中选出五个正确的答案，而选项中有两个是多余的。\n\n首先，我通读一遍短文，了解整体内容。短文主要讲的是如何举办一个衣物交换活动（clothing swap），以减少浪费，环保，并且作为聚会的一种方式。接下来，我需要分析每个空格的位置和上下文，找出合适的选项。\n\n第一个空格是16，位于开头部分，讲的是如何处理那些不再穿但还好的衣服。前面提到不要扔掉，所以这里应该填入建议进行衣物交换的选项。选项B是“Hold a clothing swap”，这符合上下文，所以16应该是B。\n\n接下来是17，这里前面说邀请5-10人，后面提到如果人数不够或太多会有问题。选项A是“Less people than that”，也就是人数太少，这对应前面的“Less people than that, and there may not be enough things to choose from”，所以17选A。\n\n第三个空格18，前面提到要准备可重复使用的袋子，所以这里可能是在说让大家带来干净的衣物。选项G是“Tell everyone to bring clean clothes in good condition”，这符合上下文，所以18选G。\n\n第四个空格19，前面说把不同类型的衣物放在不同的地方，后面提到镜子和试穿的规则。这里可能需要组织衣物的位置，选项F是“Have everyone put their clothes in the right spots”，所以19选F。\n\n第五个空格20，前面说设定开始时间，比如喊“go”或播放歌曲，后面提到不要忘记准备零食。选项D是“Just keep music playing throughout”，但这里可能需要的是设定开始时间，比如选项D可能不合适。或者看选项D是否符合。原文中说设定开始时间，比如“go”或歌曲，然后后面可能需要持续播放音乐，所以20可能选D。或者看其他选项。比如选项D是“Just keep music playing throughout”，而原文中说设定开始时间，比如“go”或歌曲，然后可能之后继续播放音乐，所以D可能正确。或者是否有其他选项？\n\n再仔细看选项，选项D是“Just keep music playing throughout”，而原文中说设定开始时间，比如“go”或歌曲，然后可能"
+        },
+        {
+            "index": 24,
+            "year": "2022",
+            "category": "（全国乙卷）",
+            "score": 2,
+            "question": "根据短文内容，从短文后的选项中选出能填入空白处的最佳选项。选项中有两项为多余选项。\nFriendship needs care and attention to keep it in good health. Here are five ways to sustain (保持) long-distance friendships. \n·Set a regular date\nLong-lasting friendships share the characteristic that both sides equally contact (联系) and share with one another. With busy schedules, squeezing in phone calls can be a challenge. ___16___. \n·More isn’t always merrier\nMake sure you have communicated with your friend about how frequently each of you wants to be contacted and what method works best for you both. ___17___. There are alternatives to constant written communication, such as leaving voice messages or having a group chat. \n·Practise empathy (共情)\n___18___. The friend who is remaining needs to be sensitive to all the additional time demands placed on the friend who has moved. The one in the new environment should be sympathetic to the fact that your friend may feel abandoned. \n·___19___\nAnniversaries and birthdays carry even more weight in long-distance friendships. Although technology might make day-to-day communication possible, extra effort goes a long way on special days. Simply keeping a diary that keeps track of friends’ birthdays and other important dates will make sure nothing slips by you. \n·Don’t rely on technology alone\n___20___, but long-distance friendships — even close ones — may require more conscious effort to sustain. Try to seek out chances to renew friendships. How to do it? Just spend face-to-face time together whenever possible.\nA. Remember important dates\nB. Compensate by writing letters\nC. It is also helpful for you to be a friendship keeper\nD. Try to find a time that works for both of you and stick to it\nE. Friends need to talk about their preferred methods of communication\nF. It is easy to have a sense of connectedness through social media\nG. You may be the friend who left or the one who was left behind\n",
+            "standard_answer": [
+                "D",
+                "B",
+                "G",
+                "A",
+                "F"
+            ],
+            "analysis": "【解析】\n【导语】本文是一篇应用文，介绍了五种维系异地友谊的方法。\n【16题详解】\n上文“With busy schedules, squeezing in phone calls can be a challenge.”（平日繁忙，很难抽出时间打电话。）讲的是双方都很忙碌，很难有时间给对方打电话，D项“尽量找个双方都有空的时间去打电话，并坚持下去”给出了解决没时间打电话这个问题的方法，符合题意。故选D项。\n【17题详解】\n上文“Make sure you have communicated with your friend about how frequently each of you wants to be contacted and what method works best for you both.”（确保你已经与你的朋友沟通过，了解你们彼此希望联系的次数，以及哪种沟通方式最适合你们两人。）提到异地朋友之间要商量沟通方式，B项“可以通过写信补偿”提出了其中一种沟通方式：写信，下文“There are alternatives to constant written communication, such as leaving voice messages or having a group chat.”（除了不断的文字交流，还有其他方式，比如发语音或者组建群聊。）补充了发语音等其他沟通方式，其中“constant written communication”呼应了B项的“writing letters”。故选B项。\n【18题详解】\n下文“The friend who is remaining”（留下来的朋友）和“The one in the new environment”（在新环境中的那个）提到朋友的两个不同处境，G项“你可能是朋友中离开的那一方，也可能是被留下的那一方”指出了异地友谊中分为离开的一方和留下的一方，其中“the friend who left”和“the one who was left behind”分别对应下文“The one in the new environment”和“The friend who is remaining”，所以G项符合题意。故选G项。\n【19题详解】\n分析文章结构可知，设空处的内容是维系异地友谊的第四个方法，是第五段的小标题。下文“Anniversaries and birthdays carry even more weight in long-distance friendships.”（周年纪念日和生日对于异地友谊而言是非常重要的。）讲的是诸如周年纪念日和生日等重要的日子对于维系异地友谊是非常重要的，由此推知，这段对应的维系异地友谊的方法是A项“记得重要的日子”，所以A项符合题意。故选A项。\n【20题详解】\n设空处所在句子的后半句“but long-distance friendships — even close ones — may require more conscious effort to sustain.”（但是异地友谊——甚至是关系亲密的友谊——可能需要更加自觉地去维系。）讲的是我们要更加自觉地维系异地友谊，其中“but”说明后半句与设空处形成转折，而F项“朋友之间很容易通过社交媒体产生一种联结感”讲的是可以通过社交媒体这种方式很容易与朋友产生联结，与后半句“require more conscious effort to sustain”形成转折，而且其中的“social media”呼应了该段的小标题“Don’t rely on technology alone”（不要仅仅依赖技术）中的“technology”。故选F项。\n",
+            "model_answer": [
+                "A",
+                "G",
+                "D",
+                "D",
+                "E"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个题目。首先，我需要仔细阅读题目中的短文，然后根据内容选择合适的选项填入空白处。题目有五个空白，分别是16到20，每个空白需要从选项A到G中选择一个正确的答案，其中有两个选项是多余的，不需要使用。\n\n首先，我需要通读整个短文，理解每个段落的大意，然后分析每个空白处的上下文，找出最合适的选项。\n\n短文主要讲的是如何维持远距离友谊的五个方法。每个方法对应一个段落，每个段落有一个空白需要填入合适的句子。\n\n第一个空白是16，位于“With busy schedules, squeezing in phone calls can be a challenge.”后面。这里前面提到要设定一个定期的日期，所以可能需要建议如何找到双方都合适的时间。看选项的话，D选项是“Try to find a time that works for both of you and stick to it”，这似乎符合上下文，因为前面提到设定定期日期，所以需要找到双方都合适的时间并坚持。所以16可能选D。\n\n接下来是17，位于“Make sure you have communicated with your friend about how frequently each of you wants to be contacted and what method works best for you both.”后面。这里可能是在说要沟通好频率和方法，然后提到替代方案，比如语音消息或群聊。选项E是“Friends need to talk about their preferred methods of communication”，这可能和前面的沟通有关，但可能更合适的是选项E，或者可能选项E是前面已经提到的内容？或者可能选项E是后面提到的？需要再仔细看。原文中前面已经提到要沟通频率和方法，所以17可能是在说要确定这些，所以选项E可能重复了，或者可能后面提到的替代方法，所以可能选项E是正确的？或者可能选项E是前面已经提到的，所以可能不是。或者可能选项E是后面需要补充的？比如，可能17的位置是在说要确定沟通方式，所以选项E是“Friends need to talk about their preferred methods of communication”，这可能和前面的句子重复，但可能需要更准确的选项。或者可能选项E是正确的，因为前面说要沟通频率和方法，所以17可能是在强调这一点，所以选E？\n\n不过，可能选项E是正确的，因为前面说要沟通频率和方法，所以17可能是在说要讨论这些，所以选项E"
+        },
+        {
+            "index": 25,
+            "year": "2022",
+            "category": "（全国甲卷）",
+            "score": 2,
+            "question": "根据短文内容，从短文后的选项中选出能填入空白处的最佳选项。选项中有两项为多余选项。\nImportant Things to Know When Dining Out\nCultural dining etiquette (礼节) might surprise you with some of its important rules. ___16___. Knowing some tips will help ensure that you have an enjoyable meal with friends or family — no matter where you are in the world. \nChopstick Rules \nThe way you handle chopsticks is important to avoid annoying your companions. When you put them down between bites, always put them down together so they are parallel with the edge of the table in front of you. ___17___ . \nHands or Utensils (餐具)\nIn India and the Middle East, it’s considered very rude to eat with your left hand. People in France expect you to eat with a utensil in each hand. ___18___, instead preferring to use their hands. In Chile, you may never touch any food with your fingers. People in Thailand generally use their forks only to push food onto their spoons. \nMaking Requests \n___19___ . In Portugal, this would be a serious mistake, because it shows the chef that you don’t like their seasoning skills. Similarly, in Italy, never ask for extra cheese to add to your food. \nSome of these cultural dining etiquette rules may seem random and strange, but they are important in various countries. ___20___ , the more comfortable you’ll begin to feel with its foreign cultural practices.\nA. The more friends you make in your lifetime\nB. The more time you spend in any given country\nC. Mexicans consider it inappropriate to eat with utensils\nD. Don’t get caught making an embarrassing mistake at a restaurant\nE. It’s a good sign for the chef if you make a mess around your plate\nF. Never stick them upright in your food or cross them as you use them\nG. It may seem like a simple request to ask for salt and pepper at a meal\n",
+            "standard_answer": [
+                "D",
+                "F",
+                "C",
+                "G",
+                "B"
+            ],
+            "analysis": "【解析】\n【导语】本文是一篇说明文。文章主要介绍了一些外出就餐时要知道的一些重要事情。\n【16题详解】\n根据文章标题“Important Things to Know When Dining Out (外出就餐时要知道的重要事情)”可知，本文主要介绍的是外出就餐时应该知道的重要事情。由此可知，D项“Don’t get caught making an embarrassing mistake at a restaurant (不要在餐馆犯尴尬的错误)”符合语境，其中“at a restaurant”对应标题中的“When Dining Out”，同时引起下文“Knowing some tips will help ensure that you have an enjoyable meal with friends or family — no matter where you are in the world. (知道一些技巧将有助于确保你和朋友或家人一起享受一顿愉快的晚餐——无论你在世界的哪个地方)”。故选D。\n【17题详解】\n根据本段小标题“Chopstick Rules”可知，本段主要讲述的是使用筷子的规则。根据上文“When you put them down between bites, always put them down together so they are parallel with the edge of the table in front of you. (当你在吃的间隙把它们放下来的时候，一定要把它们放在一起，这样它们就和你面前的桌子边缘平行了)”可知，此处讲述了正确使用筷子的方式。由此可知，F项“Never stick them upright in your food or cross them as you use them (不要把它们笔直地插在你的食物中，也不要在使用它们时交叉放置)”讲述的也是使用筷子时的注意事项，符合此处语境，其中“them”指的是上文的“chopsticks”。故选F。\n【18题详解】\n根据本段小标题“Hands or Utensils (餐具)”可知，本段主要讲述的是手和餐具的问题。根据上文“In India and the Middle East, it’s considered very rude to eat with your left hand. People in France expect you to eat with a utensil in each hand. (在印度和中东，用左手吃饭被认为是非常不礼貌的。法国人希望你每只手拿一个餐具吃饭)”及下文“instead preferring to use their hands (相反更愿意使用他们的双手)”可知，此处在讲述不同国家就餐时习惯使用哪只手的问题。由此可知，C项“Mexicans consider it inappropriate to eat with utensils (墨西哥人认为用餐具吃饭是不合适的)”符合语境，与下文形成转折关系。故选C。\n【19题详解】\n根据本段小标题“Making Requests”可知，本段主要讲述的是用餐时提请求的问题。根据下文“In Portugal, this would be a serious mistake, because it shows the chef that you don’t like their seasoning skills. Similarly, in Italy, never ask for extra cheese to add to your food. (在葡萄牙，这将是一个严重的错误，因为这向厨师表明你不喜欢他们的调味技巧。同样，在意大利，永远不要要求在食物中添加额外的奶酪)”可推知，在一些国家，用餐时提出要求是很无礼的。由此可知，G项“It may seem like simple request to ask for salt and pepper at a meal (吃饭时要盐和胡椒看似很简单)”符合此处语境，其中“request”是关键词，说明，在用餐时提出一些我们看来很平常的要求在某些国家是无礼的。故选G。\n【20题详解】\n根据下文“the more comfortable you’ll begin to feel with its foreign cultural practices. (你就会对它的外国文化习俗感到越舒服)”可推知，此处指在一个国家待得越久，就会越习惯当地习俗，且此处是“the+比较级，the+比较级”结构，B项“The more time you spend in any given country (你在某个国家待的时间越长)”符合文意，引出下文。故选B。\n",
+            "model_answer": [
+                "C",
+                "D",
+                "D",
+                "G",
+                "F"
+            ],
+            "model_output": "<think>\n好的，我现在要解决这个填空题。首先，我需要仔细阅读题目和提供的短文，然后根据上下文选择合适的选项填入空白处。题目有五个空白，需要从选项中选出五个正确的，而有两个是多余的。\n\n首先，我通读一遍短文，了解整体内容。短文主要讲的是在不同国家用餐时需要注意的文化礼仪，包括筷子的使用、使用手还是餐具、请求食物的注意事项等。接下来，我需要逐个分析每个空白处的上下文，找出合适的选项。\n\n第一个空白是第16题，位于开头段落的末尾。原文提到“Cultural dining etiquette might surprise you with some of its important rules. ___16___.” 这里需要一个句子来引出后面的内容。选项中可能有一个总结性的句子，或者引出下文的句子。比如选项D“Don’t get caught making an embarrassing mistake at a restaurant”可能合适，因为它提醒读者注意避免尴尬的错误，这与后面的内容相关。或者选项G“它可能看起来像一个简单的请求，比如在餐点中要盐和胡椒”可能不太合适，因为这里可能需要一个更广泛的陈述。不过需要再仔细看选项。\n\n接下来是第17题，关于筷子的使用。原文提到“当放下筷子时，要并排放置，与桌子边缘平行。”然后空白处需要一个句子，可能是在补充说明其他注意事项。选项F“Never stick them upright in your food or cross them as you use them”符合这个上下文，因为这是关于筷子的正确使用方式，避免错误。\n\n第18题，关于使用手还是餐具。原文提到在法国，人们用双手餐具，而某些国家可能更喜欢用手。选项C“墨西哥人认为用餐具是不合适的”可能正确，因为这里需要一个例子说明某些国家更喜欢用手。或者选项D可能已经被用过了？需要再看选项。\n\n第19题，关于请求食物的注意事项。原文提到在葡萄牙，请求调味料是错误的，因为这显示厨师的调味不好。选项G“请求盐和胡椒可能看起来简单”可能适合，因为这里要引出请求的注意事项，比如选项G可能作为引子，然后后面提到在葡萄牙和意大利的错误做法。\n\n第20题，最后一段，总结说这些规则可能看起来奇怪，但重要。后面需要一个总结句，比如选项B“The more time you"
+        }
+    ]
+}

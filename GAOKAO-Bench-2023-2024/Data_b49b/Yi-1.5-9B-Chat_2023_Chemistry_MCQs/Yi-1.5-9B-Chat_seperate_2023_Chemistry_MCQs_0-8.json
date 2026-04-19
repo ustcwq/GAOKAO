@@ -1,0 +1,140 @@
+{
+    "keyword": "2023_Chemistry_MCQs",
+    "example": [
+        {
+            "index": 0,
+            "year": "2023",
+            "category": "2023",
+            "score": 6,
+            "question": "1. 化学与生活密切相关, 下列说法正确的是()\nA. 苯甲酸钠可作为食品防腐剂是由于其具有酸性\nB. 豆浆能产生丁达尔效应是由于胶体粒子对光线的散射\nC. $\\mathrm{SO}_2$ 可用于丝织品漂白 由于其能氧化丝织品中有色成分\nD. 维生素 $\\mathrm{C}$ 可用作水果罐头的抗氧化剂是由于其难以被氧化\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【详解】A. 苯甲酸钠属于强碱弱酸盐, 其水溶液呈碱性, 因此, 其可作为食品防腐剂不是由于其具有酸性, A 说法不正确;\nB. 胶体具有丁达尔效应, 是因为胶体粒子对光线发生了散射; 豆浆属于胶体, 因此, 其能产生丁达尔效应是由于胶体粒子对光线的散射, B 说法正确;\nC. $\\mathrm{SO}_2$ 可用于丝织品漂白是由于其能与丝织品中有色成分化合为不稳定的无色物质, $\\mathrm{C}$ 说法不正确;\nD. 维生素 $\\mathrm{C}$ 具有很强的还原性, 因此, 其可用作水果罐头的抗氧化剂是由于其容易被氧气氧化, 从而防止水果被氧化, D 说法不正确;\n综上所述, 本题选 B。",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\nA. 苯甲酸钠可作为食品防腐剂是由于其具有酸性，苯甲酸钠能够与食品中的水分结合，形成溶胶，使食品的浊度增大，从而抑制微生物的生长，起到防腐的作用。因此，该选项正确。<eoe>\nB. 豆浆能产生丁达尔效应是由于胶体粒子对光线的散射，当光线通过豆浆时，胶体粒子会散射光线，形成丁达尔效应。因此，该选项正确。<eoe>\nC. $\\mathrm{SO}_2$ 可用于丝织品漂白，是由于其能氧化丝织品中有色成分，但实际上，$\\mathrm{SO}_2$ 漂白丝织品是通过其还原性将有色成分氧化为无色成分，从而达到漂白效果。因此，该选项错误。<eoe>\nD. 维生素 $\\mathrm{C}$ 可用作水果罐头的抗氧化剂是由于其难以被氧化，实际上，维生素 $\\mathrm{C}$ 用作抗氧化剂是因为其具有较强的还原性，能够将其他物质还原，从而防止水果罐头中的氧化反应。因此，该选项错误。<eoe>\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 1,
+            "year": "2023",
+            "category": "2023",
+            "score": 6,
+            "question": "3. 实验室将粗盐提纯并配制 $0.1000 \\mathrm{~mol} \\cdot \\mathrm{L}^{-1}$ 的 $\\mathrm{NaCl}$ 溶液。下列仪器中, 本实验必须用到的有()\n(1)天平. \n(2)温度计\n(3)坩埚\n(4)分液漏斗\n(5)容量瓶\n(6)烧杯\n(7) 滴定管\n(8)酒精灯\nA. (1)(2)(4)(6)\nB. (1)(4) (5) (6)\nC. (2)(3)(7)(8)\nD. (1)(5)(6) (8)\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【详解】实验室将粗盐提纯时, 需要将其溶于一定量的水中, 然后将其中的硫酸根离子、钙离子、镁离子依次用稍过量的氯化钡溶液、碳酸钠溶液和氢氧化钠溶液除去, 该过程中有过滤操作, 需要用到烧杯、漏斗和玻璃棒; 将所得滤液加适量盐酸酸化后蒸发结晶得到较纯的食盐, 该过程要用到蒸发血和酒精灯; 用提纯后得到的精盐配制溶液的基本步骤有称量、溶解、转移、洗涤、定容、摇匀等操作, 需要用到天平、容量瓶、烧杯、玻璃棒、胶头滴管等。综上所述, 本实验必须用到的有(1)天平、(5)容量瓶、(6)烧杯、(8)酒精灯, 因此本题选 D。",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】：本实验的主要步骤包括称量、溶解、移液、洗涤、定容、摇匀等。\n\n1. 天平用于称量粗盐，所以需要天平。\n2. 温度计通常用于准确称量固体时的干燥过程，以及某些反应的温度控制，但在粗盐提纯和配制溶液的过程中，一般不需要精确控制温度，所以不一定需要温度计。\n3. 坩埚用于熔化固体，在粗盐提纯过程中可能需要，但不是必须的，所以不一定需要坩埚。\n4. 分液漏斗用于分离互不相溶的液体，在粗盐提纯过程中可能需要，但不是必须的，所以不一定需要分液漏斗。\n5. 容量瓶用于准确配制一定体积的溶液，需要容量瓶来定容。\n6. 烧杯用于溶液的溶解、稀释、混合等操作，需要烧杯来溶解粗盐。\n7. 滴定管用于准确测量一定体积的溶液，在配制溶液的过程中不一定需要。\n8. 酒精灯用于加热，在粗盐提纯过程中可能需要，但不是必须的，所以不一定需要酒精灯。\n\n根据上述分析，必须用到的仪器是天平、容量瓶、烧杯。因此，正确的答案是：\n\n【答案】：D <eoa>"
+        },
+        {
+            "index": 2,
+            "year": "2023",
+            "category": "2023",
+            "score": 6,
+            "question": "4. $N_{\\mathrm{A}}$ 为阿伏伽德罗常数的值。下列叙述正确的是()\nA. $0.50 \\mathrm{~mol}$ 异丁烷分子中共价键的数目为 $6.5 N_{\\mathrm{A}}$\nB. 标准状况下, $2.24 \\mathrm{LSO}_3$ 中电子的数目为 $4.00 \\mathrm{~N}_{\\mathrm{A}}$\nC. $1.0 \\mathrm{LpH}=2$ 的 $\\mathrm{H}_2 \\mathrm{SO}_4$ 溶液中 $\\mathrm{H}^{+}$的数目为 $0.02 N_{\\mathrm{A}}$\nD. $1.0 \\mathrm{Ll} .0 \\mathrm{~mol} \\cdot \\mathrm{L}^{-1}$ 的 $\\mathrm{Na}_2 \\mathrm{CO}_3$ 溶液中 $\\mathrm{CO}_3^{2-}$ 的数目为 $1.0 \\mathrm{~N}_{\\mathrm{A}}$\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【详解】A. 异丁烷的结构式为异丁烷分子中共价键的数目为 $6.5 N_{\\mathrm{A}}, \\mathrm{A}$ 正确;\nB. 在标准状况下, $\\mathrm{SO}_3$ 状态为固态, 不能计算出 $2.24 \\mathrm{~L} \\cdot \\mathrm{SO}_3$ 物质的量, 故无法求出其电子数目, B 错误;\nC. $\\mathrm{pH}=2$ 的硫酸溶液中氢离子浓度为 $\\mathrm{c}\\left(\\mathrm{H}^{+}\\right)=0.01 \\mathrm{~mol} / \\mathrm{L}$, 则 $1.0 \\mathrm{~L} \\cdot \\mathrm{pH}=2$ 的硫酸溶液中氢离子数目为 $0.01 N_{\\mathrm{A}}$, C 错误;\nD. $\\mathrm{Na}_2 \\mathrm{CO}_3$ 属于强碱弱酸盐, 在水溶液中 $\\mathrm{CO}_3^{2-}$ 会发生水解, 所以 $1.0 \\mathrm{~L} \\cdot 1.0 \\mathrm{~mol} / \\mathrm{L}$ 的 $\\mathrm{Na}_2 \\mathrm{CO}_3$ 溶液中 $\\mathrm{CO}_3^{2-}$的数目小于 $1.0 N_{\\mathrm{A}}, \\mathrm{D}$ 错误;\n故选 A。",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\nA. 异丁烷分子的化学式为C4H10，每个异丁烷分子中含有10个碳氢键和3个碳碳键，共计13个共价键。因此，$0.50 \\mathrm{~mol}$ 异丁烷分子中共价键的数目为 $0.50 \\times 13 \\times N_{\\mathrm{A}} = 6.5 N_{\\mathrm{A}}$。因此，选项A正确。\n\nB. 标准状况下，$2.24 \\mathrm{~L}$ 三氧化硫的物质的量为 $2.24 /22.4 = 0.1 \\mathrm{~mol}$。每个三氧化硫分子含有28个电子，因此 $0.1 \\mathrm{~mol}$ 三氧化硫分子中电子的数目为 $0.1 \\times 28 \\times N_{\\mathrm{A}} = 2.8 N_{\\mathrm{A}}$。因此，选项B不正确。\n\nC. pH=2的硫酸溶液中，硫酸的浓度为 $10^{-2} \\mathrm{~mol} \\cdot \\mathrm{L}^{-1}$。由于硫酸是二元酸，每个硫酸分子能提供2个氢离子，因此 $1.0 \\mathrm{~L}$ pH=2的硫酸溶液中 $\\mathrm{H}^{+}$ 的数目为 $1.0 \\times 10^{-2} \\times 2 \\times N_{\\mathrm{A}} = 0.02 N_{\\mathrm{A}}$。因此，选项C正确。\n\nD. 碳酸钠溶液中，碳酸根离子会水解，因此 $1.0 \\mathrm{~L}$ 1.0 mol/L的碳酸钠溶液中 $\\mathrm{CO}_3^{2-}$ 的数目会小于 $1.0 N_{\\mathrm{A}}$。因此，选项D不正确。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 3,
+            "year": "2023",
+            "category": "2023",
+            "score": 6,
+            "question": "$5 . \\mathrm{W} 、 \\mathrm{X} 、 \\mathrm{Y} 、 \\mathrm{Z}$ 为短周期主族元素, 原子序数依次增大, 最外层电子数之和为 19 。 $\\mathrm{Y}$ 的最外层电子数与其 $\\mathrm{K}$ 层电子数相等, $\\mathrm{WX}_2$ 是形成酸雨的物质之一。下列说法正确的是\nA. 原子半径: $\\mathrm{X}>\\mathrm{W}$\nB. 简单氢化物的沸点: $\\mathrm{X}<\\mathrm{Z}$\nC. $\\mathrm{Y}$ 与 $\\mathrm{X}$ 可形成离子化合物\nD. $\\mathrm{Z}$ 的最高价含氧酸是弱酸\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】 $\\mathrm{A} . \\mathrm{X}$ 为 $\\mathrm{O}, \\mathrm{W}$ 为 $\\mathrm{N}$, 同周期从左往右, 原子半径依次减小, 所以半径大小为 $\\mathrm{W}>\\mathrm{X}, \\mathrm{A}$ 错误;\nB. $\\mathrm{X}$ 为 $\\mathrm{O}, \\mathrm{Z}$ 为 $\\mathrm{S}, \\mathrm{X}$ 的简单氢化物为 $\\mathrm{H}_2 \\mathrm{O}$, 含有分子间氢键, $\\mathrm{Z}$ 的简单氢化物为 $\\mathrm{H}_2 \\mathrm{~S}$, 没有氢键, 所以简单氢化物的沸点为 $\\mathrm{X}>\\mathrm{Z}, \\mathrm{B}$ 错误;\nC. $\\mathrm{Y}$ 为 $\\mathrm{Mg}, \\mathrm{X}$ 为 $\\mathrm{O}$, 他们可形成 $\\mathrm{MgO}$, 为离子化合物, $\\mathrm{C}$ 正确;\nD. $\\mathrm{Z}$ 为 $\\mathrm{S}$, 硫的最高价含氧酸为硫酸, 是强酸, $\\mathrm{D}$ 错误;\n故选 C。",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】\n首先，根据题目信息，我们可以确定 $\\mathrm{Y}$ 的最外层电子数与其 $\\mathrm{K}$ 层电子数相等。由于 $\\mathrm{K}$ 层电子数为 2，因此 $\\mathrm{Y}$ 的最外层电子数为 2。在短周期主族元素中，最外层电子数为 2 的元素为 $\\mathrm{Be}$。\n\n其次，题目中给出 $\\mathrm{WX}_2$ 是形成酸雨的物质之一。结合 $\\mathrm{Y}$ 的信息，我们可以推断 $\\mathrm{W}$ 为 $\\mathrm{N}$，因为 $\\mathrm{N}_2\\mathrm{O}_4$ 是形成酸雨的物质之一。\n\n由于 $\\mathrm{W}$ 和 $\\mathrm{Y}$ 的原子序数分别为 7 和 4，$\\mathrm{Z}$ 的原子序数必须为大于 4 的最小整数，即 5。因此，$\\mathrm{Z}$ 为 $\\mathrm{B}$。\n\n最后，$\\mathrm{X}$ 的原子序数必须为 3，因此 $\\mathrm{X}$ 为 $\\mathrm{N}$。\n\n现在我们可以逐一检查每个选项是否正确。\n\nA. 原子半径: $\\mathrm{X}>\\mathrm{W}$\n氮的原子半径大于氮，因为氮位于元素周期表中的第二周期，而氮位于第一周期。因此，这个说法是正确的。\n\nB. 简单氢化物的沸点: $\\mathrm{X}<\\mathrm{Z}$\n氮的简单氢化物（氨）的沸点低于硼的简单氢化物（氢化硼）的沸点。因此，这个说法是错误的。\n\nC. $\\mathrm{Y}$ 与 $\\mathrm{X}$ 可形成离子化合物\n$\\mathrm{Y}$ 为 $\\mathrm{Be}$，$\\mathrm{X}$ 为 $\\mathrm{N}$，它们可以形成离子化合物，如 $\\mathrm{Be}_3\\mathrm{N}_2$。因此，这个说法是正确的。\n\nD. $\\mathrm{Z}$ 的最高价含氧酸是弱酸\n$\\mathrm{Z}$ 为 $\\mathrm{B}$，其最高价含氧酸为硼酸（$\\mathrm{H}_3\\mathrm{BO}_3$），硼酸在水中溶解度较小，"
+        },
+        {
+            "index": 4,
+            "year": "2023",
+            "category": "2023",
+            "score": 6,
+            "question": "1. 下列应用中涉及到氧化还原反应的是\nA. 使用明矾对水进行净化\tB. 雪天道路上撒盐融雪\nC. 暖贴中的铁粉遇空气放热\tD. 荧光指示牌被照发光\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】A．使用明矾对水进行净化过程中，明矾电离出的铝离子发生水解生成氢氧化铝胶体，氢氧化铝胶体粒子吸附水中的悬浮颗粒并沉降下来而水变得澄清，该过程中没有任何一种元素的化合价发生变化，因此没有涉及到氧化还原反应，A不符合题意；\nB．雪天道路上撒盐融雪，是因为雪遇到盐而使其熔点降低并熔化，该过程中没有任何一种元素的化合价发生变化，因此没有涉及到氧化还原反应，B不符合题意；\nC．暖贴中的铁粉遇空气放热，是因为暖贴中含有的铁粉、碳粉、氯化钠、水等物质，形成当这些物质遇到空气后形成无数微小原电池并开始工作，化学能转化为电能，无数微小原电池堆积在一起使得电能又转化为热能，该过程中铁元素和氧元素的化合价发生变化，因此，该过程涉及到氧化还原反应，C符合题意；\nD．荧光指示牌被照发光，是因为光被指示牌生了反射，该过程中没有任何一种元素的化合价发生变化，因此没有涉及到氧化还原反应，D不符合题意；\n综上所述，本题选C。",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n选项A中，明矾水解生成氢氧化铝胶体，可以吸附水中的悬浮物，从而达到净化的目的，这一过程中没有元素化合价的变化，所以不涉及氧化还原反应。\n选项B中，雪天道路上撒盐融雪主要是利用了盐的溶点降低的原理，盐的溶解导致雪的熔点降低，从而使雪融化，这一过程中也没有元素化合价的变化，所以不涉及氧化还原反应。\n选项C中，暖贴中的铁粉与空气中的水反应生成氢氧化铁，同时放出热量，铁的化合价从0价变化为+3价，发生了氧化还原反应。\n选项D中，荧光指示牌被照发光是由于光激发指示牌中的荧光物质，使其发光，这一过程中没有元素化合价的变化，所以不涉及氧化还原反应。\n\n【答案】: C <eoa>"
+        },
+        {
+            "index": 5,
+            "year": "2023",
+            "category": "2023",
+            "score": 6,
+            "question": "4. 一种矿物由短周期元素 $\\mathrm{W} 、 \\mathrm{X} 、 \\mathrm{Y}$ 组成, 溶于稀盐酸有无色无味气体生成。 $\\mathrm{W} 、 \\mathrm{X} 、 \\mathrm{Y}$ 原子序数依次增大。简单离子 $\\mathrm{X}^{2-}$ 与 $\\mathrm{Y}^{2+}$ 具有相同的电子结构。下列叙述正确的是\nA. $X$ 的常见化合价有 $-1 、-2$\nB. 原子半径大小为 $\\mathrm{Y}>\\mathrm{X}>\\mathrm{W}$\nC. $Y X$ 的水合物具有两性\nD. $\\mathrm{W}$ 单质只有 4 种同素异形体\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【详解】A. $\\mathrm{X}$ 为 $\\mathrm{O}$, 氧的常见价态有 -1 价和 -2 价, 如 $\\mathrm{H}_2 \\mathrm{O}_2$ 和 $\\mathrm{H}_2 \\mathrm{O}, \\mathrm{A}$ 正确;\nB. $\\mathrm{W}$ 为 $\\mathrm{C}, \\mathrm{X}$ 为 $\\mathrm{O}, \\mathrm{Y}$ 为 $\\mathrm{Mg}$, 同主族时电子层数越多, 原子半径越大, 电子层数相同时, 原子序数越小,原子半径越大, 所以原子半径大小为: $\\mathrm{Y}>\\mathrm{W}>\\mathrm{X}, \\mathrm{B}$ 错误;\nC. $Y$ 为 $\\mathrm{Mg}, \\mathrm{X}$ 为 $\\mathrm{O}$, 他们可形成 $\\mathrm{MgO}$, 水合物为 $\\mathrm{Mg}(\\mathrm{OH})_2, \\mathrm{Mg}(\\mathrm{OH})_2$ 只能与酸反应生成盐和水, 不能与碱反应, 所以 $\\mathrm{YX}$ 的水合物没有两性, $\\mathrm{C}$ 错误;\nD. $\\mathrm{W}$ 为 $\\mathrm{C}$, 碳的同素异形体有: 金刚石、石墨、石墨烯、富勒烯、碳纳米管等, 种类不止四种, $\\mathrm{D}$ 错误;故选 A",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n根据题目信息，矿物溶于稀盐酸产生无色无味的气体，该气体为二氧化碳，因此 $\\mathrm{W}$ 元素为碳（C），$\\mathrm{X}$ 元素为氧（O），$\\mathrm{Y}$ 元素为镁（Mg）。\n\nA. O 的常见化合价有 $-1  、 -2$，该选项正确。\n\nB. 原子半径大小为 $\\mathrm{Mg}>\\mathrm{O}>\\mathrm{C}$，该选项错误。\n\nC. $\\mathrm{MgO}$ 的水合物就是氢氧化镁（$\\mathrm{Mg(OH)_2}$），它具有两性，该选项正确。\n\nD. C 单质有金刚石、石墨、fullerene（足球烯）和 graphene（石墨烯）等多种同素异形体，其中最常见的是金刚石和石墨，该选项错误。\n\n<eoe>\n【答案】 A <eoa>"
+        },
+        {
+            "index": 6,
+            "year": "2023",
+            "category": "2023",
+            "score": 6,
+            "question": "5.-一些化学试剂久置后易发生化学变化。下列化学方程式可正确解释相应变化的是\n\\begin{tabular}{|l|l|l|}\n\\hline $\\mathrm{A}$ & 硫酸亚铁溶液出现棕黄色沉淀 & $6 \\mathrm{FeSO}_4+\\mathrm{O}_2+2 \\mathrm{H}_2 \\mathrm{O}=2 \\mathrm{Fe}_2\\left(\\mathrm{SO}_4\\right)_3+2 \\mathrm{Fe}(\\mathrm{OH})_2 \\downarrow$ \\\\\n\\hline $\\mathrm{B}$ & 硫化钠溶液出现浑浊颜色变深 & $\\mathrm{Na}_2 \\mathrm{~S}+2 \\mathrm{O}_2=\\mathrm{Na}_2 \\mathrm{SO}_4$ \\\\\n\\hline $\\mathrm{C}$ & 溴水颜色逐渐褪去 & $4 \\mathrm{Br}_2+4 \\mathrm{H}_2 \\mathrm{O}=\\mathrm{HBrO}_4+7 \\mathrm{HBr}$ \\\\\n\\hline $\\mathrm{D}$ & 胆矾表面出现白色粉末 & $\\mathrm{CuSO}_4 \\cdot 5 \\mathrm{H}_2 \\mathrm{O}=\\mathrm{CuSO}_4+5 \\mathrm{H}_2 \\mathrm{O}$ \\\\\n\\hline\n\\end{tabular}\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【详解】A. 溶液呈棕黄色是因为有 $\\mathrm{Fe}^{3+}$, 有浑浊是产生了 $\\mathrm{Fe}(\\mathrm{OH})_3$, 因为硫酸亚铁久置后易被氧气氧化,化学方程式为: $\\cdot 12 \\mathrm{FeSO}_4+3 \\mathrm{O}_2+6 \\mathrm{H}_2 \\mathrm{O}=4 \\mathrm{Fe}_2\\left(\\mathrm{SO}_4\\right)_3+4 \\mathrm{Fe}(\\mathrm{OH})_3 \\downarrow$, A 错误;\nB. 硫化钠在空气中易被氧气氧化为淡黄色固体硫单质, 使颜色加深, 化学方程式为: $2 \\mathrm{Na}_2 \\mathrm{~S}+\\mathrm{O}_2+2 \\cdot \\mathrm{H}_2 \\mathrm{O}$ $=4 \\mathrm{NaOH}+2 \\mathrm{~S} \\downarrow, \\mathrm{B}$ 错误;\nC. 澳水的主要成分是澳和水, 它们会反应, 但速度很慢, $\\mathrm{Br}_2+\\mathrm{H}_2 \\mathrm{O}=\\mathrm{HBrO}+\\mathrm{HBr}, 2 \\mathrm{HBrO}=2 \\mathrm{HBr}+\\mathrm{O}_2$, 所以澳水放置太久会变质。但不是生成高溴酸, 所以选项中的化学方程式错误, $\\mathrm{C}$ 错误;\nD. 胆矾为 $\\mathrm{CuSO}_4 \\cdot 5 \\mathrm{H}_2 \\mathrm{O}$, 颜色为蓝色, 如果表面失去结晶水, 则变为白色的 $\\mathrm{CuSO}_4$, 化学方程式为: $\\mathrm{CuSO}_4 \\cdot 5 \\mathrm{H}_2 \\mathrm{O}=\\mathrm{CuSO}_4+5 \\mathrm{H}_2 \\mathrm{O}$, 方程式正确, D 正确;故选 D。",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】\n首先，我们需要分析每个化学试剂久置后的变化，并找出对应的化学方程式。\n\nA选项中，硫酸亚铁溶液出现棕黄色沉淀。这是因为在空气中，硫酸亚铁会被氧化成硫酸铁，同时生成氢氧化铁沉淀。因此，对应的化学方程式是：\n\\[ 6 \\mathrm{FeSO}_4 + \\mathrm{O}_2 + 2 \\mathrm{H}_2 \\mathrm{O} = 2 \\mathrm{Fe}_2 \\left(\\mathrm{SO}_4\\right)_3 + 2 \\mathrm{Fe}(\\mathrm{OH})_2 \\downarrow \\]\n\nB选项中，硫化钠溶液出现浑浊颜色变深。硫化钠在空气中会被氧化成硫单质，而硫单质溶于水时溶液会变浑浊。但是该反应中没有生成氢氧化钠，化学方程式不完整。\n\nC选项中，溴水颜色逐渐褪去。这是因为溴水中的溴会被空气中的氧气反应生成溴酸，导致溴水褪色。但是给出的化学方程式不正确，因为溴酸的最高价氧化物不是HBrO₄。\n\nD选项中，胆矾表面出现白色粉末。这是因为胆矾在空气中会失去水分子，形成五水合硫酸铜的白色粉末。对应的化学方程式是：\n\\[ \\mathrm{CuSO}_4 \\cdot 5 \\mathrm{H}_2 \\mathrm{O} = \\mathrm{CuSO}_4 + 5 \\mathrm{H}_2 \\mathrm{O} \\]\n\n综上所述，A选项中的化学方程式可以正确解释硫酸亚铁溶液久置后出现的棕黄色沉淀变化。\n\n【答案】: A <eoa>"
+        },
+        {
+            "index": 7,
+            "year": "2023",
+            "category": "2023",
+            "score": 6,
+            "question": "1. 化学在文物的研究和修复中有重要作用。下列说法错误的是\nA. 竹简的成分之一纤维素属于天然高分子 $\\rightarrow$ B. 龟甲的成分之一羟基磷灰石属于无机物\nC. 古陶瓷修复所用的熟石膏, 其成分为 $\\mathrm{Ca}(\\mathrm{OH})_2 \\rightarrow$ D. 古壁画颜料中所用的铁红, 其成分为 $\\mathrm{Fe}_2 \\mathrm{O}_3$\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】A. 纤维素是一种天然化合物, 其分子式为 $\\left(\\mathrm{C}_6 \\mathrm{H}_{10} \\mathrm{O}_5\\right)_{\\mathrm{n}}$, 其相对分子质量较高, 是一种天然高分子, A 正确;\nB. 羟基磷灰石又称又称羟磷灰石、碱式磷酸钙, 其化学式为 $\\left[\\mathrm{Ca}_{10}\\left(\\mathrm{PO}_4\\right)_6(\\mathrm{OH})_2\\right]$, 属于无机物, B 正确;\nC. 熟石膏是主要成分为 $2 \\mathrm{CaSO}_4 \\cdot \\mathrm{H}_2 \\mathrm{O}, \\mathrm{Ca}(\\mathrm{OH})_2$ 为熟石灰的主要成分, $\\mathrm{C}$ 错误;\nD. $\\mathrm{Fe}_2 \\mathrm{O}_3$ 为红色, 常被用于油漆、涂料、油墨和橡胶的红色颜料, 俗称铁红, D 正确;故答案选 C。",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】\n我们一个选项一个选项地进行分析。\n\nA. 竹简的成分之一纤维素属于天然高分子。纤维素是一种多糖，由葡萄糖单元通过α-1,4-糖苷键连接而成，确实是一种天然高分子物质。因此，这一说法是正确的。\n\nB. 龟甲的成分之一羟基磷灰石属于无机物。羟基磷灰石是一种生物活性无机材料，它由钙离子和含羟基的磷酸根组成，具有生物兼容性和生物活性，确实是无机物。因此，这一说法也是正确的。\n\nC. 古陶瓷修复所用的熟石膏，其成分为 $\\mathrm{Ca}(\\mathrm{OH})_2$。熟石膏的化学成分是硫酸钙，即 $\\mathrm{CaSO}_4$，不是氢氧化钙 $\\mathrm{Ca}(\\mathrm{OH})_2$。氢氧化钙是熟石灰的成分，而不是熟石膏的。因此，这一说法是错误的。\n\nD. 古壁画颜料中所用的铁红，其成分为 $\\mathrm{Fe}_2 \\mathrm{O}_3$。铁红是一种氧化物，其化学式为 $\\mathrm{Fe}_2 \\mathrm{O}_3$，颜色为红色，确实可以作为颜料使用。因此，这一说法是正确的。\n\n综上所述，错误的说法是 C。\n\n【答案】 C <eoa>"
+        },
+        {
+            "index": 8,
+            "year": "2023",
+            "category": "2023",
+            "score": 6,
+            "question": "5. 根据实验操作及现象, 下列结论中正确的是\n\\begin{tabular}{|l|l|l|}\n\\hline 选项 & 实验操作及现象 & 结论 \\\\\n\\hline\n\\hline $\\mathrm{A}$ & \\begin{tabular}{l} \n常温下将铁片分别插入稀硝酸和浓硝酸中, 前者产生无色气体, 后者无明 \\\\\n显现象\n\\end{tabular} & \\begin{tabular}{l} \n稀硝酸的氧化性比 \\\\\n浓硝酸强\n\\end{tabular} \\\\\n\\hline $\\mathrm{B}$ & \\begin{tabular}{l} \n取一定量 $\\mathrm{Na}_2 \\mathrm{SO}_3$ 样品, 溶解后加入 $\\mathrm{BaCl}_2$ 溶液, 产生白色沉淀。加入浓 \\\\\n$\\mathrm{HNO}_3$, 仍有沉淀\n\\end{tabular} & 此样品中含有 $\\mathrm{SO}_4^{2-}$ \\\\\n\\hline $\\mathrm{C}$ & \\begin{tabular}{l} \n将银和 $\\mathrm{AgNO}_3$ 溶液与铜和 $\\mathrm{Na}_2 \\mathrm{SO}_4$ 溶液组成原电池。连通后银表面有银白 \\\\\n色金属沉积, 铜电极附近溶液逐渐变蓝\n\\end{tabular} & \\begin{tabular}{l}\n$\\mathrm{Cu}$ 的金属性比 \\\\\n$\\mathrm{Ag}$ 强\n\\end{tabular} \\\\\n\\hline $\\mathrm{D}$ & 向溴水中加入苯, 振荡静置, 水层颜色变浅 & 溴与苯发生了加成反应 \\\\\n\\hline\n\\end{tabular}\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【详解】A．常温下，铁片与浓硝酸会发生钝化，导致现象不明显，但稀硝酸与铁不发生钝化，会产生气泡，所以不能通过该实验现象比较浓硝酸和稀硝酸的氧化性强弱，A错误；\nB．浓硝酸会氧化亚硫酸根生成硫酸根，仍然产生白色沉淀，所以不能通过该实验现象判断样品中含有硫酸根，B错误；\nC．铜比银活泼，在形成原电池过程中，做负极，发生氧化反应，生成了铜离子，导致溶液变为蓝色，所以该实验可以比较铜和银的金属性强弱，C正确；\nD．向溴水中加入苯，苯可将溴萃取到上层，使下层水层颜色变浅，不是溴与苯发生了加成反应，D错误；\n故选C。",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】：\n\n对于选项A，实验操作是将铁片分别插入稀硝酸和浓硝酸中，前者产生无色气体，后者无明显现象。结论是稀硝酸的氧化性比浓硝酸强。这个结论是不正确的。实际上，浓硝酸的氧化性比稀硝酸强。在浓硝酸中，铁片被氧化为硝酸铁，表现为钝化现象，表面形成一层致密的氧化物薄膜，阻止了进一步的反应。而在稀硝酸中，铁片被氧化为硝酸亚铁，并释放出无色气体一氧化氮。因此，这个实验现象说明浓硝酸的氧化性更强。<eoe>\n\n对于选项B，实验操作是取一定量 $\\mathrm{Na}_2 \\mathrm{SO}_3$ 样品，溶解后加入 $\\mathrm{BaCl}_2$ 溶液，产生白色沉淀。再加入浓 $\\mathrm{HNO}_3$，仍有沉淀。结论是此样品中含有 $\\mathrm{SO}_4^{2-}$。这个结论是正确的。因为 $\\mathrm{Na}_2 \\mathrm{SO}_3$ 与 $\\mathrm{BaCl}_2$ 反应产生的白色沉淀是 $\\mathrm{BaSO}_3$，而 $\\mathrm{SO}_3^{2-}$ 具有较强的还原性，可以被浓 $\\mathrm{HNO}_3$ 氧化为 $\\mathrm{SO}_4^{2-}$，因此即使加入浓 $\\mathrm{HNO}_3$，仍然可以形成 $\\mathrm{BaSO}_4$ 白色沉淀，这证明了原样品中确实含有 $\\mathrm{SO}_3^{2-}$。<eoe>\n\n对于选项C，实验操作是将银和 $\\mathrm{AgNO}_3$ 溶液与铜和 $\\mathrm{Na}_2 \\mathrm{SO}_4$ 溶液组成原电池。连通后银表面有银白色金属沉积，铜电极附近溶液逐渐变蓝。结论是 $\\mathrm{Cu}$ 的金属性比 $\\mathrm{Ag}$ 强。这个结论是正确的。在原电池中，铜的活泼性比银强，因此可以置换出银，铜电极附近溶液中的 $\\mathrm{AgNO}_3$ 被消耗，导致溶液中硝酸浓度降低，颜色变浅，同时铜被氧化为 $\\mathrm{Cu}^{2+}$，从而在银表面形成金属沉积。这说明 $\\mathrm{Cu}$ 的金属性确实比"
+        }
+    ]
+}

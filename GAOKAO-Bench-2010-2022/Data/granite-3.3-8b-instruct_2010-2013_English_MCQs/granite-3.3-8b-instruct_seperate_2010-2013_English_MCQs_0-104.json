@@ -1,0 +1,1580 @@
+{
+    "keyword": "2010-2013_English_MCQs",
+    "example": [
+        {
+            "index": 0,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "21. --- Have  you finished  reading  Jane  Eyre ? \n--- No, I        my homework  all day yesterday . \nA. was doing  B. would  do C. had done  D. do\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案 A． was/were  doing，表示过去的某个时间点或时间段正在做某事\n，根据句意，我没有读完简爱，我昨天一天一直在写家庭作业． 故选 A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】To determine the correct answer, we need to understand the context and the tense used in the incomplete sentence. The speaker is responding to the question \"Have you finished reading Jane Eyre?\" with an explanation about not having time to finish the book because they were occupied with homework. \n\nThe original question uses the present perfect tense \"Have you finished,\" indicating an action completed at an unspecified time before the present. The response should also relate to an action that either has not been completed (in relation to reading Jane Eyre) or is set in the past relative to the time of speaking.\n\nLet's analyze each option:\n\nA. \"was doing\" - This is in the simple past tense, indicating an ongoing action in the past. It fits the context because it describes an action (doing homework) that was happening continuously throughout the day yesterday.\n\nB. \"would do\" - This is in the conditional tense, indicating a hypothetical or future action. It does not fit the context, as it doesn't relate to past actions or ongoing activities.\n\nC. \"had done\" - This is in the past perfect tense, indicating an action completed before another past action. It doesn't fit here because there's no indication of another past action related to reading Jane Eyre that precedes doing homework.\n\nD. \"do\" - This is in the simple present tense, indicating a general habit or routine. It doesn't fit the context, as it doesn't relate to a past action or ongoing activity specific to the day mentioned.\n\nGiven the analysis, the correct answer is A. \"was doing\" because it accurately reflects the continuous action of doing homework all day yesterday, which is the reason for not finishing Jane Eyre.\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 1,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "22. The workers      the glasses  and marked  on each box “This Side UP”. \nA. carried  B. delivered  C. pressed  D. packed\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D． carry\"拿，携带 \"；deliver\"递送，发表，给 …接生 \"；press\"压\"\n；pack\"包装 \"．根据常识和句意，先把玻璃杯 \"包装起来 \"再标上 \"此面朝上 \"．故\n  选D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】The sentence describes an action performed by the workers regarding the glasses. We need to identify the correct verb that fits the context. \n\n- \"carried\" implies moving the glasses from one place to another.\n- \"delivered\" suggests handing over the glasses to a recipient.\n- \"pressed\" doesn't logically fit as it implies applying force, not handling or preparing boxes.\n- \"packed\" means to put items into containers, which aligns with the action of preparing boxes for the glasses.\n\nGiven that the workers are preparing the glasses for storage or shipping by placing them in boxes and labeling them, the most appropriate verb is \"packed\". \n\nThus, the correct answer is D. packed. <eoe>\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 2,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "23. I’ll spend  half of my holiday  practicing  English  and      half learning  drawing . \nA. another  B. the other  C. other ’s D. other\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案 B．本题主要考查代词． 选项 A another  3个及 3个以上中的另一\n个；选项 B the other两个中的另一个 ；选项 C other ’s 一般没有这种说法 ；选项 D \nother其它的．根据句意，应该是两个中的另一个， 故选 B． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】The sentence describes dividing time between two activities: practicing English and learning drawing. We need to choose the correct preposition phrase to indicate \"the remaining half\" after specifying the first activity. \n\n- \"another\" would imply a third distinct activity.\n- \"the other\" is grammatically correct but implies a more specific, contrasting activity (like \"I'll spend half my holiday practicing English and the other half learning drawing,\" which doesn't fit as 'drawing' is the second distinct activity, not contrasting).\n- \"other\" without \"half\" would incorrectly suggest a different type of holiday activity altogether.\n- \"other's\" is grammatically incorrect as it implies possession rather than division of time.\n\nThe correct choice to indicate the second half of the holiday dedicated to a different activity (learning drawing) is \"the other,\" but since it's followed by \"half,\" it correctly conveys the division of time equally between the two activities.\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 3,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "24. As a child , Jack studied  in a village  school ,       is named  after his grandfather . \nA. which  B. where  C. what  D. that\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案： A． 题干中含有的从句是非限制性的定语从句， 所以不能用 that\n，what不能引导定语从句， 故排除 C，从句中缺少主语，应该用关系代词，所\n以排除 where．所以本题选 A． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】The sentence describes Jack's educational background and the naming of the school. We need to identify the appropriate relative pronoun to connect the clause \"is named after his grandfather\" to the noun \"school\". \n\n- \"which\" typically introduces non-restrictive relative clauses, providing additional information that is not essential to the identification of the noun.\n- \"where\" indicates place, which doesn't fit here as we're not describing the location of the school but its name.\n- \"what\" is used for asking about a thing or things, not suitable for describing a named school.\n- \"that\" is a more formal relative pronoun often used for restrictive clauses, essential to the identification of the noun.\n\nGiven the context, \"what\" would imply asking about the type of school, and \"where\" would imply its physical location. \"Which\" could work but is less formal in this context. \"That\" correctly introduces a restrictive clause, essential to identifying the specific school named after Jack's grandfather.\n\nTherefore, the correct relative pronoun to use is \"that\".\n\n<eoe>\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 4,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "25. Mary  made  coffee         her guests  were  finishing  their meal . \nA. so that B. although  C. while  D. as if\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】 答案 C．本题考查连词． 选项 A so that 以便，为了，用来引导目的状\n语从句； 选项 B although 尽管；选项 C while在…期间，当 …时候，用来引导时\n间状语从句； 选项 D as if（=as though）仿佛，好像，用来引导方式状语从句．\n通过句意可知 C项正确．  \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】The sentence describes an action (making coffee) that occurred during another action (guests finishing their meal). We need to identify the correct subordinating conjunction that indicates the coffee was made concurrently with the guests finishing their meal. \n\n- \"so that\" indicates purpose or result, not simultaneous action.\n- \"although\" indicates a contrast, not a concurrent action.\n- \"while\" indicates an action happening at the same time as another, making it the appropriate choice here.\n- \"as if\" suggests a hypothetical or imagined situation, not a concurrent real-world action.\n\nGiven the context, \"while\" is the correct conjunction to show that the coffee-making happened during the guests' meal completion.\n\n<eoe>\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 5,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "26. I have  seldom  seen my mother       pleased  with my progress  as she is now. \nA. so B. very  C. too D. rather\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案： A  如此满意的语义， 只有 so pleased…as  能表达出来吧， as是\n像…一样， too表示 \"太…\"，rather  确实满意，像现在一样对我确实满意，这样\n的表达不符语境． 所以选择 A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】To determine the correct word to fill in the blank, we need to understand the context and the nuance of each option:\n\n- \"so\" indicates a high degree of pleasure or agreement, often used to emphasize the extent to which something is true.\n- \"very\" is an intensifier meaning \"to a great degree\" or \"extremely.\"\n- \"too\" can imply excess or an extreme degree, but it can also suggest that something is undesirable or unwanted.\n- \"rather\" suggests a moderate degree, implying a preference for one thing over another.\n\nIn the sentence \"I have seldom seen my mother pleased with my progress as she is now,\" the intended meaning is to express that the mother's current pleasure with the speaker's progress is unusually high or extreme compared to previous instances. \n\n- \"so\" fits well here because it emphasizes the unusual extent of her pleasure.\n- \"very\" would also work but is less emphatic than \"so.\"\n- \"too\" might imply an undesirable level of pleasure, which doesn't fit the context.\n- \"rather\" suggests a preference for one state over another, which doesn't align with the meaning of unusually high pleasure.\n\nTherefore, the best choice to convey the intended meaning is \"so.\"\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 6,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "27. Mrs. White  showed  her students  some  old maps     from  the library . \nA. to borrow     B. to be borrowed      C. borrowed      D. borrowing\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案 C． from  the library做后置定语， 修饰 old maps  根据句意， borrow\n与old maps  之间是被动关系，所以用过去分词表示被动或完成， 故选 C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】To determine the correct answer, we need to understand the context of the sentence: \"Mrs. White showed her students some old maps from the library.\" The action here is \"showed,\" which is in the past tense. We are looking for a verb that fits this action and indicates how Mrs. White obtained the maps.\n\n- A. \"to borrow\" is in the infinitive form and implies an intention or request, not an action already completed.\n- B. \"to be borrowed\" is in the passive voice and suggests the maps were borrowed by someone else, which doesn't fit the context.\n- C. \"borrowed\" is the past participle form, indicating the maps were obtained by Mrs. White in the past.\n- D. \"borrowing\" is the present participle form, indicating an ongoing action, which doesn't fit the past tense context.\n\nThe correct choice is C. \"borrowed,\" as it accurately reflects that Mrs. White had previously obtained the maps from the library.\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 7,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "28. When  you are home , give a call to let me know  you        safely . \nA. are arriving  B. have  arrived  C. had arrived  D. will arrive\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案 B．本题主要考查动词时态．根据题意可知，这里要表达 \"回家后\n打电话确认已经安全到达 \"，所以应该用现在完成时 ，答案为 B项．A项和 D项\n均表示将来，没有 \"完成 \"之意，所以排除 ；C项为过去完成时，不符合题意，所\n以排除． 故选 B． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】The sentence structure indicates that we are looking for a verb in the present tense to describe an action that will happen in the future relative to the speaker's current state (being at home). \n\n- \"When you are home\" sets the context: the speaker is currently not at home but expects to hear from the other person once they reach home.\n- The action required is to inform the speaker about the safe arrival.\n- The verb must reflect this future action from the perspective of the person who is going home.\n\nAmong the options:\n- A. \"are arriving\" suggests an ongoing action, which is not suitable as it implies the person is in transit and not yet home.\n- B. \"have arrived\" indicates a completed action, which is past tense and does not fit the requirement for informing upon arrival.\n- C. \"had arrived\" also uses past perfect tense, indicating an action completed before another past time, which is incorrect for conveying information about a future safe arrival.\n- D. \"will arrive\" is in the future tense, indicating an action that will happen after \"when you are home,\" fitting the requirement to inform upon future safe arrival.\n\nTherefore, the correct choice is D. \"will arrive.\"\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 8,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "29. Just be patient . You       expect  the world  to change  so soon . \nA. can’t B. needn ’t C. may not D. will not\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案 A． can't \"不能，不可能 \"；needn't  \"不需要，没必要 \"；may \"一般\n用于肯定句中 ，表示可能 \"；will \"意愿或习惯性动作 \"．根据句意 ，要耐心点 ，你\n\"不能 \"期望世界变得如此之快， 故选 A． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】This question requires understanding the appropriate use of modal verbs to express possibility, necessity, or ability. The sentence suggests a recommendation or advice, implying a condition or suggestion about what one should or should not do. \n\n- \"can't\" indicates inability.\n- \"needn't\" suggests it's unnecessary.\n- \"may not\" implies permission is denied.\n- \"will not\" indicates a strong future negation.\n\nGiven the context (\"Just be patient\"), the advice is to refrain from expecting rapid change, suggesting it's unnecessary to expect the world to change quickly. Thus, the correct modal verb is \"needn't.\"\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 9,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "30. The little boy won’t go to sleep      his mother  tells him a story . \n  A. or B. unless  C. but D. whether\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案 B．本题主要考查连词， unless  引导条件状语从句，意思是除非 ，\n如果不 =\"if not\"； A or 或，或者；还是；不然，否则；  C but但是，表转折； D \nwhether  是否、不管 …（还是 …）习惯用语 whether  or not．根据句意， 应该选 B\n． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】To determine the correct preposition or conjunction for the blank in the sentence \"The little boy won’t go to sleep _ his mother tells him a story,\" we need to understand the intended meaning. The sentence describes a condition under which the boy will not fall asleep. \n\n- \"or\" suggests alternatives, which doesn't fit here as there's no alternative action mentioned.\n- \"unless\" indicates an exception or condition that prevents an action, fitting for a scenario where sleep is prevented by the storytelling.\n- \"but\" implies contrast, suggesting the boy would go to sleep but for the storytelling, which doesn't convey the intended meaning.\n- \"whether\" introduces a choice or condition for decision-making, not a cause for not sleeping.\n\nThe most appropriate choice to indicate that the boy won't sleep *because* of his mother telling him a story is \"unless.\"\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 10,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "31. --- Everybody  is going  to climb  the mountain . Can I go too, mum ? \n---         Wait  till you are old enough , dear. \nA. will you?     B. Why  not?     C. I hope  so.       D. I’m afraid  not.\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D．A项\"Will用于第二人称表示征求对方的意见 \"；B项\"为什么\n不？ \"表示同意对方的观点； C项\"我希望如此 \"；D项\"我恐怕不行 \"；根据句意 \"\n亲爱的，等到你年龄足够大的时候再去 \"可知，孩子的妈妈不让孩子去爬山．因\n此D项符合语境， 故选 D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】The sentence structure indicates a response to a request or question. The speaker's mother is advising her child to wait until he is old enough to climb the mountain. The phrase \"Wait till you are old enough, dear\" suggests a conditional response, implying that the child's ability to climb the mountain depends on reaching a certain age. \n\nAmong the options:\n- A. \"will you?\" is a question asking for permission or confirmation, which doesn't fit the context of giving advice.\n- B. \"Why not?\" implies a question about a reason for not being allowed, which also doesn't match the mother's advice.\n- C. \"I hope so\" expresses a hope or expectation, but it doesn't convey the mother's stance or advice.\n- D. \"I'm afraid not\" indicates a negative response or refusal, aligning with the mother's advice to wait until the child is older.\n\nThus, the correct response that mirrors the mother's advice is \"I'm afraid not,\" as it conveys the idea that the child cannot go at present due to age restrictions.\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 11,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "32. The discovery  of gold in Australia  led thousands  to believe  that a fortune        . \nA. is made      B. would  make       C. was to be made      D. had made\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案： C．本题采用排除法． 根据主句的谓语动词 led（lead﹣led）可知\n这里是一般过去时 ，所以从句也应该用过去时 ，排除 A．这里 fortune表示财富 ，\nmake  fortune发财，make与fortune之间构成动宾关系 ，fortune在从句中作主语 ，\n故用被动语态， 排除 B、D．was to be made是过去将来时的被动式， 故选 C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】The sentence describes a past event triggered by the discovery of gold in Australia, which led many people to have expectations about fortune. The correct verb tense to express this expectation about the future based on a past event is the conditional or future in the past. \n\n- Option A, \"is made,\" is in the present simple tense, which does not fit the context of future expectation based on a past event.\n- Option B, \"would make,\" suggests a future action that was expected to happen as a result of the discovery, but it implies an action by the people themselves rather than fortune being created for them.\n- Option C, \"was to be made,\" correctly uses the passive voice with \"was to be\" to indicate a future expectation resulting from the discovery.\n- Option D, \"had made,\" is in the past perfect tense, indicating an action completed before another past action or time, which does not fit the context of ongoing expectations following a discovery.\n\nThe most appropriate choice is C, \"was to be made,\" as it conveys the idea that fortune was expected to be created for those who heard about the gold discovery.\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 12,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "33. We haven ’t discussed  yet      we are going  to place  our new furniture . \nA. that B. which  C. what  D. where\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】答案 D． discuss后面是宾语从句 ，在宾语从句中 we are going  to place  our \nnew furniture是完整的句子 ，根据句意 ，我们还没有商量好把新家具放在 \"where\"\n．故选 D． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】The sentence structure indicates a relative pronoun is needed to connect the dependent clause \"we are going to place our new furniture\" with the main clause \"We haven’t discussed yet.\" The purpose of the relative pronoun is to refer back to the subject \"our new furniture.\" \n\n- \"that\" is used for non-restrictive clauses (clauses that provide additional, but not essential, information).\n- \"which\" is also used for non-restrictive clauses, but more commonly for non-human subjects.\n- \"what\" is used for direct questions embedded as clauses.\n- \"where\" is used for places.\n\nSince the clause describes the furniture (not a place), \"what\" is the appropriate relative pronoun to refer to the furniture.\n\n<eoe>\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 13,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "34. With  Father ’s Day around  the corner , I have  taken  some  money  out of the bank  \n         presents  for my dad. \nA. buy     B. to buy     C. buying        D. to have  bought\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】答案 B．根据句意，我从银行里取钱的 \"目的是 \"为了给父亲买礼物，所\n以用不定式表示目的状语， 而to have  done  表示不定式的动作发生在主句之间 ，\n不符合题意， 故选 B． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】The sentence describes an action that will happen in the future, specifically using the present perfect continuous tense \"have been taking\" to indicate an action started before now and continuing up to the present. The action is to withdraw money \"for presents for my dad.\" \n\nThe verb that correctly fits this context is one that expresses the action of withdrawing or obtaining money, which will be used to purchase gifts. Among the options:\n\n- A. \"buy\" is in the base form and indicates a completed action, not ongoing.\n- B. \"to buy\" is in the infinitive form, suggesting intention but not the action of withdrawing money.\n- C. \"buying\" is in the present continuous form, suggesting an ongoing action, which doesn't fit since the money is withdrawn once.\n- D. \"to have bought\" would imply the purchase has already been made, which is incorrect as the money is being withdrawn now for future purchase.\n\nThe correct verb phrase should describe the act of withdrawing money, which will then be used for buying presents. The most appropriate choice is \"to buy,\" indicating the purpose of the money withdrawal.\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 14,
+            "year": "2010",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "35. --- Was he sorry  for what  he’d done ?   ---          . \nA. No wonder  B. Well  done  C. Not really  D. Go ahead\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】 答案 C．A项\"难怪， …不足为奇 \"；B项\"做得真棒 \"；D项 通常意为  \n\"说吧！做吧！ \"；C项 根据句意 ：上文 \"他为他所做的事道歉了吗 \"下文意思为事\n实上 \"没有 \"，因此要表达否定意义， C项符合语境． Not really，意为 \"不很 \"或者\n表示语气很强的否定，意为 \"真的没有 \"\"的确没有 \"．故选： C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】This question requires selecting the most appropriate response to express regret or lack thereof for an action. The sentence structure is an indirect question, which typically calls for an answer that fits the context of expressing an opinion or reaction. \n\n- \"Was he sorry for what he’d done?\" is asking about his remorse.\n- The blank needs an expression indicating his state of mind regarding his past action.\n\nAmong the options:\n- \"No wonder\" implies understanding or justification for any consequences, not directly an expression of remorse.\n- \"Well done\" is a compliment, not related to expressing regret.\n- \"Not really\" suggests a lack of remorse or indifference.\n- \"Go ahead\" is an encouragement, not pertinent to the context of expressing remorse.\n\nThe most suitable response to indicate a lack of remorse or sincerity in feeling sorry is \"C. Not really.\"\n\n<eoe>\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 15,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "6. --- Is it all right  if I keep  this photo？   --- _______ .  \nA. No, you don’t    B. No, it shouldn ’t    C. I’m afraid  not    D. Don’t keep  it\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】 答案 C. A项\"不，你不要（保存照片） \"；B项\"不，这不应该 \"；D项\"\n不要保存 \"；根据上句句意 \"我可以保存这张照片吗？ \"可知，下句是作出回答，\n四个选项都是否定回答， 但A、B和D三项拒绝地都太生硬，语气不委婉，不\n  符合英语表达的习惯， 因此 C项符合语境， 故选 C.  \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】To determine the correct response in this dialogue, we need to consider the context and politeness of the request. The speaker is asking for permission to keep a photo. The appropriate response should acknowledge the request and either grant or politely refuse it.\n\n- Option A: \"No, you don’t\" is incorrect because it doesn't address the request and is abrupt.\n- Option B: \"No, it shouldn’t\" is a bit formal and could imply that keeping the photo is inappropriate, which isn't necessarily the case here.\n- Option C: \"I’m afraid not\" is polite and acknowledges the request but refuses it, which fits the context.\n- Option D: \"Don’t keep it\" is direct and refuses the request but lacks the politeness of acknowledging the initial question.\n\nGiven the need for a polite refusal, Option C (\"I’m afraid not\") is the most suitable response.\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 16,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "7. Tom  was about  to close  the windows_____his  attention  was caught  by a bird.  \nA. when  B. if C. and D. till\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案 A. be about  to do…when… 正要做 …突然 . when作并列连词，相当\n于and at that time. 根据句意 ：汤姆正要关窗户 \"突然 \"他的注意力被一只鸟吸引了 . \n故选 A.  \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】To determine the correct preposition to fill in the blank, we need to understand the context of the sentence: \"Tom was about to close the windows _____ his attention was caught by a bird.\"\n\nThe sentence describes an action Tom was preparing to do (close the windows) when something else happened (his attention was caught by a bird). We need a preposition that indicates the sequence of events, showing that Tom's action was interrupted.\n\nLet's analyze the options:\n\nA. \"when\" - This preposition indicates \"at the time that.\" It suggests a simultaneous or concurrent action, which doesn't fit here because Tom's closing of the windows was interrupted by the bird.\n\nB. \"if\" - This preposition introduces a condition, implying a hypothetical situation. It does not indicate sequence or interruption.\n\nC. \"and\" - This is a coordinating conjunction, joining two independent clauses. It does not indicate sequence or interruption in this context.\n\nD. \"till\" - This preposition means \"up to the moment that.\" It suggests that the action (closing the windows) would have continued until a certain point, which doesn't fit the interruption described.\n\nThe correct preposition to use in this context is \"when,\" as it indicates the point in time when the interruption occurred. Although \"when\" can sometimes suggest simultaneity, in this case, it correctly marks the interruption of Tom's action by the bird.\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 17,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "8. My mother  opened  the drawer  to _________  the knives  and spoons .  \nA. put away  B. put up C. put on D. put together\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案 A. put away\"放好，收好 \"；put up\"举起，搭建，张贴 \"；put on\"播\n放，上演，增加，穿上 \"；put together\"组合，装配 \". 根据句意 ，to _____  the knives  \nand spoons是目的状语，妈妈打开抽屉是为了 \"收好 \"刀和汤匙 . 故选 A.  \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】The sentence describes the action of the mother opening a drawer to store or organize kitchen utensils, specifically knives and spoons. The verb \"opened\" indicates past action, and we need to find the correct preposition to complete the idea of storing or organizing these items. \n\n- \"put away\" means to store something in its proper place.\n- \"put up\" can mean to store something or to display it, but in a kitchen context, it often implies storing.\n- \"put on\" means to wear or equip something, which doesn't fit the context of knives and spoons.\n- \"put together\" suggests assembling or arranging, which could fit but is less direct than \"put away.\"\n\nGiven the context of organizing kitchen utensils, \"put away\" is the most appropriate choice as it directly implies storing the items in their designated place.\n\n<eoe>\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 18,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "9. Barbara  is easy to recognize  as she’s the only of the women  who ____  evening  \ndress .  \nA. wear  B. wears  C. has worm  D. have  worm\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案： B 此题考查主谓一致和时态， the only one of …. 为先行词时，\n定语从句修饰的是 one，即who代替的是 one，而非后面的复数 women，根据主\n谓一致的原则，定语从句的谓语动词应该用单数， 排除 A/D；根据前句中的 \"is\"\n以及句意 ，可以看出句子表示只是个人穿着方面的一种习惯性动作 ，因此只须一\n般现在时即可， 由此可以排除 C，所以正确答案为 B.  \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】The sentence describes Barbara as easily recognizable because she is the only woman wearing an evening dress. The verb must be in the present tense to indicate a current state. \n\n- \"wear\" is the third-person singular form of the verb \"to wear,\" which is needed here to describe a single woman's action.\n- \"wears\" would be incorrect because it's the third-person plural form, suggesting multiple women.\n- \"has worn\" implies a past action, which does not fit the context of a current state.\n- \"have worn\" is plural and also implies a past action.\n\nGiven these considerations, the correct verb form to use is \"wears.\"\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 19,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "10. --- Have  you finished  the book？ \n  --- No. I’ve read up to _____  the children  discover  the secret  cave.  \nA. which  B. what  C. that D. where\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】答案 D. _____  the children  discover  the secret  cave是介词宾语从句 ，在介\n词宾语从句中不缺少任何成分，结合句意， 用where表示 …地方 . 故选 D.  \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】To determine the correct answer, we need to understand the context of the blank in the sentence. The sentence is a continuation of a conversation where someone is asked if they have finished reading a book. The speaker responds that they have not finished, specifying the part of the story they have read up to. \n\nThe phrase \"up to\" typically requires a relative pronoun to indicate the point in the narrative. The options are:\n\nA. which - This is a demonstrative pronoun used to refer to something specific that has been previously mentioned.\nB. what - This is an interrogative pronoun used to ask about something unknown.\nC. that - This is a relative pronoun used to introduce a defining clause, specifying which particular thing is being referred to.\nD. where - This indicates a location, not a point in a narrative.\n\nGiven the context, \"that\" is the appropriate choice because it introduces a defining clause specifying the exact point in the story (the children discover the secret cave). \n\nTherefore, the correct answer is C. that.\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 20,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "11. Though  ______  to see us, the professor  gave  us a warm  welcome .  \nA. surprise     B. was surprised     C. surprised     D. being  surprised\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】 答案： C 本题考查让步状语从句中的省略 . 过去分词作状语表示分词与\n句子主语为被动关系 . 表示某人感到惊讶应该用 surprised 的形式所以可以排除\nA和D两项 . 当从句中的主语和主句中的主语一致 ，可以省略从句中的主语和 be\n动词，不能单独省略主语， 可排除 B. 所以，本句补全之后应该是： Though  the \n  professor  was surprised  to see us，the professor  gave  us a warm  welcome . 故本题选\n择C.  \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】To determine the correct option for the blank in the sentence \"Though ______ to see us, the professor gave us a warm welcome,\" we need to understand the structure and meaning. The sentence implies that despite the professor not expecting to see the speaker, they still extended a warm welcome. \n\n- Option A: \"surprise\" is a noun here, indicating the feeling of unexpectedness.\n- Option B: \"was surprised\" is a verb phrase indicating a past action, suggesting the professor experienced surprise.\n- Option C: \"surprised\" is an adjective describing the professor's state.\n- Option D: \"being surprised\" is a present participle phrase, indicating a continuous state of surprise.\n\nThe correct choice should fit the context of the sentence, indicating the professor's reaction or state rather than the speaker's action. The phrase should describe the professor's unexpected feeling upon seeing the speaker. \n\nOption B, \"was surprised,\" correctly describes the professor's past reaction to the unexpected sight of the speaker. It fits the structure of expressing a reaction (\"though he was surprised...\") that contrasts with the warm welcome given.\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 21,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "12. Neither  side is prepared  to talk to _____  unless  we can smooth  thing  over between  \nthem .  \nA. others  B. the other  C. another  D. one other\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案 B.  根据句意， neither（两者之中没有一个）可知是 \"两者 \"，故选\nthe other，表示两者中的另外一个 . others泛指其他人； another另一，又一； one \nother无此搭配 . 故选 B.  \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】To determine the correct answer, we need to understand the context and usage of the prepositions \"others,\" \"the other,\" \"another,\" and \"one other\" in English.\n\n- \"Others\" is a general term for more than two people or things, often used without a specific antecedent.\n- \"The other\" refers to one of two alternatives or entities, where both alternatives are known or understood.\n- \"Another\" refers to one more of the same type, often used when the specific entity is not identified or when there is no clear distinction between alternatives.\n- \"One other\" is redundant because \"one\" already implies singularity, so it's not typically used in this context.\n\nIn the sentence \"Neither side is prepared to talk to _____ unless we can smooth things over between them,\" we are looking for a noun phrase indicating a third party distinct from the \"them\" (the two sides). The phrase should refer to a single entity not yet engaged in the conversation.\n\n- \"Others\" would imply multiple parties beyond the two sides, which is not suitable here.\n- \"The other\" would imply a clear distinction between two known parties, which is not indicated in the sentence.\n- \"Another\" suggests one additional party without specifying which of the two sides it refers to, fitting the context of a mediator or intermediary.\n\nTherefore, the most appropriate choice is \"another,\" indicating one more party not currently involved.\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 22,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "13. The island  is ____  attractive  in spring  and autumn  because  of the pleasant  weather  \nin both seasons .  \nA. partly  B. merely  C. nearly  D. equally\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案： D，本题考查副词辨析 . A. partly  部分的， B. merely  只是，仅仅\n，C. nearly  几乎的， D. equally  相等的，同样的 . 根据题干的意思：这个岛屿在\n春天和秋天都同样的（ equally）迷人，因为这两季的惬意的天气 . 所以本题选择\nD.  \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】To determine the correct word to fill in the blank, we need to understand the context of the sentence. The sentence describes the island's attractiveness during spring and autumn. The phrase \"is attractive\" implies a comparison between the island's appeal in these seasons and possibly other seasons. \n\n- \"Partly\" means to some extent or degree, suggesting partial attractiveness.\n- \"Merely\" means only or just, implying a limited or minimal level of attractiveness.\n- \"Nearly\" means almost, indicating that the island is very close to being as attractive as something else, typically in a comparative sense.\n- \"Equally\" means to the same degree, suggesting that the island's attractiveness is the same in both spring and autumn, compared to other seasons.\n\nGiven that the sentence highlights the pleasant weather in both spring and autumn, making them comparable seasons in terms of attractiveness, the word that best fits is \"equally.\" This word conveys that the island's appeal is consistent and on par with each other during these two seasons.\n\nTherefore, the correct answer is D. equally.\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 23,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "14. The doctor  thought  ____  would  be good  for you to have  a holiday . \nA. this B. that C. one D. it\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D. 本题 to have  a holiday是真正的宾语， thought后面缺少一个形\n式宾语， 所以用 it做形式宾语 . 故选 D.  \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】To determine the correct preposition to use in this sentence, we need to understand the context and the intended meaning. The sentence is: \"The doctor thought ____ would be good for you to have a holiday.\"\n\n- \"this\" refers to something previously mentioned or easily identifiable in the conversation.\n- \"that\" is used when referring to something previously mentioned but not easily identifiable.\n- \"one\" is less common in this context and typically used for singular countable nouns when the specific one is not identified.\n- \"it\" is a pronoun that refers to a thing previously mentioned or implied.\n\nIn this sentence, the doctor is suggesting a holiday without specifying a particular reason or type. The most appropriate choice is \"it,\" which refers to the general idea of a holiday being beneficial without specifying a particular reason.\n\nTherefore, the correct answer is D. it.\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 24,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "15. Linda , make  sure the tables  ____  before  the guests  arrive .  \nA. be set B. set C. are set D. are setting\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案： C. make  sure后面加宾语从句 . 根据动词 set与其逻辑主语即句子\n的主语 the tables之间的关系可知， set tables桌子是被摆放的，所以需用被动语\n态，排除选项 B和D；另外根据题干中的 make  sure可知，后面跟陈述语气的宾\n语从句，不接虚拟语气， 所以排除选项 A. 故选 C.  \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】To determine the correct answer, we need to understand the context and the verb tense used in the sentence. The sentence is giving a directive to Linda: \"make sure the tables ____ before the guests arrive.\" This implies an action that should be completed before a future event (the arrival of guests).\n\n- Option A: \"be set\" is in the passive voice, indicating that the tables will naturally be in a set condition. This doesn't convey the sense of action required by the directive.\n- Option B: \"set\" is in the infinitive form, suggesting a command or instruction. This fits well with the directive nature of the sentence.\n- Option C: \"are set\" implies a present continuous action, suggesting that the tables are currently being set, which doesn't align with the need for completion before the guests arrive.\n- Option D: \"are setting\" also implies a present continuous action, indicating that the tables are in the process of being set, which again doesn't fit the requirement for completion before the guests arrive.\n\nGiven the directive nature of the sentence and the need for the action to be completed before the guests arrive, the correct choice is Option B: \"set.\"\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 25,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "16. I refuse  to accept  the blame  for something  _____  was someone  else’s fault.  \nA. who  B. that C. as D. what\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案： B 本句中含有定语从句， what不可以引导定语从句， 所以排除\nD. 从句中缺少主语，所以应该用关系代词，当先行词是事物时，定语从句的关\n系代词可用 that 或which，可以排除 who. 但本句中先行词是不定代词 something\n，所以只能用关系代词 that. as作为关系代词时 ，先行词前面应有 such或so、the \nsame修饰，或代替一句话，不符本题题干 . 故选择 B.  \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】To determine the correct preposition to fill in the blank, we need to understand the context of the sentence: \"I refuse to accept the blame for something _____ was someone else's fault.\" \n\nThe sentence expresses a refusal to take responsibility for something that was another person's fault. We need to choose a preposition that logically connects \"something\" to the idea of fault belonging to someone else.\n\n- Option A: \"who\" would imply a person, not an action or thing.\n- Option B: \"that\" is a relative pronoun used to refer to a specific noun, which fits the context of describing something related to someone else.\n- Option C: \"as\" suggests a comparison or relation, not indicating fault.\n- Option D: \"what\" is a wh-pronoun, but it doesn't clearly indicate the fault belongs to someone else.\n\nThe most appropriate choice is \"that,\" as it correctly links \"something\" to the description of being someone else's fault.\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 26,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "17. I’m afraid  Mr. Harding  ____  see you now, he’s busy .  \nA. can’t B. mustn ’t C. shouldn ’t D. needn ’t\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案 A. can't \"不能，不可能 \"；mustn 't \"禁止，不允许 \"；shouldn 't \"不应\n该\"；needn 't \"不需要，没必要 \". 根据句意，他在忙，说明他现在 \"不能 \"见你 . 故\n选A.  \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】To determine the correct answer, we need to understand the context and the nuance of each option in relation to expressing inability or prohibition.\n\n- \"Can't\" indicates inability or incapacity. It suggests that Mr. Harding is unable to see the person due to some constraint (being busy in this case).\n\n- \"Mustn't\" implies a prohibition or something one is not allowed to do. It suggests that there is a rule or instruction against seeing Mr. Harding.\n\n- \"Shouldn't\" indicates a recommendation or suggestion against doing something. It implies that it would be advisable not to see Mr. Harding, perhaps due to etiquette or common sense.\n\n- \"Needn't\" suggests that there is no necessity or requirement to do something. It implies that seeing Mr. Harding is not necessary or obligatory.\n\nGiven the context, \"can't\" is the most appropriate choice because it directly expresses that Mr. Harding is unable to see the person due to his current busy schedule.\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 27,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "18. --- Can I help you? Are you looking  for anything  in particular  today ? \n--- _____ , we’re just looking .  \nA. Yes, pleas e    B. No, thank  you    C. Yes, you can    D. No, you needn ’t\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案 B. A项\"好的，请吧 \"；C项\"是的，你可以的 \"；D项\"不，你没有\n必要 \"；B项\"不，谢谢 \"；由语境可知，对方显然是提供帮助，如果接受帮助则\n说\"Yes，please . \"如果不接受帮助要说 \"No，thank  you. \"，根据句意 \"我们只不过\n是看看 \"可知，这里是不需要帮助，礼貌地拒绝， 因此 B项符合语境， 故选 B.  \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】The sentence structure indicates a response to an offer of assistance. The speaker is declining the offer and stating that they are merely browsing without a specific item in mind. \n\n- \"Can I help you?\" is a question asking if assistance is needed.\n- \"Are you looking for anything in particular today?\" further clarifies if there's a specific item the person is interested in.\n\nThe appropriate response should acknowledge the question and indicate that no help is required because the person is simply browsing. \n\n- Option A, \"Yes, please,\" would accept help, which is incorrect as the intent is to decline.\n- Option B, \"No, thank you,\" politely declines help.\n- Option C, \"Yes, you can,\" misinterprets the question and incorrectly implies agreement to being helped.\n- Option D, \"No, you needn’t,\" is grammatically incorrect and does not fit the context naturally.\n\nThe correct response is \"No, thank you,\" which appropriately declines the offer of assistance while acknowledging the question.\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 28,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "19. Excuse  me, I      I was blocking  your way. \nA. didn’t realize     B. don’t realize     C. haven ’t realized     D. wasn ’t realizing\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案： A. \"Excuse  me\"说明我现在已经意识到了（ realize）我正挡着你的\n路，所以没有意识到 \"not realize\"这个动作应该发生在过去 ，明显是刚刚发生的动\n作，故didn't realize符合语境， 所以选 A.  \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】To determine the correct answer, we need to understand the context and the appropriate tense to use in this situation. The speaker is apologizing for potentially obstructing someone's path. The phrase \"Excuse me, I\" indicates an apology or acknowledgment of an action. \n\n- \"didn’t realize\" is in the simple past tense, indicating a completed action in the past.\n- \"don’t realize\" is in the present simple tense, indicating a general truth or habitual action in the present.\n- \"haven’t realized\" is in the present perfect tense, indicating an action that started in the past and continues to the present.\n- \"wasn’t realizing\" is in the past continuous tense, indicating an ongoing action in the past that was interrupted.\n\nGiven that the speaker is acknowledging a past action of blocking someone's way, the most appropriate tense is the past continuous (\"wasn’t realizing\"), as it suggests an action that was happening in the past and is now completed.\n\nTherefore, the correct answer is D. wasn’t realizing.\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 29,
+            "year": "2010",
+            "category": "（新课标Ⅱ）",
+            "score": 1,
+            "question": "20. Mr. Black  is very happy  because  the clothes  made  in his factory  have  never  been  \n      .  \nA. popular     B. more  popular     C. most  popular     D. the most  popular\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】答案：B，选项中 A为原级， C和D项表示最高级，根据题干可知，衣\n服从来没有比现在受欢迎过，也就是说现在是最受欢迎的，在英语句型中，\nnever/not 加形容词比较级 =形容词最高级，所以本题选择比较级， B选项 .  \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】The sentence structure indicates a comparison using the comparative form or superlative form to describe the popularity of clothes from Mr. Black's factory. The phrase \"never been\" suggests an absolute lack of comparison to anything else, implying the highest level of popularity. \n\n- \"popular\" (A) is a base form, indicating general popularity but not the highest degree.\n- \"more popular\" (B) suggests a comparison to another set of clothes, indicating greater popularity than something else but not the absolute highest.\n- \"most popular\" (C) indicates the highest degree of popularity compared to all others, without an explicit comparison to another specific set.\n- \"the most popular\" (D) is similar to \"most popular\" but includes \"the,\" which emphasizes an absolute, unmatched level of popularity, making it the strongest choice.\n\nGiven the context of \"never been,\" the most fitting choice is \"the most popular,\" as it conveys an unparalleled level of popularity, suggesting no other clothes compare.\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 30,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "6. --- Did you forget  about  my birthday ? \n---         I’ve booked  a table  at Michel ’s restaurant  for this evening . \nA. What  then?    B. I’m afraid  so.    C. How could  I?    D. For sure.\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案：C．本题考查交际用语 ．How  could  I？表示 \"我怎么会呢？ \"．What  \nthen？\"那便会怎么样呢？ \"，I'm afraid  so．\"恐怕是这样． \"，For sure．\"肯定；确\n定．\"根据 \"I've booked  a table  at Michel's  restaurant  for this evening．\"可知，答话人\n并没有忘记对方的生日， 因此选择 C． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】The given dialogue is a conversation where one person (the speaker) is expressing surprise or disbelief that the other person might have forgotten their birthday. The speaker then reveals they have made plans for the evening, specifically booking a table at Michel's restaurant. The appropriate response in this context would be one that acknowledges the speaker's plans without directly addressing the forgotten birthday, as the focus shifts to the arranged activity. \n\n- Option A: \"What then?\" is a question seeking further information about the speaker's plans, which fits the context.\n- Option B: \"I'm afraid so\" implies admitting to forgetting the birthday, which does not align with the speaker's shift in topic.\n- Option C: \"How could I?\" is a defensive response suggesting remembrance, which doesn't address the speaker's announcement.\n- Option D: \"For sure\" is an affirmation but lacks relevance to the shift in topic from a potential forgotten birthday to restaurant reservations.\n\nGiven the context, the most suitable response acknowledging the speaker's plans without directly engaging with the forgotten birthday speculation is Option A: \"What then?\" <eoe>\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 31,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "7. Ted came  for the weekend  wearing  only some  shorts  and a T-shirt,        is a \nstupid  thing  to do in such weather . \n  A. this B. that C. what  D. which\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】答案： D．分析句子结构可知，本句为非限定性的定语从句；由于关系\n词指代的是前一句话的内容，在该从句中作主语； 由于 A与C不是关系词； C．\n  不能用于非限定性的语从句中； 故选 D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】The sentence describes Ted's attire and the inappropriateness of it given the weather. We need to identify the relative pronoun that refers back to \"shorts and a T-shirt.\" \n\n- \"this\" refers to something nearby in space or time.\n- \"that\" refers to something specific that has been mentioned.\n- \"what\" is a wh-pronoun used for asking questions, not for relative clauses in this context.\n- \"which\" introduces a non-restrictive relative clause, providing additional information about a noun.\n\nIn this case, Ted's attire is being described as a detail about his coming for the weekend, so \"which\" is appropriate for introducing a non-restrictive clause that gives extra information about his clothing.\n\nTherefore, the correct relative pronoun to use is \"which.\"\n\n<eoe>\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 32,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "8. If you_______smoke , please  go outside . \nA. can B. should  C. must  D. may\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】 答案： C．本题考查情态动词的用法． can 能，会； may 可以，可能；\nmust  必须，非要； might  可以，可能， 是may的过去式形式．根据句意可知，\n这里表示的是如果你非得要吸烟这个意思， 故选 C． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】To determine the correct word to fill in the blank, we need to understand the context and the nuance of each option:\n\n- \"Can\" implies ability or permission. It suggests that if you are able to, you should go outside to smoke.\n- \"Should\" implies a recommendation or advice. It suggests that it is advisable to go outside to smoke.\n- \"Must\" implies a strong obligation or requirement. It suggests that it is necessary to go outside to smoke.\n- \"May\" implies permission or a possibility. It suggests that you are allowed to go outside to smoke, but it's not necessarily mandatory.\n\nIn this context, the sentence is a polite request to smokers to move outside. The intention is to advise or recommend that smoking should be done away from non-smoking areas. The most appropriate choice is \"should,\" as it conveys a recommendation without being overly prescriptive.\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 33,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "9. If you don’t like the drink  you ________ , just leave  it and try a different  one. \nA. ordered  B. are ordering  C. will order  D. had ordered\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案是 A．考查动词时态， 分析题干可知 you drink  是定语从句，先行\n词是 drink，饮料是在喝之前点的 ，发生在过去 ，所以要用过去时 ，故答案是 A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】To determine the correct answer, we need to understand the context of the sentence. The sentence is giving advice about trying a different drink if one doesn't like the current one. The action described is not ongoing or completed, but rather a hypothetical or general advice. \n\n- \"Ordered\" (A) implies a past action, which doesn't fit the context as it suggests the drink has already been acquired.\n- \"Are ordering\" (B) implies a present continuous action, which also doesn't fit because it suggests the act of ordering is ongoing.\n- \"Will order\" (C) implies a future action, suggesting that one would order a different drink in the future, which is not the intended meaning.\n- \"Had ordered\" (D) implies a past action that is completed, which also doesn't fit as it suggests the drink was already acquired and disliked.\n\nThe correct choice should reflect a general, non-specific action that one could take at any time if they don't like the drink. The appropriate verb form for this advice is the simple present, indicating a general action one might take. \n\nThus, the correct answer is \"just leave it,\" implying one can choose to not consume the drink they don't like and instead opt for something else. The verb that fits this context is \"ordered,\" but in a way that suggests a past action one could take if they had ordered the drink, i.e., \"if you don't like the drink you ordered, just leave it.\" \n\nTherefore, the correct answer is:\n【答案】A <eoa>"
+        },
+        {
+            "index": 34,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "10. Mary , I       John  of his promise  to help you. \nA. told B. reminded  C. warned  D. advised\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】答案：B．A．tell告诉，常用 tell sb to do；B．remind  提醒，用法为 remind  \nsb of sth或remind  sb to do；C．warn  警告，提醒； 也有 warn  sb of sth的用法，\n但它侧重 \"警告 \"的意思； D．advise建议，用法： advise  sb to do；所以结合句意\n答案应该选 B． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】To determine the correct word to fill in the blank, we need to understand the context of the sentence: \"Mary, I [blank] John of his promise to help you.\" \n\nThe sentence implies that someone (presumably Mary) is communicating to another person (John) about a previous commitment or promise John made to help someone (likely the person Mary is addressing). \n\nLet's analyze each option:\n\nA. \"told\" - This means to communicate something by speaking. It fits the context as Mary could be informing John about the promise he made.\n\nB. \"reminded\" - This means to call something to someone's attention again, especially to help them remember. It also fits the context as Mary might be reminding John of his commitment.\n\nC. \"warned\" - This means to give advance notice to prepare for possible danger or difficulty. It doesn't fit well here as there's no indication of danger or difficulty associated with keeping the promise.\n\nD. \"advised\" - This means to give counsel or recommendation. While it could fit in some contexts, it doesn't directly relate to reminding John of his promise in this sentence.\n\nGiven the context, both \"told\" and \"reminded\" are plausible options. However, \"reminded\" more directly addresses the act of bringing to John's attention something he should remember (his promise).\n\nTherefore, the best fit for the blank is \"reminded.\"\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 35,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "11. I got this bicycle  for ______ . My friend  gave  it to me when  she bought  a new one. \nA. everything  B. something  C. anything  D. nothing\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案：D．A．everything\" 一切，所有事物 \"； B．something\" 某事某物 \"\n，表示不确指； C．anything\" 任何东西 \"；D．nothing  表示什么都没有．根据句\n意，我朋友买了新的自行车，把原来的自行车给了我，所以 \"I got this bicycle  for \n______．\"应该是我没花钱，白得了一辆自行车． 故选 D． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】To determine the correct answer for the blank in the sentence \"I got this bicycle for ______. My friend gave it to me when she bought a new one.\", we need to identify the appropriate pronoun or noun that fits the context. The sentence describes a situation where a friend gave a bicycle to the speaker. \n\n- \"everything\" (A) would imply the bicycle was received as a gift for all possessions, which doesn't fit the context.\n- \"something\" (B) suggests a general, unspecified item, which aligns with receiving a bicycle as a gift.\n- \"anything\" (C) implies a willingness to accept anything, which doesn't fit the context of receiving a specific bicycle.\n- \"nothing\" (D) would mean the bicycle was given in exchange for something, contradicting the statement that the friend gave it.\n\nThe most suitable choice is \"something,\" as it indicates the bicycle was a gift without implying it was given for all possessions or in exchange for nothing.\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 36,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "12. It is one thing  to enjoy  listening  to good  music , but it is       another  to play it \nwell yourself . \nA. quite  B. very C. rather  D. much\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案 A．考查副词辨析．句意为 \"欣赏好的音乐是一回事，但是亲自把\n它演奏好完全是另一回事 ．\"表示 \"很，非常 \"时，very用来修饰形容词 、副词，much\n用来修饰形容词或副词的比较级 ．quite和rather都可修饰名词 ，但rather多用于\n贬义． another指的是 another  thing，这个名词受 quite的修饰．  \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】To determine the correct word to fill in the blank, we need to understand the nuance of the sentence. The sentence contrasts enjoying listening to good music with playing it well oneself. We are looking for a word that indicates a difference in degree or quality between the two actions.\n\n- \"Quite\" means \"to a great extent or degree.\"\n- \"Very\" means \"extremely\" or \"to a high degree.\"\n- \"Rather\" means \"to a somewhat greater extent or degree.\"\n- \"Much\" means \"to a large extent or degree.\"\n\nThe sentence structure implies a comparison, suggesting a subtle distinction. \"Quite\" and \"very\" imply a high degree of enjoyment or skill, which doesn't quite capture the contrast intended here. \"Rather\" implies a moderate degree of skill compared to enjoying listening, which fits the context of playing well being more challenging than just enjoying. \"Much\" implies a significant degree, similar to \"very,\" which doesn't highlight the contrast as effectively as \"rather.\"\n\nGiven the context, \"rather\" best conveys the idea that while enjoying music is pleasurable, playing it well is a different, more demanding endeavor.\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 37,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "13. Jane won’t join us for dinner  tonight  and        . \nA. neither  won’t Tom    B. Tom  won’t either    C. Tom  will too   D. so will Tom\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案是 B．本题考查否定结构；根据语境 \"Jane今晚不和我们一起吃晚\n饭，Tom也不会．\"，排除 C和D；因为 too 和so用在肯定句中表示 \"也\"；neither\n表示 \"也不 \"，不需要再与否定词连用， 故排除 A；either表示 \"也\"，常常出现在\n否定句中， 故选 B． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】This question requires understanding the use of \"neither...nor\" and \"either...or\" in English. \"Neither...nor\" is used to connect two negative clauses, while \"either...or\" connects two positive or negative options, implying a choice. Here, the sentence structure suggests a negative continuation after \"and,\" indicating the use of \"neither...nor.\" \n\n- \"neither...nor\" connects two equally important negative elements.\n- \"so will Tom\" implies a positive continuation, which doesn't fit the negative structure started by \"won't.\"\n- \"Tom won't either\" correctly maintains the negative parallelism.\n\nThus, the correct choice to follow \"Jane won’t join us for dinner tonight\" while preserving the negative context is \"neither will Tom.\"\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 38,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "14. This shop  will be closed  for repairs        further  notice . \nA. with B. until C. for D. at\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案 B．with 和，跟；随着；关于；  和…一致； for为了，由于； at （\n表示位置）在；  在（某时间或时刻）；  until 到…为止；  在…以前．结合句意\n\"直到另行通知为止 \"可知 until符合句意， 故选 B项．  \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】The phrase \"will be closed for repairs\" indicates a duration or period during which the shop will be shut. The preposition that best fits this context is \"until,\" which signifies a point in time when something continues or is expected to last. Here, the closure is expected to last until a specified notice is given, though no specific date is mentioned. \n\n- \"With\" implies accompaniment or association, not duration.\n- \"Until\" correctly indicates the closure will persist till further notice.\n- \"For\" could be used in some contexts but doesn't convey the idea of a period ending at a notice.\n- \"At\" suggests a point in time, not a duration.\n\nGiven these considerations, the correct preposition to use here is \"until.\"\n\n<eoe>\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 39,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "15. The island ,          to the mainland  by a bridge , is easy to go to. \nA. joining     B. to join    C. joined     D. having  joined\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案：C．此处在句中作后置定语， 修饰名词 The island；由于动词 join\n与该名词构成被动关系，表示已经完成的动作， 故用过去分词形式 ；A．现在分\n词作定语时， 与其修饰词构成主谓关系 ；B．动词不定式作后置定语，表示将要\n完成的动作， 并且与其修饰词之间不能用逗号隔开 ；D．现在分词的完成式通常\n  表示伴随的状况，不能做后置定语； 故选 C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】The sentence describes the island's connection to the mainland using a bridge, implying a completed action in the past with present relevance. \n\n- \"The island is connected...\" suggests a past action with ongoing effects.\n- \"to the mainland by a bridge\" specifies the means of connection.\n- We need a verb in the past participle form to indicate a completed action with resulting consequences now.\n\nAmong the options:\n- A. \"joining\" implies an ongoing action.\n- B. \"to join\" is in the infinitive form, indicating a purpose or intention rather than a completed action.\n- C. \"joined\" is the past participle, indicating a completed action with ongoing effects, fitting the context.\n- D. \"having joined\" suggests a completed action with past relevance but emphasizes the state resulting from the action rather than ease of access.\n\nThe correct choice conveys a completed action that established the current ease of access. Thus, the appropriate verb form is \"joined.\"\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 40,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "16. As he reached         front  door, Jack saw         strange  sight . \nA. the; 不填  B. a; the C. 不填 ; a D. the; a\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案： D．本题第一个空后面的名词 door有front修饰，所以要用 the\n表示 \"特指 \"，sight此处指 \"景色，景观 \"，是可数名词， 前面用不定冠词 a表示 \"\n泛指 \"． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】To determine the correct answer, we need to analyze the usage of articles (\"the,\" \"a/an\") in English. \n\n1. **\"the\"** is used for specific or previously mentioned nouns.\n2. **\"a/an\"** is used for non-specific or first-mentioned nouns.\n\nIn the sentence \"As he reached the front door, Jack saw a strange sight,\" we need to decide whether \"front door\" is specific or non-specific.\n\n- \"the front door\" implies that Jack is referring to a particular front door, one that is known or has been mentioned before. This suggests a specific door, so \"the\" is appropriate.\n- \"a strange sight\" implies that Jack is seeing something unusual or unexpected, which doesn't need to be specified further. \"A\" is used here because it's a non-specific, first-mentioned noun.\n\nGiven this analysis, the correct choice is:\n\nA. the; 不填 (the; a)\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 41,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "17. Mr. Stevenson  is great  to work  for --- I really  couldn ’t ask for a_______  boss. \nA. better  B. good  C. best D. still better\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案： A．考查比较级的否定用法． 否定词 couldn't与better连用，表\n示\"非常好 \"，相当于最高级． still better不能用于否定句中．  \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】The sentence structure is: \"Mr. Stevenson is great to work for --- I really couldn’t ask for a_______ boss.\" \n\nHere, \"great\" is describing Mr. Stevenson as an employer, and the blank requires a comparative adjective to describe the ideal boss. The phrase \"I really couldn’t ask for a ____ boss\" implies a high level of satisfaction, suggesting the best possible boss. \n\n- \"Better\" implies some improvement over an existing boss but doesn't convey the highest praise.\n- \"Good\" is a positive descriptor but is less extreme than \"best.\"\n- \"Best\" indicates the highest level of approval and fits the context of expressing utmost satisfaction.\n- \"Still better\" implies a comparison to something even more excellent, which isn't necessary here as \"best\" already conveys the highest praise.\n\nGiven the context of expressing the highest admiration and satisfaction, the most appropriate choice is \"best.\"\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 42,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "18. Sarah  pretended  to be cheerful , ______nothing  about  the argument . \nA. says B. said C. to say D. saying\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案： D．此处在句中作伴随状语， 由于动词 say与其逻辑主语 Sarah\n  构成主谓关系， 故此处应使用现在分词形式 ；A．动词的第三人称单数形式 ；B．\n动词的一般过去时； A．与B．在句中只能作谓语； C．动词不定式，不能作伴\n随状语； 故选 D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】To determine the correct answer, we need to understand the context and the verb tense used in the sentence. The sentence describes Sarah pretending to be cheerful, implying an action that is ongoing or habitual, which suggests the present participle form. \n\n- \"says\" (A) is the simple present tense, indicating a habitual action, but it doesn't fit the structure of the sentence.\n- \"said\" (B) is the simple past tense, indicating a completed action, which does not match the ongoing pretense.\n- \"to say\" (C) is an infinitive phrase, indicating intention but not an action directly related to Sarah's pretense.\n- \"saying\" (D) is the present participle form, indicating an ongoing action, which aligns with Sarah's pretense of being cheerful.\n\nGiven that Sarah is currently pretending to be cheerful, the action is ongoing, making \"saying\" the appropriate choice.\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 43,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "19. It was a nice meal ,         a little expensive . \nA. though  B. whether  C. as D. since\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案： A．though，虽然，尽管；  即使；纵然．根据句意 \"这顿饭很可\n口\"与后面 \"有点贵 \"，判断可知之间为让步关系 ，故though符合句意 ． 其余选项\n：B whether，是否；不管；无论； C as，像，像 …一样；  由于；  同时，当 …时\n；D since，自从 …以来；  自从 …的时候起；  既然；  因为；均不符合句意．故\n选A项．  \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】To determine the correct preposition to fill in the blank, we need to understand the context of the sentence: \"It was a nice meal, ______ a little expensive.\" The sentence expresses that despite the meal being nice, it was also somewhat costly. We need a preposition that indicates a contrast or concession.\n\n- \"though\" is used to introduce a concession, indicating that something is surprising or unexpected given another fact. Here, it fits well because it suggests that the meal was nice, but its cost was unexpectedly high.\n\n- \"whether\" implies a choice or uncertainty, which doesn't fit the context of the sentence.\n\n- \"as\" suggests a comparison, but it doesn't indicate a contrast or concession.\n\n- \"since\" implies a reason or cause, which also doesn't fit the context of contrasting the niceness of the meal with its cost.\n\nGiven this analysis, \"though\" is the appropriate choice to express a concession.\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 44,
+            "year": "2011",
+            "category": "（全国卷ii）",
+            "score": 1,
+            "question": "20. --- So you gave  her your phone ? \n--- ______ , she said she’d return  it to me when  she could  afford  her own. \nA. My pleasure  B. Not exactly  C. No doubt  D. All right\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案： B．分析各个选项 A．My pleasure不用谢， B．Not exactly  不确\n切， C．No wonder难怪， D．All right好的，结合语境可知 B符合题意．  \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】The sentence structure indicates a response to an action (giving someone a phone). The speaker is acknowledging or agreeing to the condition set by the listener (returning the phone when she can afford her own). The most appropriate response in this context would be one that conveys agreement or understanding of the condition. \n\n- Option A, \"My pleasure,\" suggests a willingness to help but doesn't directly address the condition of returning the phone.\n- Option B, \"Not exactly,\" implies a degree of disagreement or hesitation, which doesn't fit the scenario of simply agreeing to the condition.\n- Option C, \"No doubt,\" expresses certainty or agreement but doesn't explicitly acknowledge the condition.\n- Option D, \"All right,\" is a general affirmation or agreement, suitable for acknowledging the condition stated.\n\nGiven the context, \"All right\" (D) is the most fitting response as it affirms the understanding and agreement to the condition without adding unnecessary details or implying disagreement.\n\n<eoe>\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 45,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "21. — We could  invite  John  and Barbara  to the Friday  night  party.  \n— Yes, _______?  I’ll give them  a call right  now.  \nA. why not     B. What  for      C. why       D. what\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案 A．B项\"为何？ \"；C项\"为什么 \"；D项\"什么 \"；A项\"为什么不呢？\n\"；\"why  not\"表示同意对方的意见 ．分析语境可知 ，\"why  not\"完整表达为 \"why  not \ninvite  them  tothe  Friday  night．\"．根据句意 \"为什么不呢？我们现在就给他们打电\n话\"可知，同意对方的建议（ 邀请 John和Barbara来参加周五晚上的聚会），因\n此A项符合语境， 故选 A． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】The sentence structure indicates a response affirming the suggestion to invite John and Barbara. The phrase following \"Yes\" should express agreement or readiness to act upon the proposal. \n\n- \"why not\" implies a question seeking reasons against the suggestion, which doesn't fit the affirmative response.\n- \"What for\" suggests asking the purpose, again not aligning with an affirmative agreement.\n- \"Why\" could be used in a question format, but it's less common in this context for direct affirmation.\n- \"What\" followed by \"for\" is idiomatic in English to ask about the reason or purpose of an action, fitting the context of agreeing to take action (calling John and Barbara).\n\nGiven the context, the most appropriate response to affirm and proceed with the action of calling John and Barbara is \"What for?\" although it's slightly unusual as direct affirmations typically don't use \"for.\" Among the options, \"What for\" (B) best conveys the speaker's readiness to execute the plan suggested, even if it's phrased in a way that subtly seeks confirmation of necessity before acting.\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 46,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "22. Try _______  she might,  Sue couldn’t  get the door open.  \nA. if         B. when          C. since        D. as\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案： D．根据句意可知，前后之间是让步关系， as作\"虽然 \"之意时，\n从句需要倒装 ，将表语、状语或者动词位于句首 ，后接 as，再加上其他内容 ．所\n以本题选择 D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】This question requires identifying the correct subordinating conjunction to fill in the blank, which indicates a reason or cause. The sentence structure suggests a reason why Sue couldn't open the door despite her efforts. \n\n- \"if\" introduces a condition that is hypothetical.\n- \"when\" indicates time, not cause or reason.\n- \"since\" implies a point in time from which something has been happening, not a reason for failure.\n- \"as\" can indicate resemblance or comparison, but not a reason for Sue's inability to open the door.\n\nThe correct conjunction to express that Sue tried but failed is \"although\" or \"despite,\" but since these options aren't provided, the closest fit in terms of indicating a reason for her failure is \"as.\"\n\nThus, the best choice among the given options is D. as, indicating that despite her efforts, she couldn't open the door.\n\n<eoe>\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 47,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "23. Planning  so far ahead  _______no  sense  --- so many  things  will have  changed  by \nnext year.  \nA. made         B. is making      C. makes         D. has made\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案： C．该句中没有明显的时间状语，根据句意，该句所表达的是一\n般的道理，所以用一般现在时态．故选： C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】To determine the correct answer, we need to understand the context and the verb tense used in the sentence. The sentence expresses a general idea about planning too far ahead, implying that such planning is futile because circumstances will likely change. \n\nThe phrase \"so far ahead\" suggests a time frame extending well into the future, possibly beyond the present moment. The action of planning is what we need to identify with the correct verb form.\n\n- \"Made\" (A) is the past participle, indicating a completed action in the past.\n- \"Is making\" (B) is the present continuous tense, indicating an ongoing action in the present.\n- \"Makes\" (C) is the present simple tense, indicating a general or habitual action in the present.\n- \"Has made\" (D) is the present perfect tense, indicating an action completed at some point before now, with relevance to the present.\n\nGiven the context, the sentence implies a general truth or observation about planning, not a specific action happening right now or in the past. The present simple tense (\"makes\") best captures this general truth.\n\nTherefore, the correct verb to use is \"makes,\" as it expresses a general rule or habitual action applicable to any time.\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 48,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "24. I wasn’t  sure if he was really  interested  or if he _______polite.  \nA. was just being      B. will just be     C. had just been       D. would  just be\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案：A．A项是过去进行时 ；B项是一般将来时 ；C项是过去完成时 ；\nD项是过去将来时 ．因为前一分句是一般过去式 ，后一分句也应该是过去的相应\n时态，由句意知 ，是当时正在做 ，而不是将要做或发生在当时的动作之前 ，所以\n用过去进行时 ，排除 B、D两项．C项主要是 \"过去的过去 \"，与句意不符 ．故选\nA． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】To determine the correct answer, we need to identify the appropriate verb tense and form to fit the context of the sentence. The sentence is: \"I wasn’t sure if he was really interested or if he _______ polite.\" \n\nThe phrase \"wasn’t sure\" indicates a past situation, so we are looking for a verb form that also reflects past action or state. \n\n- Option A: \"was just being\" is in the simple past continuous tense, indicating an ongoing action in the past.\n- Option B: \"will just be\" is in the future simple tense, indicating an action that will happen in the future.\n- Option C: \"had just been\" is in the past perfect continuous tense, indicating an ongoing action completed just before another past time.\n- Option D: \"would just be\" is in the conditional perfect tense, indicating a hypothetical or unlikely action in the past.\n\nGiven the context, we need a form that describes his behavior in the past, suggesting either a continuous action or a completed action just before the present consideration. \n\nOption A (\"was just being\") fits well because it describes his behavior as ongoing in the past, implying he was acting politely at that time. The other options do not fit the past context as clearly.\n\nTherefore, the correct answer is A.\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 49,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "25. — Someone  wants  you on the phone.    — _______nobody  knows  I am here.  \nA. Although         B. And        C. But        D. So\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】 答案： C A项\"虽然，尽管 \"，引导让步状语从句； B项\"和，并且 \"，并\n列连词，连接并列句， 表示顺承关系 ；C\"但是 \"，转折连词， 表示转折 ；D\"因此\n\"，因果连词 ，表示原因 ．因为此句是简单句 ，所以排除 A项．通过 \"nobody  knows  \nI am here\"可知，此处是转折． 排除 B、D两项．故选 C项．  \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】This question requires choosing the most appropriate word to complete the sentence, maintaining a logical connection between the two halves. The first part of the sentence indicates an incoming call notification. The second part should negate or contrast with this, implying the speaker's current hidden presence. \n\n- \"Although\" suggests a condition despite which something else happens, not directly contrasting with the initial statement about someone wanting the person on the phone.\n- \"And\" would simply add information without contrast.\n- \"But\" introduces a contrast, indicating a direct opposition to the idea that someone wants the person on the phone.\n- \"So\" implies a result or consequence, not a direct contrast but rather an outcome.\n\nGiven the need for contrast, \"But\" is the most suitable choice as it directly negates the idea presented in the first part of the sentence.\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 50,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "26. I can _______the  house  being  untidy,  but I hate it if it’s not clean.  \nA. come  up with      B. put up with     C. turn to      D. stick  to\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】答案：B．come  up with\"提出，想出 \"；put up with\"忍受，容忍 \"；turn to\"\n转向；求助于 \"；stick  to\"坚持；粘住 \"．根据题干中转折连词 but可知，前一句的\n意思应与后一句的 hate\"讨厌 \"之意相反 ，即\"不讨厌 \"，所以 put up with\"忍受，容\n忍\"之意与语境相符． 故选 B． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】This question requires identifying the most suitable phrase to fill in the blank, understanding the context of the sentence, and choosing the option that best conveys the speaker's tolerance or preference regarding the house's condition. \n\n- \"come up with\" means to invent or devise something. It doesn't fit the context of tolerating an untidy house.\n- \"put up with\" means to endure or tolerate something unpleasant. This fits the context as it implies the speaker tolerates the house being untidy.\n- \"turn to\" suggests seeking help or turning towards something for support, which doesn't relate to the house's cleanliness.\n- \"stick to\" means to adhere to or maintain a particular course of action or principle, which also doesn't fit the context of tolerating untidiness.\n\nGiven the context, \"put up with\" is the most appropriate choice as it expresses the speaker's ability to tolerate the house being untidy, though they dislike it.\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 51,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "27. The next thing  he saw was smoke  _______from  behind  the house.  \nA. rose         B. rising          C. to rise      D. risen\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】答案：B．本题考察非谓语动词的用法， 先分析句子的主干为 ：The next \nthing  was smoke．risng与所修饰的名词 smoke之间的关系是主动的关系， 故用\nrising  from  behind  the house  做后置定语． 故选 B． \n  【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】To determine the correct answer, we need to understand the context and the verb tense used in the sentence. The sentence describes something that happened in the past, specifically what the subject \"he\" saw next. The action is ongoing at the moment of observation, implying a continuous action in the past. \n\n- \"Rose\" is the simple past tense, indicating a completed action.\n- \"Rising\" is the present participle form, suggesting a continuous action in progress at the moment of observation.\n- \"To rise\" is the infinitive form, not suitable for describing an action happening at the moment of observation.\n- \"Risen\" is the passive past participle, indicating a completed action with a passive voice, which does not fit the context of an ongoing action at the moment of observation.\n\nGiven that the smoke was observed as being in the process of emerging at the time of observation, the correct choice must reflect a continuous action in the past. Therefore, the appropriate verb form is \"rising.\"\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 52,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "28. Only  when  he reached  the tea-house  _______it  was the same  place  he’d been  in \nlast year.  \nA. he realized     B. he did realize     C. realized  he   D. did he realize\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案： D．本题考查倒装句式． 本句中 only位于句首，强调时间状语 ，\n主句需要部分倒装 ，根据句意 ，主句应该用一般过去时态 ，所以借助于助动词 did\n，将did和主语颠倒． 故本题选择 D． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】The sentence structure requires a form of the verb \"realize\" that fits grammatically and contextually. The phrase \"Only when he reached the tea-house\" indicates a condition, suggesting a form of the verb that expresses a realization upon reaching the location. \n\n- Option A: \"he realized\" is in the simple past tense, which could work if the realization occurred at a specific past time.\n- Option B: \"he did realize\" uses the past perfect (\"did realize\"), which implies the realization happened before another past action, not directly relevant here.\n- Option C: \"realized he\" places \"realized\" as a verb without a subject, which is incorrect.\n- Option D: \"did he realize\" is in the interrogative form, asking a question, not expressing a realization.\n\nGiven the context, the correct form is one that directly expresses the realization upon reaching the tea-house, which is best captured by the simple past tense \"he realized.\"\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 53,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "29. When  Alice  came  to, she did not know  how long she _______there.  \nA. had been  lying     B. has been  lying     C. was lying     D. has lain\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案： A．A项是过去完成进行时； B项是现在完成进行时； C项是过\n去进行时； D项是现在完成时． Alice醒过来是过去的动作，她躺在那儿应该是\n在醒过来之前，并且醒过来时还在那躺着．过去完成进行时表示 \"发生在过去之\n前的动作一直持续到当时，并且再继续下去 \"．由句子的时间状语可知，应该用\n过去完成进行时． 故选 A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】To determine the correct answer, we need to analyze the context and the verb tense used in the sentence. The sentence is in the past tense, and it describes a situation that occurred before the present moment. The subject \"Alice\" is singular and refers to a specific time in the past when she regained consciousness.\n\n- Option A: \"had been lying\" is in the past perfect tense, indicating an action that was ongoing before another past action. This fits the context because it suggests Alice was unconscious for some duration before waking up.\n\n- Option B: \"has been lying\" is in the present perfect tense, which implies an action that started in the past and continues up to the present. This does not fit the context, as it suggests Alice is still lying down at the present moment, which is not indicated.\n\n- Option C: \"was lying\" is in the simple past tense, indicating a completed action in the past. While this could describe the state when she woke up, it doesn't convey the duration of being unconscious.\n\n- Option D: \"has lain\" is in the present perfect tense, similar to Option B, suggesting an action that began in the past and continues to the present. This is incorrect because it implies Alice is still lying down now.\n\nGiven the context, the most appropriate choice is Option A, \"had been lying,\" as it correctly conveys that Alice was unconscious for an unspecified period before regaining consciousness.\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 54,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "30. The form  cannot  be signed  by anyone  _______yourself.  \nA. rather  than      B. other  than       C. more  than     D. better  than\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】答案：B．A项\"而不是 \"；B\"除了 \"；C\"多于，不仅仅 \"；D\"好于 \"．由cannot  \nbe signed  by anyone可知，只能由你本人签字 ．所以是 \"除了 \"你自己．故选 B项． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】To determine the correct preposition to fill in the blank, we need to understand the intended meaning of the sentence. The sentence is stating that the form cannot be signed by anyone except the individual in question. \n\n- \"Rather than\" implies a preference or choice between two options, which doesn't fit here.\n- \"Other than\" means excluding someone or something, which aligns with the requirement of the sentence.\n- \"More than\" suggests a greater quantity or degree, which is irrelevant to the context.\n- \"Better than\" implies a comparison of quality, which is also irrelevant.\n\nGiven the context, \"other than\" is the appropriate preposition to indicate exclusion.\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 55,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "31. The prize  will go to the writer  _______story  shows  the most  imagination.  \nA. that         B. which         C. whose        D. what\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案 C．通过分析句子成分可知 ，这是一个定语从句 ，先行词是 the writer\n，关系词在从句中充当 story的定语， 所以本题应该选择 C． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】To determine the correct preposition to use in this sentence, we need to understand the role of each option in relation to the noun \"story.\"\n\n- \"that\" is used for restrictive clauses, defining which specific story is being referred to.\n- \"which\" is also used for restrictive clauses, similar to \"that,\" but more formal.\n- \"whose\" is used for possessive cases, indicating ownership, and would not fit here as it implies the story belongs to someone.\n- \"what\" is used for non-restrictive clauses or to introduce a question, not suitable for defining the story in this context.\n\nGiven that we are looking for a restrictive clause to specify which story wins the prize, \"that\" or \"which\" would be appropriate. \"That\" is more commonly used in informal contexts, while \"which\" is more formal. \n\nIn this case, since no specific formality is indicated, \"that\" is the more straightforward and commonly accepted choice for a restrictive clause in this context.\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 56,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "32. They  _______have  arrived  at lunchtime  but their flight  was delayed.  \nA. will          B. can        C. must         D. should\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】答案： D．根据 but后\"their  flight  was delayed\"可知是过去时态， 故排除\nA；can have  done表示对过去或已经发生的事情的推测，通常用于否定和疑问句\n中，故排除 B；must  have  done表示过去一定做过某事，对过去情况的推测，不\n符合题意；should  have  done表示本应该做某事而没有做 ．根据 \"but their flight  was \ndelayed\"这样的结果可以推断出他们本应该到达却没有到达， 故选 D． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】To determine the correct answer, we need to understand the context of the sentence: \"They will have arrived at lunchtime, but their flight was delayed.\" \n\nThe sentence describes a future condition (\"will have arrived\") that is contingent upon a past event (the flight not being delayed). The use of \"will have\" indicates a future perfect tense, which implies an action completed at some point in the future. \n\nHere's the breakdown:\n\n- \"will have\" typically expresses a future action that will be completed by a certain time in the future.\n- \"arrived\" is the base form of the verb, indicating a simple past action.\n- \"at lunchtime\" specifies the time frame for the arrival.\n\nGiven this context, the sentence suggests a planned or expected arrival by lunchtime, which is now in doubt due to the flight delay. The correct modal verb to express this conditional expectation is \"must,\" indicating obligation or necessity based on prior plans.\n\n- \"will\" suggests a voluntary or planned action.\n- \"can\" indicates ability or possibility.\n- \"must\" denotes obligation or necessity.\n- \"should\" suggests advice or recommendation.\n\nSince the sentence describes a planned arrival that is now uncertain due to a delay, \"must\" is the appropriate modal verb to convey the necessity of arriving by lunchtime according to the original schedule.\n\nTherefore, the correct answer is C. must.\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 57,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "33. It is generally  accepted  that _______boy  must  learn  to stand  up and fight  like \n_______man.  \nA. a; a        B. a; the        C. the; the       D. a; 不填\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案： A．boy和man都是可数名词，并且泛指一类人，所以前面都加\n不定冠词 a．故选 A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】This question requires understanding the appropriate use of articles (a/an, the) in English. Articles are used to specify whether a noun is particular (the) or non-specific/uncountable (a/an). \n\n- \"a\" is used for non-specific singular countable nouns or when the noun is unique among many.\n- \"the\" is used for specific singular countable nouns or when referring to something previously mentioned.\n\nIn the sentence \"It is generally accepted that _______ boy must learn to stand up and fight like _______ man,\" we are referring to a general, non-specific boy and a general, non-specific man. Since neither the boy nor the man is specifically identified, we use \"a\" for both.\n\nThus, the correct choice is:\nA. a; a\n\n<eoe>\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 58,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "34. William  found  it increasingly  difficult  to read,  for his eyesight  was beginning  to \n_______.  \nA. disappear        B. fall        C. fail        D. damage\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案 C．A选项 \"消失 \"；B选项 \"落下；跌倒；陷入 \"；D选项 \"破坏 \"；C\n选项 \"失败，不及格，（指健康）衰退；变弱；消失 \"；根据句意 \"他的视力开始\n衰退 \"可知 C项符合语境， 故选 C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】The sentence describes William's struggle with reading due to his eyesight deteriorating. We need to identify the word that best fits the blank to indicate a decline or deterioration in condition. \n\n- \"disappear\" (A) implies something ceasing to exist, which doesn't fit the context of eyesight deterioration.\n- \"fall\" (B) suggests a drop or descent, which could metaphorically apply but is less direct than options C and D.\n- \"fail\" (C) means to stop functioning or to be unsuccessful, which aligns well with the idea of eyesight becoming insufficient for reading.\n- \"damage\" (D) implies harm or injury, which also fits the context of eyesight deterioration.\n\nBetween \"fail\" and \"damage,\" \"fail\" more precisely captures the loss of the ability to read clearly, without implying a specific cause like injury.\n\nThus, the correct word to fill in the blank is \"fail.\"\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 59,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "35. — Artistic  people  can be very difficult  sometimes.  \n— Well,  you married  one. _______.  \nA. You name  it          B. I’ve got it  \nC. I can’t  agree  more        D. You should  know\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D．A项常用于口语中 \"凡你想得起的，凡是你说的出的，不管什\n么；你说了算 \"；B项\"我懂了，明白了 \"；C项\"我完全同意 \"；D项\"你应该知道 \"\n； \n由上句的句意 \"艺人有时也很难相处 \"可知，这里陈述了一个情况，下句的句意 \"\n  你嫁（娶）的就是艺人，你应该知道 \"艺人有时可能难相处 \"这个情况 \"，是对上\n句的一个承接． 因此 D项符合语境， 故选 D． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】The sentence structure indicates a response that acknowledges or agrees with the statement about artistic people being difficult. The phrase \"— You married one\" implies the speaker is acknowledging that the listener has an artistic spouse. The most fitting response in this context is one that shows agreement or understanding of the situation. \n\n- Option A, \"You name it,\" is an invitation for the other person to specify something, which doesn't align with the need to agree or acknowledge.\n- Option B, \"I’ve got it,\" suggests possession or understanding of a problem, which is not directly relevant to agreeing with the difficulty of artistic people.\n- Option C, \"I can’t agree more,\" directly expresses agreement with the statement about artistic people being difficult, fitting the context perfectly.\n- Option D, \"You should know,\" while it could imply understanding, lacks the explicit agreement that option C provides.\n\nGiven the context, option C best fits as it explicitly agrees with the preceding statement.\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 60,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "21. — Which  one of these  do you want?     —        . Either  will do. \nA. I don’t mind       B. I’m sure       C. No problem        D. Go ahead\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案 A．B项\"我肯定 \"；C项\"没问题 \"；D项\"1．表示同意对方的请求 ，\n根据情况可译为：说吧，做吧，开始吧，进行吧． 2．表示请对方继续说、继续\n做等，通常可译为：继续 …吧． 3．表示请对方先走或先做某事，其意为：你先\n走一步，你先请 \"．A项\"我不介意 \"；根据句意 \"（两个）随便哪一个都行 \"可知，\n并不介意． 因此 A项符合语境， 故选 A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】The question presents a dialogue scenario where someone is offering a choice, and the respondent is indicating that either option is acceptable. The phrase \"Either will do\" implies a response that accepts the presented options. \n\n- Option A, \"I don’t mind,\" suggests indifference or lack of preference, which fits the context.\n- Option B, \"I’m sure,\" is more about expressing confidence rather than accepting the options.\n- Option C, \"No problem,\" typically indicates that there won't be an issue with the choice made, not that either option is fine.\n- Option D, \"Go ahead,\" is more of an encouragement to proceed with a choice rather than an acceptance of either option.\n\nGiven the context, the most appropriate response indicating acceptance of either option is \"I don’t mind.\"\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 61,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "22. Sarah  looked  at         finished  painting  with         satisfaction.  \nA. 不填 ; a          B. a; the          C. the; 不填         D. the; a\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】 答案 C．第一空特指 \"已经画完的画 \"；第二空考查介词短语 with \n  satisfaction 意为：满意地，作状语． 此处 satisfaction 为抽象名词，在此短语中不\n用冠词． 选C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】To determine the correct answer, we need to consider the context and grammatical rules for definite and indefinite articles (\"a\" and \"the\") in English.\n\n1. **\"Sarah looked at\"**: This phrase indicates an action of looking, which typically requires a direct object.\n\n2. **\"finished painting\"**: This is the direct object of the verb \"looked at.\" It refers to a specific painting that Sarah has completed.\n\n3. **Article usage**:\n   - **\"The\"** is used for specific, identifiable nouns that have been mentioned or are known to the speaker and listener.\n   - **\"A\"** is used for non-specific, non-identifiable nouns.\n\n4. **Analysis of options**:\n   - **A. Not filled; a**: This suggests an unspecified painting. However, since the painting is described as \"finished,\" it implies a specific painting.\n   - **B. a; the**: This implies a non-specific painting followed by a specific one, which is grammatically incorrect.\n   - **C. the; not filled**: This suggests a specific painting followed by an unspecified one, which is also incorrect.\n   - **D. the; a**: This suggests a specific painting followed by another specific one, which is incorrect as well.\n\n5. **Correct choice**: Since the painting is described as \"finished,\" it indicates a specific painting that Sarah has completed. Therefore, \"the\" is appropriate to refer to this specific painting. There is no need for \"a\" after \"the\" because \"finished painting\" already specifies the painting.\n\nThus, the correct answer is:\n\n【答案】C. the; 不填 <eoa>"
+        },
+        {
+            "index": 62,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "23. “Life is like walking  in the snow ”, Granny  used to say, “because  every  step  \n       . \nA. has shown         B. is showing         C. shows           D. showed\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案 C．这题是直接引用了过去奶奶常常说的一句话 ，句子的内容是生\n活哲理．所以用一般现在时． 故答案选 C． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】The sentence structure implies a proverbial or metaphorical statement by Granny, comparing life to walking in the snow. The action of walking in the snow is ongoing or habitual, which suggests the use of the present tense. The phrase \"every step\" refers to each individual action of walking, indicating that we should consider the verb's action per step. \n\n- \"has shown\" (A) uses the present perfect tense, implying that each step has some completed action related to revelation or demonstration, which doesn't fit the continuous nature of walking.\n- \"is showing\" (B) uses the present continuous tense, suggesting that each step is currently revealing or demonstrating something, which aligns with the ongoing action of walking.\n- \"shows\" (C) is the simple present tense, indicating a general truth or characteristic of walking in snow, which could fit but lacks the dynamic, step-by-step progression implied.\n- \"showed\" (D) is the past tense, implying that each step once revealed something but does not reflect the continuous action of walking.\n\nGiven that we want to emphasize the continuous revelation or demonstration inherent in each step as one walks through snow, the present continuous tense (\"is showing\") best captures this ongoing process.\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 63,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "24. It is by no means  clear          the president  can do to end the strike.  \nA. how             B. which             C. that            D. what\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D．题干中 by no means表示 \"绝不 \"相当于一个否定词．所以题干\n就可以简化为句型 \"it+be（not）+adj.+引导词 +从句 \"，即it 为形式主语的主语从\n句．简化从句 ，去掉目的状语 to end the strike后，可以很清楚地看出从句中谓语\n动词 do后缺少宾语 ，即所要填的引导词充当宾语成分 ．在主语从句中 how充当\n方式状语 ，that不充当成分 ，A和C都可直接排除 ．which和what虽然都可以充\n当宾语，但它们的区别就在于 ，which表示有范围的选择 \"哪一个 \"，而what没有\n范围表示 \"什么 \"．根据句意 ，该题没有可供选择的范围 ，故排除 B，所以选择 D\n． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】This question requires identifying the correct preposition to fill in the blank, which in this case is used to introduce a clause describing manner, cause, or condition. The clause following \"by no means clear\" describes what is unclear, i.e., what the president can do. The appropriate preposition for this purpose is \"how,\" indicating a manner or method. \n\n- \"A. how\" indicates a manner or way, fitting the context of the sentence.\n- \"B. which\" introduces a defining relative clause, typically used for specifying a noun.\n- \"C. that\" introduces a defining clause, often used for stating a fact or condition.\n- \"D. what\" introduces a non-defining clause or can be used for asking about identity, not suitable here.\n\nGiven the sentence structure, \"how\" is the correct preposition to indicate the unspecified method or action the president might take to end the strike.\n\n<eoe>\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 64,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "25. I don’t believe  we’ve met before,          I must  say you do look familiar.  \nA. therefore          B. although           C. since            D. unless\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案 B．A项\"因此 \"；B项\"尽管，虽然 \"；C项\"既然，自从 \"；D项\"除\n非\"．因为主句的 \"don ’t believe\"与从句的 \"do look familiar\"意思相反 ，前后意思转\n折，所以用表转折的连词， 故选 B项．  \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】This question requires identifying the most appropriate subordinating conjunction to express a cause-and-effect relationship, indicating that the speaker's lack of belief in having met before leads to the observation that the other person looks familiar. \n\n- \"therefore\" implies a conclusion or result, fitting here as it suggests the speaker's disbelief leads to the observation.\n- \"although\" indicates a contrast, which doesn't fit as it implies a situation where two opposing ideas are presented.\n- \"since\" suggests a reason starting from a known point in time, not ideal for expressing a conclusion based on disbelief.\n- \"unless\" implies a condition that must be met for something to happen, which is not the intended meaning.\n\nThe correct conjunction to use here is \"therefore,\" as it shows the speaker's disbelief (premise) leading to the statement about familiarity (conclusion).\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 65,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "26. The result  is not very important  to us, but if we do win, then so much         .  \nA. the best          B. best              C. better           D. the better\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D．So much  the better常常和 if条件句连用，意为 \"如果 …那就更\n好了 \"，其反义短语为 so much  the worse，意思是那就更糟糕了． 故选 D． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】To determine the correct word to fill in the blank, we need to consider the context and the intended meaning of the sentence. The sentence is: \"The result is not very important to us, but if we do win, then so much ...\" \n\nThe phrase \"so much\" implies an exaggerated or emphatic statement following a conditional (\"if we do win\"). We are looking for a comparative form that suggests a significant improvement or advantage. \n\n- A. \"the best\" is incorrect because it's a definite article with a superlative, which doesn't fit the context of a conditional exaggeration.\n- B. \"best\" is the superlative form without an article, which is grammatically incorrect in this context.\n- C. \"better\" is the comparative form without an article, which fits the context of an exaggerated improvement.\n- D. \"the better\" includes a definite article, which is unnecessary and makes the comparison less emphatic.\n\nThe comparative form \"better\" is appropriate here to suggest a significant positive outcome if the condition (winning) is met.\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 66,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "27. Mary  is really  good  at taking  notes  in class.  She can         almost  every  word  \nher teacher  says.  \nA. put out           B. put down          C. put away         D. put together\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】答案 B．A项表示 \"扑灭，生产，出版 \"；C项表示 \"把…收起，放好，储\n  存\"；D项表示 \"把…放在一起，组合 \"；B项表示 \"写下，记下，放下，镇压 \"；根\n据句意， B项与题意相符． 故答案选 B． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】The phrase \"almost every word her teacher says\" indicates that Mary is able to quickly and accurately record what the teacher is saying without losing or misplacing her notes. The correct preposition to use here is \"put down,\" which means to write or record something. \n\n- \"Put out\" means to extinguish a fire or to make something available for use, which doesn't fit the context.\n- \"Put away\" means to store something in its proper place, which also doesn't fit the context of actively recording information.\n- \"Put together\" means to compile or assemble something, which is closer but implies more of a synthesis or organization rather than direct transcription.\n\nTherefore, the correct choice is B. put down.\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 67,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "28. The party  will be held in the garden,  weather         . \nA. permitting         B. to permit           C. permitted         D. permit\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案 A．属于独立主格结构 ．因为句子的主语是 the party，而permit的\n逻辑主语是 weather，构成独立主格结构 ．permit与weather之间是主动关系 ，故\n用现在分词作状语． 所以选 A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】To determine the correct word to fill in the blank, we need to understand the context of the sentence: \"The party will be held in the garden, weather _________.\" \n\nThe sentence implies a condition for holding the party in the garden, suggesting that the weather must allow or be suitable for the event. \n\nLet's analyze the options:\n\nA. permitting - This form suggests allowing or making possible, which fits the context of the sentence. It implies that the party will be held if the weather permits.\n\nB. to permit - This is the infinitive form, indicating the act of permitting, which doesn't fit the context as it describes an action rather than a condition.\n\nC. permitted - This is the passive form, indicating that something has been allowed, which doesn't fit the context as it describes a state rather than a condition.\n\nD. permit - This is the noun form, referring to the act or right to allow, which doesn't fit the context as it describes an abstract concept rather than a condition.\n\nThe most appropriate choice is A. permitting, as it correctly expresses the condition that the weather must allow the party to proceed in the garden.\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 68,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "29. This restaurant  wasn ’t         that other  restaurant  we went  to. \nA. half as good  as   B. as half good  as    C. as good  as half    D. good  as half as\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案 A．倍数表达法：倍数  as 形容词 /副词原级  as；本题的 half就是\n倍数，故A正确  \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】The sentence structure requires a comparison between \"This restaurant\" and \"that other restaurant we went to.\" The phrase needed should indicate how the former compares in quality to the latter. \n\n- Option A: \"half as good as\" correctly indicates that \"This restaurant\" is not as good as \"that other restaurant\" to half the extent.\n- Option B: \"as half good as\" is grammatically incorrect as it suggests \"that other restaurant\" is only half as good, which is not the intended meaning.\n- Option C: \"as good as half\" is also incorrect because it implies \"This restaurant\" is as good as half of what \"that other restaurant\" offers, which is not the intended comparison.\n- Option D: \"good as half as\" is ungrammatical and does not convey the intended comparison.\n\nThe correct comparison phrase that fits the structure and meaning is \"half as good as.\"\n\n<eoe>\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 69,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "30. I         use a clock  to wake  me up because  at six o’clock  each morning  the \n  train comes  by my house.        \nA. couldn ’t         B. mustn ’t          C. shouldn ’t        D. needn ’t\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D．选项 A couldn ’t \"不可能 \"；选项 B mustn ’t \"禁止 \"；选项 C \nshouldn ’t \"不应该 \"；选项 D needn ’t \"不必，没必要 \"．结合句子的意思 \"我没有必\n要使用闹钟 \"，D项符合语境， 故选 D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】The sentence describes a situation where the speaker uses a clock to wake up at a specific time due to a train passing by their house. The correct modal verb to express this necessity is one that indicates a requirement or obligation based on the given circumstances. \n\n- \"Couldn't\" expresses inability.\n- \"Mustn't\" expresses prohibition.\n- \"Shouldn't\" expresses a recommendation or suggestion.\n- \"Needn't\" expresses lack of necessity, but in this context, it implies the absence of a need because of the clock's use.\n\nGiven the context, the speaker is setting up a reason for using a clock (to ensure they wake up on time due to the train), which implies a necessity driven by external circumstances (the train). The most fitting modal verb here is one that indicates a necessary action, which is \"needn't\" when negated, suggesting the clock is used because there's no other choice to guarantee waking up. However, the standard interpretation for ensuring action due to external factors often defaults to \"must\" when negated for necessity, which isn't an option. Among the given choices, \"needn't\" (when understood in the context of necessity through negation) best fits as it implies the clock is used because it's required to meet the train's schedule.\n\nThus, the correct answer is D. needn't, understood as implying necessity through the absence of alternative means to ensure punctuality.\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 70,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "31. Larry  asks Bill and Peter  to go on a picnic  with him, but         of them  wants  \nto, because  they have  work  to do. \nA. either            B. any          C. neither          D. none\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】 答案 C．None指三个或者三个以上中一个也没有； any一些； either两\n者中的一个 ；neither指两者都不． 根据句意说明 Bill和Peter这两个人都不想去 ，\n表示两者都不． 故C正确．  \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】The sentence describes a situation where neither Bill nor Peter wants to go on a picnic with Larry because they both have work to do. The blank requires a word that indicates no one among the two (Bill and Peter) is willing to join. \n\n- \"either\" implies a choice between two options, which doesn't fit here as it doesn't convey the idea of neither.\n- \"any\" suggests the presence of something, not absence of willingness.\n- \"neither\" correctly indicates that neither of the two (Bill nor Peter) is willing.\n- \"none\" is grammatically correct but less commonly used in this context compared to \"neither.\"\n\nGiven the context, \"neither\" is the most appropriate choice to express that neither Bill nor Peter is willing to go on the picnic.\n\n<eoe>\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 71,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "32. Film  has a much  shorter  history,  especially  when          such art forms  as \nmusic  and painting.  \nA. having  compared  to    B. comparing  to     C. compare  to     D. compared  to\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】答案： D．此句是一个省略句．当从句的主语和主句的主语一致，而且\n从句又有 it is时，常常省略 it is．补充完整为： when  it is compared  to such … 因\n此应该用过去分词，是被动语态． 故D项正确．  \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】To determine the correct preposition to use in this sentence, we need to understand the intended meaning and structure. The sentence is comparing the history of film to that of art forms like music and painting. \n\n- \"A. having compared to\" is incorrect because it implies film has been engaged in the act of comparing, which doesn't fit the context.\n- \"B. comparing to\" is a verb form and doesn't fit as it's not parallel with the other options that are prepositions.\n- \"C. compare to\" is a verb form without a preposition, making it grammatically incorrect in this context.\n- \"D. compared to\" is the correct prepositional phrase to indicate the comparison between film's history and other art forms.\n\nThus, the correct choice is D. compared to.\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 72,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "33. I had been  working  on math  for the whole  afternoon  and the numbers           \nbefore  my eyes.  \nA. swim            B. swum          C. swam          D. had swum\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案 C．在整个题目中， and 连接两个并列句，前面的句子使用的是过\n去完成时表示过去一直在学习数学 ，由语境可知 ，空白处表示的是发生在过去的\n一个动作，应该用一般过去时， 故选 C． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】The sentence describes an action that started in the past and continues up to the present, or at least up to another time in the past. This indicates the use of the present perfect continuous tense, which is formed with \"has/have been\" + present participle (verb-ing). \n\nThe action mentioned is \"working,\" so we need the present participle form, which is \"working\" for the third person singular (he, she, it). \n\nThe sentence also refers to the state of having numbers \"before my eyes,\" which suggests a continuous state resulting from the action of working on math.\n\nGiven these considerations, the correct form to use is \"had been working,\" which indicates the ongoing action in the past. \n\nNow, we need to choose the correct form for the verb \"to swim,\" which is not part of the main action but rather a description of a state or condition. Since it's describing a state that could be seen as a result of mental exertion (like daydreaming or being lost in thought), we should use the present perfect tense to indicate a past action with a relevant connection to the present.\n\nThe correct form for \"swim\" in this context is \"swum,\" which is the past participle, used here because it's part of a relative clause describing a state that might be inferred from the intense mental activity.\n\nSo, the correct answer is B. swum.\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 73,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "34. You have  to move  out of the way         the truck  cannot  get past you. \nA. so              B. or           C. and             D. but\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案： B．你得（从这条路上）走开，后面表示 \"结果 \"﹣﹣这辆车无法\n从你身边经过 ，可知后面为结果状语从句 ，排除 C，D．而根据句意 ，前后有转\n折关系，表示 \"要不然，否则 \"．故选 B． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】The sentence requires a conjunction to indicate the reason or condition for moving out of the way. The truck's inability to pass is the reason for the action of moving. \n\n- \"so\" implies a result, suggesting that moving is the consequence of the truck's inability to pass.\n- \"or\" would introduce an alternative, which is not applicable here.\n- \"and\" would imply simultaneous actions, which doesn't fit the cause-effect structure.\n- \"but\" introduces a contrast, which is also not suitable as there's no contrasting element in the sentence.\n\nGiven the context, \"so\" best fits as it shows the direct result of the truck's inability to pass.\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 74,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 1,
+            "question": "35. If she doesn ’t want  to go, nothing  you can say will         her. \nA. persuade         B. promise          C. invite            D. support\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案： A．A项\"说服 \"；B\"许诺 \"；C\"邀请 \"；D\"支持 \"．因为 \"she doesn't  \nwant  to go\"，所以 \"persuade\" 是没有用的． 故选 A项．  \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】The sentence structure indicates that we are looking for a word that describes an action preventing someone from going, despite attempts to change their mind. \n\n- \"If she doesn’t want to go\" sets up the condition that she is not inclined to participate.\n- \"nothing you can say will\" implies an attempt at persuasion or influence.\n- The blank requires a word that negates the effectiveness of any words spoken, meaning her mind is firmly set against going.\n\nAmong the options:\n- A. persuade: This implies an attempt to convince or change someone's mind, which contradicts the sentence's meaning.\n- B. promise: This means to offer something in exchange for action, not to stop her from going.\n- C. invite: This suggests extending an offer to participate, which is also against the intended meaning.\n- D. support: This means to back or encourage someone's decision, which aligns with the idea that her decision is unchangeable by any words.\n\nThe correct word is D. support, as it indicates that no amount of encouragement or backing will alter her decision not to go.\n\n<eoe>\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 75,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "21. --- I’m sorry  I made  a mistake!     ---      . Nobody  is perfect.  \nA. Take  your time B. You’re right   C.Whatever  you say    D. Take  it easy\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】答案 D．A项\"不着急 \"；B项\"你是对的 \"；C项\"你说了算，你说什么都\n行\"；D项\"放松点，别紧张 \"；根据句意 \"﹣﹣很抱歉，我犯了错 \"可知，说话者是\n在劝告对方保持平静 ，别紧张．因此 D项符合语境 ，其它选项均不符合 ，故选 D\n． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】The sentence structure indicates a response to an apology, where the first part (\"I’m sorry I made a mistake!\") is an apology, and the second part should be a comforting or understanding response. \n\n- Option A, \"Take your time,\" suggests patience but doesn't directly relate to the mistake.\n- Option B, \"You’re right,\" acknowledges the speaker's admission of a mistake but doesn't offer comfort or understanding.\n- Option C, \"Whatever you say,\" implies indifference or dismissal, which is not an appropriate response to an apology.\n- Option D, \"Take it easy,\" offers a reassuring and comforting response, acknowledging that everyone makes mistakes and encouraging relaxation or ease of mind.\n\nGiven the context, \"Take it easy\" (Option D) is the most suitable response, as it aligns with the theme of accepting human fallibility and offering consolation.\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 76,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "22. Would  you like to      with us to the film tonight?  \nA. come  along   B. come  off  C. come  across   D. come  through\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案： A．考查动词短语辨析． A项意为 \"一起来，进展，前进 \"；B项\n  意为 \"离开，成功，（从某物上 ）脱落，掉落 \"；C项意为 \"偶遇 \"；D项意为 \"到达，\n穿过，传来，恢复（健康 ）\"．根据题干中 \"with  us to the film tonight\"可知，此处指\n\"一起去看电影 \"，故选 A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】To determine the correct preposition for the blank in the sentence \"Would you like to ____ with us to the film tonight?\", we need to understand the intended meaning. The phrase \"with us to\" suggests accompaniment or joining someone for an activity. \n\n- A. \"come along\" means to join or accompany someone. This fits the context of joining us for the film.\n- B. \"come off\" means to happen or occur, not related to joining someone.\n- C. \"come across\" means to meet or find someone by chance, not fitting the context of a planned activity.\n- D. \"come through\" typically means to succeed or arrive safely, not related to joining someone for an activity.\n\nGiven the context of the question, which is about joining us for a film, the appropriate preposition is \"come along\".\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 77,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "23. I was glad to meet  Jenny  again,          I didn’t want  to spend  all day with her. \nA. but         B. and       C.so          D.or\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案： A 考查并列连词． and\"和\"，表并列和递进； but\"但是 \"，表转折 ；\nor\"或者 \"，表选择； so\"因此 \"，表因果．句意 \"非常高兴能再次见到 Jenny，但是\n我不想和她呆一整天． \"根据句意可知，前后表示转折的含义， 故选 A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】This question requires the identification of a conjunction that appropriately connects two independent clauses, indicating a contrast in the speaker's feelings. \n\n- \"but\" indicates a contrast, showing that despite one feeling (glad to meet Jenny), there's an opposing sentiment (not wanting to spend all day with her).\n- \"and\" suggests both actions are happening together, which doesn't fit the context.\n- \"so\" implies a result, suggesting gladness leads to a specific action (not spending all day), but it doesn't convey the contrast as strongly as \"but\".\n- \"or\" presents an alternative, which is not indicated in the sentence.\n\nGiven the contrast needed between the speaker's pleasure at seeing Jenny and their lack of desire to prolong the encounter, the correct conjunction is \"but\".\n\n<eoe>\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 78,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "24. When  I arrived,  Bryan  took me to see the house           I would  be staying.  \nA. what    B. when        C. where    D. which\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】 答案： C 考查定语从句． what不能引导定语从句，所以排除；定语从\n句中主语是 I，谓语动词 stay为不及物动词 ，故不缺宾语 ，所以排除 D，而应该\n用关系副词 ；先行词为 house，指地点范畴 ，所以排除 when，而用关系副词 where\n． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】The sentence describes the speaker being shown a house upon arrival. The preposition \"to\" indicates that the object of the preposition (the house) is being introduced or identified. The correct relative pronoun to use in this context is one that introduces a clause describing the house. \n\n- \"what\" is used for non-specific references or when referring to an entire situation or thing.\n- \"when\" indicates time, not place or identification.\n- \"where\" indicates place, but in this context, it's not introducing a place but rather identifying the specific house.\n- \"which\" is used to refer back to a previously mentioned specific noun, making it the most appropriate choice here to identify the house that was shown.\n\nTherefore, the correct relative pronoun to use is \"which.\"\n\n<eoe>\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 79,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "25. I got to the office  earlier  that day,        the 7:30 train from  Paddington . \nA. caughl      B. to have  caught      C. to catch       D. having  caught\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案： D 本题采用排除法．注意句中的时态， I got to明显是过去式，\n说明已经发生了， 那么也一定已经乘上了 7:30的那班车．所以能更早地到达办\n公室，用现在分词的完成式表示原因 ．非谓语动词在此处做原因状语 ，主语 I和\ncatch之间为主动的关系，且非谓语动词的动作发生在谓动词的动作之前，符合\n这两点用法的为 having  done，caught  表示被动关系； to have  done  表示将来的完\n成，通常不用作状语， 此结构常用于 sb/sth+be  said/reported/thought+to  do/to  be \ndoing/to  have  done  这种结构． to catch动词不定式表将来，不符合题意．所以本\n题选择 D． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】The sentence describes an action that happened in the past. The subject \"I\" is talking about something they did earlier in the day, specifically catching a train from Paddington. The correct verb form to indicate a past action that happened before another past action is in the past simple tense. \n\n- \"caught\" is the base form of the verb, which would be incorrect for past simple in this context as it doesn't connect properly with \"earlier.\"\n- \"caughl\" is misspelled and not a standard English word.\n- \"to have caught\" implies a more complete action or a habitual action, which doesn't fit the context of a single past event.\n- \"to catch\" is in the infinitive form, indicating a general intent or future action, not a past one.\n\nThe correct choice is \"to have caught,\" which indicates a past action completed before another past action (arriving at the office earlier). Although it uses \"to have\" (a construction often associated with perfect tenses), here it's used to express a simple past action with aspectual nuance (completed action with relevance to another past action).\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 80,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "26. Since  nobody  gave  him any help,  he         have  done  the research  on his own.  \nA. can       B. must        C. would          D. need\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案 B．can have  done  sth可能已经做了某事； must  have  done  sth一定\n已经做了某事； would  have  done表示与过去事实相反； need  have  done  本来需要\n做某事． 根据句意 ：由于没有人给他任何帮助，他 \"肯定 \"独立完成研究．  故选 B\n． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】This question requires understanding the use of modal verbs in conditional and hypothetical situations. The sentence describes a hypothetical scenario where no one helped him, implying a condition. The correct modal verb to express a hypothetical action under such a condition is \"would.\" \n\n- \"Can\" expresses ability or possibility in general.\n- \"Must\" expresses obligation or necessity.\n- \"Would\" expresses a hypothetical action or a condition contrary to fact.\n- \"Need\" suggests requirement or necessity, often implying an external obligation.\n\nGiven the condition \"since nobody gave him any help,\" the action \"have done the research on his own\" is presented as something he would do if the condition were true, making \"would\" the appropriate choice.\n\n<eoe>\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 81,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "27. We        very early  so we packed  the night  before.  \nA. leave        B. had left       C. were  leaving         D. have  left\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案：C，题干的意思是 ：\"我们很早 ________ ，因此我们前一晚上就把\n东西打包了 ．\"根据句中的 packed可知此处应用过去的时态 ，所以排除 A、D两\n项．根据常识及句意可知， pack  要发生在 leave  之前，所以排除 B项， had left\n表示动作发生在 \"过去的过去 \"．故选 C项，leave的过去进行时态表示过去将来 ． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】The sentence describes an action that happened before another action in the past. The correct tense to express this is the past perfect tense, which indicates an action completed before another past action. \n\n- \"leave\" (A) is the simple present tense, indicating a general habit or future plan, not relevant here.\n- \"had left\" (B) is the past perfect tense, indicating the action was completed before another past action.\n- \"were leaving\" (C) is the conditional tense, suggesting hypothetical or ongoing action at a specific time, not appropriate for a completed action in the past.\n- \"have left\" (D) is the present perfect tense, indicating an action completed at an unspecified time up to now, not relevant as it refers to a past action completed before another past action.\n\nThe correct choice to express that the packing was done before leaving early is \"had left,\" which shows the packing was completed prior to the time of leaving.\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 82,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "28. The watch  was very good,  and he         20 percent  down  for it. \nA. paid          B. cost          C. bought            D. spent\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案： A. A. sb.+ pay some  money  for sth. \"某人花钱买某物 \"；B. cost 的\n主语通常指物 ：sth. + cost sb. some  money  \"某物花费某人多少钱 \"，C. buy的主语\n是人，其后跟双宾语 ：buy sth. for sb.或者 buy sb. sth \"某人为 …买某物 \"；D. spend\n的主语是人， \"sb. spend  time/money  in/on  doing  sth. 某人在某事上花费时间或金\n钱\"；根据句意可知， 此处的意思是 ：他花了低于原价 20%的价格买了这块手表 ；\n故选 A. \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】The sentence describes an action taken by \"he\" regarding the watch. We need to identify the correct verb that fits the context. \n\n- \"paid\" implies he gave money for the watch.\n- \"cost\" describes the price of the watch, not an action taken by \"he\".\n- \"bought\" suggests acquisition, but it doesn't explicitly indicate the action of paying a percentage.\n- \"spent\" implies using or paying money, fitting well with the phrase \"20 percent down for it.\"\n\nGiven the phrase \"20 percent down,\" it indicates that he made an initial payment of 20% of the total cost. \"Spent\" is the most appropriate verb to convey this action of paying an initial portion.\n\n<eoe>\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 83,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "29. It may not be a great  suggestion.  But before  _______  is put forward,  we’ll  make  \ndo with it. \nA. a good  one     B. a better  one       C. the best one       D. a best one\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】答案： B. 考查比较级的用法。不定冠词 +比较级，表示泛指，意为“一\n个更（好） ......的......”。根据句意：它或许不是很好的建议。但是在一个更好的\n  被提出来之前，我们不得不将就一下。 故选 B. \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】The sentence structure indicates that we are looking for a comparative form of \"suggestion\" to fit the blank. The phrase \"before ... is put forward\" implies that whatever option is chosen will be a temporary solution until a superior suggestion is presented. \n\n- Option A: \"a good one\" is a singular, indefinite article with an adjective, suggesting a single, acceptable suggestion.\n- Option B: \"a better one\" implies a comparison to another suggestion, indicating it's superior to at least one other.\n- Option C: \"the best one\" suggests it's the highest quality among multiple suggestions, implying comparison to others.\n- Option D: \"a best one\" is grammatically incorrect as it uses the definite article \"the\" with the superlative \"best\" without a clear comparison context.\n\nGiven the context, we need a suggestion that is either better than one other or potentially superior without specifying it's the absolute best among many. Option B, \"a better one,\" fits this requirement as it implies a comparison without specifying the number of alternatives.\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 84,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "30. It was only after he had read the papers        Mr. Gross  realized  the task before  \nhim was extremely  difficult  to complete.  \n  A. when        B. that      C. which          D. what\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】答案 B．本句为强调句型 ，句型结构为 \"It is/was+被强调部分 +that+剩余\n部分． \"根据句意， 本题是对时间状语 after he had read the papers的强调．此外 ，\n我们也可以将 It is/was与空格去掉来验证此句是不是一个强调句． 故选 B． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】To determine the correct preposition to fill in the blank, we need to understand the context of the sentence. The sentence describes a situation where reading certain papers led to a realization about the difficulty of a task. \n\nThe phrase \"only after\" indicates a sequence of events: first, reading the papers, then the realization. We need a relative pronoun that introduces a clause describing the papers. \n\n- \"when\" implies time, but it doesn't introduce a defining or non-defining relative clause.\n- \"that\" introduces a defining clause, which is appropriate here because the papers are the specific item that caused the realization.\n- \"which\" also introduces a defining clause, similar to \"that,\" but is more commonly used for non-human subjects.\n- \"what\" would introduce a wh-clause, asking for a thing, which is not suitable here as we are not asking for identification of the papers.\n\nGiven the context, \"that\" is the most suitable choice as it correctly introduces a defining relative clause describing the papers.\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 85,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "31. A serious  study  of physics  is impossible       some  knowledge  of mathematics.  \nA. against        B. before         C. beyond        D. without\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D． against反对，衬托； before在…之前； beyond超过； without\n没有．根据句意 ：\"没有 \"一定的数学知识是没有办法对物理学进行系统地研究的\n．故选 D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】The sentence structure indicates a prepositional phrase describing the necessity or condition for a serious study of physics. The phrase should indicate that such a study cannot be conducted without certain prerequisite knowledge. \n\n- \"against\" implies opposition, which doesn't fit here.\n- \"before\" suggests timing, which is not the intended meaning.\n- \"beyond\" implies going past a certain point, not a requirement.\n- \"without\" correctly conveys the idea of something being impossible without something else.\n\nThus, the correct preposition to use is \"without,\" indicating that a serious study of physics is impossible without some knowledge of mathematics.\n\n<eoe>\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 86,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "32. Only  by increasing  the number  of doctors  by 50 percent         properly  in this \nhospital.  \nA. can be the patients                B. can the patients  be treated  \nC. the patients  can be treated          D. treated  can be the patients\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案： B．\"only+状语 \"置于句首时，句子要部分倒装．本句中 \"only+by  \nincreaing  the number  of doctors  by 50 percent（介词短语在句中作状语） \"位于句\n首，故须部分倒装 ，排除 C；部分倒装就是将谓语的一部分如助动词 、情态动词\n或be动词放在主语之前 ，故排除 A、D，只有 can the patients  be treated符合，故\n选B． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】The sentence structure needs to correctly convey that by increasing the number of doctors by 50%, the hospital can properly treat its patients. The correct form should indicate that the action (increasing doctors) enables another action (properly treating patients). \n\n- Option A: \"can be the patients\" is grammatically incorrect and does not convey the intended meaning.\n- Option B: \"can the patients be treated\" places \"be treated\" as a subordinate clause, which is passive and does not emphasize the hospital's capability due to the doctor increase.\n- Option C: \"the patients can be treated\" is grammatically correct but lacks the crucial link to the cause (increasing doctors by 50%).\n- Option D: \"treated can be the patients\" is ungrammatical and does not form a coherent sentence.\n\nThe correct answer should actively link the cause (increasing doctors) to the effect (proper treatment of patients). Therefore, the best choice is:\n\nC. the patients can be treated\n\nThis option correctly places \"can be treated\" as the main verb phrase, indicating the hospital's capability, with \"the patients\" as the subject, making the sentence active and clear.\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 87,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "33. Four  and    half hours  of discussion  took us up to midnight,  and    break  for \ncheese,  chocolate  and tea with sugar.  \nA. a; a       B. the; the       C. 不填 ; the       D. a; 不填\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案 A． 第一空 four and a half hours是习惯表达，表示 \"四个半小时 \"； \n第二空 a break泛指 \"一段休息时间 \"． \n故选： A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】To determine the correct answer, we need to analyze the prepositions used in the sentence: \"Four and a half hours of discussion took us up to midnight, and a break for cheese, chocolate and tea with sugar.\"\n\n1. **Four and a half hours**: \n   - \"Four\" is an indefinite number, so it takes \"a\" as its article.\n   - \"Half\" modifies \"hours,\" indicating a portion of an hour, and does not require an article.\n   - Therefore, the correct form is \"a\" followed by \"a half.\"\n\n2. **and a break**:\n   - \"A break\" indicates a single, unspecified break, so it takes \"a\" as its article.\n\n3. **for cheese, chocolate and tea with sugar**:\n   - \"For\" introduces a purpose or reason, and it is followed by a noun phrase (\"cheese, chocolate and tea with sugar\").\n   - \"Cheese,\" \"chocolate,\" and \"tea with sugar\" are all specific items, so they do not take an article.\n\nGiven this analysis, the correct options are:\n- \"Four and a half\" should be \"a\" followed by \"a half.\"\n- \"a break\" is correct as it stands.\n\nThus, the correct answer is:\n【答案】A <eoa>"
+        },
+        {
+            "index": 88,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "34. It’s an either-or  situation  --- we can buy a new car this year or we can go on \nholiday  but we can’t  do      . \nA. others        B. either        C. another      D. both\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D． others三者或者三者以上的其他的； either两者之一； another\n泛指三者以上的人或物中的一个； Both两者都．根据句意：我们今年要么买一\n辆新车，要么去度假．提供了两种选择， 故选 D． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】The phrase \"either-or situation\" implies a choice between two options, with no possibility of doing both. The correct word to fill in the blank should indicate this exclusivity. \n\n- \"others\" (A) is incorrect because it suggests more than two options, not an exclusive choice.\n- \"either\" (B) is a pronoun used to refer back to \"we can\" and is grammatically correct in this context to indicate the two mutually exclusive choices.\n- \"another\" (C) implies a third option, which contradicts the \"either-or\" structure.\n- \"both\" (D) would mean that both buying a car and going on holiday are possible, which is not the case here.\n\nGiven the structure of the sentence, the most appropriate word to signify the inability to do both options is \"either,\" which correctly maintains the exclusivity implied by \"either-or.\"\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 89,
+            "year": "2013",
+            "category": "（新课标ii）",
+            "score": 1,
+            "question": "35. --- Are you sure you won’t come  for a drink  with us? \n---       , if you insist . \nA. Not at all   B. It depends   C. All right  then  D. I don’t care\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案 C．A项1．用于回答感谢，意为 \"不用谢；不客气 \"2．用于回答带\n有感谢性质的客套话，意为 \"没什么；哪里哪里 \"3．用于回答道歉，意为 \"没关系\n\"4．用来表示否定（ 是No的加强说法 ），意为 \"一点也不；完全不 \"．B项\"视情\n况而定 \"；D项\"我不在乎 \"；C项\"那好吧 \"；分析句意 \"﹣﹣﹣你确定不来和我们\n一起喝饮料吗？ ﹣﹣﹣        假如你坚持的话． \"可以判断所填部分应该是向对\n方让步， 因此 C项符合语境，其它选项均不符合， 故选 C． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】The sentence structure indicates a polite refusal followed by a concession. The speaker initially declines the offer but then agrees under pressure. The phrase \"if you insist\" suggests a concession, implying that the speaker is agreeing reluctantly. \n\n- \"Not at all\" (A) implies a firm refusal, which doesn't match the concession.\n- \"It depends\" (B) suggests uncertainty or conditions, not a concession under pressure.\n- \"All right, then\" (C) indicates agreement but doesn't convey the reluctance implied by \"if you insist.\"\n- \"I don’t care\" (D) implies indifference, which is not appropriate in this context of being persuaded.\n\nThe phrase \"if you insist\" directly corresponds to a concession after a refusal, making \"C. All right then\" the closest fit, though it lacks the reluctance tone. Given the options, \"C\" best fits the structure of a refusal followed by a concession, even if it doesn't perfectly capture the nuance of reluctance.\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 90,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "21. — Why,  this is nothing  but common  vegetable  soup!  \n— _________,  madam.  It’s our soup  of the day!  \nA. Let me see      B. So it is     C. Don’t mention  it     D. Neither  do I\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案 B．A项\"让我看看 \"；C项\"不用谢；没关系；算了，别提了 \"；D\n项\"我也不 \"；B项\"的确如此 \"；根据 \"嗨，这只是普通的蔬菜汤！ \"判断顾客是在\n抱怨，而答语是服务员对顾客的话做了 \"确认 \"回答．因此 B项符合语境 ，其它选\n项均不符合， 故选 B． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】The sentence structure indicates a response to a statement expressing surprise or disappointment (\"Why, this is nothing but...\"). The appropriate response should affirm or correct the speaker's assertion about the soup being special. \n\n- Option A, \"Let me see,\" suggests uncertainty or a request for verification, which doesn't fit the context of affirming the soup's status.\n- Option B, \"So it is,\" directly agrees with the server's statement, acknowledging that indeed, it is the soup of the day.\n- Option C, \"Don't mention it,\" is a polite response to gratitude but doesn't address the content of the statement about the soup.\n- Option D, \"Neither do I,\" implies a shared sentiment of disbelief or disinterest, which contradicts the server's positive assertion.\n\nGiven the context, the most suitable response is one that affirms the server's statement without adding new information. Option B, \"So it is,\" correctly serves this purpose.\n\n<eoe>\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 91,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "22. They  might  just have  a place  ________  on the writing  course  — why don’t  you \ngive it a try?  \nA. leave        B. left         C. leaving          D. to leave\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答： B 本题考查非谓语动词． 从结构判断空格上的词应该做 place的定\n语，逻辑主语是 a place，而leave\"剩下 \"和place之间是被动关系，位置是 \"被留\n下的 \"，所以应该用过去分词作后置定语． 所以选 B． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】This question requires identifying the correct form of the verb \"to leave\" to fit the context. The sentence suggests a suggestion or recommendation, implying a future action or possibility, which is best expressed by the present modal verb form. \n\n- \"leave\" (base form) would indicate a simple present tense, not fitting the suggestion.\n- \"left\" (past tense) is incorrect as it indicates a completed action in the past.\n- \"leaving\" (present participle) could be used but doesn't convey the sense of possibility or suggestion as strongly as the present continuous form with 'to'.\n- \"to leave\" (infinitive) correctly indicates the action as a recommendation or possibility, aligning with the context of suggesting someone try the writing course.\n\nTherefore, the correct choice is D. to leave.\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 92,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "23. Try not to cough  more  than you can         since  it may cause  problems  to \nyour lungs.  \nA. check        B. allow    C. stop     D. help\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】 答案 C． check\"核实，抑制 \"；allow\"允许，许可 \"；stop\"停止 \"；help\"\n帮助，促进，治疗，补救 \"．句意：尽量不要咳嗽，因为这会给你的肺带来问题 ．\n考生需掌握短语 more  than one can help的意思 \"尽量不，绝对不 \"，故正确答案是\nC． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】The sentence advises against excessive coughing, suggesting a need to limit or cease it. The correct word to convey this meaning is \"stop\". \n\n- \"Check\" implies examining or verifying, which doesn't fit the context of controlling coughing.\n- \"Allow\" means to give permission or make possible, not to restrict an action.\n- \"Help\" suggests providing assistance or support, which is not the intended action here.\n- \"Stop\" directly indicates to cease or discontinue, aligning perfectly with the advice given in the sentence.\n\nThus, the appropriate word to complete the sentence is \"stop\".\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 93,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "24. If we          now to protect  the environment,  we’ll  live to regret  it. \nA. hadn’t acted     B. haven ’t acted     C. don’t act    D. won’t act\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案： C 句子成分分析： if引导条件状语从句， act为从句中谓语动词 ．\n逗号后为主句 ，live为主句谓语动词 ，to protect和to regret是非谓语动词做状语\n． \n  根据 if主句中的时态是一般将来时态 ，可知从句应使用一般现在时态 ，且有 now\n作为现在时态的标志词， 所以选择 C． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】This question requires identifying the correct tense to express a future consequence based on present inaction. The sentence structure implies a hypothetical future regret due to current non-action. \n\n- \"If we hadn’t acted\" suggests a past hypothetical scenario (counterfactual condition) and would be in the past tense.\n- \"Haven't acted\" is the present perfect continuous tense, indicating an action that started in the past and continues to the present, not focusing on future consequences.\n- \"Don't act\" is the present simple tense, indicating a general ongoing inaction but lacks the sense of future regret implied by the sentence.\n- \"Won't act\" is the future simple tense, indicating a future intention not to act, which doesn't align with the regret in the future implied by the sentence.\n\nThe correct choice must convey that if we do not take action now, we will regret it in the future. This is best captured by the conditional perfect tense, indicating a hypothetical situation with future implications. The correct form is \"hadn't acted,\" which expresses a condition contrary to fact with future consequences.\n\n【答案】A <eoa>"
+        },
+        {
+            "index": 94,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "25. Tony  can hardly  boil an egg, still      cook  dinner.  \nA. less   B. little   C. much       D. more\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】答案：A．根据句意 ：Tony连煮鸡蛋都不会 ，更不要说做晚饭了 ．still less\n是固定词组 \"更别说 \"，选A． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】This question requires understanding the usage of the given words in the context of comparison. The phrase \"can hardly boil an egg\" implies Tony has very limited cooking skills. We need a word that fits logically to show Tony's inability to cook dinner despite this. \n\n- \"Less\" implies a smaller degree of something, which doesn't fit as it would suggest a smaller amount of inability, contradicting the given context.\n- \"Little\" also suggests a small amount or degree, similar to \"less,\" and is not suitable here.\n- \"Much\" implies a large degree or amount, which would mean Tony has considerable cooking skills, contrary to the statement.\n- \"More\" indicates a greater degree or amount, which correctly complements \"can hardly\" to show an increased, though still insufficient, ability to cook.\n\nGiven the context, \"more\" appropriately conveys that despite his limited ability to boil an egg, Tony attempts to cook dinner, showing a greater, though inadequate, effort in cooking.\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 95,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "26. Police  have  found          appears  to be the lost ancient  statue.  \nA. which    B. where    C. how   D. what\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D．分析句子结构可知， found后面接的是宾语从句，宾语从句中\n\"appears\" 是谓语，缺少主语， 用what连接宾语从句， which哪个， where哪里，\nhow怎样，都不符合句意， 故选 D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】This question requires identifying the appropriate preposition to complete the sentence. The sentence describes police finding something that \"appears to be the lost ancient statue.\" We need a preposition that indicates the thing found is identified or described as the statue. \n\n- \"which\" introduces a relative clause, typically used for specifying a noun within a sentence.\n- \"where\" indicates location or place.\n- \"how\" implies manner or method.\n- \"what\" is used to ask about identity or specification.\n\nGiven the context, we are looking for a preposition that introduces the identity of the found object as the lost ancient statue. \"What\" is the preposition that fits this purpose, indicating the object's nature or identity.\n\nTherefore, the correct preposition to use here is \"what.\"\n\n<eoe>\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 96,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "27. When  I first met Bryan  I didn’t  like him, but I        my mind.  \nA. have  changed       B. change   C. had changed     D. would  change\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案： A，本题考查时态． 题干中的 but提示： \"我\"第一次见布莱恩的\n时候不喜欢他，但现在喜欢他， met和didn't可以看出前半句话是一般过去式，\n后面的意思是现在我已经改变了心意，故用现在完成时．  \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】This question requires identifying the correct verb form to indicate a change in opinion that occurred in the past, specifically before another past action (meeting Bryan). The phrase \"When I first met Bryan, I didn’t like him, but I ...\" implies an action that happened before the meeting. \n\n- \"have changed\" is present perfect, indicating an ongoing change or a completed action with relevance to the present.\n- \"change\" is base form, present tense, indicating a general action without a specific time frame.\n- \"had changed\" is past perfect, indicating an action completed before another past action.\n- \"would change\" is conditional, indicating a hypothetical or desired change.\n\nGiven the context, the appropriate verb form is \"had changed,\" which signifies that the change in opinion occurred before the meeting with Bryan.\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 97,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "28. The driver  wanted  to park his car near the roadside  but was asked  by the police  \n       . \nA. not to do     B. not to     C. not do     D. do not\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】答案 B． ask sb not to do sth 让某人不要做某事 ，根据句意 but was asked  \nby the police  not to \"park  his car near the roadside\" ，不定式中重复的部分可以省略 ，\n但是要保留到 to．故选 B． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】To determine the correct answer, we need to understand the structure of the sentence and the appropriate use of the given options. The sentence is: \"The driver wanted to park his car near the roadside but was asked by the police ______.\"\n\nThe blank requires a phrase indicating a prohibition or instruction from the police. The driver is being told what not to do. Among the options, we need to identify the correct construction for expressing this negative command.\n\n- Option A: \"not to do\" is grammatically incorrect because \"not\" cannot directly follow \"to do\" in this context.\n- Option B: \"not to\" is a common and correct construction for expressing a negative command or prohibition.\n- Option C: \"not do\" is grammatically incorrect as it lacks the necessary conjunction \"to\" to form a complete infinitive phrase.\n- Option D: \"do not\" is another correct way to express a negative command, but it is less common in continuous tenses compared to \"not to.\"\n\nGiven the context of the sentence, \"not to\" (Option B) is the most appropriate choice as it directly and correctly conveys the police's instruction to the driver.\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 98,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "29. The door        open,  no matter  how hard she pushed.  \nA. shouldn’t    B. couldn ’t   C. wouldn ’t  D. mightn ’t\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案 C． shouldn ’t \"不应该 \"；couldn ’t \"不能，不可能 \"；wouldn ’t \"不愿\n意\"，would  还可以表示一种倾向性或者习惯．； mightn ’t \"可能不 \"．根据句意 ：\n描述主语 the door的特点 \"偏是打不开 \"，其固有的特性 ，用情态动词 would（will\n）．故选 C． \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】This question requires identifying the correct modal verb to express that the door, despite her efforts, remained closed. \n\n- \"shouldn’t\" expresses a recommendation or advice, not a factual or physical impossibility.\n- \"couldn’t\" indicates an inability or impossibility due to circumstances.\n- \"wouldn’t\" suggests a polite refusal or unwillingness, not a physical action.\n- \"mightn’t\" implies a possibility of not being open, which contradicts the given scenario where the door is stated to be unyielding.\n\nGiven the context that the door did not open no matter how hard she pushed, the appropriate modal verb is \"couldn’t,\" indicating an actual physical impossibility.\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 99,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "30. At the last moment , Tom  decided  to          a new character  to make  the story  \nseem  more  likely.  \nA. put up   B. put in    C. put on   D. put off\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "【解答】 答案： B  本题考查动词短语辨析． put …up举起 …；张贴 …；put …in \n使…加入；使 …进入； put …on  穿上 …；上演 …；put …off  推迟 …．句意：在\n最后一刻， Tom决定添加一个新角色来使故事显得更加真实． 题干中的 more  \nlikely提示， Tom决定 \"添加 \"一个角色， 故B正确．  \n【点评】\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【解析】To determine the correct preposition for this sentence, we need to understand the context: Tom is making changes to his story at the last minute by introducing a new character. The goal is to make the story seem more plausible or believable. \n\n- \"Put up\" generally means to erect or display something, like a sign or decoration. It doesn't fit the context of adding a character to a story.\n- \"Put in\" suggests inserting or including something, which aligns with adding a new character to the story.\n- \"Put on\" typically means to wear or don something, like clothing or a performance. It doesn't fit the context of adding a character.\n- \"Put off\" means to postpone or delay something, which doesn't relate to adding a character.\n\nGiven the context, \"put in\" is the most appropriate choice as it indicates including or inserting a new character into the story.\n\n【答案】B <eoa>"
+        },
+        {
+            "index": 100,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "31. India  attained           independence  in 1947,  after           long struggle.  \nA. 不填 ; a   B. the; a   C. an; 不填     D. an; the\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案 A．  attain  independence 获得独立， independence 为抽象名词，前\n不加冠词； after a long struggle表示经过一段长时间的抗争， 用不定冠词 a表示\n数量．故选 A． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】To determine the correct answer, we need to analyze the usage of articles (a, an, the) in the context of the sentence:\n\n1. \"India attained independence in 1947, after a long struggle.\"\n   - \"Independence\" is a specific, uncountable noun referring to a state of not being controlled by another country. In such cases, we typically use \"the\" before it when it's a particular instance (in this context, India's independence).\n\n2. \"a long struggle\"\n   - \"A long struggle\" uses \"a\" because it refers to any long struggle in general, not a specific one.\n\nGiven this analysis, the correct usage is \"the\" before \"independence\" because it refers to India's specific independence, and \"a\" before \"long struggle\" because it refers to any lengthy struggle in general.\n\nThus, the correct choice is:\nD. an; the <eoe>\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 101,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "32. There’s  no way of knowing  why one man makes  an important  discovery        \nanother  man,  also intelligent,  fails.  \nA. since       B. if     C. as    D. while\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案： D 本题考查从属连词和并列连词的区别．根据句意断定，该题\n的空格处需要填入一个并列连词 ．乍一看，这四个连词似乎都是从属连词 ，都不\n能填入句中 ．殊不知，在实际的语言运用过程中 ，while还具有并列连词的属性 ，\n  表示 \"转折和对比 \"，正好符合句式结构和语意逻辑 ．故答案选 D．其他三个选项\n都没有这种属性和功能，所以可以排除．  \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】To determine the correct preposition in this context, we need to understand the relationship between the two men's actions: one makes an important discovery, and the other fails to do so despite being equally intelligent. The sentence implies a comparison or contrast between the outcomes of two similar individuals. \n\n- \"since\" suggests a reason or cause that begins before the action and continues through it. It's not suitable here as it implies a continuous cause-effect relationship, which isn't present.\n\n- \"if\" introduces a condition, implying a hypothetical situation. It doesn't fit because the sentence describes an actual scenario, not a conditional one.\n\n- \"as\" indicates a comparison, showing similarity in the circumstances or results. This fits because it highlights the parallel intelligence of the two men.\n\n- \"while\" suggests a simultaneous action or contrasting actions happening at the same time. It doesn't fit well here as it implies a concurrent action rather than a comparison of outcomes.\n\nGiven the context, \"as\" is the most appropriate choice because it establishes a parallel comparison between the two men's intellectual capabilities without implying a cause-effect relationship or a condition.\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 102,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "33. “You  can’t  judge  a book  by its cover,”  ________  .  \nA. as the saying  goes old      B. goes as the old saying    \nC. as the old saying  goes      D. goes as old the saying\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "【解答】答案： C． as引导非限制性定语从句，表示 \"正如 \"，不用倒装． 故选 C\n． \n【点评】\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【解析】This proverb, \"You can't judge a book by its cover,\" is a well-known idiomatic expression. We need to correctly complete the sentence to reflect this common usage. The phrase \"as the saying goes\" is used to introduce a proverb or adage. \n\n- Option A: \"as the saying goes old\" is incorrect because \"old\" is not part of the standard phrasing.\n- Option B: \"goes as the old saying\" is incorrect as it misplaces \"as the old saying.\"\n- Option C: \"as the old saying goes\" is correct because it correctly introduces the proverb.\n- Option D: \"goes as old the saying\" is incorrect due to the incorrect placement of \"old\" and the missing \"as.\"\n\nThus, the correct completion of the sentence is \"as the old saying goes.\"\n\n【答案】C <eoa>"
+        },
+        {
+            "index": 103,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "34. It was a real race _______  time to get the project  done.  Luckily,  we made  it.  \nA. over      B. by      C. for      D. against\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "【解答】 答案 D． against  time 是固定搭配 \"争分多秒，同时间赛跑 \"．根据句意\n：为了完成项目我们要 \"争分夺秒 \"．故选 D． \n【点评】\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": "【解析】The phrase \"a real race _______ time\" is looking for a preposition that fits the context of a competition against time. \n\n- \"Over\" suggests completion or beyond a certain point in time, not a competition.\n- \"By\" implies a deadline or until a certain time, not a competitive race.\n- \"For\" indicates a purpose or reason, not a competitive scenario.\n- \"Against\" fits well here, as it implies a competition or struggle with time.\n\nGiven the context of racing to complete a project before time runs out, \"against\" is the appropriate preposition.\n\n<eoe>\n\n【答案】D <eoa>"
+        },
+        {
+            "index": 104,
+            "year": "2013",
+            "category": "（新课标Ⅰ）",
+            "score": 1,
+            "question": "35. The sunlight  is white  and blinding,  _______  hard-edged  shadows  on the ground.   \nA. throwing      B. being  thrown       C. to throw      D. to be thrown\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "【解答】 答案： A 本题考查非谓语动词形式． 句子中已经有谓语动词 is了，中\n间没有其他连词，所以肯定是选非谓语，选项全部是非谓语， throw的逻辑主语\n是the sunlight，是主动表伴随的意思； 没有被动的意思排除 A，CD不定式表将\n  来或者表目的，都不符合． 所以本题选择 A． \n【点评】\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【解析】The sentence describes the effect of sunlight on the ground, creating hard-edged shadows. We need to choose a verb that best fits the context of sunlight \"causing\" or \"producing\" these shadows. \n\n- \"Throwing\" implies an action of casting or flinging something, which aligns with the imagery of sharp, defined shadows.\n- \"Being thrown\" suggests something is being acted upon, not the cause of the shadows.\n- \"To throw\" is the infinitive form, indicating a potential action but not the immediate cause in this sentence.\n- \"To be thrown\" is the passive infinitive, suggesting something is being acted upon, which doesn't fit the active imagery of sunlight creating shadows.\n\nAmong the options, \"throwing\" best conveys the sunlight actively creating the shadows.\n\n<eoe>\n\n【答案】A <eoa>"
+        }
+    ]
+}

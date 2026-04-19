@@ -1,0 +1,126 @@
+2026-04-13 22:15:01,295 DEBUG Initializing MLIR with module: _cutlass_ir
+2026-04-13 22:15:01,295 DEBUG Registering dialects from initializer <module 'cutlass._mlir._mlir_libs._cutlass_ir' from '/root/miniconda3/envs/vllm/lib/python3.12/site-packages/nvidia_cutlass_dsl/python_packages/cutlass/_mlir/_mlir_libs/_cutlass_ir.cpython-312-x86_64-linux-gnu.so'>
+2026-04-13 22:15:01,432 DEBUG CuTeDSL JAX extensions are not available because JAX was not found or could not be imported.
+2026-04-13 22:15:02,299 DEBUG Starting new HTTPS connection (1): stats.vllm.ai:443
+2026-04-13 22:15:03,341 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2026-04-13 22:15:36,136 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2026-04-13 22:15:46,197 WARNING '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/TIGER-Lab/MMLU-Pro/resolve/main/README.md (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 6b9702d8-b1b5-440f-aec9-8e66af568c85)')' thrown while requesting HEAD https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro/resolve/main/README.md
+2026-04-13 22:15:46,197 WARNING Retrying in 1s [Retry 1/5].
+2026-04-13 22:15:47,199 DEBUG Starting new HTTPS connection (2): huggingface.co:443
+2026-04-13 22:15:57,267 WARNING '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/TIGER-Lab/MMLU-Pro/resolve/main/README.md (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 4a99262a-4c42-42cd-b6dc-3db4cbe5e060)')' thrown while requesting HEAD https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro/resolve/main/README.md
+2026-04-13 22:15:57,268 WARNING Retrying in 2s [Retry 2/5].
+2026-04-13 22:15:59,269 DEBUG Starting new HTTPS connection (3): huggingface.co:443
+2026-04-13 22:16:09,333 WARNING '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/TIGER-Lab/MMLU-Pro/resolve/main/README.md (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 58cfa8ff-ff26-47cc-b698-31a866c37fde)')' thrown while requesting HEAD https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro/resolve/main/README.md
+2026-04-13 22:16:09,333 WARNING Retrying in 4s [Retry 3/5].
+2026-04-13 22:16:13,335 DEBUG Starting new HTTPS connection (4): huggingface.co:443
+2026-04-13 22:16:23,398 WARNING '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/TIGER-Lab/MMLU-Pro/resolve/main/README.md (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 753451b4-5768-49c1-b6cb-22a228d4197a)')' thrown while requesting HEAD https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro/resolve/main/README.md
+2026-04-13 22:16:23,398 WARNING Retrying in 8s [Retry 4/5].
+2026-04-13 22:16:31,400 DEBUG Starting new HTTPS connection (5): huggingface.co:443
+2026-04-13 22:16:41,430 WARNING '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/TIGER-Lab/MMLU-Pro/resolve/main/README.md (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 55f8faba-3d2d-43ce-baad-02cb68aaefac)')' thrown while requesting HEAD https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro/resolve/main/README.md
+2026-04-13 22:16:41,430 WARNING Retrying in 8s [Retry 5/5].
+2026-04-13 22:16:49,432 DEBUG Starting new HTTPS connection (6): huggingface.co:443
+2026-04-13 22:16:59,495 WARNING '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/TIGER-Lab/MMLU-Pro/resolve/main/README.md (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: f75751ce-cd29-4bf5-9e97-735bf684e662)')' thrown while requesting HEAD https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro/resolve/main/README.md
+2026-04-13 22:16:59,499 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2026-04-13 22:17:09,530 WARNING '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/TIGER-Lab/MMLU-Pro/resolve/54611cde22c74cca43dd78732198de6abe971398/MMLU-Pro.py (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 50bc9366-1e33-4284-8cbc-33ba6af7a25b)')' thrown while requesting HEAD https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro/resolve/54611cde22c74cca43dd78732198de6abe971398/MMLU-Pro.py
+2026-04-13 22:17:09,530 WARNING Retrying in 1s [Retry 1/5].
+2026-04-13 22:17:10,532 DEBUG Starting new HTTPS connection (2): huggingface.co:443
+2026-04-13 22:17:20,568 WARNING '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/TIGER-Lab/MMLU-Pro/resolve/54611cde22c74cca43dd78732198de6abe971398/MMLU-Pro.py (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: a1a76b6c-8a94-40e4-8841-db259e655f13)')' thrown while requesting HEAD https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro/resolve/54611cde22c74cca43dd78732198de6abe971398/MMLU-Pro.py
+2026-04-13 22:17:20,568 WARNING Retrying in 2s [Retry 2/5].
+2026-04-13 22:17:22,570 DEBUG Starting new HTTPS connection (3): huggingface.co:443
+2026-04-13 22:17:32,630 WARNING '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/TIGER-Lab/MMLU-Pro/resolve/54611cde22c74cca43dd78732198de6abe971398/MMLU-Pro.py (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: c9415012-5213-462e-9c11-439a11ebed43)')' thrown while requesting HEAD https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro/resolve/54611cde22c74cca43dd78732198de6abe971398/MMLU-Pro.py
+2026-04-13 22:17:32,630 WARNING Retrying in 4s [Retry 3/5].
+2026-04-13 22:17:36,633 DEBUG Starting new HTTPS connection (4): huggingface.co:443
+2026-04-13 22:17:46,696 WARNING '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/TIGER-Lab/MMLU-Pro/resolve/54611cde22c74cca43dd78732198de6abe971398/MMLU-Pro.py (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: abee18e9-0ac9-42d3-97c8-cbc3aa108820)')' thrown while requesting HEAD https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro/resolve/54611cde22c74cca43dd78732198de6abe971398/MMLU-Pro.py
+2026-04-13 22:17:46,696 WARNING Retrying in 8s [Retry 4/5].
+2026-04-13 22:17:54,698 DEBUG Starting new HTTPS connection (5): huggingface.co:443
+2026-04-13 22:18:04,761 WARNING '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/TIGER-Lab/MMLU-Pro/resolve/54611cde22c74cca43dd78732198de6abe971398/MMLU-Pro.py (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 53ce9380-f24c-4989-bf5a-58b328b639f4)')' thrown while requesting HEAD https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro/resolve/54611cde22c74cca43dd78732198de6abe971398/MMLU-Pro.py
+2026-04-13 22:18:04,761 WARNING Retrying in 8s [Retry 5/5].
+2026-04-13 22:18:12,763 DEBUG Starting new HTTPS connection (6): huggingface.co:443
+2026-04-13 22:18:22,844 WARNING '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /datasets/TIGER-Lab/MMLU-Pro/resolve/54611cde22c74cca43dd78732198de6abe971398/MMLU-Pro.py (Caused by NewConnectionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))'), '(Request ID: 518a96cb-317b-4181-b543-0693c1d08fef)')' thrown while requesting HEAD https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro/resolve/54611cde22c74cca43dd78732198de6abe971398/MMLU-Pro.py
+2026-04-13 22:18:22,846 DEBUG Starting new HTTPS connection (1): s3.amazonaws.com:443
+2026-04-13 22:18:24,275 DEBUG https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/TIGER-Lab/MMLU-Pro/TIGER-Lab/MMLU-Pro.py HTTP/1.1" 404 0
+2026-04-13 22:18:24,281 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2026-04-13 22:18:34,346 WARNING Using the latest cached version of the dataset since TIGER-Lab/MMLU-Pro couldn't be found on the Hugging Face Hub
+2026-04-13 22:18:34,348 WARNING Found the latest cached dataset configuration 'default' at /root/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/54611cde22c74cca43dd78732198de6abe971398 (last modified on Sun Apr 12 14:59:05 2026).
+2026-04-13 22:18:34,349 DEBUG Attempting to acquire lock 140133380513744 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_54611cde22c74cca43dd78732198de6abe971398.lock
+2026-04-13 22:18:34,350 DEBUG Lock 140133380513744 acquired on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_54611cde22c74cca43dd78732198de6abe971398.lock
+2026-04-13 22:18:34,350 DEBUG open file: /root/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/54611cde22c74cca43dd78732198de6abe971398/dataset_info.json
+2026-04-13 22:18:34,350 DEBUG Attempting to release lock 140133380513744 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_54611cde22c74cca43dd78732198de6abe971398.lock
+2026-04-13 22:18:34,350 DEBUG Lock 140133380513744 released on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_54611cde22c74cca43dd78732198de6abe971398.lock
+2026-04-13 22:18:34,792 INFO selected subjects:
+business
+law
+psychology
+biology
+chemistry
+history
+other
+health
+economics
+math
+physics
+computer science
+philosophy
+engineering
+2026-04-13 22:18:34,793 INFO evaluating biology
+2026-04-13 22:19:30,864 INFO 717size batch costing time: 54.154823303222656
+2026-04-13 22:19:34,436 INFO this batch accu is: 0.7866108786610879, corr: 564.0, wrong: 153.0
+
+2026-04-13 22:19:34,448 INFO evaluating business
+2026-04-13 22:20:46,271 INFO 789size batch costing time: 70.28769850730896
+2026-04-13 22:20:53,857 INFO this batch accu is: 0.6996197718631179, corr: 552.0, wrong: 237.0
+
+2026-04-13 22:20:53,870 INFO evaluating chemistry
+2026-04-13 22:25:03,347 DEBUG Resetting dropped connection: stats.vllm.ai
+2026-04-13 22:25:04,446 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2026-04-13 22:27:06,864 INFO 1132size batch costing time: 369.81326603889465
+2026-04-13 22:27:26,454 INFO this batch accu is: 0.6713780918727915, corr: 760.0, wrong: 372.0
+
+2026-04-13 22:27:26,482 INFO evaluating computer science
+2026-04-13 22:28:23,003 INFO 410size batch costing time: 55.26009726524353
+2026-04-13 22:28:28,221 INFO this batch accu is: 0.651219512195122, corr: 267.0, wrong: 143.0
+
+2026-04-13 22:28:28,231 INFO evaluating economics
+2026-04-13 22:29:22,352 INFO 844size batch costing time: 52.02830672264099
+2026-04-13 22:29:27,044 INFO this batch accu is: 0.7227488151658767, corr: 610.0, wrong: 234.0
+
+2026-04-13 22:29:27,057 INFO evaluating engineering
+2026-04-13 22:33:24,062 INFO 969size batch costing time: 234.62602758407593
+2026-04-13 22:33:38,677 INFO this batch accu is: 0.5077399380804953, corr: 492.0, wrong: 477.0
+
+2026-04-13 22:33:38,702 INFO evaluating health
+2026-04-13 22:34:49,809 INFO 818size batch costing time: 69.2861077785492
+2026-04-13 22:34:53,804 INFO this batch accu is: 0.6271393643031785, corr: 513.0, wrong: 305.0
+
+2026-04-13 22:34:53,819 INFO evaluating history
+2026-04-13 22:35:04,449 DEBUG Resetting dropped connection: stats.vllm.ai
+2026-04-13 22:35:05,410 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2026-04-13 22:35:35,972 INFO 381size batch costing time: 38.735610008239746
+2026-04-13 22:35:36,326 INFO this batch accu is: 0.5091863517060368, corr: 194.0, wrong: 187.0
+
+2026-04-13 22:35:36,335 INFO evaluating law
+2026-04-13 22:38:41,512 INFO 1101size batch costing time: 181.69943523406982
+2026-04-13 22:38:44,915 INFO this batch accu is: 0.3151680290644868, corr: 347.0, wrong: 754.0
+
+2026-04-13 22:38:44,945 INFO evaluating math
+2026-04-13 22:40:59,904 INFO 1351size batch costing time: 130.84941864013672
+2026-04-13 22:41:11,656 INFO this batch accu is: 0.7875647668393783, corr: 1064.0, wrong: 287.0
+
+2026-04-13 22:41:11,672 INFO evaluating other
+2026-04-13 22:42:10,598 INFO 924size batch costing time: 57.12678360939026
+2026-04-13 22:42:11,188 INFO this batch accu is: 0.5497835497835498, corr: 508.0, wrong: 416.0
+
+2026-04-13 22:42:11,200 INFO evaluating philosophy
+2026-04-13 22:42:51,554 INFO 499size batch costing time: 39.36736845970154
+2026-04-13 22:42:52,298 INFO this batch accu is: 0.5210420841683366, corr: 260.0, wrong: 239.0
+
+2026-04-13 22:42:52,306 INFO evaluating physics
+2026-04-13 22:45:05,414 DEBUG Resetting dropped connection: stats.vllm.ai
+2026-04-13 22:45:06,256 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2026-04-13 22:46:33,375 INFO 1299size batch costing time: 218.01283931732178
+2026-04-13 22:46:57,382 INFO this batch accu is: 0.657428791377983, corr: 854.0, wrong: 445.0
+
+2026-04-13 22:46:57,404 INFO evaluating psychology
+2026-04-13 22:47:42,482 INFO 798size batch costing time: 43.19665479660034
+2026-04-13 22:47:43,150 INFO this batch accu is: 0.6942355889724311, corr: 554.0, wrong: 244.0
+

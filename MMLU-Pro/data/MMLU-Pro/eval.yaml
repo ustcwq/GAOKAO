@@ -1,0 +1,24 @@
+# yaml file for compatibility with inspect-ai
+
+name: MMLU-Pro
+description: >
+  MMLU-Pro dataset is a more robust and challenging massive multi-task
+  understanding dataset tailored to more rigorously benchmark large language
+  models' capabilities. This dataset contains 12K complex questions across various
+  disciplines.
+
+tasks:
+  - id: mmlu_pro
+    config: default
+    split: test
+
+    field_spec:
+      input: question
+      target: answer
+      choices: options
+
+    solvers:
+      - name: multiple_choice
+          
+    scorers:
+      - name: choice
