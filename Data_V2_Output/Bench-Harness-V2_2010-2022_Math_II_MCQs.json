@@ -1,6 +1,6 @@
 {
     "keyword": "2010-2022_Math_II_MCQs",
-    "model_name": "Bench-Harness",
+    "model_name": "Bench-Harness-V2",
     "prompt": "请你做一道数学选择题\n请你一步一步思考并将思考过程写在【解析】和<eoe>之间。你将从A，B，C，D中选出正确的答案，并写在【答案】和<eoa>之间。\n例如：【答案】: A <eoa>\n完整的题目回答的格式如下：\n【解析】 ... <eoe>\n【答案】 ... <eoa>\n请你严格按照上述格式作答。\n题目如下：",
     "example": [
         {
@@ -16,7 +16,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 39.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 1,
@@ -28,8 +28,10 @@
                 "C"
             ],
             "analysis": "解: 设 $\\vec{b}=(x, y)$,\n\n$\\because a=(4,3), 2 a+b=(3,18)$,\n\n$\\therefore \\vec{b}=(-5,12)$\n\n$\\therefore \\cos \\theta=\\frac{-20+36}{5 \\times 13}$\n\n$=\\frac{16}{65}$\n\n故选: C.\n",
-            "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: []\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: []"
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.9154e+04) 裁决卷宗: ['C']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 2,
@@ -41,10 +43,8 @@
                 "B"
             ],
             "analysis": "解: 化简得 $z=\\frac{\\sqrt{3}+i}{(1-\\sqrt{3} i)^{2}}=\\frac{\\sqrt{3}+i}{-2-2 \\sqrt{3} i}=-\\frac{1}{2} \\cdot \\frac{\\sqrt{3}+i}{1+\\sqrt{3} i}$\n\n$=-\\frac{1}{2} \\cdot \\frac{(\\sqrt{3}+i)(1-\\sqrt{3} i)}{(1+\\sqrt{3} i)(1-\\sqrt{3} i)}=-\\frac{1}{2} \\cdot \\frac{2 \\sqrt{3}-2 i}{4}=-\\frac{\\sqrt{3}}{4}+\\frac{i}{4}$,\n\n故 $|z|=\\sqrt{\\left(\\frac{\\sqrt{3}}{4}\\right)^{2}+\\left(\\frac{1}{4}\\right)^{2}}=\\frac{1}{2}$,\n\n故选: B.\n",
-            "model_answer": [
-                "B"
-            ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_answer": [],
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.8561e+04) 裁决卷宗: []\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 3,
@@ -59,7 +59,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 44.7%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 4,
@@ -74,7 +74,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 37.2%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['D']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 44.7%)\n2. 节点B(Rev):  glm-4-9b-chat\n3. 节点C (正交法庭: gemma-2-9b-it | 计算体积 Vol=1.6540e+04) 裁决卷宗: ['D']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [gemma-2-9b-it] 定夺局势！\n"
         },
         {
             "index": 5,
@@ -89,7 +89,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 42.6%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 44.7%)\n2. 节点B(Rev):  glm-4-9b-chat\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 6,
@@ -104,7 +104,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.5305e+04) 裁决卷宗: ['B']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 7,
@@ -119,7 +119,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 37.2%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 43.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 8,
@@ -134,7 +134,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 43.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.8055e+04) 裁决卷宗: ['B']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 9,
@@ -149,7 +149,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 10,
@@ -164,7 +164,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 50.0%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 11,
@@ -179,7 +179,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 36.2%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 51.1%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 12,
@@ -194,7 +194,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 70.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 13,
@@ -209,7 +209,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 37.2%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 37.2%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 14,
@@ -224,7 +224,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 43.6%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 38.3%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 15,
@@ -239,7 +239,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.7398e+04) 裁决卷宗: ['B']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 16,
@@ -254,7 +254,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 17,
@@ -269,7 +269,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 44.7%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 18,
@@ -284,7 +284,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 35.1%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 19,
@@ -297,7 +297,7 @@
             ],
             "analysis": "解: 由于数列 $\\left\\{a_{n}\\right\\}$ 满足 $a_{n+1}+(-1)^{n} a_{n}=2 n-1$, 故有 $a_{2}-a_{1}=1, a_{3}+a_{2}=3$ ,$a_{4}-a_{3}=5$,\n\n$a_{5}+a_{4}=7, \\quad a_{6}-a_{5}=9, \\quad a_{7}+a_{6}=11, \\quad \\ldots a_{50}-a_{49}=97$\n\n从而可得 $a_{3}+a_{1}=2, a_{4}+a_{2}=8, a_{7}+a_{5}=2, a_{8}+a_{6}=24, a_{11}+a_{9}=2, a_{12}+a_{10}=40, a_{15}+a_{13}=2$ $, \\mathrm{a}_{16}+\\mathrm{a}_{14}=56, \\ldots$\n\n从第一项开始, 依次取 2 个相邻奇数项的和都等于 2 ,\n\n从第二项开始, 依次取 2 个相邻偶数项的和构成以 8 为首项, 以 16 为公差的等 差数列.\n\n$\\left\\{a_{n}\\right\\}$ 的前 60 项和为 $15 \\times 2+\\left(15 \\times 8+\\frac{15 \\times 14}{2} \\times 16\\right)=1830$,\n\n故选: D.\n",
             "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: []\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: []"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 46.8%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 20,
@@ -312,7 +312,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 21,
@@ -325,9 +325,9 @@
             ],
             "analysis": "解: $\\frac{1+2 i}{(1-i)^{2}}=\\frac{1+2 i}{-2 i}=\\frac{(1+2 i) i}{-2 i \\cdot i}=\\frac{-2+i}{2}=-1+\\frac{1}{2} i$.\n\n故选: B.\n",
             "model_answer": [
-                "B"
+                "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Yi-1.5-9B-Chat | 计算体积 Vol=1.9616e+04) 裁决卷宗: ['A']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Yi-1.5-9B-Chat] 定夺局势！\n"
         },
         {
             "index": 22,
@@ -342,7 +342,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['D']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 43.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 23,
@@ -357,7 +357,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 39.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 24,
@@ -372,7 +372,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 42.6%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 39.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.6721e+04) 裁决卷宗: ['B']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 25,
@@ -387,7 +387,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['D']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 39.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 26,
@@ -400,9 +400,9 @@
             ],
             "analysis": "解: $\\because 23 \\cos ^{2} \\mathrm{~A}+\\cos 2 \\mathrm{~A}=23 \\cos ^{2} \\mathrm{~A}+2 \\cos ^{2} \\mathrm{~A}-1=0$, 即 $\\cos ^{2} \\mathrm{~A}=\\frac{1}{25}, \\mathrm{~A}$ 为锐角,\n\n$\\therefore \\cos A=\\frac{1}{5}$,\n\n又 $a=7, c=6$,\n\n根据余弦定理得: $a^{2}=b^{2}+c^{2}-2 b c \\bullet \\cos A$, 即 $49=b^{2}+36-\\frac{12}{5} b$,\n\n解得: $b=5$ 或 $b=-\\frac{13}{5}$ (舍去),\n\n则 $b=5$.\n\n故选: D.\n",
             "model_answer": [
-                "A"
+                "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['A']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.9169e+04) 裁决卷宗: ['B']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 27,
@@ -417,7 +417,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 28,
@@ -432,7 +432,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 29,
@@ -447,7 +447,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 30,
@@ -460,7 +460,7 @@
             ],
             "analysis": "解: $\\left|\\mathrm{PF}_{2}\\right|=\\mathrm{x}, \\because \\mathrm{PF}_{2} \\perp \\mathrm{F}_{1} \\mathrm{~F}_{2}, \\angle \\mathrm{PF}_{1} \\mathrm{~F}_{2}=30^{\\circ}$,\n\n$\\therefore\\left|P_{1}\\right|=2 x,\\left|F_{1} F_{2}\\right|=\\sqrt{3} x$,\n\n又 $\\left|\\mathrm{PF}_{1}\\right|+\\left|\\mathrm{PF}_{2}\\right|=2 \\mathrm{a},\\left|\\mathrm{F}_{1} \\mathrm{~F}_{2}\\right|=2 \\mathrm{c}$\n\n$\\therefore 2 a=3 x, 2 c=\\sqrt{3} x$,\n\n$\\therefore \\mathrm{C}$ 的离心率为: $\\mathrm{e}=\\frac{2 \\mathrm{c}}{2 \\mathrm{a}}=\\frac{\\sqrt{3}}{3}$.\n\n故选: D.\n",
             "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: []\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: []"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 44.7%)\n2. 节点B(Rev):  glm-4-9b-chat\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 31,
@@ -472,10 +472,8 @@
                 "A"
             ],
             "analysis": "解: $\\because \\sin 2 \\alpha=\\frac{2}{3}$,\n\n$\\therefore \\cos ^{2}\\left(\\alpha+\\frac{\\pi}{4}\\right)=\\frac{1}{2}\\left[1+\\cos \\left(2 \\alpha+\\frac{\\pi}{2}\\right)\\right]=\\frac{1}{2}(1-\\sin 2 \\alpha)=\\frac{1}{2} \\times\\left(1-\\frac{2}{3}\\right)=\\frac{1}{6}$.\n\n故选: A.\n",
-            "model_answer": [
-                "A"
-            ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['A']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['A']"
+            "model_answer": [],
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Yi-1.5-9B-Chat | 计算体积 Vol=1.9617e+04) 裁决卷宗: []\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Yi-1.5-9B-Chat] 定夺局势！\n"
         },
         {
             "index": 32,
@@ -490,7 +488,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 33,
@@ -505,7 +503,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['C']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 39.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 34,
@@ -520,7 +518,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 35,
@@ -535,7 +533,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 37.2%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 36,
@@ -550,7 +548,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 57.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 37,
@@ -565,7 +563,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 37.2%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 39.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 38,
@@ -580,7 +578,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 46.8%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 39,
@@ -595,7 +593,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 36.2%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 40,
@@ -608,7 +606,7 @@
             ],
             "analysis": "解: $\\because f(x)=a x^{3}-3 x^{2}+1$,\n\n$\\therefore f^{\\prime}(x)=3 a x^{2}-6 x=3 x(a x-2), f(0)=1$\n\n(1)当 $a=0$ 时, $f(x)=-3 x^{2}+1$ 有两个零点, 不成立;\n\n(2)当 $a>0$ 时, $f(x)=a x^{3}-3 x^{2}+1$ 在 $(-\\infty, 0)$ 上有零点, 故不成立;\n\n(3)当 $a<0$ 时, $f(x)=a x^{3}-3 x^{2}+1$ 在 $(0,+\\infty)$ 上有且只有一个零点;\n\n故 $f(x)=a x^{3}-3 x^{2}+1$ 在 $(-\\infty, 0)$ 上没有零点;\n\n而当 $x=\\frac{2}{a}$ 时, $f(x)=a x^{3}-3 x^{2}+1$ 在 $(-\\infty, 0)$ 上取得最小值;\n\n故 $f\\left(\\frac{2}{a}\\right)=\\frac{8}{a^{2}}-3 \\cdot \\frac{4}{a^{2}}+1>0$;\n\n故 $a<-2$;\n\n综上所述，\n\n实数 $\\mathrm{a}$ 的取值范围是 $(-\\infty,-2)$;\n\n故选: D.\n",
             "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 38.3%\n2. 节点A (执行者) 草稿: []\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: []"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 39.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 41,
@@ -623,7 +621,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 42,
@@ -638,7 +636,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Yi-1.5-9B-Chat | 计算体积 Vol=1.9617e+04) 裁决卷宗: ['B']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Yi-1.5-9B-Chat] 定夺局势！\n"
         },
         {
             "index": 43,
@@ -653,7 +651,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 45.7%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 44,
@@ -668,7 +666,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 36.2%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 45,
@@ -681,7 +679,7 @@
             ],
             "analysis": "解：由题意可得 $a_{4}{ }^{2}=a_{2} \\bullet a_{8}$,\n\n即 $a_{4}{ }^{2}=\\left(a_{4}-4\\right)\\left(a_{4}+8\\right)$,\n\n解得 $a_{4}=8$,\n\n$\\therefore a_{1}=a_{4^{-}} 3 \\times 2=2$,\n\n$\\therefore \\mathrm{s}_{\\mathrm{n}}=\\mathrm{na}_{1}+\\frac{\\mathrm{n}(\\mathrm{n}-1)}{2} \\mathrm{~d}$,\n\n$=2 n+\\frac{n(n-1)}{2} \\times 2=n(n+1)$,\n\n故选: A.\n",
             "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: []\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: []"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.5976e+04) 裁决卷宗: []\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 46,
@@ -696,7 +694,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.6796e+04) 裁决卷宗: ['C']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 47,
@@ -709,9 +707,9 @@
             ],
             "analysis": "解: 由 $y^{2}=3 x$ 得其焦点 $F\\left(\\frac{3}{4}, 0\\right)$, 准线方程为 $x=-\\frac{3}{4}$.\n\n则过抛物线 $y^{2}=3 x$ 的焦点 $F$ 且倾斜角为 $30^{\\circ}$ 的直线方程为 $y=\\tan 30^{\\circ}\\left(x-\\frac{3}{4}\\right)=\\frac{\\sqrt{3}}{3}$\n\n$$\n\\left(x-\\frac{3}{4}\\right)\n$$\n\n代入抛物线方程, 消去 $y$, 得 $16 x^{2}-168 x+9=0$.\n\n设 $A\\left(x_{1}, y_{1}\\right), B\\left(x_{2}, y_{2}\\right)$\n\n则 $\\mathrm{x}_{1}+\\mathrm{x}_{2}=\\frac{168}{16}=\\frac{21}{2}$,\n\n所以 $|A B|=x_{1}+\\frac{3}{4}+x_{2}+\\frac{3}{4}=\\frac{3}{4}+\\frac{3}{4}+\\frac{21}{2}=12$ 故选: C.\n",
             "model_answer": [
-                "C"
+                "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 36.2%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['C']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.7962e+04) 裁决卷宗: ['A']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 48,
@@ -726,7 +724,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['D']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.9119e+04) 裁决卷宗: ['D']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 49,
@@ -741,7 +739,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['D']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 50,
@@ -754,9 +752,9 @@
             ],
             "analysis": "解：由已知点 $\\mathrm{A}(0,1), \\mathrm{B}(3,2)$, 得到 $\\overrightarrow{\\mathrm{AB}}=(3,1)$, 向量 $\\overrightarrow{\\mathrm{AC}}=($ $-4,-3)$ 则向量 $\\overrightarrow{\\mathrm{BC}}=\\overrightarrow{\\mathrm{AC}}-\\overrightarrow{\\mathrm{AB}}=(-7,-4)$;\n\n故选: A.\n",
             "model_answer": [
-                "B"
+                "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.5305e+04) 裁决卷宗: ['A']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 51,
@@ -771,7 +769,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 43.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 52,
@@ -786,7 +784,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 70.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 53,
@@ -798,10 +796,8 @@
                 "B"
             ],
             "analysis": "解：椭圆 $E$ 的中心在坐标原点, 离心率为 $\\frac{1}{2}, \\mathrm{E}$ 的右焦点 $(\\mathrm{c}, 0)$ 与抛 物线 $C: y^{2}=8 x$ 的焦点 $(2,0)$ 重合，\n\n可得 $c=2, a=4, b^{2}=12$, 椭圆的标准方程为: $\\frac{x^{2}}{16}+\\frac{y^{2}}{12}=1$,\n\n抛物线的准线方程为: $x=-2$,\n\n由 $\\left\\{\\begin{array}{l}x=-2 \\\\ \\frac{x^{2}}{16}+\\frac{y^{2}}{12}=1\\end{array}\\right.$, 解得 $y= \\pm 3$, 所以 $A(-2,3), B(-2,-3)$.\n\n$|A B|=6$.\n\n故选: B.\n",
-            "model_answer": [
-                "C"
-            ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 37.2%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['C']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['C']"
+            "model_answer": [],
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 37.2%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.5314e+04) 裁决卷宗: []\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 54,
@@ -816,7 +812,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 37.2%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.8386e+04) 裁决卷宗: ['B']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 55,
@@ -831,7 +827,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 56,
@@ -846,7 +842,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 57,
@@ -859,9 +855,9 @@
             ],
             "analysis": "解：由 $\\frac{2+a i}{1+i}=3+i$, 得 $2+a i=(1+i) \\quad(3+i)=2+4 i$,\n\n则 $a=4$,\n\n故选: D.\n",
             "model_answer": [
-                "D"
+                "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['D']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 48.9%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Yi-1.5-9B-Chat | 计算体积 Vol=2.1280e+04) 裁决卷宗: ['C']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Yi-1.5-9B-Chat] 定夺局势！\n"
         },
         {
             "index": 58,
@@ -876,7 +872,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 59,
@@ -891,7 +887,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 60,
@@ -903,10 +899,8 @@
                 "B"
             ],
             "analysis": "解: 因为 $\\triangle A B C$ 外接圆的圆心在直线 $B C$ 垂直平分线上, 即直线 $x=1$ 上, 可设圆心 $P(1, p)$, 由 $P A=P B$ 得\n\n$|\\mathrm{p}|=\\sqrt{1+(\\mathrm{p}-\\sqrt{3})^{2}}$\n\n得 $p=\\frac{2 \\sqrt{3}}{3}$\n\n圆心坐标为 $P\\left(1, \\frac{2 \\sqrt{3}}{3}\\right)$,\n\n所以圆心到原点的距离 $|O P|=\\sqrt{1+\\left(\\frac{2 \\sqrt{3}}{3}\\right)^{2}}=\\sqrt{1+\\frac{12}{9}}=\\frac{\\sqrt{21}}{3}$,\n\n故选: B.\n",
-            "model_answer": [
-                "C"
-            ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_answer": [],
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 39.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.5860e+04) 裁决卷宗: []\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 61,
@@ -921,7 +915,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['C']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 62,
@@ -934,7 +928,7 @@
             ],
             "analysis": "解: $\\because$ 函数 $\\mathrm{f}(\\mathrm{x})=\\ln (1+|\\mathrm{x}|)-\\frac{1}{1+\\mathrm{x}^{2}}$ 为偶函数,\n\n且在 $x \\geqslant 0$ 时, $f(x)=\\ln (1+x)-\\frac{1}{1+x^{2}}$,\n\n导数为 $f^{\\prime}(x)=\\frac{1}{1+x}+\\frac{2 x}{\\left(1+x^{2}\\right)^{2}}>0$,\n\n即有函数 $f(x)$ 在 $[0,+\\infty)$ 单调递增,\n\n$\\therefore f(x)>f(2 x-1)$ 等价为 $f(|x|)>f(|2 x-1|)$,\n\n即 $|x|>|2 x-1|$,\n\n平方得 $3 x^{2}-4 x+1<0$,\n\n解得: $\\frac{1}{3}<x<1$,\n\n所求 $x$ 的取值范围是 $\\left(\\frac{1}{3}, 1\\right)$.\n\n故选: B.\n",
             "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 42.6%\n2. 节点A (执行者) 草稿: []\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: []"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 63,
@@ -949,7 +943,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 64,
@@ -964,7 +958,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 39.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 65,
@@ -977,9 +971,9 @@
             ],
             "analysis": "解: 从红、黄、白、紫 4 种颜色的花中任选 2 种花种在一个花坛中, 余 下的 2 种花种在另一个花坛中, 有 $C_{4}^{2}=6$ 种方法, 红色和紫色的花在同一花坛 , 有 2 种方法, 红色和紫色的花不在同一花坛, 有 4 种方法, 所以所求的概 率为 $\\frac{4}{6}=\\frac{2}{3}$.\n\n另解: 由列举法可得, 红、黄、白、紫记为 $1,2,3,4$,\n\n即有 $(12,34),(13,24),(14,23),(23,14),(24,13),(34$,\n\n12)\n\n则 $P=\\frac{4}{6}=\\frac{2}{3}$.\n\n故选: C.\n",
             "model_answer": [
-                "A"
+                "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 44.7%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['A']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 57.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: aya-expanse-8b | 计算体积 Vol=1.9881e+04) 裁决卷宗: ['D']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [aya-expanse-8b] 定夺局势！\n"
         },
         {
             "index": 66,
@@ -994,7 +988,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 48.9%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Llama-3.1-8B-Instruct | 计算体积 Vol=1.8849e+04) 裁决卷宗: ['D']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Llama-3.1-8B-Instruct] 定夺局势！\n"
         },
         {
             "index": 67,
@@ -1006,8 +1000,10 @@
                 "B"
             ],
             "analysis": "解: 设椭圆的方程为: $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$, 直线 I 经过椭圆的一个顶点和一个 焦点\n\n则直线方程为: $\\frac{x}{c}+\\frac{y}{b}=1$, 椭圆中心到 1 的距离为其短轴长的 $\\frac{1}{4}$,\n\n可得: $\\frac{1}{\\sqrt{\\frac{1}{c^{2}}+\\frac{1}{b^{2}}}}=\\frac{b}{2}$,\n\n$4=b^{2}\\left(\\frac{1}{c^{2}}+\\frac{1}{b^{2}}\\right)$\n\n$\\therefore \\frac{b^{2}}{c^{2}}=3$, $\\frac{a^{2}-c^{2}}{c^{2}}=3$\n\n$\\therefore \\mathrm{e}=\\frac{\\mathrm{c}}{\\mathrm{a}}=\\frac{1}{2}$\n\n故选: B.\n",
-            "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: []\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: []"
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 58.5%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: aya-expanse-8b | 计算体积 Vol=2.6152e+04) 裁决卷宗: ['A']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [aya-expanse-8b] 定夺局势！\n"
         },
         {
             "index": 68,
@@ -1022,7 +1018,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 69,
@@ -1035,7 +1031,7 @@
             ],
             "analysis": "解: 函数 $\\mathrm{f}(\\mathrm{x})=\\mathrm{x}-\\frac{1}{3} \\sin 2 x+a \\sin x$ 的导数为 $f^{\\prime}(x)=1-\\frac{2}{3} \\cos 2 x+a \\cos x$, 由题意可得 $f^{\\prime}(x) \\geqslant 0$ 恒成立，\n\n即为 $1-\\frac{2}{3} \\cos 2 x+a \\cos x \\geqslant 0$,\n\n即有 $\\frac{5}{3}-\\frac{4}{3} \\cos ^{2} x+\\operatorname{acos} x \\geqslant 0$ ，\n\n设 $t=\\cos x(-1 \\leqslant t \\leqslant 1)$ ， 即有 $5-4 t^{2}+3 a t \\geqslant 0$,\n\n当 $t=0$ 时，不等式显然成立;\n\n当 $0<t \\leqslant 1$ 时， $3 a \\geqslant 4 t-\\frac{5}{t}$,\n\n由 $4 t-\\frac{5}{t}$ 在 $(0,1]$ 递增, 可得 $t=1$ 时, 取得最大值 -1 , 可得 $3 a \\geqslant-1$, 即 $a \\geqslant-\\frac{1}{3}$;\n\n当 $-1 \\leqslant t<0$ 时, $3 a \\leqslant 4 t-\\frac{5}{t}$,\n\n由 $4 t-\\frac{5}{t}$ 在 $[-1,0)$ 递增, 可得 $t=-1$ 时, 取得最小值 1 ,\n\n可得 $3 a \\leqslant 1$, 即 $a \\leqslant \\frac{1}{3}$.\n\n综上可得 $\\mathrm{a}$ 的范围是 $\\left[-\\frac{1}{3}, \\frac{1}{3}\\right]$.\n\n另解: 设 $t=\\cos x(-1 \\leqslant t \\leqslant 1)$, 即有 $5-4 t^{2}+3 a t \\geqslant 0$,\n\n由题意可得 $5-4+3 a \\geqslant 0$, 且 $5-4-3 a \\geqslant 0$,\n\n解得 $\\mathrm{a}$ 的范围是 $\\left[-\\frac{1}{3}, \\frac{1}{3}\\right]$.\n\n故选: C.\n",
             "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: []\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: []"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.7396e+04) 裁决卷宗: []\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 70,
@@ -1050,7 +1046,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 71,
@@ -1065,7 +1061,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 43.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 72,
@@ -1078,9 +1074,9 @@
             ],
             "analysis": "解: 正方体体积为 8 , 可知其边长为 2 ,\n\n正方体的体对角线为 $\\sqrt{4+4+4}=2 \\sqrt{3}$,\n\n即为球的直径, 所以半径为 $\\sqrt{3}$,\n\n所以球的表面积为 $4 \\pi \\cdot(\\sqrt{3})^{2}=12 \\pi$.\n\n故选: A.\n",
             "model_answer": [
-                "A"
+                "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 60.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: aya-expanse-8b | 计算体积 Vol=2.6222e+04) 裁决卷宗: ['C']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [aya-expanse-8b] 定夺局势！\n"
         },
         {
             "index": 73,
@@ -1095,7 +1091,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 37.2%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 74,
@@ -1110,7 +1106,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['A']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.8414e+04) 裁决卷宗: ['A']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 75,
@@ -1123,9 +1119,9 @@
             ],
             "analysis": "解: $\\because$ 红灯持续时间为 40 秒, 至少需要等待 15 秒才出现绿灯, $\\therefore$ 一名行人前 25 秒来到该路口遇到红灯,\n\n$\\therefore$ 至少需要等待 15 秒才出现绿灯的概率为 $\\frac{25}{40}=\\frac{5}{8}$.\n\n故选: B.\n",
             "model_answer": [
-                "C"
+                "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 69.1%)\n2. 节点B(Rev):  General-Reasoner-7B-preview\n3. 节点C (正交法庭: aya-expanse-8b | 计算体积 Vol=1.8769e+04) 裁决卷宗: ['B']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [aya-expanse-8b] 定夺局势！\n"
         },
         {
             "index": 76,
@@ -1140,7 +1136,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 57.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 77,
@@ -1152,8 +1148,10 @@
                 "B"
             ],
             "analysis": "解: 函数 $\\mathrm{f}(\\mathrm{x})=\\cos 2 x+6 \\cos \\left(\\frac{\\pi}{2}-\\mathrm{x}\\right)$\n\n$=1-2 \\sin ^{2} x+6 \\sin x$,\n\n令 $t=\\sin x(-1 \\leqslant t \\leqslant 1) ，$\n\n可得函数 $y=-2 t^{2}+6 t+1$\n\n$=-2\\left(t-\\frac{3}{2}\\right)^{2}+\\frac{11}{2}$\n\n由 $\\frac{3}{2} \\notin[-1,1]$, 可得函数在 $[-1,1]$ 递增,\n\n即有 $t=1$ 即 $x=2 k \\pi+\\frac{\\pi}{2}, k \\in Z$ 时, 函数取得最大值 5 .\n\n故选: B.\n",
-            "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: []\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: []"
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.7220e+04) 裁决卷宗: ['C']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 78,
@@ -1168,7 +1166,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 79,
@@ -1183,7 +1181,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 80,
@@ -1196,9 +1194,9 @@
             ],
             "analysis": "解: $\\overrightarrow{\\mathrm{BA}} \\cdot \\overrightarrow{\\mathrm{BC}}=\\frac{\\sqrt{3}}{4}+\\frac{\\sqrt{3}}{4}=\\frac{\\sqrt{3}}{2},|\\overrightarrow{\\mathrm{BA}}|=|\\overrightarrow{\\mathrm{BC}}|=1$;\n\n$\\therefore \\cos \\angle \\mathrm{ABC}=\\frac{\\overrightarrow{\\mathrm{BA}} \\cdot \\overrightarrow{\\mathrm{BC}}}{|\\overrightarrow{\\mathrm{BA}}||\\overrightarrow{\\mathrm{BC}}|}=\\frac{\\sqrt{3}}{2}$;\n\n又 $0^{\\circ} \\leqslant \\angle A B C \\leqslant 180^{\\circ}$;\n\n$\\therefore \\angle \\mathrm{ABC}=30^{\\circ}$.\n\n故选: A.\n",
             "model_answer": [
-                "C"
+                "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.4479e+04) 裁决卷宗: ['A']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 81,
@@ -1213,7 +1211,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 43.6%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 69.1%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 82,
@@ -1228,7 +1226,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Yi-1.5-9B-Chat | 计算体积 Vol=1.9619e+04) 裁决卷宗: ['D']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Yi-1.5-9B-Chat] 定夺局势！\n"
         },
         {
             "index": 83,
@@ -1241,9 +1239,9 @@
             ],
             "analysis": "解: $\\because a=2^{\\frac{4}{3}}=4^{\\frac{2}{3}}$,\n\n$\\mathrm{b}=3^{\\frac{2}{3}}$\n\n$\\mathrm{c}=25^{\\frac{1}{3}}=5^{\\frac{2}{3}}$,\n\n综上可得： $b<a<c$,\n\n故选: $A$.\n",
             "model_answer": [
-                "A"
+                "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 42.6%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Yi-1.5-9B-Chat | 计算体积 Vol=1.9616e+04) 裁决卷宗: ['C']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Yi-1.5-9B-Chat] 定夺局势！\n"
         },
         {
             "index": 84,
@@ -1258,7 +1256,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['A']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 55.3%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=2.5574e+04) 裁决卷宗: ['A']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 85,
@@ -1273,7 +1271,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 36.2%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 39.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 86,
@@ -1286,9 +1284,9 @@
             ],
             "analysis": "解：由题意可设 $F(-c, 0), A(-a, 0), B(a, 0)$,\n\n设直线 $A E$ 的方程为 $y=k(x+a)$,\n\n令 $x=-c$, 可得 $M(-c, k(a-c))$, 令 $x=0$, 可得 $E(0, k a)$,\n\n设 $O E$ 的中点为 $H$, 可得 $H\\left(0, \\frac{k a}{2}\\right)$,\n\n由 $B, H, M$ 三点共线, 可得 $k_{B H}=k_{B M}$,\n\n即为 $\\frac{\\frac{k a}{2}}{-a}=\\frac{k(a-c)}{-c-a}$\n\n化简可得 $\\frac{a-c}{a+c}=\\frac{1}{2}$, 即为 $a=3 c$,\n\n可得 $\\mathrm{e}=\\frac{c}{\\mathrm{a}}=\\frac{1}{3}$.\n\n另解: 由 $\\triangle A M F \\backsim \\triangle A E O$,\n\n可得 $\\frac{a-c}{a}=\\frac{M F F}{O E}$,\n\n由 $\\triangle B O H \\backsim \\triangle B F M$,\n\n可得 $\\frac{a}{a+c}=\\frac{O H}{F M}=\\frac{O E}{2 F \\cdot M}$,\n\n即有 $\\frac{2(a-c)}{a}=\\frac{a+c}{a}$ 即 $a=3 c$,\n\n可得 $\\mathrm{e}=\\frac{\\mathrm{c}}{\\mathrm{a}}=\\frac{1}{3}$.\n\n故选: A.\n",
             "model_answer": [
-                "A"
+                "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 35.1%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['A']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.7395e+04) 裁决卷宗: ['B']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 87,
@@ -1303,7 +1301,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['A']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 88,
@@ -1318,7 +1316,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [General-Reasoner-7B-preview] 胜率 44.7%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 46.8%)\n2. 节点B(Rev):  glm-4-9b-chat\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 89,
@@ -1333,7 +1331,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 51.1%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 90,
@@ -1348,7 +1346,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['C']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 91,
@@ -1363,7 +1361,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 92,
@@ -1378,7 +1376,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 55.3%)\n2. 节点B(Rev):  glm-4-9b-chat\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 93,
@@ -1393,7 +1391,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 43.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 94,
@@ -1408,7 +1406,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 95,
@@ -1423,7 +1421,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 39.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 96,
@@ -1435,10 +1433,8 @@
                 "D"
             ],
             "analysis": "解: 由 $x^{2}-2 x-8>0$ 得: $x \\in(-\\infty,-2) \\cup(4,+\\infty)$,\n\n令 $t=x^{2}-2 x-8$, 则 $y=\\ln t$,\n\n$\\because x \\in(-\\infty,-2)$ 时, $t=x^{2}-2 x-8$ 为减函数;\n\n$x \\in(4,+\\infty)$ 时, $t=x^{2}-2 x-8$ 为增函数;\n\n$y=\\operatorname{lnt}$ 为增函数\n\n故函数 $f(x)=\\ln \\left(x^{2}-2 x-8\\right)$ 的单调递增区间是 $(4,+\\infty)$,\n\n故选: D.\n",
-            "model_answer": [
-                "D"
-            ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 42.6%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['D']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['D']"
+            "model_answer": [],
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 39.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.6629e+04) 裁决卷宗: []\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 97,
@@ -1453,7 +1449,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 48.9%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 98,
@@ -1468,7 +1464,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 46.8%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 99,
@@ -1483,7 +1479,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 36.2%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 100,
@@ -1498,7 +1494,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 101,
@@ -1513,7 +1509,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 50.0%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 102,
@@ -1528,7 +1524,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 103,
@@ -1540,8 +1536,10 @@
                 "A"
             ],
             "analysis": "解：函数 $\\mathrm{f}(\\mathrm{x})=\\frac{1}{5} \\sin \\left(\\mathrm{x}+\\frac{\\pi}{3}\\right)+\\cos \\left(x-\\frac{\\pi}{6}\\right)=\\frac{1}{5} \\sin \\left(x+\\frac{\\pi}{3}\\right)+\\cos$ $\\left(-x+\\frac{\\pi}{6}\\right)=\\frac{1}{5} \\sin \\left(x+\\frac{\\pi}{3}\\right)+\\sin \\left(x+\\frac{\\pi}{3}\\right)$ $=\\frac{6}{5} \\sin \\left(x+\\frac{\\pi}{3}\\right) \\leqslant \\frac{6}{5}$.\n\n故选: A.\n",
-            "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: []\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: []"
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.7396e+04) 裁决卷宗: ['B']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 104,
@@ -1556,7 +1554,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['A']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.7195e+04) 裁决卷宗: ['A']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 105,
@@ -1569,7 +1567,7 @@
             ],
             "analysis": "解: 因为 $f(x)=x^{2}-2 x+a\\left(e^{x-1}+e^{-x+1}\\right)=-1+(x-1)^{2}+a\\left(e^{x-1}+\\frac{1}{e^{x-1}}\\right)$ $=0$,\n\n所以函数 $f(x)$ 有唯一零点等价于方程 $1-(x-1)^{2}=a\\left(e^{x-1}+\\frac{1}{e^{x-1}}\\right)$ 有唯一解, 等价于函数 $y=1-(x-1)^{2}$ 的图象与 $y=a\\left(e^{x-1}+\\frac{1}{e^{x-1}}\\right)$ 的图象只有一个交点.\n\n(1)当 $a=0$ 时, $f(x)=x^{2}-2 x \\geqslant-1$, 此时有两个零点, 矛盾;\n\n(2)当 $a<0$ 时, 由于 $y=1-(x-1)^{2}$ 在 $(-\\infty, 1)$ 上递增、在 $(1,+\\infty)$ 上递 减 且 $y=a\\left(e^{x-1}+\\frac{1}{e^{x-1}}\\right)$ 在 $(-\\infty, 1)$ 上递增、在 $(1,+\\infty)$ 上递减,\n\n所以函数 $y=1-(x-1)^{2}$ 的图象的最高点为 $A(1,1), y=a\\left(e^{x-1}+\\frac{1}{e^{x-1}}\\right)$ 的\n\n图象的最高点为 $B(1,2 a)$,\n\n由于 $2 a<0<1$, 此时函数 $y=1-(x-1)^{2}$ 的图象与 $y=a\\left(e^{x-1}+\\frac{1}{e^{x-1}}\\right)$ 的图象 有两个交点,矛盾;\n\n(3)当 $a>0$ 时, 由于 $y=1-(x-1)^{2}$ 在 $(-\\infty, 1)$ 上递增、在 $(1,+\\infty)$ 上递 减\n\n且 $y=a\\left(e^{x-1}+\\frac{1}{e^{x-1}}\\right)$ 在 $(-\\infty, 1)$ 上递减、在 $(1,+\\infty)$ 上递增，\n\n所以函数 $y=1-(x-1)^{2}$ 的图象的最高点为 $A(1,1), y=a\\left(e^{x-1}+\\frac{1}{e^{x-1}}\\right)$ 的\n\n图象的最低点为 $B(1,2 a)$,\n\n由题可知点 $A$ 与点 $B$ 重合时满足条件, 即 $2 a=1$, 即 $a=\\frac{1}{2}$, 符合条件;\n\n综上所述, $a=\\frac{1}{2}$,\n\n故选: C.\n",
             "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: []\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: []"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.9119e+04) 裁决卷宗: []\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 106,
@@ -1584,7 +1582,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 42.6%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 107,
@@ -1599,7 +1597,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 108,
@@ -1614,7 +1612,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 109,
@@ -1629,7 +1627,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 57.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 110,
@@ -1644,7 +1642,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 43.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 111,
@@ -1659,7 +1657,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 43.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.7573e+04) 裁决卷宗: ['A']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 112,
@@ -1671,10 +1669,8 @@
                 "B"
             ],
             "analysis": "解：函数 $f(x)=2 \\cos ^{2} x-\\sin ^{2} x+2$,\n\n$=2 \\cos ^{2} x-\\sin ^{2} x+2 \\sin ^{2} x+2 \\cos ^{2} x$\n\n$=4 \\cos ^{2} x+\\sin ^{2} x$\n\n$=3 \\cos ^{2} x+1$,\n\n$=3 \\cdot \\frac{\\cos 2 x+1}{2}+1$,\n\n$=\\frac{3 \\cos 2 x}{2}+\\frac{5}{2}$\n\n故函数的最小正周期为 $\\pi$,\n\n函数的最大值为 $\\frac{3}{2}+\\frac{5}{2}=4$,\n\n故选: B.\n",
-            "model_answer": [
-                "B"
-            ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: glm-4-9b-chat) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_answer": [],
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 53.2%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: General-Reasoner-7B-preview | 计算体积 Vol=2.1250e+04) 裁决卷宗: []\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [General-Reasoner-7B-preview] 定夺局势！\n"
         },
         {
             "index": 113,
@@ -1689,7 +1685,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 114,
@@ -1704,7 +1700,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Yi-1.5-9B-Chat | 计算体积 Vol=1.9616e+04) 裁决卷宗: ['D']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Yi-1.5-9B-Chat] 定夺局势！\n"
         },
         {
             "index": 115,
@@ -1719,7 +1715,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 116,
@@ -1734,7 +1730,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 117,
@@ -1749,7 +1745,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 48.9%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 54.3%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 118,
@@ -1764,7 +1760,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 119,
@@ -1779,7 +1775,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 120,
@@ -1794,7 +1790,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 37.2%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['C']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.7539e+04) 裁决卷宗: ['C']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 121,
@@ -1806,8 +1802,10 @@
                 "C"
             ],
             "analysis": "解: $\\because f(x)$ 是奇函数, 且 $f(1-x)=f(1+x)$,\n\n$\\therefore f(1-x)=f(1+x)=-f(x-1), f(0)=0$,\n\n则 $f(x+2)=-f(x)$, 则 $f(x+4)=-f(x+2)=f(x)$,\n\n即函数 $f(x)$ 是周期为 4 的周期函数,\n\n$\\because f(1)=2$,\n\n$\\therefore f(2)=f(0)=0, f(3)=f(1-2)=f(-1)=-f(1)=-2$,\n\n$f(4)=f(0)=0$\n\n则 $f(1)+f(2)+f(3)+f(4)=2+0-2+0=0$,\n\n则 $f(1)+f(2)+f(3)+\\ldots+f(50)=12[f(1)+f(2)+f(3)+f(4)]+f(49)$\n\n$+f(50)$\n\n$=f(1)+f(2)=2+0=2$,\n\n故选: C.\n",
-            "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: []\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: []"
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.9084e+04) 裁决卷宗: ['B']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 122,
@@ -1822,7 +1820,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.7398e+04) 裁决卷宗: ['C']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 123,
@@ -1837,7 +1835,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['D']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 124,
@@ -1852,7 +1850,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 125,
@@ -1867,7 +1865,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 53.2%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 75.5%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 126,
@@ -1882,7 +1880,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 44.7%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 127,
@@ -1897,7 +1895,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 50.0%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 128,
@@ -1912,7 +1910,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 39.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.3747e+04) 裁决卷宗: ['B']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 129,
@@ -1927,7 +1925,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['C']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 39.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.7513e+04) 裁决卷宗: ['C']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 130,
@@ -1942,7 +1940,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 131,
@@ -1957,7 +1955,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 37.2%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 132,
@@ -1972,7 +1970,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 42.6%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 38.3%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 133,
@@ -1987,7 +1985,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 42.6%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 134,
@@ -2002,7 +2000,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 50.0%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 78.7%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 135,
@@ -2015,7 +2013,7 @@
             ],
             "analysis": "【 详 解】\n$\\tan 255^{\\circ}=\\tan \\left(180^{\\circ}+75^{\\circ}\\right)=\\tan 75^{\\circ}=\\tan \\left(45^{\\circ}+30^{\\circ}\\right)$\n$\\frac{\\tan 45^{\\circ}+\\tan 30^{\\circ}}{1-\\tan 45^{\\circ} \\tan 30^{\\circ}}=\\frac{1+\\frac{\\sqrt{3}}{3}}{1-\\frac{\\sqrt{3}}{3}}=2+\\sqrt{3}$. 解\n",
             "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: []\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: []"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Yi-1.5-9B-Chat | 计算体积 Vol=1.9615e+04) 裁决卷宗: []\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Yi-1.5-9B-Chat] 定夺局势！\n"
         },
         {
             "index": 136,
@@ -2030,7 +2028,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 38.3%\n2. 节点A (执行者) 草稿: []\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.7448e+04) 裁决卷宗: ['B']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 137,
@@ -2045,7 +2043,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 36.2%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 39.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 138,
@@ -2060,7 +2058,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.8021e+04) 裁决卷宗: ['A']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 139,
@@ -2075,7 +2073,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 38.3%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 140,
@@ -2090,7 +2088,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 141,
@@ -2105,7 +2103,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 38.3%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 142,
@@ -2120,7 +2118,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 44.7%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 43.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 143,
@@ -2132,10 +2130,8 @@
                 "A"
             ],
             "analysis": "【详解】若甲预测正确, 则乙、丙预测错误, 则甲比乙成绩高, 丙比乙成绩低, 故 3 人成绩 由高到低依次为甲, 乙, 丙; 若乙预测正确, 则丙预测也正确, 不符合题意; 若丙预测正确, 则甲必预测错误, 丙比乙的成绩高, 乙比甲成绩高, 即丙比甲, 乙成绩都高, 即乙预测正确, 不符合题意, 故选 $\\mathrm{A}$.\n",
-            "model_answer": [
-                "A"
-            ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 52.1%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['A']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['A']"
+            "model_answer": [],
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): General-Reasoner-7B-preview (当前波形域局部胜率 81.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 General-Reasoner-7B-preview 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 144,
@@ -2150,7 +2146,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 43.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 145,
@@ -2163,9 +2159,9 @@
             ],
             "analysis": "【详解】由面面平行的判定定理知: $a$ 内两条相交直线都与 $\\beta$ 平行是 $a / / \\beta$ 的充分条件, 由面面平行性质定理知, 若 $a / / \\beta$, 则 $a$ 内任意一条直线都与 $\\beta$ 平行, 所以 $a$ 内两条相交 直线都与 $\\beta$ 平行是 $a / / \\beta$ 的必要条件, 故选 B.\n",
             "model_answer": [
-                "B"
+                "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 37.2%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 53.2%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: aya-expanse-8b | 计算体积 Vol=1.9767e+04) 裁决卷宗: ['A']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [aya-expanse-8b] 定夺局势！\n"
         },
         {
             "index": 146,
@@ -2180,7 +2176,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 147,
@@ -2192,10 +2188,8 @@
                 "D"
             ],
             "analysis": "【详解】因为抛物线 $y^{2}=2 p x(p>0)$ 的焦点 $\\left(\\frac{p}{2}, 0\\right)$ 是椭圆 $\\frac{x^{2}}{3 p}+\\frac{y^{2}}{p}=1$ 的一个焦点, 所以 $3 p-p=\\left(\\frac{p}{2}\\right)^{2}$, 解得 $p=8$, 故选 D.\n",
-            "model_answer": [
-                "D"
-            ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_answer": [],
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 44.7%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.9318e+04) 裁决卷宗: []\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 148,
@@ -2210,7 +2204,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 37.2%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 44.7%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 149,
@@ -2223,7 +2217,7 @@
             ],
             "analysis": "【详解】 $\\because 2 \\sin 2 a=\\cos 2 a+1, \\therefore 4 \\sin a \\cdot \\cos a=2 \\cos ^{2} a \\because a \\in\\left(0, \\frac{\\pi}{2}\\right), \\therefore \\cos a>0$. $\\sin a>0, \\quad \\therefore \\quad 2 \\sin a=\\cos a$, 又 $\\sin ^{2} a+\\cos ^{2} a=1, \\quad \\therefore 5 \\sin ^{2} a=1, \\quad \\sin ^{2} a=\\frac{1}{5}$, 又 $\\sin a>0, \\therefore \\sin a=\\frac{\\sqrt{5}}{5}$, 故选 B.\n",
             "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: []\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: []"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 63.8%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=2.8417e+04) 裁决卷宗: []\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 150,
@@ -2238,7 +2232,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 38.3%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 151,
@@ -2253,7 +2247,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 152,
@@ -2268,7 +2262,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['D']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 62.8%)\n2. 节点B(Rev):  glm-4-9b-chat\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 153,
@@ -2283,7 +2277,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 70.2%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: glm-4-9b-chat) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(70%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 81.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 154,
@@ -2298,7 +2292,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 44.7%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 155,
@@ -2313,7 +2307,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['C']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 39.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 156,
@@ -2328,7 +2322,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 157,
@@ -2341,7 +2335,7 @@
             ],
             "analysis": "【详解】 设点 $P\\left(x_{0}, y_{0}\\right)$, 则 $\\frac{x_{0}^{2}}{4}-\\frac{y_{0}^{2}}{5}=1$ (1). 又 $|O P|=|O F|=\\sqrt{4+5}=3$ ， $\\therefore x_{0}^{2}+y_{0}^{2}=9$ (2). 由 (1)(2) 得 $y_{0}^{2}=\\frac{25}{9}$, 即 $\\left|y_{0}\\right|=\\frac{5}{3}$, $\\therefore S_{\\triangle O P F}=\\frac{1}{2}|O F| \\cdot\\left|y_{0}\\right|=\\frac{1}{2} \\times 3 \\times \\frac{5}{3}=\\frac{5}{2}$. 故选 B.\n",
             "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: []\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: []"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 158,
@@ -2354,7 +2348,7 @@
             ],
             "analysis": "【详解】 $\\because f(x)$ 是 $\\mathrm{R}$ 的偶函数, $\\therefore f\\left(\\log _{3} \\frac{1}{4}\\right)=f\\left(\\log _{3} 4\\right)$.\n\n$\\therefore \\log _{3} 4>1=2^{0}>2^{-\\frac{3}{2}}$, 又 $f(x)$ 在 $(0,+\\infty)$ 单调递减, $f\\left(\\log _{3} 4\\right)<f\\left(2^{-\\frac{2}{3}}\\right)<f\\left(2^{-\\frac{3}{2}}\\right)$,\n\n$\\therefore f\\left(2^{-\\frac{3}{2}}\\right)>f\\left(2^{-\\frac{2}{3}}\\right)>f\\left(\\log _{3} \\frac{1}{4}\\right)$, 故选 C.\n",
             "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: []\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: []"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.5629e+04) 裁决卷宗: []\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 159,
@@ -2369,7 +2363,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 160,
@@ -2384,7 +2378,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 161,
@@ -2399,7 +2393,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 162,
@@ -2414,7 +2408,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 48.9%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 50.0%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.9826e+04) 裁决卷宗: ['C']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 163,
@@ -2426,10 +2420,8 @@
                 "B"
             ],
             "analysis": "【详解】由题意可得： $\\sin \\theta+\\frac{1}{2} \\sin \\theta+\\frac{\\sqrt{3}}{2} \\cos \\theta=1$,\n\n则: $\\frac{3}{2} \\sin \\theta+\\frac{\\sqrt{3}}{2} \\cos \\theta=1, \\frac{\\sqrt{3}}{2} \\sin \\theta+\\frac{1}{2} \\cos \\theta=\\frac{\\sqrt{3}}{3}$,\n\n从而有: $\\sin \\theta \\cos \\frac{\\pi}{6}+\\cos \\theta \\sin \\frac{\\pi}{6}=\\frac{\\sqrt{3}}{3}$,\n\n即 $\\sin \\left(\\theta+\\frac{\\pi}{6}\\right)=\\frac{\\sqrt{3}}{3}$.\n\n故选: B.\n",
-            "model_answer": [
-                "B"
-            ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_answer": [],
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 56.4%)\n2. 节点B(Rev):  glm-4-9b-chat\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=2.8650e+04) 裁决卷宗: []\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 164,
@@ -2444,7 +2436,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 35.1%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 165,
@@ -2457,9 +2449,9 @@
             ],
             "analysis": "【详解】由 $y=k(x+1)$ 可知直线过定点 $P(-1,0)$, 设 $A(0,-1)$,\n\n当直线 $y=k(x+1)$ 与 $A P$ 垂直时, 点 $A$ 到直线 $y=k(x+1)$ 距离最大,\n\n即为 $|A P|=\\sqrt{2}$.\n\n故选: B.\n",
             "model_answer": [
-                "C"
+                "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: gemma-2-9b-it) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['C']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  General-Reasoner-7B-preview\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.5601e+04) 裁决卷宗: ['A']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 166,
@@ -2474,7 +2466,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['A']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Yi-1.5-9B-Chat | 计算体积 Vol=1.9616e+04) 裁决卷宗: ['A']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Yi-1.5-9B-Chat] 定夺局势！\n"
         },
         {
             "index": 167,
@@ -2489,7 +2481,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 168,
@@ -2501,10 +2493,8 @@
                 "D"
             ],
             "analysis": "【详解】 $\\because \\sin x$ 可以为负, 所以 $\\mathrm{A}$ 错;\n\n$Q \\sin x \\neq 0 \\therefore x \\neq k \\pi(k \\in Z) Q f(-x)=-\\sin x-\\frac{1}{\\sin x}=-f(x) \\therefore f(x)$ 关于原点对称;\n\n$Q f(2 \\pi-x)=-\\sin x-\\frac{1}{\\sin x} \\neq f(x), f(\\pi-x)=\\sin x+\\frac{1}{\\sin x}=f(x)$, 故 B 错;\n\n$\\therefore f(x)$ 关于直线 $x=\\frac{\\pi}{2}$ 对称, 故 $\\mathrm{C}$ 错, $\\mathrm{D}$ 对\n\n故选: D\n",
-            "model_answer": [
-                "C"
-            ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['C']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['C']"
+            "model_answer": [],
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 47.9%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.8174e+04) 裁决卷宗: []\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 169,
@@ -2519,7 +2509,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 38.3%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.3401e+04) 裁决卷宗: ['D']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 170,
@@ -2534,7 +2524,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 171,
@@ -2546,10 +2536,8 @@
                 "B"
             ],
             "analysis": "【详解】圆 $x^{2}+y^{2}-6 x=0$ 化为 $(x-3)^{2}+y^{2}=9$, 所以圆心 $C$ 坐标为 $C(3,0)$, 半径为 3 ,\n\n设 $P(1,2)$, 当过点 $P$ 的直线和直线 $C P$ 垂直时, 圆心到过点 $P$ 的直线的距离最大, 所求的弦长最短,\n\n根据弦长公式最小值为 $2 \\sqrt{9-|C P|^{2}}=2 \\sqrt{9-8}=2$.\n\n故选: B.\n",
-            "model_answer": [
-                "B"
-            ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_answer": [],
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 54.3%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.8972e+04) 裁决卷宗: []\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 172,
@@ -2564,7 +2552,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Yi-1.5-9B-Chat | 计算体积 Vol=1.9615e+04) 裁决卷宗: ['B']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Yi-1.5-9B-Chat] 定夺局势！\n"
         },
         {
             "index": 173,
@@ -2577,7 +2565,7 @@
             ],
             "analysis": "【详解】设等比数列 $\\left\\{a_{n}\\right\\}$ 的公比为 $q$, 则 $a_{1}+a_{2}+a_{3}=a_{1}\\left(1+q+q^{2}\\right)=1$,\n\n$a_{2}+a_{3}+a_{4}=a_{1} q+a_{1} q^{2}+a_{1} q^{3}=a_{1} q\\left(1+q+q^{2}\\right)=q=2$ 因此, $a_{6}+a_{7}+a_{8}=a_{1} q^{5}+a_{1} q^{6}+a_{1} q^{7}=a_{1} q^{5}\\left(1+q+q^{2}\\right)=q^{5}=32$.\n\n故选：D.\n",
             "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: []\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: []"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 57.4%)\n2. 节点B(Rev):  internlm3-8b-instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 174,
@@ -2589,8 +2577,10 @@
                 "B"
             ],
             "analysis": "【详解】由已知, 不妨设 $F_{1}(-2,0), F_{2}(2,0)$,\n\n则 $a=1, c=2$, 因为 $|O P|=1=\\frac{1}{2}\\left|F_{1} F_{2}\\right|$,\n\n所以点 $P$ 在以 $F_{1} F_{2}$ 为直径的圆上,\n\n即 $\\square F_{1} F_{2} P$ 是以 $P$ 为直角顶点的直角三角形,\n\n故 $\\left|P F_{1}\\right|^{2}+\\left|P F_{2}\\right|^{2}=\\left|F_{1} F_{2}\\right|^{2}$ ，\n\n即 $\\left|P F_{1}\\right|^{2}+\\left|P F_{2}\\right|^{2}=16$, 又 $\\left|P F_{1}\\right|-\\left|P F_{2}\\right|=2 a=2$ ，\n\n所以 $4=|| P F_{1}|-| P F_{2}\\left\\|^{2}=\\left|P F_{1}\\right|^{2}+\\left|P F_{2}\\right|^{2}-2\\left|P F_{1} \\| P F_{2}\\right|=16-2\\left|P F_{1}\\right|\\left|P F_{2}\\right|\\right.$,\n\n解得 $\\left|P F_{1}\\right|\\left|P F_{2}\\right|=6$, 所以 $S_{\\triangle F_{1} F_{2} P}=\\frac{1}{2}\\left|P F_{1}\\right|\\left|P F_{2}\\right|=3$\n\n故选：B\n\n【点晴】本题考查双曲线中焦点三角面积的计算问题, 涉及到双曲线的定义, 考查学生的数学运算能力, 是一道中档题.\n",
-            "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: []\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: []\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: []"
+            "model_answer": [
+                "C"
+            ],
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.9086e+04) 裁决卷宗: ['C']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 175,
@@ -2605,7 +2595,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 38.3%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 176,
@@ -2620,7 +2610,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 177,
@@ -2635,7 +2625,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 66.0%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(66%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 77.7%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 178,
@@ -2650,7 +2640,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['D']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 43.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.9898e+04) 裁决卷宗: ['D']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 179,
@@ -2663,7 +2653,7 @@
             ],
             "analysis": "【详解】设等比数列的公比为 $q$,\n\n由 $a_{5}-a_{3}=12, a_{6}-a_{4}=24$ 可得: $\\left\\{\\begin{array}{l}a_{1} q^{4}-a_{1} q^{2}=12 \\\\ a_{1} q^{5}-a_{1} q^{3}=24\\end{array} \\Rightarrow\\left\\{\\begin{array}{l}q=2 \\\\ a_{1}=1\\end{array}\\right.\\right.$,\n\n所以 $a_{n}=a_{1} q^{n-1}=2^{n-1}, S_{n}=\\frac{a_{1}\\left(1-q^{n}\\right)}{1-q}=\\frac{1-2^{n}}{1-2}=2^{n}-1$,\n\n因此 $\\frac{S_{n}}{a_{n}}=\\frac{2^{n}-1}{2^{n-1}}=2-2^{1-n}$.\n\n故选: B.\n",
             "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 38.3%\n2. 节点A (执行者) 草稿: []\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: []"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 180,
@@ -2678,7 +2668,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.4621e+04) 裁决卷宗: ['B']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 181,
@@ -2691,9 +2681,9 @@
             ],
             "analysis": "【详解】 $\\because C: \\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1(a>0, b>0)$\n\n$\\therefore$ 双曲线的渐近线方程是 $y= \\pm \\frac{b}{a} x$\n\n$\\because$ 直线 $x=a$ 与双曲线 $C: \\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1(a>0, b>0)$ 的两条渐近线分别交于 $D, E$ 两点\n\n不妨设 $D$ 为在第一象限, $E$ 在第四象限\n\n联立 $\\left\\{\\begin{array}{l}x=a \\\\ y=\\frac{b}{a} x\\end{array}\\right.$, 解得 $\\left\\{\\begin{array}{l}x=a \\\\ y=b\\end{array}\\right.$\n\n故 $D(a, b)$\n\n联立 $\\left\\{\\begin{array}{l}x=a \\\\ y=-\\frac{b}{a} x\\end{array}\\right.$, 解得 $\\left\\{\\begin{array}{l}x=a \\\\ y=-b\\end{array}\\right.$\n\n故 $E(a,-b)$ $\\therefore|E D|=2 b$\n\n$\\therefore \\square O D E$ 面积为: $S_{\\triangle O D E}=\\frac{1}{2} a \\times 2 b=a b=8$\n\n$\\because$ 双曲线 $C: \\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1(a>0, b>0)$\n\n$\\therefore$ 其焦距为 $2 c=2 \\sqrt{a^{2}+b^{2}} \\geq 2 \\sqrt{2 a b}=2 \\sqrt{16}=8$\n\n当且仅当 $a=b=2 \\sqrt{2}$ 取等号\n\n$\\therefore C$ 的焦距的最小值： 8\n\n故选: B.\n",
             "model_answer": [
-                "D"
+                "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 37.2%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['D']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 47.9%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.8509e+04) 裁决卷宗: ['C']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 182,
@@ -2708,7 +2698,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 45.7%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 183,
@@ -2723,7 +2713,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 47.9%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 184,
@@ -2736,9 +2726,9 @@
             ],
             "analysis": "【详解】由 $2^{x}-2^{y}<3^{-x}-3^{-y}$ 得: $2^{x}-3^{-x}<2^{y}-3^{-y}$,\n\n令 $f(t)=2^{t}-3^{-t}$, $\\because y=2^{x}$ 为 $R$ 上的增函数, $y=3^{-x}$ 为 $R$ 上的减函数, $\\therefore f(t)$ 为 $R$ 上的增函数,\n\n$\\therefore x<y$,\n\n$\\mathrm{Q} y-x>0 \\therefore, y-x+1>1 \\therefore, \\ln (y-x+1>) 0$, 则A正确, B错误;\n\n$\\mathrm{Q}|x-y|$ 与 1 的大小不确定, 故CD无法确定.\n\n故选: A.\n",
             "model_answer": [
-                "D"
+                "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 39.4%\n2. 节点A (执行者) 草稿: []\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['D']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 54.3%)\n2. 节点B(Rev):  glm-4-9b-chat\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=2.3000e+04) 裁决卷宗: ['A']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 185,
@@ -2753,7 +2743,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 44.7%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 186,
@@ -2768,7 +2758,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 187,
@@ -2783,7 +2773,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 188,
@@ -2798,7 +2788,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 39.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 189,
@@ -2813,7 +2803,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 44.7%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 81.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 190,
@@ -2828,7 +2818,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.7983e+04) 裁决卷宗: ['D']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 191,
@@ -2841,7 +2831,7 @@
             ],
             "analysis": "【详解】 $\\because S_{n}$ 为等比数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和,\n\n$\\therefore S_{2}, \\quad S_{4}-S_{2}, \\quad S_{6}-S_{4}$ 成等比数列\n\n$\\therefore S_{2}=4, \\quad S_{4}-S_{2}=6-4=2$\n\n$\\therefore S_{6}-S_{4}=1$\n\n$\\therefore S_{6}=1+S_{4}=1+6=7$\n\n故选: A.\n",
             "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 38.3%\n2. 节点A (执行者) 草稿: []\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: []"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 192,
@@ -2856,7 +2846,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 42.6%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 39.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 193,
@@ -2869,7 +2859,7 @@
             ],
             "analysis": "【详解】 $\\because \\tan 2 a=\\frac{\\cos a}{2-\\sin a}$\n\n$\\therefore \\tan 2 a=\\frac{\\sin 2 a}{\\cos 2 a}=\\frac{2 \\sin a \\cos a}{1-2 \\sin ^{2} a}=\\frac{\\cos a}{2-\\sin a}$,\n\n$\\because a \\in\\left(0, \\frac{\\pi}{2}\\right), \\therefore \\cos a \\neq 0, \\therefore \\frac{2 \\sin a}{1-2 \\sin ^{2} a}=\\frac{1}{2-\\sin a}$, 解得 $\\sin a=\\frac{1}{4}$,\n\n$\\therefore \\cos a=\\sqrt{1-\\sin ^{2} a}=\\frac{\\sqrt{15}}{4}, \\therefore \\tan a=\\frac{\\sin a}{\\cos a}=\\frac{\\sqrt{15}}{15}$.\n\n故选: A.\n",
             "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: []\n3. 节点B (审查者: glm-4-9b-chat) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: []"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 66.0%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 194,
@@ -2882,7 +2872,7 @@
             ],
             "analysis": "【详解】由题意可得： $f\\left(\\frac{5}{3}\\right)=f\\left(1+\\frac{2}{3}\\right)=f\\left(-\\frac{2}{3}\\right)=-f\\left(\\frac{2}{3}\\right)$,\n\n而 $f\\left(\\frac{2}{3}\\right)=f\\left(1-\\frac{1}{3}\\right)=f\\left(\\frac{1}{3}\\right)=-f\\left(-\\frac{1}{3}\\right)=-\\frac{1}{3}$,\n\n故 $f\\left(\\frac{5}{3}\\right)=\\frac{1}{3}$.\n\n故选: C.\n",
             "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 42.6%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: []\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: []"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.8701e+04) 裁决卷宗: []\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 195,
@@ -2897,7 +2887,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 42.6%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 196,
@@ -2912,7 +2902,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 43.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 197,
@@ -2927,7 +2917,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 59.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 198,
@@ -2942,7 +2932,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 199,
@@ -2957,7 +2947,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 200,
@@ -2972,7 +2962,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 42.6%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 201,
@@ -2987,7 +2977,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 37.2%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 202,
@@ -3000,9 +2990,9 @@
             ],
             "analysis": "解析:\n\n$f^{\\prime}(x)=2 a(x-a)(x-b)+a(x-a)^{2}=a(x-a)(3 x-2 b-a)$\n\n当 $a>0$ 时, 原函数先增再减后增.\n\n原函数在 $f^{\\prime}(x)=0$ 的较小零点时取得极大值.\n\n即 $a<\\frac{a+2 b}{3}$, 即 $a<b, \\therefore a^{2}<a b$.\n\n当 $a<0$ 时, 原函数先减再增后减.\n\n原函数在 $f^{\\prime}(x)=0$ 的较大零点时取得极大值.\n\n即 $a>\\frac{a+2 b}{3}, a>b, a^{2}<a b$, 故选 D.\n",
             "model_answer": [
-                "A"
+                "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 40.4%\n2. 节点A (执行者) 草稿: []\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['A']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 39.4%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.7475e+04) 裁决卷宗: ['C']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 203,
@@ -3017,7 +3007,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 45.7%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Yi-1.5-9B-Chat | 计算体积 Vol=1.9616e+04) 裁决卷宗: ['A']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Yi-1.5-9B-Chat] 定夺局势！\n"
         },
         {
             "index": 204,
@@ -3032,7 +3022,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 205,
@@ -3047,7 +3037,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 41.5%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 206,
@@ -3062,7 +3052,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 47.9%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 59.6%)\n2. 节点B(Rev):  General-Reasoner-7B-preview\n3. 节点C (正交法庭: aya-expanse-8b | 计算体积 Vol=2.0393e+04) 裁决卷宗: ['D']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [aya-expanse-8b] 定夺局势！\n"
         },
         {
             "index": 207,
@@ -3077,7 +3067,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 36.2%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.3545e+04) 裁决卷宗: ['B']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 208,
@@ -3090,7 +3080,7 @@
             ],
             "analysis": "【详解】解：设等比数列 $\\left\\{a_{n}\\right\\}$ 的公比为 $q, q \\neq 0$,\n\n若 $q=1$, 则 $a_{2}-a_{5}=0$, 与题意矛盾,\n\n所以 $q \\neq 1$,\n\n则 $\\left\\{\\begin{array}{l}a_{1}+a_{2}+a_{3}=\\frac{a_{1}\\left(1-q^{3}\\right)}{1-q}=168 \\\\ a_{2}-a_{5}=a_{1} q-a_{1} q^{4}=42\\end{array}\\right.$, 解得 $\\left\\{\\begin{array}{l}a_{1}=96 \\\\ q=\\frac{1}{2}\\end{array}\\right.$,\n\n所以 $a_{6}=a_{1} q^{5}=3$.\n\n故选：D.\n",
             "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: []\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: []"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): General-Reasoner-7B-preview (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  internlm3-8b-instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 209,
@@ -3103,7 +3093,7 @@
             ],
             "analysis": "【详解】 $f^{\\prime}(x)=-\\sin x+\\sin x+(x+1) \\cos x=(x+1) \\cos x$, 所以 $f(x)$ 在区间 $\\left(0, \\frac{\\pi}{2}\\right)$ 和 $\\left(\\frac{3 \\pi}{2}, 2 \\pi\\right)$ 上 $f^{\\prime}(x)>0$, 即 $f(x)$ 单调递增; 在区间 $\\left(\\frac{\\pi}{2}, \\frac{3 \\pi}{2}\\right)$ 上 $f^{\\prime}(x)<0$, 即 $f(x)$ 单调递减, 又 $f(0)=f(2 \\pi)=2, f\\left(\\frac{\\pi}{2}\\right)=\\frac{\\pi}{2}+2, f\\left(\\frac{3 \\pi}{2}\\right)=-\\left(\\frac{3 \\pi}{2}+1\\right)+1=-\\frac{3 \\pi}{2}$ ， 所以 $f(x)$ 在区间 $[0,2 \\pi]$ 上的最小值为 $-\\frac{3 \\pi}{2}$, 最大值为 $\\frac{\\pi}{2}+2$.\n\n故选: D\n",
             "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 41.5%\n2. 节点A (执行者) 草稿: []\n3. 节点B (审查者: gemma-2-9b-it) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: []\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: []"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 41.5%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.6015e+04) 裁决卷宗: []\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 210,
@@ -3116,7 +3106,7 @@
             ],
             "analysis": "【详解】设该四棱雉底面为四边形 $A B C D$, 四边形 $A B C D$ 所在小圆半径为 $r$, 设四边形 $A B C D$ 对角线夹角为 $a$, 则 $S_{A B C D}=\\frac{1}{2} \\cdot A C \\cdot B D \\cdot \\sin a \\leq \\frac{1}{2} \\cdot A C \\cdot B D \\leq \\frac{1}{2} \\cdot 2 r \\cdot 2 r=2 r^{2}$\n\n(当且仅当四边形 $A B C D$ 为正方形时等号成立) 即当四棱雉的顶点 $O$ 到底面 $A B C D$ 所在小圆距离一定时, 底面 $A B C D$ 面积最大值为 $2 r^{2}$\n\n又 $r^{2}+h^{2}=1$\n\n则 $V_{O-A B C D}=\\frac{1}{3} \\cdot 2 r^{2} \\cdot h=\\frac{\\sqrt{2}}{3} \\sqrt{r^{2} \\cdot r^{2} \\cdot 2 h^{2}} \\leq \\frac{\\sqrt{2}}{3} \\sqrt{\\left(\\frac{r^{2}+r^{2}+2 h^{2}}{3}\\right)^{3}}=\\frac{4 \\sqrt{3}}{27}$\n\n当且仅当 $r^{2}=2 h^{2}$ 即 $h=\\frac{\\sqrt{3}}{3}$ 时等号成立,\n\n故选: C\n",
             "model_answer": [],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: []\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: []"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 45.7%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.8045e+04) 裁决卷宗: []\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 211,
@@ -3131,7 +3121,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 212,
@@ -3146,7 +3136,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 38.3%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 213,
@@ -3161,7 +3151,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 48.9%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=2.0221e+04) 裁决卷宗: ['C']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 214,
@@ -3173,10 +3163,8 @@
                 "C"
             ],
             "analysis": "【详解】从 6 张卡片中无放回抽取 2 张, 共有\n\n$(1,2),(1,3),(1,4),(1,5),(1,6),(2,3),(2,4),(2,5),(2,6),(3,4),(3,5),(3,6),(4,5),(4,6),(5,6)$\n\n15 种情况,\n\n其中数字之积为 4 的倍数的有 $(1,4),(2,4),(2,6),(3,4),(4,5),(4,6) 6$ 种情况, 故概率为 $\\frac{6}{15}=\\frac{2}{5}$\n\n故选: C.\n",
-            "model_answer": [
-                "B"
-            ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 45.7%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_answer": [],
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 52.1%)\n2. 节点B(Rev):  gemma-2-9b-it\n3. 节点C (正交法庭: MAmmoTH2-8B-Plus | 计算体积 Vol=2.0138e+04) 裁决卷宗: []\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [MAmmoTH2-8B-Plus] 定夺局势！\n"
         },
         {
             "index": 215,
@@ -3191,7 +3179,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 38.3%\n2. 节点A (执行者) 草稿: []\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): gemma-2-9b-it (当前波形域局部胜率 42.6%)\n2. 节点B(Rev):  Qwen2.5-7B-Instruct\n3. 节点C (正交法庭: Nemotron-H-8B-Reasoning-128K | 计算体积 Vol=1.9084e+04) 裁决卷宗: ['B']\n4. 状态机动作:\n   -> ⚖️【Geometric Tribunal (正交法庭接管)】分歧爆发！计算 Gram 行列式推举认知盲区【最不重合】的降维裁判 [Nemotron-H-8B-Reasoning-128K] 定夺局势！\n"
         },
         {
             "index": 216,
@@ -3206,7 +3194,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 40.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 40.4%)\n2. 节点B(Rev):  gemma-2-9b-it\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 217,
@@ -3221,7 +3209,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: []\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['D']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 55.3%)\n2. 节点B(Rev):  glm-4-9b-chat\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         }
     ]
 }

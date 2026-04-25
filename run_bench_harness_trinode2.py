@@ -225,7 +225,7 @@ def main():
     parser.add_argument("--test_dir", type=str, default="./GAOKAO-Bench-2010-2022/Data")
     parser.add_argument("--output_dir", type=str, default="./GAOKAO-Bench-2010-2022/Data")
     parser.add_argument("--models", type=str, nargs="+", required=True)
-    parser.add_argument("--embed_model", type=str, default="models/bge-m3")
+    parser.add_argument("--embed_model", type=str, default="BAAI/bge-m3")
     parser.add_argument("--subjects", type=str, nargs="*", default=None)
     
     parser.add_argument("--top_k_ratio", type=float, default=0.30)
@@ -263,6 +263,7 @@ def main():
     global_total_q = 0
     global_expert_corrects = np.zeros(len(args.models))
     global_bh_exec_corrects = 0
+    global_bh_rev_corrects = 0   # 🌟 新增审查者全局准确率变量
     global_bh_consensus_corrects = 0
     
     global_rescue_counts = 0
@@ -277,9 +278,10 @@ def main():
         anchor_file_path = data["anchor_file_path"]
         bh_output_examples = []
         
+        # 🌟 字典中新增了 bh_rev 键
         subject_metrics[keyword] = {
             "total": 0, "experts": np.zeros(len(args.models)),
-            "bh_exec": 0, "bh_final": 0, 
+            "bh_exec": 0, "bh_rev": 0, "bh_final": 0, 
             "rescue": 0, "early_exit": 0, "escalation": 0
         }
         
@@ -307,8 +309,13 @@ def main():
             arch_ans_raw = item["model_ans"][architect_idx] # 获取大架构师的历史作答底牌
             
             exec_corr = item["model_corr"][exec_idx]
+            rev_corr = item["model_corr"][rev_idx]  # 🌟 提取当前审查者的对错状态
+            
             global_bh_exec_corrects += exec_corr
             subject_metrics[keyword]["bh_exec"] += exec_corr
+            
+            global_bh_rev_corrects += rev_corr      # 🌟 累加审查者命中总数
+            subject_metrics[keyword]["bh_rev"] += rev_corr
             
             exec_ans_str = GaokaoDataLoader.extract_answer(exec_ans_raw)
             rev_ans_str = GaokaoDataLoader.extract_answer(rev_ans_raw)
@@ -477,6 +484,8 @@ def main():
         print(row_str)
         
     print_bh_row("BH-Exec (纯执行者底座)", "bh_exec")
+    # 🌟 在此插入审查者的行，精准放在两者的中间
+    print_bh_row("BH-Rev (交叉审查者底座)", "bh_rev") 
     print_bh_row("BH-Final (三节点状态机定夺)", "bh_final")
     print_bh_row("Gain (vs Best Exp)", "gain", is_gain=True)
     print_bh_row("Early-Exit (自信锁早退数)", "early_exit", is_pct=False)
@@ -492,6 +501,7 @@ def main():
         
         best_single_acc = max([m[0] for m in model_stats])
         bh_exec_acc = sum([subject_metrics[s]["bh_exec"] for s in valid_subjects]) / total_qs * 100
+        bh_rev_acc = sum([subject_metrics[s]["bh_rev"] for s in valid_subjects]) / total_qs * 100     # 🌟 汇总全域审查者准确率
         bh_final_acc = sum([subject_metrics[s]["bh_final"] for s in valid_subjects]) / total_qs * 100
         global_escalation = sum([subject_metrics[s]["escalation"] for s in valid_subjects])
         global_early_exit = sum([subject_metrics[s]["early_exit"] for s in valid_subjects])
@@ -499,6 +509,7 @@ def main():
         print("【Bench-Harness 智能体编排底座 (三节点反脆弱状态机)】")
         print(f"  👑 最高架构师 (Supreme Architect)  : {architect_model}")
         print(f"  🌟 第一防线：仅执行者微观胜率       : {bh_exec_acc:.2f}%")
+        print(f"  🛡️ 第二防线：仅审查者交叉胜率       : {bh_rev_acc:.2f}%")    # 🌟 增加在底部的全局展示
         print(f"  🚀 终极防线：三节点共识环最终成团   : {bh_final_acc:.2f}%")
         print("-" * 80)
         print(f"  🔒 [低熵顺境] 高置信度下强行早退越过审查次数   : {global_early_exit} 次 (完美切断了噪音污染的链路)")

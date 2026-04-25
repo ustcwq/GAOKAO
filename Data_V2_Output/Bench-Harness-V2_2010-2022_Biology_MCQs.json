@@ -1,6 +1,6 @@
 {
     "keyword": "2010-2022_Biology_MCQs",
-    "model_name": "Bench-Harness",
+    "model_name": "Bench-Harness-V2",
     "prompt": "请你做一道生物选择题\n请你一步一步思考并将思考过程写在【解析】和<eoe>之间。你将从A，B，C，D中选出正确的答案，并写在【答案】和<eoa>之间。\n例如：【答案】: A <eoa>\n完整的题目回答的格式如下：\n【解析】 ... <eoe>\n【答案】 ... <eoa>\n请你严格按照上述格式作答。\n题目如下：",
     "example": [
         {
@@ -16,7 +16,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 58.5%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): General-Reasoner-7B-preview (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 General-Reasoner-7B-preview 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 1,
@@ -31,7 +31,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 56.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['C']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 80.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 2,
@@ -44,9 +44,9 @@
             ],
             "analysis": "解： A、胚乳细胞不含液泡，不能用于观察质壁分离， A错误；  \nB、水稻胚乳细胞中脂肪含量少，不适于脂肪检测实验， B错误；  \nC、紫色洋葱细胞含有紫色的大液泡 ，可以用来观察质壁分离 ，花生子叶可以用\n来观察 RNA和脂肪， C正确；  \nD、紫色洋葱含色素，对反应的颜色有干扰作用， 不适于观察 RNA和脂肪， D\n错误。  \n故选： C。\n",
             "model_answer": [
-                "C"
+                "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [General-Reasoner-7B-preview] 胜率 45.7%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 86.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 3,
@@ -61,7 +61,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 39.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 4,
@@ -76,7 +76,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 55.3%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 5,
@@ -91,7 +91,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 54.3%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 87.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 6,
@@ -106,7 +106,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [General-Reasoner-7B-preview] 胜率 57.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): General-Reasoner-7B-preview (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 General-Reasoner-7B-preview 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 7,
@@ -121,7 +121,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 48.9%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 8,
@@ -136,7 +136,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 55.3%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 80.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 9,
@@ -151,7 +151,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 50.0%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 10,
@@ -166,7 +166,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 61.7%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: glm-4-9b-chat) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(62%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 80.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 11,
@@ -181,7 +181,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 56.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 12,
@@ -196,7 +196,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 62.8%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: glm-4-9b-chat) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(63%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 13,
@@ -211,7 +211,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 57.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 80.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 14,
@@ -226,7 +226,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 54.3%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 81.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 15,
@@ -239,9 +239,9 @@
             ],
             "analysis": "解： A、两者前期时染色体数目、 DNA数目相同，但是染色体行为不\n同，减一前期出现同源染色体联会的现象， A错误；  \nB、两者中期染色体数目和 DNA含量相同，染色体行为不同，有丝分裂中期染\n色体的着丝点都排列在赤道板上，而减数第一次分裂中期，同源染色体成对\n地排列在赤道板上， B错误；  \nC、两者后期染色体数目不同，染色体行为也不同，有丝分裂后期着丝点分裂 ，\n姐妹染色单体分开成为染色体，而减数第一次分裂后期同源染色体分离，非\n同源染色体自由组合， 但这两个时期的 DNA含量相同， C正确；  \nD、两者末期染色体行为和数目不同， DNA分子数目相同， D错误。  \n故选： C。\n",
             "model_answer": [
-                "A"
+                "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 55.3%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['A']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): General-Reasoner-7B-preview (当前波形域局部胜率 81.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 General-Reasoner-7B-preview 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 16,
@@ -256,7 +256,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 51.1%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 17,
@@ -271,7 +271,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 56.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['C']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 18,
@@ -286,7 +286,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 48.9%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['D']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 86.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 19,
@@ -301,7 +301,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 55.3%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 67.0%)\n2. 节点B(Rev):  glm-4-9b-chat\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 20,
@@ -316,7 +316,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 52.1%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 21,
@@ -331,7 +331,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 62.8%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: glm-4-9b-chat) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(63%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 22,
@@ -346,7 +346,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 57.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 72.3%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 23,
@@ -361,7 +361,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 54.3%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 76.6%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 24,
@@ -376,7 +376,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 52.1%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 25,
@@ -391,7 +391,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 55.3%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 26,
@@ -406,7 +406,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 63.8%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(64%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 27,
@@ -421,7 +421,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 60.6%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: glm-4-9b-chat) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(61%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 28,
@@ -434,9 +434,9 @@
             ],
             "analysis": "解： A、做植物细胞质壁分离实验要选择有颜色的材料，有利于实验现\n象的观察， A正确；  \nB、叶片的叶肉细胞中液泡呈无色，叶绿体的存在使原生质层呈绿色，有利于实\n  验现象的观察， B错误；  \nC、紫色洋葱鳞片叶外表皮不同部位细胞的细胞液浓度不一定都相同，用相同浓\n度的外界溶液进行质壁分离实验时观察到的质壁分离程度可能不同， C正确； \nD、紫色洋葱鳞片叶外表皮细胞的液泡中有色素，有利于实验现象的观察， D正\n确。  \n故选： B。\n",
             "model_answer": [
-                "D"
+                "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 54.3%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['D']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 86.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 29,
@@ -449,9 +449,9 @@
             ],
             "analysis": "解： A、稻田中青蛙以稻飞虱作为食物，两者为捕食关系， 故A选项正\n确；  \nB、水稻和青蛙并未利用共同的资源，两者不是竞争关系， 故B选项错误；  \nC、病毒 V和水稻之间是寄生的关系，不是青蛙， 故C选项错误；  \nD、水稻和病毒 V之间是寄生的关系， 故D选项错误。  \n故选： A。\n",
             "model_answer": [
-                "A"
+                "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [General-Reasoner-7B-preview] 胜率 54.3%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 87.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 30,
@@ -466,7 +466,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 50.0%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 76.6%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 31,
@@ -481,7 +481,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 51.1%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 78.7%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 32,
@@ -496,7 +496,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 48.9%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 87.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 33,
@@ -511,7 +511,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 47.9%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 34,
@@ -526,7 +526,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 57.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): General-Reasoner-7B-preview (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 General-Reasoner-7B-preview 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 35,
@@ -541,7 +541,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 51.1%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 66.0%)\n2. 节点B(Rev):  glm-4-9b-chat\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 36,
@@ -556,7 +556,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 50.0%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 88.3%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 37,
@@ -571,7 +571,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 47.9%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 74.5%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 38,
@@ -586,7 +586,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 67.0%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: glm-4-9b-chat) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(67%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 86.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 39,
@@ -601,7 +601,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 59.6%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): General-Reasoner-7B-preview (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 General-Reasoner-7B-preview 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 40,
@@ -616,7 +616,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 56.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 86.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 41,
@@ -631,7 +631,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 60.6%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(61%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 42,
@@ -646,7 +646,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 50.0%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 80.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 43,
@@ -661,7 +661,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 55.3%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 44,
@@ -676,7 +676,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 60.6%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(61%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 80.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 45,
@@ -691,7 +691,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 56.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 81.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 46,
@@ -706,7 +706,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 68.1%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(68%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 88.3%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 47,
@@ -721,7 +721,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 61.7%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: glm-4-9b-chat) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(62%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 79.8%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 48,
@@ -736,7 +736,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 61.7%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: internlm3-8b-instruct) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(62%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 49,
@@ -751,7 +751,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 52.1%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): General-Reasoner-7B-preview (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 General-Reasoner-7B-preview 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 50,
@@ -766,7 +766,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 47.9%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 73.4%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 51,
@@ -781,7 +781,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 69.1%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(69%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 52,
@@ -794,9 +794,9 @@
             ],
             "analysis": "解： A、常染色体隐性遗传病在男性和女性中的发病率相同，都等于该\n病致病基因的基因频率的平方， A错误；  \nB、常染色体显性遗传病在女性中的发病率 =1﹣（1﹣该病致病基因的基因频率 ）\n的平方， B错误；  \nC、X染色体显性遗传病在女性中的发病率 =1﹣（1﹣该病致病基因的基因频率 ）\n的平方， C错误；  \nD、X染色体隐性遗传病在男性中的发病率等于该病致病基因的基因频率， D正\n确。  \n故选： D。\n",
             "model_answer": [
-                "C"
+                "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 52.1%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['C']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 86.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 53,
@@ -809,9 +809,9 @@
             ],
             "analysis": "解： A、染色体上有遗传物质 DNA，因而有丝分裂在细胞的亲代和子\n代之间保持了遗传性状的稳定性， A正确；  \nB、造血干细胞是已分化的细胞，只不过分化程度低， B错误；  \nC、细胞分化是细胞内基因选择性表达的结果， C正确；  \n  D、植物组织培养的原理是植物细胞的全能性 ，故可通过植物组织培养将植物叶\n肉细胞培育成新的植株， D正确。  \n故选： B。\n",
             "model_answer": [
-                "B"
+                "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 51.1%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 81.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 54,
@@ -826,7 +826,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 48.9%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 80.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 55,
@@ -841,7 +841,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 52.1%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 80.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 56,
@@ -856,7 +856,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 59.6%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 87.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 57,
@@ -871,7 +871,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 53.2%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 58,
@@ -886,7 +886,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 43.6%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['C']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 88.3%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 59,
@@ -901,7 +901,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 51.1%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 88.3%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 60,
@@ -916,7 +916,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 60.6%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: glm-4-9b-chat) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(61%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 86.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 61,
@@ -931,7 +931,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 57.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 86.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 62,
@@ -946,7 +946,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 70.2%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: internlm3-8b-instruct) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(70%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 63,
@@ -959,9 +959,9 @@
             ],
             "analysis": "【解答】解：A、由分析可知，白花的基因型可以表示为A_bb、aaB_、aabb，\n即F2中白花植株基因型有5种，有纯合体，也有杂合体，A错误；\nB、亲本基因型为AABB×aabb，得到的F1（AaBb）自交，F2中红花植株的基因\n型有AABB、AABb、AaBB、AaBb共4种，B错误；\nC、由于两对基因遵循基因的自由组合定律，因此两对基因位于两对同源染色体\n上，C错误；\nD、F2中白花植株的基因型种类有5种，而红花植株的基因型只有4种，D正确。\n故选：D。\n",
             "model_answer": [
-                "B"
+                "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 53.2%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 64,
@@ -976,7 +976,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 57.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 86.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 65,
@@ -991,7 +991,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [General-Reasoner-7B-preview] 胜率 50.0%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 66,
@@ -1006,7 +1006,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 59.6%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 67,
@@ -1021,7 +1021,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 45.7%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 81.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 68,
@@ -1036,7 +1036,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 58.5%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 69,
@@ -1051,7 +1051,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 59.6%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): General-Reasoner-7B-preview (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 General-Reasoner-7B-preview 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 70,
@@ -1066,7 +1066,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 60.6%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(61%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 71,
@@ -1081,7 +1081,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 46.8%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 76.6%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 72,
@@ -1096,7 +1096,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 51.1%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 73,
@@ -1111,7 +1111,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 58.5%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 74,
@@ -1124,9 +1124,9 @@
             ],
             "analysis": "【解答】解：A、类胡萝卜素只吸收蓝紫光，所以在蓝紫光区吸收的光能可用于\n光反应中ATP的合成，A错误；\nB、叶绿素主要吸收红光和蓝紫光，其吸收光谱可通过测量其对不同波长光的吸收值来绘制，B正确；\nC、由于光反应产生的[H]和ATP能用于暗反应，所以光合作用的作用光谱也可\n用CO2的吸收速率随光波长的变化来表示，C正确；\nD、根据吸收光谱可知，叶片在640～660nm波长光下释放O2是由叶绿素参与光\n合作用引起的，D正确。\n故选：A。\n",
             "model_answer": [
-                "D"
+                "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 53.2%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['D']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): General-Reasoner-7B-preview (当前波形域局部胜率 80.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 General-Reasoner-7B-preview 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 75,
@@ -1141,7 +1141,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 52.1%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 78.7%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 76,
@@ -1156,7 +1156,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 54.3%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 77,
@@ -1171,7 +1171,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 58.5%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 81.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 78,
@@ -1186,7 +1186,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 60.6%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: glm-4-9b-chat) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(61%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 79,
@@ -1201,7 +1201,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 55.3%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 81.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 80,
@@ -1216,7 +1216,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 56.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 81,
@@ -1231,7 +1231,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 66.0%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: glm-4-9b-chat) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(66%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 82,
@@ -1244,9 +1244,9 @@
             ],
             "analysis": "解： A、根据题意可知， “突变体 M不能在基本培养基上生长，但突变\n体M可在添加了氨基酸甲的基本培养基上生长 ”，说明突变体 M催化合成氨\n基酸甲所需酶的活性丧失， A正确；  \nB、大肠杆菌属于原核生物 ，原核细胞只能发生基因突变 ，由此可见 ，突变体 M\n和N都是由于基因发生突变而得来， B正确；  \nC、突变体 M和N在同时添加氨基酸甲和乙的基本培养基中混合培养 ，产生了大\n肠杆菌 X，这可能是两种大肠杆菌之间发生了重组 ，但不能确定突变体 M的\nRNA与突变体 N混合培养能否得到 X，C错误；  \nD、突变体 M和N在混合培养期间可能发生了 DNA转移，从而产生大肠杆菌 X，\nD正确。  \n故选： C。\n",
             "model_answer": [
-                "B"
+                "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 61.7%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(62%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): General-Reasoner-7B-preview (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 General-Reasoner-7B-preview 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 83,
@@ -1261,7 +1261,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 57.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 74.5%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 84,
@@ -1276,7 +1276,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 55.3%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 86.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 85,
@@ -1291,7 +1291,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 59.6%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): General-Reasoner-7B-preview (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 General-Reasoner-7B-preview 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 86,
@@ -1306,7 +1306,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 59.6%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 87,
@@ -1321,7 +1321,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 62.8%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: glm-4-9b-chat) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(63%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 76.6%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 88,
@@ -1336,7 +1336,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 51.1%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 89,
@@ -1351,7 +1351,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 68.1%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(68%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 90,
@@ -1366,7 +1366,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 52.1%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 89.4%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 91,
@@ -1381,7 +1381,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 45.7%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 70.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 92,
@@ -1396,7 +1396,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 51.1%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 93,
@@ -1411,7 +1411,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 53.2%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 89.4%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 94,
@@ -1426,7 +1426,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 61.7%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: glm-4-9b-chat) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(62%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 95,
@@ -1441,7 +1441,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 56.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 96,
@@ -1454,9 +1454,9 @@
             ],
             "analysis": "【解答】解：①合成多肽链时需要tRNA转运氨基酸，但不需要同位素标记的tRNA，①\n错误；\n②⑤合成多肽链时需要除去了DNA和mRNA的细胞裂解液，这其中有催化多肽链合成\n的酶，因此不需要额外添加蛋白质合成所需的酶，②错误；⑤正确；\n③要合成同位素标记的多肽链，应该用同位素标记的氨基酸（苯丙氨酸）作为原料，③\n正确；\n④要合成同位素标记的多肽链，需要人工合成的多聚尿嘧啶核苷酸作为模板，④正确。\n故选：C。\n",
             "model_answer": [
-                "C"
+                "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 57.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 97,
@@ -1469,9 +1469,9 @@
             ],
             "analysis": "【解答】解：黄瓜幼苗可以吸收水，增加鲜重；也可以从土壤中吸收矿质元素，合成相\n关的化合物。也可以利用大气中二氧化碳进行光合作用制造有机物增加细胞干重。植物\n光合作用将光能转化成了有机物中的化学能，并没有增加黄瓜幼苗的质量，故黄瓜幼苗\n在光照下增加的质量来自于水、矿质元素、空气。综上所述，BCD不符合题意，A符合\n题意。\n故选：A。\n",
             "model_answer": [
-                "B"
+                "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 59.6%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 98,
@@ -1486,7 +1486,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 51.1%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): General-Reasoner-7B-preview (当前波形域局部胜率 81.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 General-Reasoner-7B-preview 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 99,
@@ -1499,9 +1499,9 @@
             ],
             "analysis": "【解答】解：A、窄叶性状个体的基因型为XbXb或XbY，由于父本无法提供正常的Xb\n配子，故雌性后代中无基因型为XbXb的个体，故窄叶性状只能出现在雄性植株中，A正\n确；\nB、宽叶雌株与宽叶雄株，宽叶雌株的基因型为XBX﹣，宽叶雄株的基因型为XBY，雌株\n中可能有Xb配子，所以子代中可能出现窄叶雄株，B正确；\nC、宽叶雌株与窄叶雄株，宽叶雌株的基因型为XBX﹣，窄叶雄株的基因型为XbY，由于\n雄株提供的配子中Xb不可育，只有Y配子可育，故后代中只有雄株，C错误；\nD、若杂交后代中雄株均为宽叶，故其母本只提供了XB配子，由于母本的Xb是可育的，\n故该母本为宽叶纯合子，D正确。\n故选：C。\n",
             "model_answer": [
-                "B"
+                "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 51.1%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 81.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 100,
@@ -1516,7 +1516,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 46.8%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 77.7%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 101,
@@ -1531,7 +1531,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 58.5%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 102,
@@ -1546,7 +1546,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 52.1%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 103,
@@ -1561,7 +1561,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 63.8%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: glm-4-9b-chat) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(64%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): General-Reasoner-7B-preview (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 General-Reasoner-7B-preview 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 104,
@@ -1574,9 +1574,9 @@
             ],
             "analysis": "【解答】解：①让全缘叶植株甲进行自花传粉，子代出现性状分离，说明植株甲为杂合\n子，杂合子表现为显性性状，新出现的性状为隐性性状，①正确；\n②用植株甲给另一全缘叶植株授粉，子代均为全缘叶，说明双亲可能都是纯合子，既可\n能是显性纯合子，也可能是隐性纯合子，或者是双亲均表现为显性性状，其中之一为杂\n合子，另一个为显性纯合子，因此不能判断植株甲为杂合子，②错误；\n③用植株甲给羽裂叶植株授粉，子代中全缘叶与羽裂叶的比例为1：1，只能说明一个亲\n本为杂合子，另一个亲本为隐性纯合子，但谁是杂合子、谁是纯合子无法判断，③错误；\n④用植株甲给另一全缘叶植株授粉，子代中全缘叶与羽裂叶的比例为3：1，说明植株甲\n与另一全缘叶植株均为杂合子，④正确。\n故选：B。\n",
             "model_answer": [
-                "B"
+                "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 55.3%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 105,
@@ -1589,9 +1589,9 @@
             ],
             "analysis": "【解答】解：如果食物链上各营养级均以生物个体的数量来表示，并以食物链起点的生\n物个体数作底层来绘制数量金字塔，则可能出现正金字塔形，也可能出现倒金字塔形。\n只有两个营养级的夏季草原生态系统（假设第一营养级是牧草，第二营养级是羊），则牧\n草的数量比羊多，绘制的数量金字塔为正金字塔形；森林生态系统（假设第一营养级是\n乔木，第二营养级是昆虫），一棵树上可以有很多昆虫，因此，昆虫的数目比乔木的数量\n多，绘制的数量金字塔为倒金字塔形。综上分析，前者为金字塔形，后者为倒金字塔形。\n故选：A。\n",
             "model_answer": [
-                "C"
+                "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 60.6%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: glm-4-9b-chat) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(61%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 106,
@@ -1606,7 +1606,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 57.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 78.7%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 107,
@@ -1621,7 +1621,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 50.0%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 89.4%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 108,
@@ -1636,7 +1636,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 53.2%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 87.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 109,
@@ -1651,7 +1651,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 59.6%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 110,
@@ -1666,7 +1666,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 48.9%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 111,
@@ -1681,7 +1681,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 53.2%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 81.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 112,
@@ -1696,7 +1696,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [internlm3-8b-instruct] 胜率 70.2%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: glm-4-9b-chat) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(70%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 81.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 113,
@@ -1711,7 +1711,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 56.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 88.3%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 114,
@@ -1726,7 +1726,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 56.4%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 73.4%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 115,
@@ -1741,7 +1741,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 57.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 86.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 116,
@@ -1756,7 +1756,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 48.9%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 117,
@@ -1771,7 +1771,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 62.8%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: glm-4-9b-chat) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(63%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 118,
@@ -1786,7 +1786,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 63.8%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(64%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 119,
@@ -1801,7 +1801,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [General-Reasoner-7B-preview] 胜率 61.7%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(62%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 120,
@@ -1814,9 +1814,9 @@
             ],
             "analysis": "【解答】解：A、健那绿染液是将活细胞中线粒体染色的专一性染料，使线粒体呈现蓝绿\n色，A正确；\nB、探究人体红细胞因失水而发生的形态变化时，要用显微镜观察，B错误；\nC、甲基绿能将DNA染成绿色，吡罗红能将RNA染成红色，利用甲基绿和吡罗红混合\n染色剂对细胞进行染色，可用于观察细胞中RNA和DNA的分布，C正确；\nD、由于细胞膜上的蛋白质是可以运动的，因此可以用用红、绿荧光染料标记膜蛋白研究细胞膜的流动性，D正确。\n故选：B。\n",
             "model_answer": [
-                "D"
+                "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 54.3%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 86.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 121,
@@ -1831,7 +1831,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 57.4%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 86.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 122,
@@ -1846,7 +1846,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 47.9%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['D']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 123,
@@ -1861,7 +1861,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 52.1%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['C']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 124,
@@ -1876,7 +1876,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 58.5%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): General-Reasoner-7B-preview (当前波形域局部胜率 81.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 General-Reasoner-7B-preview 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 125,
@@ -1891,7 +1891,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 55.3%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: internlm3-8b-instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 126,
@@ -1906,7 +1906,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [General-Reasoner-7B-preview] 胜率 60.6%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(61%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 127,
@@ -1921,7 +1921,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 61.7%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: internlm3-8b-instruct) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(62%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 128,
@@ -1936,7 +1936,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 64.9%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(65%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 129,
@@ -1951,7 +1951,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 57.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 81.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 130,
@@ -1966,7 +1966,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 61.7%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(62%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 81.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 131,
@@ -1981,7 +1981,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 58.5%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 80.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 132,
@@ -1996,7 +1996,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 64.9%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(65%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 79.8%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 133,
@@ -2009,9 +2009,9 @@
             ],
             "analysis": "【详解】A、已知果蝇体细胞含有8条染色体，每条染色体上有1个DNA分子，共8个DNA\n分子，在间期，DNA进行半保留复制，形成16个DNA分子，A正确；\nB、间期染色体已经复制，故在前期每条染色体由2条染色单体组成，含2个DNA分子，\nB正确；\nC、在中期，8条染色体的着丝点排列在赤道板上，此时染色体形态固定、数目清晰，易于\n观察染色体，C正确；\nD、有丝分裂后期，着丝点分裂，姐妹染色单体分开，染色体数目加倍，由8条变成16条，\n同源染色体不分离，D错误。\n故选D。\n",
             "model_answer": [
-                "D"
+                "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 55.3%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['D']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 88.3%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 134,
@@ -2024,9 +2024,9 @@
             ],
             "analysis": "【详解】A、代谢旺盛的动物细胞是活细胞，细胞膜具有选择透过性，台盼蓝不能进入细胞\n内，故不能将代谢旺盛的动物细胞染成蓝色，A错误；\nB、龙胆紫溶液可以将染色体染成深色，故观察根尖细胞有丝分裂中期的染色体，可用龙胆\n紫溶液使其着色，B正确；\nC、观察RNA在细胞中分布的实验中，盐酸处理可改变细胞膜的通透性，加速染色剂进入\n细胞，C正确；\nD、观察植物细胞吸水和失水时，可用较高浓度的蔗糖溶液处理紫色洋葱鳞片叶外表，使其\n失水而发生质壁分离，D正确。\n故选A。\n",
             "model_answer": [
-                "A"
+                "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 60.6%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(61%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 135,
@@ -2041,7 +2041,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 63.8%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(64%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 86.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 136,
@@ -2056,7 +2056,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 47.9%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 81.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 137,
@@ -2071,7 +2071,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 60.6%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(61%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 138,
@@ -2084,9 +2084,9 @@
             ],
             "analysis": "【详解】A、每对等位基因测交后会出现2种表现型，故n对等位基因杂合的植株A的测交\n子代会出现2n种不同表现型的个体，A正确；\nB、不管n有多大，植株A测交子代比为（1：1）n\n=1：1：1：1……（共2n个1），即不同\n表现型个体数目均相等，B错误；\nC、植株A测交子代中n对基因均杂合的个体数为1/2n，纯合子的个体数也是1/2n，两者相\n等，C正确；\nD、n≥2时，植株A的测交子代中纯合子的个体数是1/2n，杂合子的个体数为1-（1/2n），\n故杂合子的个体数多于纯合子的个体数，D正确。\n故选B。\n",
             "model_answer": [
-                "C"
+                "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 58.5%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['C']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 80.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 139,
@@ -2101,7 +2101,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 47.9%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['C']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): General-Reasoner-7B-preview (当前波形域局部胜率 81.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 General-Reasoner-7B-preview 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 140,
@@ -2116,7 +2116,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 58.5%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['D']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 80.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 Qwen2.5-7B-Instruct 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 141,
@@ -2131,7 +2131,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [gemma-2-9b-it] 胜率 45.7%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: glm-4-9b-chat) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 83.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 142,
@@ -2146,7 +2146,7 @@
             "model_answer": [
                 "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 54.3%\n2. 节点A (执行者) 草稿: ['D']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['A']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['D']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['D']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): Qwen2.5-7B-Instruct (当前波形域局部胜率 59.6%)\n2. 节点B(Rev):  glm-4-9b-chat\n4. 状态机动作:\n   -> 🤝【达成共识】红蓝节点同时进入认知波形陷阱域，但意见巧合统一，维持原判。\n"
         },
         {
             "index": 143,
@@ -2161,7 +2161,7 @@
             "model_answer": [
                 "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [internlm3-8b-instruct] 胜率 61.7%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(62%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 144,
@@ -2174,9 +2174,9 @@
             ],
             "analysis": "【详解】A、根据题意可知，正交为ZaZa（非芦花雄鸡）×ZAW（芦花雌鸡），子代为ZAZa、\nZaW，且芦花鸡和非芦花鸡数目相同，反交为ZAZA×ZaW，子代为ZAZa、ZAW，且全为芦花\n鸡，A正确；\nB、正交子代中芦花雄鸡为ZAZa（杂合子），反交子代中芦花雄鸡为ZAZa（杂合子），B正确；\nC、反交子代芦花鸡相互交配，即ZAZa×ZAW，所产雌鸡ZAW、ZaW（非芦花），C错误；\nD、正交子代为ZAZa（芦花雄鸡）、ZaW（非芦花雌鸡），D正确。\n故选C。\n",
             "model_answer": [
-                "C"
+                "D"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 63.8%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(64%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 81.9%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 145,
@@ -2191,7 +2191,7 @@
             "model_answer": [
                 "B"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 64.9%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: （触发自信锁，未唤醒）\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Yield Bypass (自信锁早退)】执行者局部胜率极高(65%)，系统直接采纳初稿，越过审查阶段。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 146,
@@ -2204,9 +2204,9 @@
             ],
             "analysis": "【详解】A、由于细胞b在水分交换达到平衡时细胞的体积增大，说明细胞吸水，则水分交\n换前，细胞b的细胞液浓度大于外界蔗糖溶液的浓度，A正确；\nB、水分交换达到平衡时，细胞a的细胞液浓度等于外界蔗糖溶液的浓度，细胞b的细胞\n液浓度大于外界蔗糖溶液的浓度，细胞c的细胞液浓度小于外界蔗糖溶液的浓度，因此水分\n交换前，细胞液浓度大小关系为细胞b>细胞a>细胞c，B正确；\nC、由题意可知，水分交换达到平衡时，细胞a未发生变化，说明其细胞液浓度与外界蔗糖\n溶液浓度相等；水分交换达到平衡时，细胞c的细胞液浓度等于外界蔗糖溶液的浓度，因此，\n水分交换平衡时，细胞c的细胞液浓度等于细胞a的细胞液浓度，C错误；\nD、在一定的蔗糖溶液中，细胞c发生了质壁分离，水分交换达到平衡时，其细胞液浓度等\n于外界蔗糖溶液的浓度，D正确。\n故选C。\n",
             "model_answer": [
-                "A"
+                "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 50.0%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['A']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['A']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 84.0%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 147,
@@ -2219,9 +2219,9 @@
             ],
             "analysis": "【详解】AB、赤霉素具有促进细胞伸长的功能，该作用的发挥需要与受体结合后才能完成，\n故喷施某种激素后作物的矮生突变体长高，说明喷施的为赤霉素，矮生突变体矮生的原因是\n缺乏赤霉素而非受体合成受阻（若受体合成受阻，则外源激素也不能起作用），A正确，B\n错误；\nCD、脱落酸抑制植物细胞的分裂和种子的萌发，与植物矮化无直接关系，CD错误。\n故选A。\n",
             "model_answer": [
-                "B"
+                "A"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [glm-4-9b-chat] 胜率 57.4%\n2. 节点A (执行者) 草稿: ['A']\n3. 节点B (审查者: Qwen2.5-7B-Instruct) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: ['B']\n5. 状态机流转日志: 【Architect Escalation (上诉仲裁)】前线执行者与审查者发生分歧！任务挂起，移交最高法官 [Qwen2.5-7B-Instruct] 进行终局定夺。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 148,
@@ -2236,7 +2236,7 @@
             "model_answer": [
                 "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 59.6%\n2. 节点A (执行者) 草稿: ['C']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['C']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['C']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 85.1%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         },
         {
             "index": 149,
@@ -2249,9 +2249,9 @@
             ],
             "analysis": "【详解】A、分析题意可知，两对等位基因独立遗传，故含a的花粉育性不影响B和b基因\n的遗传，所以Bb自交，子一代中红花植株B_：白花植株bb=3：1，A正确；\nB、基因型为AaBb的亲本产生的雌配子种类和比例为AB:Ab:aB:ab=1:1:1:1，由于含a的花\n粉50%可育，故雄配子种类及比例为AB:Ab:aB:ab=2:2:1:1，所以子一代中基因型为aabb的\n个体所占比例为1/4×1/6=1/24，B错误；\nC、由于含a的花粉50%可育，50%不可育，故亲本产生的可育雄配子是A+1/2a，不育雄配\n子为1/2a，由于Aa个体产生的A：a=1:1，故亲本产生的可育雄配子数是不育雄配子的三倍，\nC正确；\nD、两对等位基因独立遗传，所以Bb自交，亲本产生的含B的雄配子数和含b的雄配子数\n相等，D正确。\n故选B。\n",
             "model_answer": [
-                "B"
+                "C"
             ],
-            "model_output": "【Bench-Harness 三节点流形状态机轨迹】\n1. 局部流形评估: 执行者 [Qwen2.5-7B-Instruct] 胜率 57.4%\n2. 节点A (执行者) 草稿: ['B']\n3. 节点B (审查者: General-Reasoner-7B-preview) 意见: ['B']\n4. 节点C (架构师: Qwen2.5-7B-Instruct) 裁决卷宗: （未触发上诉，未唤醒）\n5. 状态机流转日志: 【Consensus (达成共识)】执行者陷入高熵盲区，但红方审查者并未拉响分歧警报，维持原判。\n6. 终局输出答案: ['B']"
+            "model_output": "【Bench-Harness V2 高维引擎诊断仪】\n1. 节点A(Exec): glm-4-9b-chat (当前波形域局部胜率 86.2%)\n2. 节点B(Rev):  (-)\n4. 状态机动作:\n   -> 🔒【DTW 波形早退】检测到该拓扑域处于认知顺境。指派专才 glm-4-9b-chat 局部胜率极高，越过审查阶段！\n"
         }
     ]
 }
