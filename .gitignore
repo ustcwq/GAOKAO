@@ -11,3 +11,4 @@ venv/
 
 # Editor/system
 .DS_Store
+embeddings_cache_*.npy

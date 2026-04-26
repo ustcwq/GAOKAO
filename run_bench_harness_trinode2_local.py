@@ -173,8 +173,27 @@ class BenchHarnessEngine:
 
         print(f"[*] 正在加载向量模型并提取情节记忆特征 (Model: {self.args.embed_model})...")
         self.embedder = SentenceTransformer(self.args.embed_model, device='cpu')
-        calib_questions = [item["question"] for item in self.calib_items]
-        self.V_calib = self.embedder.encode(calib_questions, show_progress_bar=True)
+        
+        # === NEW CODE: Load or Save embeddings ===
+        if self.args.embed_cache_path and os.path.exists(self.args.embed_cache_path):
+            print(f"[*] 检测到指定的本地缓存文件 {self.args.embed_cache_path}，直接加载向量以跳过重复提取!")
+            self.V_calib = np.load(self.args.embed_cache_path)
+        else:
+            import hashlib
+            cache_key = str(self.M) + "_" + str(self.args.embed_model)
+            hasher = hashlib.md5(cache_key.encode('utf-8')).hexdigest()
+            # 确保保存到当前工作目录
+            cache_file = os.path.join(os.getcwd(), f"embeddings_cache_{hasher}.npy")
+            
+            if os.path.exists(cache_file):
+                print(f"[*] 发现本地缓存文件 {cache_file}，直接加载向量以跳过重复提取!")
+                self.V_calib = np.load(cache_file)
+            else:
+                print(f"[*] 未发现本地缓存，开始提取特征向量并保存...")
+                calib_questions = [item["question"] for item in self.calib_items]
+                self.V_calib = self.embedder.encode(calib_questions, show_progress_bar=True)
+                np.save(cache_file, self.V_calib)
+                print(f"[*] 提取完毕, 向量已成功保存至 {cache_file}!")
 
     def route(self, q_new_text: str):
         # 【在线微观流形坍缩检索】
@@ -227,6 +246,7 @@ def main():
     parser.add_argument("--models", type=str, nargs="+", required=True)
     parser.add_argument("--embed_model", type=str, default="BAAI/bge-m3")
     parser.add_argument("--subjects", type=str, nargs="*", default=None)
+    parser.add_argument("--embed_cache_path", type=str, default=None, help="本地向量缓存的绝对或相对路径")
     
     parser.add_argument("--top_k_ratio", type=float, default=0.30)
     parser.add_argument("--top_k_fixed", type=int, default=-1)
